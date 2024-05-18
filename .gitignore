@@ -6,4 +6,4 @@
 *tmp
 .idea
 .env
-.request_info.txt
+**.request_info.txt
