@@ -1,0 +1,8 @@
+.pytest_cache/
+__pytest_cache__/
+.idea/
+.logs/
+*tmp
+.idea
+.env
+.request_info.txt
