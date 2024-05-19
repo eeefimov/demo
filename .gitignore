@@ -1,7 +1,7 @@
 .pytest_cache/
 **/__pycache__/
 .__pytest_cache__/
-.idea/
+.idea/git remote set-url origin git@github.com:username/repository.git
 .logs/
 *tmp
 .idea
