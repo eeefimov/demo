@@ -1,0 +1,109 @@
+<details>
+<summary>UI CHECKLIST</summary>
+
+# Login page.
+- Verify access to Login page.
+- Verify direct access to Login page.
+- Verify sign in with empty user credentials.
+- Verify sign in with Not registered email, empty password.
+- Verify sign in with Not registered email, with password < 6.
+- Verify sign in with Not registered email, with password = 6.
+- Verify sign in with Valid email, invalid password = 6.
+- Verify sign in with Valid email, invalid password < 6.
+- Verify sign in with valid user credentials.
+- Verify redirection to pages using Header buttons (Register page).
+- Verify redirection to pages using Header buttons (Forgot password page).
+- Verify redirection to pages using Header buttons (List of orders page).
+- Verify redirection to pages using Header buttons (Main page).
+# Main page.
+- Verify access to Main page.
+- Verify all ingredients items presence on Main page.
+- Verify top titles color changes when scrolling.
+- Verify user can drag a single ingredient to Constructor.
+- Verify user can drag all ingredient to Constructor.
+- Verify ingredients counter changes after dragging 3 ingredients to Constructor.
+- Verify ingredients counter changes after dragging 10 ingredients to Constructor.
+- Verify bun's counter changes after dragging to Constructor.
+- Verify buns change in Construction.
+- Verify user can delete an ingredient from Construction.
+- Verify total price changes according to the ingredients in the order.
+- Verify order empty.
+- Verify order with Single bun.
+- Verify order with Bun + single ingredient.
+- Verify order with Bun + not single ingredient.
+- Verify order with No bun, random ingredient number.
+- Verify all ingredient title open window with Nutrition.
+- Verify redirection to pages using Header buttons (List of orders).
+- Verify redirection to pages using Header buttons (Account page).
+# Orders page.
+- Verify access to Orders page.
+- Verify direct access to Orders page.
+- Verify order items have Info window.
+- Verify new order added to in progress.
+- Verify transfer new order to ready.
+- Verify presence of the order total price in order item.
+- Verify changes in Total orders number and today orders number.
+# Register page.
+- Verify access to Register page.
+- Verify direct access to Register page.
+- Verify registration with Empty user credentials.
+- Verify registration with Empty login.
+- Verify registration with Empty email.
+- Verify registration with Empty password.
+- Verify presence of error message if password less than 6 chars.
+- Verify registration with a different password length (< 6).
+- Verify registration with a different password length (100).
+- Verify registration with a different password length (10).
+- Verify registration with a different invalid name values (1 char).
+- Verify registration with a different invalid name values (10 digits).
+- Verify registration with a different invalid name values (special chars).
+- Verify registration with a different invalid name values (100 char).
+- Verify registration with a different invalid name values (2 strings).
+- Verify registration with a different invalid name values (3 strings).
+- Verify registration with a different invalid name values (front space string).
+- Verify registration with a different invalid name values (back space string).
+- Verify registration with a different invalid email format (without "@").
+- Verify registration with a different invalid email format (without domain part).
+- Verify registration with a different invalid email format (without username part).
+- Verify registration with a different email format (one dot in username).
+- Verify registration with a different email format (two dots in username).
+- Verify registration with a different email format (underscore in username).
+- Verify registration with a different email format (three underscores in username).
+- Verify registration with a different email format (dash in username).
+- Verify registration with a different email format (three dashes in username).
+- Verify registration with a different email format (dash and dot in username).
+- Verify presence of the error message if invalid email format.
+- Verify registration with valid user credentials.
+- Verify presence of the error message if using exist user credentials.
+- Verify LogIn of new registered user.
+- Verify redirection to Login page click Entry link.
+- Verify redirection to pages using Header buttons (List of orders page).
+- Verify redirection to pages using Header buttons (Main page).
+- Verify redirection to pages using Header buttons (Login page).
+# Forgot-password page.
+- Verify access to Forgot-password page.
+- Verify direct access to Forgot-password page.
+- Verify sending restore password link with invalid email (Empty email).
+- Verify sending restore password link with invalid email (Not registered email).
+- Verify sending restore password link with invalid email (Email without domain part).
+- Verify sending restore password link with invalid email (Email without username part).
+- Verify sending restore password link with invalid email (Random string).
+- Verify sending restore password link with invalid email (Random number).
+- Verify redirection to Login page clicking Entry link.
+- Verify redirection to Reset page.
+- Verify redirection to pages using Header buttons (from Forgot to List of orders page).
+- Verify redirection to pages using Header buttons (from Forgot to Main page).
+- Verify redirection to pages using Header buttons (from Forgot to Login page).
+- Verify redirection to Login page.
+- Verify no redirection with invalid credential.
+- Verify no redirection with invalid credential.
+- Verify no redirection with invalid credential.
+- Verify user receive an email (Not registered email).
+- Verify user receive an email (Registered email).
+- Verify reset code structure in email.
+- Verify user setup new password.
+- Verify user sign in using new password.
+- Verify redirection to pages using Header buttons (from Reset to List of orders page).
+- Verify redirection to pages using Header buttons (from Reset to Main page).
+- Verify redirection to pages using Header buttons (from Reset to Login page).
+</details>
