@@ -1,5 +1,6 @@
 """
-[tests AMOUNT]: 8
+This module contains tests for POST /password-reset endpoint.
+
 [tests DEFINITIONS]:
     Post request for /password-reset endpoint.
     Post request for /auth/register endpoint.
@@ -9,8 +10,11 @@
     Verify response status code.
     Verify exist of payload in response.
     Verify values in response.
-    Verify reset code in email box.
-    Verify response code with invalid type of method.
+    Verify reset code in email box (Not registered email).
+    Verify reset code in email box (Registered email).
+    Verify response code with invalid type of method (GET: 404).
+    Verify response code with invalid type of method (PUT: 404).
+    Verify response code with invalid type of method (PATCH: 404).
 """
 import pytest
 from data_models.user_model import MsgModel

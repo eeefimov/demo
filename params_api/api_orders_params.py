@@ -35,7 +35,7 @@ number_of_orders = [
 # invalid token for orders
 invalid_token = [
     pytest.param('', 401,
-                 id='token = Empty'),
+                 id='Empty token'),
     pytest.param(fake.sha1(raw_output=False), 401,
-                 id='token = Invalid token'),
+                 id='Invalid token'),
 ]

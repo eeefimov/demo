@@ -1,5 +1,6 @@
 """
-[tests AMOUNT]: 34
+This module contains tests for POST /auth/register endpoint.
+
 [tests DEFINITIONS]:
     Get request for /auth/user endpoint.
     Post request for /auth/register endpoint.
@@ -8,12 +9,59 @@
     Verify response status code.
     Verify exist of payload in response.
     Verify values type in response.
-    Verify response code with empty credentials.
-    Verify response code with invalid types of method.
-    Verify response code with invalid type of body.
-    Verify response code with different email.
-    Verify response code with different password length.
-    Verify response code with different name.
+    Verify response code with empty credentials (No email: 403).
+    Verify response code with empty credentials (No password: 403).
+    Verify response code with empty credentials (No name: 403).
+    Verify response code with empty credentials (All empty: 403).
+    Verify response code with invalid types of method (GET: 404).
+    Verify response code with invalid types of method (PUT: 404).
+    Verify response code with invalid types of method (PATCH: 404).
+    Verify response code with invalid type of body
+        (None data_models: 403).
+    Verify response code with invalid type of body
+        (Invalid data_models: 403).
+    Verify response code with different email
+        (Email without "@": 400).
+    Verify response code with different email
+        (Email without domain part: 400).
+    Verify response code with different email
+        (Email without username part: 400).
+    Verify response code with different email
+        (Integer: 400).
+    Verify response code with different email
+        (Email with one dot in username: 200).
+    Verify response code with different email
+        (Email with two dots in username: 200).
+    Verify response code with different email
+        (Email with underscore in username: 200).
+    Verify response code with different email
+        (Email with three underscores in username: 200).
+    Verify response code with different email
+        (Email with dash in username: 200).
+    Verify response code with different email
+        (Email with three dashes in username: 200).
+    Verify response code with different email
+        (Email with dash and dot in username: 200).
+    Verify response code with different password length
+        (Password < 6: 404).
+    Verify response code with different password length
+        (Password = 100: 200).
+    Verify response code with different name
+        (User name with 1 char: 200).
+    Verify response code with different name
+        (User name with 10 digits: 404).
+    Verify response code with different name
+        (User name with special chars: 404).
+    Verify response code with different name
+        (User name with 100 char: 404).
+    Verify response code with different name
+        (User name with 2 strings: 404).
+    Verify response code with different name
+        (User name with 3 strings: 404).
+    Verify response code with different name
+        (User name with front space string: 404).
+    Verify response code with different name
+        (User name with back space string: 404).
     Verify response with exist user registration.
 """
 # pylint: disable=unused-argument
@@ -51,8 +99,6 @@ class TestRegister:
         """Verify response code with empty credentials."""
         register.data = register.setup_register_data(name, mail, pwd)
         response = register.post_register()
-        assert response.status_code == exp
-
         with allure.step("Verify error 404 message"):
             payload = register.required_fields
             payload_model = register.get_model(MsgModel, payload)

@@ -1,5 +1,6 @@
 """
-[tests AMOUNT]: 10
+This module contains tests for POST /auth/logout endpoint.
+
 [tests DEFINITIONS]:
     Post request for /auth/logout endpoint.
     Post request for /auth/register endpoint.
@@ -7,9 +8,13 @@
     Verify response status code.
     Verify exist of payload in response.
     Verify payload values in response.
-    Verify response code with invalid token.
-    Verify response with invalid token.
-    Verify response code with invalid methods.
+    Verify response code with invalid token (Empty token: 401).
+    Verify response code with invalid token (Invalid token: 401).
+    Verify response with invalid token (Empty token: 401).
+    Verify response with invalid token (Empty token: 401).
+    Verify response code with invalid methods (GET: 404).
+    Verify response code with invalid methods (PUT: 404).
+    Verify response code with invalid methods (PATCH: 404).
 """
 import pytest
 from data_models.user_model import MsgModel

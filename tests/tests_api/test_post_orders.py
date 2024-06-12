@@ -1,5 +1,6 @@
 """
-[tests AMOUNT]: 20
+This module contains tests for POST /orders endpoint.
+
 [tests DEFINITIONS]:
     Post request for /auth/register endpoint.
     Patch request for /auth/user endpoint.
@@ -10,14 +11,31 @@
     Verify response status code.
     Verify exist of payload in response.
     Verify values type in response.
-    Verify number of ingredients in response.
-    Verify different types of orders.
-    Verify new user order in response.
-    Verify response error message with invalid token.
+    Verify number of ingredients in response
+        (Order with bun and 1 ingredient).
+    Verify number of ingredients in response
+        (Order with no bun and 3 ingredient).
+    Verify different types of orders (Empty order: 400).
+    Verify different types of orders
+        (Order with 1 bun and ingredients [1 to 10]: 200).
+    Verify different types of orders
+        (Order with 1 bun and 100 ingredients: 200).
+    Verify different types of orders
+        (Order with no bun and ingredients [1 to 10]: 200).
+    Verify different types of orders
+        (Order buns [1 to 5] and ingredients [1 to 5]: 200).
+    Verify new user order in response (Single order).
+    Verify new user order in response (3 orders).
+    Verify new user order in response (20 order).
+    Verify response error message with invalid token
+        (Empty token).
+    Verify response error message with invalid token
+        (Invalid token).
     Verify changes of total and totalToday numbers.
     Verify changes of total and totalToday numbers in all_orders.
     Verify price of order with bun.
-    Verify response code with invalid token.
+    Verify response code with invalid token (Empty token: 401).
+    Verify response code with invalid token (Invalid token: 401).
 """
 import pytest
 from data_models.orders_model import OrderResponse, OrdersModel
