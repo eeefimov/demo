@@ -1,6 +1,5 @@
 """
 This module contains tests for Account page.
-[tests AMOUNT]: 17
 [tests DEFINITIONS]:
     Registered user credentials
     Main page
@@ -15,12 +14,25 @@ This module contains tests for Account page.
     Verify redirection to Profile page.
     Verify redirection from Account page after logout.
     Verify user has no access to Account page after logout.
-    Verify redirection to pages using Header buttons.
-    Verify presence new order in Order History page.
-    Verify presence new order price in Order History page.
-    Verify presence new order icons in Order History page.
-    Verify shows up Modal window clicking order item
-    in Order History page (Precondition: User orders exist).
+    Verify redirection to pages using Header buttons (List of orders page).
+    Verify redirection to pages using Header buttons (Account page).
+    Verify presence of new order in Order History page.
+    Verify presence of new order price in Order History page
+    with a single bun.
+    Verify presence of new order price in Order History page
+    with bun + single ingredient.
+    Verify presence of new order price in Order History page
+    with bun + multiple ingredients.
+    Verify presence of new order icons in Order History page
+    with a single bun.
+    Verify presence of new order icons in Order History page
+    with bun + single ingredient.
+    Verify presence of new order icons in Order History page
+    with bun + multiple ingredients.
+    Verify presence of new order icons in Order History page
+    without bun, random ingredient number.
+    Verify shows up Modal window clicking order item in
+    Order History page.
 """
 import pytest
 import allure
@@ -150,11 +162,9 @@ def test_account_history_ingredients_icons(page, bun, number):
 
 
 def test_account_history_order_window(account_page):
-    """
-    Verify shows up Modal window
-    clicking order item in Order History page.
-    (Precondition: User orders exist)
-    """
+    """Verify shows up Modal window
+    clicking order item in Order History page
+    (Precondition: User orders exist)."""
     ACCOUNT.go_to_account_history(account_page)
 
     with allure.step("Click Last Order Item"):

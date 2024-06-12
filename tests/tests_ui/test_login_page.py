@@ -11,10 +11,17 @@ This module contains tests for Login page.
 [TESTS]:
     Verify access to Login page.
     Verify direct access to Login page.
-    Verify sign in with different credentials.
+    Verify sign in with empty user credentials.
+    Verify sign in with Not registered email, empty password.
+    Verify sign in with Not registered email, with password < 6.
+    Verify sign in with Not registered email, with password = 6.
+    Verify sign in with Valid email, invalid password = 6.
+    Verify sign in with Valid email, invalid password < 6.
     Verify sign in with valid user credentials.
-    Verify redirection to Register and Forgot-password pages.
-    Verify redirection to pages using Header buttons.
+    Verify redirection to pages using Header buttons (Register page).
+    Verify redirection to pages using Header buttons (Forgot password page).
+    Verify redirection to pages using Header buttons (List of orders page).
+    Verify redirection to pages using Header buttons (Main page).
 """
 import time
 import pytest
