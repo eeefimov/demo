@@ -1,6 +1,5 @@
 """
 This module contains tests for Login page.
-[tests AMOUNT]: 13
 [tests DEFINITIONS]:
     Registered user credentials
     Not Registered user credential
@@ -30,17 +29,13 @@ from params_ui.login_params import login_validation, \
 
 
 def test_login_access(login_page):
-    """
-    Verify access to Login page.
-    """
+    """Verify access to Login page."""
     with allure.step('Verify redirection to Login page'):
         expect(login_page.locator(LOGIN.TOP_TITLE)).to_be_visible()
 
 
 def test_login_direct_access(page_browser):
-    """
-    Verify direct access to Login page.
-    """
+    """Verify direct access to Login page."""
     with allure.step("Set the address to the browser"):
         page_browser.goto(LOGIN.LOGIN_LINK)
 
@@ -50,9 +45,7 @@ def test_login_direct_access(page_browser):
 
 @pytest.mark.parametrize("email_val, pwd_val", login_validation)
 def test_login_validation(login_page, email_val, pwd_val):
-    """
-    Verify sign in with different credentials.
-    """
+    """Verify sign in with different credentials."""
     LOGIN.set_login_fields(login_page, email_val, pwd_val)
     time.sleep(1)
 
@@ -69,9 +62,7 @@ def test_login_validation(login_page, email_val, pwd_val):
 
 
 def test_login_valid(login_page):
-    """
-    Verify sign in with valid user credentials.
-    """
+    """Verify sign in with valid user credentials."""
     LOGIN.user_sign_in(login_page)
 
     with allure.step("Verify redirection to Main page"):
@@ -80,9 +71,7 @@ def test_login_valid(login_page):
 
 @pytest.mark.parametrize('link, title_txt', login_redirections)
 def test_login_redirection(login_page, link, title_txt):
-    """
-    Verify redirection to Register and Forgot-password pages.
-    """
+    """Verify redirection to Register and Forgot-password pages."""
     with allure.step('Click on the link at the top of Login form'):
         login_page.locator(link).click()
 
@@ -92,9 +81,7 @@ def test_login_redirection(login_page, link, title_txt):
 
 @pytest.mark.parametrize('btn, exp', header_redirection)
 def test_login_header_btns(login_page, btn, exp):
-    """
-    Verify redirection to pages using Header buttons.
-    """
+    """Verify redirection to pages using Header buttons."""
     with allure.step("Click on button at Header"):
         login_page.locator(btn).click()
 
