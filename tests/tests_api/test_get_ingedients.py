@@ -1,5 +1,6 @@
 """
-[tests AMOUNT]: 7
+This module contains tests for GET /ingredients endpoint.
+
 [tests DEFINITIONS]:
     Get request for /ingredients endpoint.
     Ingredients information.
@@ -9,8 +10,29 @@
     Verify exist of payload in response.
     Verify number of ingredients.
     Verify values of ingredient items.
-    Verify response code with invalid methods.
-    Verify status code with different type of headers.
+    Verify response code with invalid methods (POST: 404).
+    Verify response code with invalid methods (PUT: 404).
+    Verify response code with invalid methods (PATCH: 404).
+    Verify status code with different type of headers
+        (Content-Type: application/json; charset=utf-8: 200).
+    Verify status code with different type of headers
+        (Content-Type: None: 200).
+    Verify status code with different type of headers
+        (Content-Type: Application/Json: 200).
+    Verify status code with different type of headers
+        (Content-Type: APPLICATION/JSON: 200).
+    Verify status code with different type of headers
+        (Content-Type: APPLICATION/: 200).
+    Verify status code with different type of headers
+        (Content-Type: application/text: 200).
+    Verify status code with different type of headers
+        (Content-Type: application/html: 200).
+    Verify status code with different type of headers
+        (Content-Type: application/json, Authorization: "": 200).
+    Verify status code with different type of headers
+        (Content-Type: application/json, Authorization: "empty": 200).
+    Verify status code with different type of headers
+        (Content-Type: application/xml: 200).
 """
 import pytest
 from data_models.ingredients_models import IngredientsModel, get_data
