@@ -7,7 +7,7 @@ fake = Faker()
 # invalid token validation
 invalid_token = [
     pytest.param("", 401, id="Empty token"),
-    pytest.param(fake.password(), 401, id="Wrong token")
+    pytest.param(fake.password(), 401, id="Invalid token")
 ]
 
 # invalid methods validation

@@ -1,15 +1,29 @@
 """
-[tests AMOUNT]: 19
+This module contains tests for PATCH /auth/register endpoint.
+
 [tests DEFINITIONS]:
     Post request for /auth/register endpoint.
     Patch request for /auth/user endpoint.
     Get request for /auth/user endpoint.
 [tests FEATURES]:
-    Verify response status code.
-    Verify exist of payload in response.
-    Verify types values in response.
-    Verify updates of user credentials.
-    Verify response with invalid token.
+    Verify response status code ('email', 200).
+    Verify response status code ('name', 200).
+    Verify response status code ('password', 200).
+    Verify exist of payload in response ('email', 200).
+    Verify exist of payload in response ('name', 200).
+    Verify exist of payload in response ('password', 200).
+    Verify types values in response ('email', 200).
+    Verify types values in response ('name', 200).
+    Verify types values in response ('password', 200).
+    Verify updates of user credentials ('email', 200).
+    Verify updates of user credentials ('name', 200).
+    Verify updates of user credentials ('password', 200).
+    Verify response with invalid token ('email', Empty token: 401).
+    Verify response with invalid token ('email', Invalid token: 401).
+    Verify response with invalid token ('name', Empty token: 401).
+    Verify response with invalid token ('name', Invalid token: 401).
+    Verify response with invalid token ('password', Empty token: 401).
+    Verify response with invalid token ('password',Invalid token: 401).
     Verify response code with exist email patch.
 """
 # pylint: disable=unused-argument

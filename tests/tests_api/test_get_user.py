@@ -1,5 +1,6 @@
 """
-[tests AMOUNT]: 8
+This module contains tests for GET /auth/user endpoint.
+
 [tests DEFINITIONS]:
     Get request for /auth/user endpoint.
     Post request for /auth/register endpoint.
@@ -9,8 +10,10 @@
     Verify exist of payload in response.
     Verify types values in response.
     Verify user credentials in response.
-    Verify response with invalid token.
-    Verify response code with invalid methods.
+    Verify response with invalid token (Empty token: 401).
+    Verify response with invalid token (Invalid token: 401).
+    Verify response code with invalid methods (POST: 403).
+    Verify response code with invalid methods (PUT: 404).
 """
 import allure
 import pytest
