@@ -107,3 +107,149 @@
 - Verify redirection to pages using Header buttons (from Reset to Main page).
 - Verify redirection to pages using Header buttons (from Reset to Login page).
 </details>
+
+<details>
+<summary>API CHECKLIST</summary>
+
+# GET /ingredients:
+- Verify response status code.
+- Verify exist of payload in response.
+- Verify number of ingredients.
+- Verify values of ingredient items.
+- Verify response code with invalid methods (POST: 404).
+- Verify response code with invalid methods (PUT: 404).
+- Verify response code with invalid methods (PATCH: 404).
+- Verify status code with different type of headers (Content-Type: application/json; charset=utf-8: 200).
+- Verify status code with different type of headers (Content-Type: None: 200).
+- Verify status code with different type of headers (Content-Type: Application/Json: 200).
+- Verify status code with different type of headers (Content-Type: APPLICATION/JSON: 200).
+- Verify status code with different type of headers (Content-Type: APPLICATION/: 200).
+- Verify status code with different type of headers (Content-Type: application/text: 200).
+- Verify status code with different type of headers (Content-Type: application/html: 200).
+- Verify status code with different type of headers (Content-Type: application/json, Authorization: "": 200).
+- Verify status code with different type of headers (Content-Type: application/json, Authorization: "empty": 200).
+- Verify status code with different type of headers (Content-Type: application/xml: 200).
+# GET /orders/all:
+- Verify response status code.
+- Verify exist of payload in response.
+- Verify types values in response.
+- Verify number of orders.
+- Verify response code with invalid methods (POST: 404).
+- Verify response code with invalid methods (PUT: 404).
+- Verify response code with invalid methods (PATCH: 404).
+- Verify status code with different type of headers (Content-Type: application/json; charset=utf-8: 200).
+- Verify status code with different type of headers (Content-Type: None: 200).
+- Verify status code with different type of headers (Content-Type: Application/Json: 200).
+- Verify status code with different type of headers (Content-Type: APPLICATION/JSON: 200).
+- Verify status code with different type of headers (Content-Type: APPLICATION/: 200).
+- Verify status code with different type of headers (Content-Type: application/text: 200).
+- Verify status code with different type of headers (Content-Type: application/html: 200).
+- Verify status code with different type of headers (Content-Type: application/json, Authorization: "": 200).
+- Verify status code with different type of headers (Content-Type: application/json, Authorization: "empty": 200).
+- Verify status code with different type of headers (Content-Type: application/xml: 200). 
+# GET /auth/user:
+- Verify response status code.
+- Verify exist of payload in response.
+- Verify types values in response.
+- Verify user credentials in response.
+- Verify response with invalid token (Empty token: 401).
+- Verify response with invalid token (Invalid token: 401).
+- Verify response code with invalid methods (POST: 403).
+- Verify response code with invalid methods (PUT: 404).
+# PATCH /auth/register:
+- Verify response status code (email: 200).
+- Verify response status code (name: 200).
+- Verify response status code (password: 200).
+- Verify exist of payload in response (email: 200).
+- Verify exist of payload in response (name: 200).
+- Verify exist of payload in response (password: 200).
+- Verify types values in response (email: 200).
+- Verify types values in response (name: 200).
+- Verify types values in response (password: 200).
+- Verify updates of user credentials (email: 200).
+- Verify updates of user credentials (name: 200).
+- Verify updates of user credentials (password: 200).
+- Verify response with invalid token (email, Empty token: 401).
+- Verify response with invalid token (email, Invalid token: 401).
+- Verify response with invalid token (name, Empty token: 401).
+- Verify response with invalid token (name, Invalid token: 401).
+- Verify response with invalid token (password, Empty token: 401).
+- Verify response with invalid token (password,Invalid token: 401).
+- Verify response code with exist email patch.
+# POST /auth/logout:
+- Verify response status code.
+- Verify exist of payload in response.
+- Verify payload values in response.
+- Verify response code with invalid token (Empty token: 401).
+- Verify response code with invalid token (Invalid token: 401).
+- Verify response with invalid token (Empty token: 401).
+- Verify response with invalid token (Empty token: 401).
+- Verify response code with invalid methods (GET: 404).
+- Verify response code with invalid methods (PUT: 404).
+- Verify response code with invalid methods (PATCH: 404).
+# POST /orders:
+- Verify response status code.
+- Verify exist of payload in response. 
+- Verify values type in response.
+- Verify number of ingredients in response (Order with bun and 1 ingredient).
+- Verify number of ingredients in response (Order with no bun and 3 ingredient).
+- Verify different types of orders (Empty order: 400). 
+- Verify different types of orders (Order with 1 bun and ingredients [1 to 10]: 200).
+- Verify different types of orders (Order with 1 bun and 100 ingredients: 200).
+- Verify different types of orders (Order with no bun and ingredients [1 to 10]: 200).
+- Verify different types of orders (Order buns [1 to 5] and ingredients [1 to 5]: 200).
+- Verify new user order in response (Single order).
+- Verify new user order in response (3 orders).
+- Verify new user order in response (20 order).
+- Verify response error message with invalid token (Empty token).
+- Verify response error message with invalid token (Invalid token).
+- Verify changes of total and totalToday numbers. 
+- Verify changes of total and totalToday numbers in all_orders.
+- Verify price of order with bun.
+- Verify response code with invalid token (Empty token: 401).
+- Verify response code with invalid token (Invalid token: 401).
+# POST /auth/register:
+- Verify response status code.
+- Verify exist of payload in response.
+- Verify values type in response.
+- Verify response code with empty credentials (No email: 403).
+- Verify response code with empty credentials (No password: 403).
+- Verify response code with empty credentials (No name: 403).
+- Verify response code with empty credentials (All empty: 403).
+- Verify response code with invalid types of method (GET: 404).
+- Verify response code with invalid types of method (PUT: 404).
+- Verify response code with invalid types of method (PATCH: 404).
+- Verify response code with invalid type of body (None data_models: 403).
+- Verify response code with invalid type of body (Invalid data_models: 403).
+- Verify response code with different email (Email without "@": 400).
+- Verify response code with different email (Email without domain part: 400).
+- Verify response code with different email (Email without username part: 400).
+- Verify response code with different email (Integer: 400).
+- Verify response code with different email (Email with one dot in username: 200).
+- Verify response code with different email (Email with two dots in username: 200).
+- Verify response code with different email (Email with underscore in username: 200).
+- Verify response code with different email (Email with three underscores in username: 200).
+- Verify response code with different email (Email with dash in username: 200).
+- Verify response code with different email (Email with three dashes in username: 200).
+- Verify response code with different email (Email with dash and dot in username: 200).
+- Verify response code with different password length (Password < 6: 404).
+- Verify response code with different password length (Password = 100: 200).
+- Verify response code with different name (User name with 1 char: 200).
+- Verify response code with different name (User name with 10 digits: 404).
+- Verify response code with different name (User name with special chars: 404).
+- Verify response code with different name (User name with 100 char: 404).
+- Verify response code with different name (User name with 2 strings: 404).
+- Verify response code with different name (User name with 3 strings: 404).
+- Verify response code with different name (User name with front space string: 404).
+- Verify response code with different name (User name with back space string: 404).
+- Verify response with exist user registration.
+# POST /password-reset:
+- Verify response status code.
+- Verify exist of payload in response.
+- Verify values in response.
+- Verify reset code in email box (Not registered email).
+- Verify reset code in email box (Registered email).
+- Verify response code with invalid type of method (GET: 404).
+- Verify response code with invalid type of method (PUT: 404).
+- Verify response code with invalid type of method (PATCH: 404).
+</details>
