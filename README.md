@@ -253,3 +253,16 @@
 - Verify response code with invalid type of method (PUT: 404).
 - Verify response code with invalid type of method (PATCH: 404).
 </details>
+
+<details>
+<summary>INTEGRATION</summary>
+
+- Verify JSON ingredients api data_models = UI data_models.
+- Verify ingredient titles with view different values (single eng string).
+- Verify ingredient titles with view different values (150 chars string).
+- Verify normal view with twice more ingredients on the page.
+- Verify order number changes.
+- Verify UI SignIn with valid api registered user credentials.
+- Verify UI SignIn with different API password registration (Password < 6).
+- Verify UI SignIn with different API password registration (Password 100).
+</details>

@@ -1,8 +1,8 @@
 """
-[tests AMOUNT]: 3
 [tests FEATURES]:
     Verify UI SignIn with valid api registered user credentials.
-    Verify UI SignIn with different API password registration.
+    Verify UI SignIn with different API password registration (Password < 6).
+    Verify UI SignIn with different API password registration (Password 100).
 """
 import time
 import allure

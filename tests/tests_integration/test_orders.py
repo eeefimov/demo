@@ -1,5 +1,4 @@
 """
-[tests AMOUNT]: 1
 [tests FEATURES]:
     Verify order number changes.
 """

@@ -1,8 +1,8 @@
 """
-[tests AMOUNT]: 4
 [tests FEATURES]:
     Verify JSON ingredients api data_models = UI data_models.
-    Verify ingredient titles with view different values.
+    Verify ingredient titles with view different values (single eng string).
+    Verify ingredient titles with view different values (150 chars string).
     Verify normal view with twice more ingredients on the page.
 """
 import logging
