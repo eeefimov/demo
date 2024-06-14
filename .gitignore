@@ -7,3 +7,4 @@
 .idea
 .env
 /request_info.txt
+.allure-results
