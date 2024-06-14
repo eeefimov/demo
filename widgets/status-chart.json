@@ -1,0 +1,131 @@
+[ {
+  "uid" : "5a63e27c8a7def29",
+  "name" : "test_login_validation[Not registered email, with password < 6]",
+  "time" : {
+    "start" : 1718377811506,
+    "stop" : 1718377814633,
+    "duration" : 3127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec4858dadb182bba",
+  "name" : "test_login_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718377841636,
+    "stop" : 1718377842536,
+    "duration" : 900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e512878494f0e427",
+  "name" : "test_login_validation[Not registered email, empty password]",
+  "time" : {
+    "start" : 1718377806790,
+    "stop" : 1718377809910,
+    "duration" : 3120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b342e7dc3b7ca981",
+  "name" : "test_login_validation[Valid email, invalid password < 6]",
+  "time" : {
+    "start" : 1718377826821,
+    "stop" : 1718377829944,
+    "duration" : 3123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "247515b809ea5704",
+  "name" : "test_login_direct_access",
+  "time" : {
+    "start" : 1718377796999,
+    "stop" : 1718377797749,
+    "duration" : 750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45d5d6fd87485f02",
+  "name" : "test_login_validation[Empty user credentials]",
+  "time" : {
+    "start" : 1718377800073,
+    "stop" : 1718377803177,
+    "duration" : 3104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36aa68d9660e85b6",
+  "name" : "test_login_validation[Valid email, invalid password = 6]",
+  "time" : {
+    "start" : 1718377822089,
+    "stop" : 1718377825204,
+    "duration" : 3115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7369f7d726ac537",
+  "name" : "test_login_access",
+  "time" : {
+    "start" : 1718377793825,
+    "stop" : 1718377793832,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a33608155ff3b4a4",
+  "name" : "test_login_valid",
+  "time" : {
+    "start" : 1718377831670,
+    "stop" : 1718377834815,
+    "duration" : 3145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85d071b42b1ec220",
+  "name" : "test_login_validation[Not registered email, with password = 6]",
+  "time" : {
+    "start" : 1718377817389,
+    "stop" : 1718377820511,
+    "duration" : 3122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e110e15582c8b7f9",
+  "name" : "test_login_header_btns[Redirection to Main page]",
+  "time" : {
+    "start" : 1718377844136,
+    "stop" : 1718377844192,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4554340d0563196",
+  "name" : "test_login_redirection[Redirection to Forgot password page]",
+  "time" : {
+    "start" : 1718377839803,
+    "stop" : 1718377839845,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e51e364b2bd98d9c",
+  "name" : "test_login_redirection[Redirection to Register page]",
+  "time" : {
+    "start" : 1718377837588,
+    "stop" : 1718377837647,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
