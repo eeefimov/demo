@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "brandongoodman@example.org",
-        "name": "patriciacruz"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmM1MzkxOWVkMjgwMDAxYjQzYzcwNiIsImlhdCI6MTcxODM3NTMxMywiZXhwIjoxNzE4Mzc2NTEzfQ.kRc3GS7hrKKX2Pdg1_z7YJdysPEaqWWLb7_0Wuo-Xzs",
-    "refreshToken": "654be2e3fca3677ddb2e5fb030e3405c82fa6cff4af22d4f2d17a09643ea666978a9c7c0a39706c1"
-}

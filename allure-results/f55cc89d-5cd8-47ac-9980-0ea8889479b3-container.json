@@ -1,1 +1,0 @@
-{"uuid": "e0616406-9e21-422a-b502-352e3dbd6a62", "children": ["a6757672-25e2-4842-aac0-d859b8eafc0a"], "befores": [{"name": "login_page", "status": "passed", "steps": [{"name": "Click Account button on Header", "status": "passed", "start": 1718375313129, "stop": 1718375313294}], "start": 1718375313129, "stop": 1718375313294}], "start": 1718375313129, "stop": 1718375316510}

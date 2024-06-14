@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "ashley.gray@ford.org",
-        "name": "Occurleachlinda"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmM1Mzc1OWVkMjgwMDAxYjQzYzZmZCIsImlhdCI6MTcxODM3NTI4NSwiZXhwIjoxNzE4Mzc2NDg1fQ.twBA9-bxWetISJSWFEOs6TM7_St35l7NuZvKH_ClAqo",
-    "refreshToken": "b80bd9a0b1268dbe7cccaca9438e0df1bc1eede7cb0b1fa77bdcb68ba6524da478750f847e6acf87"
-}
