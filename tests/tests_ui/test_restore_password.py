@@ -1,5 +1,6 @@
 """
 This module contains tests for Reset password features.
+
 [tests DEFINITIONS]:
     Registered user credentials
     Not Registered user credential
@@ -15,16 +16,24 @@ This module contains tests for Reset password features.
     Verify access to Forgot-password page.
     Verify direct access to Forgot-password page.
     Verify sending restore password link with invalid email (Empty email).
-    Verify sending restore password link with invalid email (Not registered email).
-    Verify sending restore password link with invalid email (Email without domain part).
-    Verify sending restore password link with invalid email (Email without username part).
-    Verify sending restore password link with invalid email (Random string).
-    Verify sending restore password link with invalid email (Random number).
+    Verify sending restore password link with invalid email
+        (Not registered email).
+    Verify sending restore password link with invalid email
+        (Email without domain part).
+    Verify sending restore password link with invalid email
+        (Email without username part).
+    Verify sending restore password link with invalid email
+        (Random string).
+    Verify sending restore password link with invalid email
+        (Random number).
     Verify redirection to Login page clicking Entry link.
     Verify redirection to Reset page.
-    Verify redirection to pages using Header buttons (from Forgot to List of orders page).
-    Verify redirection to pages using Header buttons (from Forgot to Main page).
-    Verify redirection to pages using Header buttons (from Forgot to Login page).
+    Verify redirection to pages using Header buttons
+        (from Forgot to List of orders page).
+    Verify redirection to pages using Header buttons
+        (from Forgot to Main page).
+    Verify redirection to pages using Header buttons
+        (from Forgot to Login page).
     Verify redirection to Login page.
     Verify no redirection with invalid credential.
     (Error message presence if password < 6 chars) (Empty fields).
@@ -37,9 +46,12 @@ This module contains tests for Reset password features.
     Verify reset code structure in email.
     Verify user setup new password.
     Verify user sign in using new password.
-    Verify redirection to pages using Header buttons (from Reset to List of orders page).
-    Verify redirection to pages using Header buttons (from Reset to Main page).
-    Verify redirection to pages using Header buttons (from Reset to Login page).
+    Verify redirection to pages using Header buttons
+        (from Reset to List of orders page).
+    Verify redirection to pages using Header buttons
+        (from Reset to Main page).
+    Verify redirection to pages using Header buttons
+        (from Reset to Login page).
 """
 # pylint: disable=W0613
 import allure

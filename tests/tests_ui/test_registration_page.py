@@ -1,5 +1,6 @@
 """
 This module contains tests for Registration page.
+
 [tests DEFINITIONS]:
     Registered user credentials
     Not Registered user credential
@@ -24,18 +25,25 @@ This module contains tests for Registration page.
     Verify registration with a different invalid name values (100 char).
     Verify registration with a different invalid name values (2 strings).
     Verify registration with a different invalid name values (3 strings).
-    Verify registration with a different invalid name values (front space string).
-    Verify registration with a different invalid name values (back space string).
+    Verify registration with a different invalid name values
+        (front space string).
+    Verify registration with a different invalid name values
+        (back space string).
     Verify registration with a different invalid email format (without "@").
-    Verify registration with a different invalid email format (without domain part).
-    Verify registration with a different invalid email format (without username part).
+    Verify registration with a different invalid email format
+        (without domain part).
+    Verify registration with a different invalid email format
+        (without username part).
     Verify registration with a different email format (one dot in username).
     Verify registration with a different email format (two dots in username).
     Verify registration with a different email format (underscore in username).
-    Verify registration with a different email format (three underscores in username).
+    Verify registration with a different email format
+        (three underscores in username).
     Verify registration with a different email format (dash in username).
-    Verify registration with a different email format (three dashes in username).
-    Verify registration with a different email format (dash and dot in username).
+    Verify registration with a different email format
+        (three dashes in username).
+    Verify registration with a different email format
+        (dash and dot in username).
     Verify presence of the error message if invalid email format.
     Verify registration with valid user credentials.
     Verify presence of the error message if using exist user credentials.
@@ -117,7 +125,8 @@ def test_register_name_validation(register_page, name, mail, pwd):
 
 
 @pytest.mark.parametrize("name, mail, pwd", email_format_validation)
-def test_register_email_invalid_format_validation(register_page, name, mail, pwd):
+def test_register_email_invalid_format_validation(register_page, name,
+                                                  mail, pwd):
     """Verify registration with a different invalid email format."""
     with allure.step("Set all Registration fields"):
         REGISTER.set_register_fields(register_page, name, mail, pwd)

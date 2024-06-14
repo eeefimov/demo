@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  regression:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/usr/workspace
+    command: /bin/sh -c "ls -la && pytest -sv tests/tests_integration --alluredir=allure-results"
+    working_dir: /usr/workspace
+    environment:
+      - AUTH_EMAIL=${AUTH_EMAIL}
+      - AUTH_LOGIN=${AUTH_LOGIN}
+      - AUTH_PASS=${AUTH_PASS}
+      - PWD_NOT_REGISTERED=${PWD_NOT_REGISTERED}
+      - PWD_REGISTERED=${PWD_REGISTERED}
+      - USR_NOT_REGISTERED=${USR_NOT_REGISTERED}
+      - USR_REGISTERED=${USR_REGISTERED}
+    env_file:
+      - .env

@@ -1,5 +1,6 @@
 """
 This module contains tests for Orders page.
+
 [tests DEFINITIONS]:
     Registered user credentials,
     Main page, Orders page,

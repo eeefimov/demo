@@ -1,3 +1,6 @@
+Total tests amount: 260
+Full execution time: ~30 min
+Linters checked: flake8, pylint
 <details>
 <summary>UI CHECKLIST</summary>
 
@@ -255,7 +258,7 @@
 </details>
 
 <details>
-<summary>INTEGRATION</summary>
+<summary>INTEGRATION CHECKLIST</summary>
 
 - Verify JSON ingredients api data_models = UI data_models.
 - Verify ingredient titles with view different values (single eng string).

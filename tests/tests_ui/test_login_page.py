@@ -1,5 +1,6 @@
 """
 This module contains tests for Login page.
+
 [tests DEFINITIONS]:
     Registered user credentials
     Not Registered user credential

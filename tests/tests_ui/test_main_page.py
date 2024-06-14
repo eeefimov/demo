@@ -1,5 +1,6 @@
 """
 This module contains tests for Main page.
+
 [tests DEFINITIONS]:
     Registered user credentials
     Main page

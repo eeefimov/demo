@@ -32,7 +32,7 @@ class LOGIN(BASEClASS):
 
         with allure.step("Click Entry button"):
             page.locator(LOGIN.ENTRY_BTN).click()
-        time.sleep(2)
+        time.sleep(1)
 
     @staticmethod
     @allure.step("User SignIn")
@@ -42,4 +42,4 @@ class LOGIN(BASEClASS):
             page.locator(LOGIN.ACCOUNT_BTN).click()
 
         LOGIN.set_login_fields(page, LOGIN.mail, LOGIN.pwd)
-        time.sleep(2)
+        time.sleep(1)
