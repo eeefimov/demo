@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jennifer.ryan@wang.com",
+        "name": "Collekirksteven"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmM1MzdlOWVkMjgwMDAxYjQzYzcwMCIsImlhdCI6MTcxODM3NTI5NCwiZXhwIjoxNzE4Mzc2NDk0fQ.CFRkj7tVXTle3Z3AESi72Iu3lmlZVf53RpAe9G0uRAg",
+    "refreshToken": "04dfaabe2a150c9a28b8afa6cf12e612b530b98cf178f3cb332ee3334cd8a0ab4c784ad0ca3671b6"
+}

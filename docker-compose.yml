@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/workspace
-    command: /bin/sh -c "ls -la && pytest -sv tests/tests_integration --alluredir=allure-results"
+    command: /bin/sh -c "ls -la && pytest -sv tests/tests_ui/test_login_page.py --alluredir=allure-results"
     working_dir: /usr/workspace
     environment:
       - AUTH_EMAIL=${AUTH_EMAIL}
@@ -17,5 +17,5 @@ services:
       - PWD_REGISTERED=${PWD_REGISTERED}
       - USR_NOT_REGISTERED=${USR_NOT_REGISTERED}
       - USR_REGISTERED=${USR_REGISTERED}
-    env_file:
-      - .env
+#    env_file:
+#      - .env
