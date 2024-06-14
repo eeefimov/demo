@@ -41,7 +41,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          token: ${{ secrets.demo_burgers }}
+          token: ${{ secrets.DEMO_BURGERS_v2 }}
           branch: gh-pages
           folder: allure-report
           clean: true
