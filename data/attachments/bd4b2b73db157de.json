@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "caleb.hanson@bolton.org",
-        "name": "Plan nirwin"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWEyOWVkMjgwMDAxYjQzZGE5ZiIsImlhdCI6MTcxODQ1NDk0NiwiZXhwIjoxNzE4NDU2MTQ2fQ.0b2gNvUQs6b0Dke6zq2YnaL9-LpckmGAlmU9Mm6ff6E",
-    "refreshToken": "db8030e2255d398e9241238b8ed746be6c8943d61f3c7aea4e30813b130c5b8c894691c6780b349b"
-}

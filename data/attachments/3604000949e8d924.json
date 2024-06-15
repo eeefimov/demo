@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "victoria.arnold@glover.com",
-        "name": "Cultuhrichards"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YThmOWVkMjgwMDAxYjQzZGE3MyIsImlhdCI6MTcxODQ1NDkyNywiZXhwIjoxNzE4NDU2MTI3fQ.Ay2ovNUynGQxJoFO0ZjtDHLHgRv2_oKQJLwaW-5YB1c",
-    "refreshToken": "b3683942fc56fd6d0739972a704c9e4e1f9c01bd4575171b14733e3fd5be5ad3169f0cbb61d9ca37"
-}

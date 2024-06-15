@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "maria.olson@horton-moran.biz",
-        "name": "Us limeyermichael"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTYxOWVkMjgwMDAxYjQzZGEzOSIsImlhdCI6MTcxODQ1NDg4MSwiZXhwIjoxNzE4NDU2MDgxfQ.xQLc96o79J8KabUC6upgQWI_PjfbH6_QhExijmDRodA",
-    "refreshToken": "2139274963cfb8fadfe3fb64749b63546f9d0c9e6408222a784e316fcaf36383e9cdb13e4813c81f"
-}

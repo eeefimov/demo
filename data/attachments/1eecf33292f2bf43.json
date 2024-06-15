@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "megan.cruz@washington.biz",
-        "name": "Sell mackcynthia"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQwOWVkMjgwMDAxYjQzZDllMiIsImlhdCI6MTcxODQ1NDg0OCwiZXhwIjoxNzE4NDU2MDQ4fQ.Q9MPyNYWZ_EIQcs-Qvm2mYTMNOmeHXwrGB6fSml2VS0",
-    "refreshToken": "1c18615aabddaf0e94bbf50c55bc0f74c670b77e14635ae714b71cc52a86551da1c319639d01850d"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "frank.brown@smith-morrow.org",
-        "name": "Goal ajohnson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRjOWVkMjgwMDAxYjQzZGEwOCIsImlhdCI6MTcxODQ1NDg2MCwiZXhwIjoxNzE4NDU2MDYwfQ.0xFUX89XT5Ut8U9QtCsMQc2guKlg11NcOwBCxnJoVwA",
-    "refreshToken": "0521b0cc47748777ad81ae89397ded5676c98e39ff66cb45bf17058fcc841ac1865727a9a4993566"
-}

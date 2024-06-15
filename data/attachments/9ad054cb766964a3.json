@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "chad.scott@bell-valenzuela.com",
-        "name": "Dinnelorimendoza"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTVjOWVkMjgwMDAxYjQzZGEzMSIsImlhdCI6MTcxODQ1NDg3NiwiZXhwIjoxNzE4NDU2MDc2fQ.CE8yO5MPHckC6lcpAh-g-ix_GqKtSB4gsB5fBoQ4M-8",
-    "refreshToken": "f98f2eed8838dc9e7195cc2652707d0eb6e110a217ddbec0dbda044bcea8c4f0f1b706c52cfbb28c"
-}

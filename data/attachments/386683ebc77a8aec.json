@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "miranda-hutchinson-williams@rhodes.net",
-        "name": "garciageorge"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTlhOWVkMjgwMDAxYjQzZGE4OSIsImlhdCI6MTcxODQ1NDkzOCwiZXhwIjoxNzE4NDU2MTM4fQ.9-lgU_B7_S6adRqT-zEfPc6S3su868xMgVe96rHh8tw",
-    "refreshToken": "77091493ada4d6b520656b2601e6928d950a387de16e19c5e680a360444c6f85968cd4bbe10a9968"
-}

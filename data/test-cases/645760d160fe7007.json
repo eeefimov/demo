@@ -1,0 +1,252 @@
+{
+  "uid" : "645760d160fe7007",
+  "name" : "test_main_ingredients_items",
+  "fullName" : "tests_ui.test_main_page#test_main_ingredients_items",
+  "historyId" : "cf942f697680340f03d1d682e1ebbe83",
+  "time" : {
+    "start" : 1718457418788,
+    "stop" : 1718457418815,
+    "duration" : 27
+  },
+  "description" : "Verify all ingredients items presence on Main page.",
+  "descriptionHtml" : "<p>Verify all ingredients items presence on Main page.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0 == 15\n +  where 15 = MAIN.ingredients_number",
+  "statusTrace" : "page = <Page url='https://stellarburgers.nomoreparties.site/'>\n\n    def test_main_ingredients_items(page):\n        \"\"\"Verify all ingredients items presence on Main page.\"\"\"\n        counter = page.locator(MAIN.INGREDIENTS_ITEMS).count()\n    \n        with allure.step(\"Verify numbers of elements\"):\n>           assert counter == MAIN.ingredients_number\nE           assert 0 == 15\nE            +  where 15 = MAIN.ingredients_number\n\ntests/tests_ui/test_main_page.py:56: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718457417805,
+      "stop" : 1718457418788,
+      "duration" : 983
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718457418211,
+        "stop" : 1718457418788,
+        "duration" : 577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1718457418788,
+      "stop" : 1718457418788,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148724,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify all ingredients items presence on Main page.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0 == 15\n +  where 15 = MAIN.ingredients_number",
+    "statusTrace" : "page = <Page url='https://stellarburgers.nomoreparties.site/'>\n\n    def test_main_ingredients_items(page):\n        \"\"\"Verify all ingredients items presence on Main page.\"\"\"\n        counter = page.locator(MAIN.INGREDIENTS_ITEMS).count()\n    \n        with allure.step(\"Verify numbers of elements\"):\n>           assert counter == MAIN.ingredients_number\nE           assert 0 == 15\nE            +  where 15 = MAIN.ingredients_number\n\ntests/tests_ui/test_main_page.py:56: AssertionError",
+    "steps" : [ {
+      "name" : "Verify numbers of elements",
+      "time" : {
+        "start" : 1718457418814,
+        "stop" : 1718457418814,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 0 == 15\n +  where 15 = MAIN.ingredients_number\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/tests_ui/test_main_page.py\", line 56, in test_main_ingredients_items\n    assert counter == MAIN.ingredients_number\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718457418820,
+      "stop" : 1718457418992,
+      "duration" : 172
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3010859280b5423a",
+      "name" : "Screenshot_2024-06-15 13:16:58.945016",
+      "source" : "3010859280b5423a.png",
+      "type" : "image/png",
+      "size" : 64002
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "d3cde130b25e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a78c8a18be83b8e0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 0 == 15\n +  where 15 = MAIN.ingredients_number",
+        "time" : {
+          "start" : 1718455268548,
+          "stop" : 1718455268571,
+          "duration" : 23
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "645760d160fe7007.json",
+  "parameterValues" : [ ]
+}

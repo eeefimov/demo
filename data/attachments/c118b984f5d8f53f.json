@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "joseph.jensen@sullivan-martinez.com",
-        "name": "Size msmith"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTY2OWVkMjgwMDAxYjQzZGE0MiIsImlhdCI6MTcxODQ1NDg4NiwiZXhwIjoxNzE4NDU2MDg2fQ.kNWMV67RwwdP0DqqhYnuIRBZ3hBVGVCcGF7XJSqIoUU",
-    "refreshToken": "17f3da87a1c09a3a40cd42cdd643ea4a7eb7c80037144dbe8acf07610851c21a995a239a7c0b43b0"
-}

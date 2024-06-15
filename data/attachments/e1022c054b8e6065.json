@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "javier.frey@perry.com",
-        "name": "Bettemichael48"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ3OWVkMjgwMDAxYjQzZDlmYSIsImlhdCI6MTcxODQ1NDg1NSwiZXhwIjoxNzE4NDU2MDU1fQ.JEX-cLoM0tVfW-aURjlLfEThOSDYIz1raFIQxICJ9_E",
-    "refreshToken": "d8e3ba948e38799c96aaf9876aec183c51549b1de4b5a85ee2c3a938662a233506336ba5b7b7abed"
-}

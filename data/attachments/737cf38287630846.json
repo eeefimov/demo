@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jennifer.lynch@dillon-patterson.org",
-        "name": "Familrhoover"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ5OWVkMjgwMDAxYjQzZGEwMCIsImlhdCI6MTcxODQ1NDg1NywiZXhwIjoxNzE4NDU2MDU3fQ.C1yLvH-W1M9F7naT8XB-2i6l-izii6Bc2rIz6ZR7W08",
-    "refreshToken": "ac5c1d678848d26b60f62efc845e3ea55fc3639f9dc23735cda2eb5ea123f6da550b0e211a2ce0d4"
-}

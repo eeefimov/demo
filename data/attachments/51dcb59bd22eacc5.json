@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "donna.ford@andrade-buckley.info",
-        "name": "Servejasminemills"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTUxOWVkMjgwMDAxYjQzZGExOCIsImlhdCI6MTcxODQ1NDg2NSwiZXhwIjoxNzE4NDU2MDY1fQ.LGI_jhbwywS3K2w8A8YJVhBoyQsRfHgfygsnH78AKds",
-    "refreshToken": "0a2ec0ed4f839ff1861673b7aeb5c457eacf3b22af0afa807bb99ec274e6b809fb48ea7d0e989ac5"
-}

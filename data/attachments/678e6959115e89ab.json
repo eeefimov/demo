@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "clarkepamela@example.net",
-        "name": "Common remain office yourself see believe prevent. Only ahead mean thought."
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTllOWVkMjgwMDAxYjQzZGE5NSIsImlhdCI6MTcxODQ1NDk0MiwiZXhwIjoxNzE4NDU2MTQyfQ.P7Y6QuE891-4mY3WGzah38mUbqqoyZF-8jQPHRT8Adg",
-    "refreshToken": "da23f14baac5a14b847460177b021a0cc3b5a8461d0baa1fa60da36a97c5dedc3190d624a5ed3885"
-}

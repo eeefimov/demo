@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "amanda.baker@thompson.com",
-        "name": "Afterjavila"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTUyOWVkMjgwMDAxYjQzZGExYSIsImlhdCI6MTcxODQ1NDg2NiwiZXhwIjoxNzE4NDU2MDY2fQ.ZQBfxkisCVjRmBD7LOky0sWxEOHTS0haTvQyg0SdxEU",
-    "refreshToken": "cd5cd8deb6dc0bf1a04ffd7772bafc435f4e6f0e6905b5e98b8a0f5ad326cd96dd8dacfdbc0a0b90"
-}

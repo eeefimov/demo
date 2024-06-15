@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "lee.morris@lin-turner.org",
-        "name": "Optioreillymichelle"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ1OWVkMjgwMDAxYjQzZDlmMiIsImlhdCI6MTcxODQ1NDg1MywiZXhwIjoxNzE4NDU2MDUzfQ.e_FtkrksWkTEklaZtWb4O8ebpGcJAFL8HvSc9qLwhaI",
-    "refreshToken": "73c1446e75d73d216bd4eb9a37103f4338b0486d081280e0745b20a46bafbea7f2fcb23e19abd18f"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "bryan.fernandez@duncan.biz",
-        "name": "Find rosspatrick"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRlOWVkMjgwMDAxYjQzZGExMCIsImlhdCI6MTcxODQ1NDg2MiwiZXhwIjoxNzE4NDU2MDYyfQ.WWzfW_isfUmPvKdD-4yNuMTKBD5CH_OMG6tnQLD5Q0k",
-    "refreshToken": "2f4ba8dea3432d0268c0a022cb5cfad31550a2e692464e42ae3aa50c18bd51a68cd706ea7aa8f7b8"
-}

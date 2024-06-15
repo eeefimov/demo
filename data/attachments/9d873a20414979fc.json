@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "eric.fitzgerald@harper-ayala.com",
-        "name": "Push psimmons"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ5OWVkMjgwMDAxYjQzZDlmZSIsImlhdCI6MTcxODQ1NDg1NywiZXhwIjoxNzE4NDU2MDU3fQ.2Dmt0wDvTkzRm3M8ailMSFHtb0EImHmug53O02N_6FI",
-    "refreshToken": "7186cc96377f3a1f996472ed4a646e39edab07881bf00e6abf0be82b18a145ccc50c35330fb9cb48"
-}

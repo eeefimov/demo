@@ -1,0 +1,448 @@
+{
+  "uid" : "18001a7516245c2c",
+  "name" : "test_main_order_not_empty[Single bun]",
+  "fullName" : "tests_ui.test_main_page#test_main_order_not_empty",
+  "historyId" : "b29eefc50ea4b2735eec555673216479",
+  "time" : {
+    "start" : 1718457459756,
+    "stop" : 1718457468438,
+    "duration" : 8682
+  },
+  "description" : "Verify order single ingredient.",
+  "descriptionHtml" : "<p>Verify order single ingredient.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718457458797,
+      "stop" : 1718457459755,
+      "duration" : 958
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718457459187,
+        "stop" : 1718457459755,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1718457459755,
+      "stop" : 1718457459755,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148724,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718457148702,
+      "stop" : 1718457148702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify order single ingredient.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Make an Order",
+      "time" : {
+        "start" : 1718457459756,
+        "stop" : 1718457468433,
+        "duration" : 8677
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User SignIn",
+        "time" : {
+          "start" : 1718457459756,
+          "stop" : 1718457463285,
+          "duration" : 3529
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click Account button on Header",
+          "time" : {
+            "start" : 1718457459756,
+            "stop" : 1718457460197,
+            "duration" : 441
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Fill Email field",
+          "time" : {
+            "start" : 1718457461197,
+            "stop" : 1718457461217,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Fill PASSWORD field",
+          "time" : {
+            "start" : 1718457461217,
+            "stop" : 1718457461231,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Click Entry button",
+          "time" : {
+            "start" : 1718457461231,
+            "stop" : 1718457461285,
+            "duration" : 54
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        } ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Make an order with random ingredients",
+        "time" : {
+          "start" : 1718457463285,
+          "stop" : 1718457465404,
+          "duration" : 2119
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag bun to Construction",
+          "time" : {
+            "start" : 1718457463285,
+            "stop" : 1718457465404,
+            "duration" : 2119
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Drag ingredients to Constructor",
+            "time" : {
+              "start" : 1718457463291,
+              "stop" : 1718457465404,
+              "duration" : 2113
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Drag bun to Constructor",
+              "time" : {
+                "start" : 1718457463291,
+                "stop" : 1718457463404,
+                "duration" : 113
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "page",
+              "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+            }, {
+              "name" : "title",
+              "value" : "'Краторная булка N-200i'"
+            }, {
+              "name" : "condition",
+              "value" : "'empty'"
+            } ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "page",
+            "value" : "<Page url='https://stellarburgers.nomoreparties.site/login'>"
+          }, {
+            "name" : "bun_number",
+            "value" : "2"
+          } ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/login'>"
+        }, {
+          "name" : "bun",
+          "value" : "True"
+        }, {
+          "name" : "ingredients_num",
+          "value" : "0"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click Order button",
+        "time" : {
+          "start" : 1718457465404,
+          "stop" : 1718457468433,
+          "duration" : 3029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "bun",
+        "value" : "True"
+      }, {
+        "name" : "number",
+        "value" : "0"
+      } ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify order number is not 9999",
+      "time" : {
+        "start" : 1718457468433,
+        "stop" : 1718457468438,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718457468439,
+      "stop" : 1718457468608,
+      "duration" : 169
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30ec76079f7c92c6",
+      "name" : "Screenshot_2024-06-15 13:17:48.560041",
+      "source" : "30ec76079f7c92c6.png",
+      "type" : "image/png",
+      "size" : 140050
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "d3cde130b25e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "bun",
+    "value" : "True"
+  }, {
+    "name" : "number",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3e110a8b769cc814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455810703,
+          "stop" : 1718455819250,
+          "duration" : 8547
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "18001a7516245c2c.json",
+  "parameterValues" : [ "True", "0" ]
+}

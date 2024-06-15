@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "mary.esparza@ayala.biz",
-        "name": "Leaverobertchavez"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTg1OWVkMjgwMDAxYjQzZGE2NSIsImlhdCI6MTcxODQ1NDkxNywiZXhwIjoxNzE4NDU2MTE3fQ.mXQNaSxuYCGma2P1H7mUjFcroFqrvuuFaFLa__muEE8",
-    "refreshToken": "6b636b8e6e09007441e21b6f0ee004dc1c5d2672ef0c3beb69e5e6db4fec94bf86f5aeceb1dbbf7c"
-}

@@ -1,4 +1,0 @@
-method = get
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
-header = None
-data_models = {'name': 'Thus volson', 'email': 'Amy.Miller@golden.com', 'password': 'e64UBg'}

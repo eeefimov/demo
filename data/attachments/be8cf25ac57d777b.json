@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "rachel.jackson.mark@brown.com",
-        "name": "dawnberg"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTk3OWVkMjgwMDAxYjQzZGE4MSIsImlhdCI6MTcxODQ1NDkzNSwiZXhwIjoxNzE4NDU2MTM1fQ.lQjOgjUF_TCGnTc3ohYyhC6lIE7TMjWVOIoNTxSFzFo",
-    "refreshToken": "3565495c31a30dd108f5895ea68db7a1a93b428cee581574b7ceba1cb8648e74b92ccb240563cac2"
-}

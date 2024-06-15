@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "sherry.perry@brown-gonzalez.org",
-        "name": "Grow daltonbeth"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ3OWVkMjgwMDAxYjQzZDlmOCIsImlhdCI6MTcxODQ1NDg1NSwiZXhwIjoxNzE4NDU2MDU1fQ.VdCjGtGRu6fapjvuZOM8ImOOtL3Im6zHWCrrO6bnbZg",
-    "refreshToken": "25db20d74500fce7e9542954bdf47565f3c62e725e00d2a85434a3b8880c7c1f9b1dd470cea14f10"
-}

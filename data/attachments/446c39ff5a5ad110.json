@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "alexander.bell@pratt.com",
-        "name": "Perfowphillips"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTNmOWVkMjgwMDAxYjQzZDllMCIsImlhdCI6MTcxODQ1NDg0NywiZXhwIjoxNzE4NDU2MDQ3fQ.jcmtFYcbXScSCDzq9qg8PqTW9NJlRimiCF2nFnueXOc",
-    "refreshToken": "a8508de985983005487cad15e1af7c2e771093ea662f2f6b2ec39eced5009dd8e24da49a5eaf10f8"
-}

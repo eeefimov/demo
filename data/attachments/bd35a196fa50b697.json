@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jeff.williams@stephenson-white.org",
-        "name": "Situaijohnson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTViOWVkMjgwMDAxYjQzZGEyZSIsImlhdCI6MTcxODQ1NDg3NSwiZXhwIjoxNzE4NDU2MDc1fQ.8QtPRyELGuE0FFhyIZn__pa5y2-i-SOkCxByU8GmwpU",
-    "refreshToken": "aa5de14a38760b470a000822a48a1a1976eee421deb6b1c72eef9333c06b70d56a1dd3079b2c7710"
-}

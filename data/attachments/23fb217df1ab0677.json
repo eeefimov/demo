@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "bryan.lewis@wilson.org",
-        "name": "Rest meyersmary"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTUwOWVkMjgwMDAxYjQzZGExNiIsImlhdCI6MTcxODQ1NDg2NCwiZXhwIjoxNzE4NDU2MDY0fQ.w-1BvqXCR0MPw5DZbbW3f9GdIPHOMSSTuCrMxztLaxk",
-    "refreshToken": "db0c6da889dcfab8efec92ff7306f21fda601dda72808b0dc7d3f5e1c9e6945573a7c92f7af21d5a"
-}

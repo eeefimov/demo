@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "lisa.graves@schultz-harvey.org",
-        "name": "Work christine41"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTUwOWVkMjgwMDAxYjQzZGExNCIsImlhdCI6MTcxODQ1NDg2NCwiZXhwIjoxNzE4NDU2MDY0fQ.ciPG9rE0_UpdLhtoCGl0lAISDA4TKIf4cwAmDkI_2Bg",
-    "refreshToken": "47bc60e1adeabeed550050933b0d5f35cdde86798defcd1135c765d452ba31b8428036525fcbafcc"
-}

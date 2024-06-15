@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "amber.coffey@leach.com",
-        "name": "Watchtwarren"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ0OWVkMjgwMDAxYjQzZDllZSIsImlhdCI6MTcxODQ1NDg1MiwiZXhwIjoxNzE4NDU2MDUyfQ.hqyEdyRBA4jeL8F1-3te2mwnf9p5uv8JnWuQpsH74_w",
-    "refreshToken": "d0ad29b642c2cf9b3f93470c84f6fa6dc8a874680efdd76823d718cfc16e831560184f7240cbdee7"
-}

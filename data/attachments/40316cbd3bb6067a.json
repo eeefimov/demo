@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "cheryl.coleman@smith.com",
-        "name": "Well shelbyharrison"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWFlOWVkMjgwMDAxYjQzZGFiMSIsImlhdCI6MTcxODQ1NDk1OCwiZXhwIjoxNzE4NDU2MTU4fQ.tuh_bqao2eHT5EMGMaDMQ6cg5PydkJt33--4sEm34Uw",
-    "refreshToken": "40d3583598d31041e893847b1993797322b22f5b0621d4489b1c58a0dc6ebafbbc3cc607d42f09a7"
-}

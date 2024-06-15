@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "brittany.barrett@dickson.com",
-        "name": "Nor oterriavila"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTU3OWVkMjgwMDAxYjQzZGEyOCIsImlhdCI6MTcxODQ1NDg3MSwiZXhwIjoxNzE4NDU2MDcxfQ.nR0MQoGuXxOMCFJS_YDrGAv3jF132BC4FnKWhKr36vg",
-    "refreshToken": "a2ba0dfd82fb827dfff113c14004c9c48c86aaccb91d7e599d84368d7fd5768da2d764897b1023f2"
-}

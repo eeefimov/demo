@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "christopher.vincent@stewart-greer.net",
-        "name": "Econotdeleon"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTU5OWVkMjgwMDAxYjQzZGEyYiIsImlhdCI6MTcxODQ1NDg3MywiZXhwIjoxNzE4NDU2MDczfQ.ghIClVMBreykl0dwNKBO63y5FQyQMA3eogz9jHgOhMM",
-    "refreshToken": "22e01a31abe1c773ca13d226580e61497b966ebf501f43b632f3398dc3260f55003dd502c8020841"
-}

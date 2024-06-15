@@ -1,5 +1,10 @@
 [ {
   "data" : {
+    "Product defects" : 24,
+    "Test defects" : 1
+  }
+}, {
+  "data" : {
     "Product defects" : 47,
     "Test defects" : 1
   }

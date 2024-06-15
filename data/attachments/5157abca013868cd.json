@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "tuckerteresa@example.net",
-        "name": "speech three some"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTlmOWVkMjgwMDAxYjQzZGE5NyIsImlhdCI6MTcxODQ1NDk0MywiZXhwIjoxNzE4NDU2MTQzfQ.GuEvhO6sfHaVpsKr3w-YFqGYC-gP7Vt-hIZa2whE-RM",
-    "refreshToken": "721feb84975b12f535770b3a582828fb61340b51d5c501e0e4aded006ca68459aa6399836e2491c3"
-}

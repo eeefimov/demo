@@ -1,4 +1,0 @@
-method = get
-endpoint = https://stellarburgers.nomoreparties.site/api/orders/all
-header = {'Content-Type': None}
-data_models = None

@@ -1,2600 +1,1190 @@
 [ {
-  "uid" : "b5a225ff934138df",
-  "name" : "test_account_credentials",
+  "uid" : "6c941bdcf442af1f",
+  "name" : "test_login_valid",
   "time" : {
-    "start" : 1718455027294,
-    "stop" : 1718455027659,
-    "duration" : 365
+    "start" : 1718457403268,
+    "stop" : 1718457406409,
+    "duration" : 3141
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "acc1a277065d5953",
-  "name" : "test_login_header_btns[Redirection to Main page]",
-  "time" : {
-    "start" : 1718455266114,
-    "stop" : 1718455266184,
-    "duration" : 70
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "693c222912fc131f",
-  "name" : "test_register_name_validation[User post_login with back space string]",
-  "time" : {
-    "start" : 1718456021238,
-    "stop" : 1718456027357,
-    "duration" : 6119
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ab6b7f09fd3c395",
-  "name" : "test_headers[application/text]",
-  "time" : {
-    "start" : 1718454836209,
-    "stop" : 1718454836507,
-    "duration" : 298
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd677f3b227b750b",
-  "name" : "test_main_order_not_empty[Bun + not single ingredient]",
-  "time" : {
-    "start" : 1718455832080,
-    "stop" : 1718455844932,
-    "duration" : 12852
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29667c05966493be",
-  "name" : "test_register_redirection_to_login_page",
-  "time" : {
-    "start" : 1718456075802,
-    "stop" : 1718456075857,
-    "duration" : 55
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8b22826b30fb42d",
-  "name" : "test_valid_credentials",
-  "time" : {
-    "start" : 1718455002526,
-    "stop" : 1718455004851,
-    "duration" : 2325
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2cda775b63977a2",
-  "name" : "test_get_user_orders_invalid_auth[Empty token]",
-  "time" : {
-    "start" : 1718454917191,
-    "stop" : 1718454917356,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2673db0906cc60f5",
-  "name" : "test_login_direct_access",
-  "time" : {
-    "start" : 1718455220760,
-    "stop" : 1718455221239,
-    "duration" : 479
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ebc745c735fe040",
-  "name" : "test_invalid_methods[PUT]",
-  "time" : {
-    "start" : 1718454870651,
-    "stop" : 1718454870835,
-    "duration" : 184
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e121a6f41c8e0aad",
-  "name" : "test_forgot_email_validation[Random string]",
-  "time" : {
-    "start" : 1718456121565,
-    "stop" : 1718456128638,
-    "duration" : 7073
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7dff8d5a623143be",
-  "name" : "test_password_validation[Password < 6]",
-  "time" : {
-    "start" : 1718455007542,
-    "stop" : 1718455011832,
-    "duration" : 4290
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "593291572068fc43",
-  "name" : "test_headers[APPLICATION/JSON]",
-  "time" : {
-    "start" : 1718454835068,
-    "stop" : 1718454835344,
-    "duration" : 276
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2dab4b3d5dad226",
-  "name" : "test_email_validation[Email with two dots in username]",
-  "time" : {
-    "start" : 1718454935617,
-    "stop" : 1718454935846,
-    "duration" : 229
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "45b1bf76bc2a12a5",
-  "name" : "test_name_validation[User name with 10 digits]",
-  "time" : {
-    "start" : 1718454941212,
-    "stop" : 1718454941447,
-    "duration" : 235
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c6de293c9551938",
-  "name" : "test_update_credentials_validation[PATCH password]",
-  "time" : {
-    "start" : 1718454859173,
-    "stop" : 1718454859510,
-    "duration" : 337
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bbfac443b9d35fe",
-  "name" : "test_password_validation[Password 100]",
-  "time" : {
-    "start" : 1718454939894,
-    "stop" : 1718454940123,
-    "duration" : 229
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "30f2ecc6965cce9a",
-  "name" : "test_empty_credentials_validation[No name]",
-  "time" : {
-    "start" : 1718454930436,
-    "stop" : 1718454930605,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68921ba8d79058d9",
-  "name" : "test_register_access",
-  "time" : {
-    "start" : 1718455939107,
-    "stop" : 1718455939113,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7fa8c5692e994d58",
-  "name" : "test_register_password_error_msg[Password < 6]",
-  "time" : {
-    "start" : 1718455954906,
-    "stop" : 1718455955999,
-    "duration" : 1093
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "294c007e3e4e07ba",
-  "name" : "test_login_redirection[Redirection to Forgot password page]",
-  "time" : {
-    "start" : 1718455261381,
-    "stop" : 1718455261441,
-    "duration" : 60
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "92114291acac903d",
-  "name" : "test_payload_type_validation",
-  "time" : {
-    "start" : 1718454875248,
-    "stop" : 1718454876306,
-    "duration" : 1058
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "104731d51e5d0bce",
-  "name" : "test_register_email_validation[Email with dash in username]",
-  "time" : {
-    "start" : 1718456049502,
-    "stop" : 1718456050625,
-    "duration" : 1123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53e0909349511662",
-  "name" : "test_payload_type_validation[PATCH email]",
-  "time" : {
-    "start" : 1718454855930,
-    "stop" : 1718454856098,
-    "duration" : 168
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d4efeb250f20d82",
-  "name" : "test_orders_in_progress",
-  "time" : {
-    "start" : 1718455872203,
-    "stop" : 1718455884930,
-    "duration" : 12727
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97e05c346f0c47",
-  "name" : "test_forgot_header_btns[Redirection to Main page]",
-  "time" : {
-    "start" : 1718456146012,
-    "stop" : 1718456146082,
-    "duration" : 70
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c8521d8b93e714c",
-  "name" : "test_get_user_orders[20 order]",
-  "time" : {
-    "start" : 1718454894562,
-    "stop" : 1718454916534,
-    "duration" : 21972
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3ddd6e0d141d0dfc",
-  "name" : "test_invalid_methods[PUT]",
-  "time" : {
-    "start" : 1718454832813,
-    "stop" : 1718454833083,
-    "duration" : 270
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79053ac43869ab62",
-  "name" : "test_order_configur[Order buns [1 to 5] and ingredients [1 to 5]]",
-  "time" : {
-    "start" : 1718454886699,
-    "stop" : 1718454887753,
-    "duration" : 1054
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5b85c3a3271d7000",
-  "name" : "test_invalid_token_payload_validation[Invalid token]",
-  "time" : {
-    "start" : 1718454869219,
-    "stop" : 1718454869660,
-    "duration" : 441
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b35636f55766a63",
-  "name" : "test_login_validation[Not registered email, with password = 6]",
-  "time" : {
-    "start" : 1718455238482,
-    "stop" : 1718455241606,
-    "duration" : 3124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a1167fd417eb422",
-  "name" : "test_headers[application/json; charset=utf-8]",
-  "time" : {
-    "start" : 1718454841114,
-    "stop" : 1718454841536,
-    "duration" : 422
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3e8e41402f80db6",
-  "name" : "test_payload_type_validation[PATCH name]",
-  "time" : {
-    "start" : 1718454856485,
-    "stop" : 1718454856750,
-    "duration" : 265
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4490153e92206950",
-  "name" : "test_orders_price",
-  "time" : {
-    "start" : 1718454924640,
-    "stop" : 1718454925713,
-    "duration" : 1073
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "bca8d40f6f6c5fd3",
-  "name" : "test_register_name_validation[User post_login with 100 char]",
-  "time" : {
-    "start" : 1718455989888,
-    "stop" : 1718455995974,
-    "duration" : 6086
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a78c8a18be83b8e0",
-  "name" : "test_main_ingredients_items",
-  "time" : {
-    "start" : 1718455268548,
-    "stop" : 1718455268571,
-    "duration" : 23
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "431921730504563a",
-  "name" : "test_forgot_email_validation[Email without domain part]",
-  "time" : {
-    "start" : 1718456104499,
-    "stop" : 1718456111580,
-    "duration" : 7081
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5163668e78e470d3",
-  "name" : "test_headers[Application/Json]",
-  "time" : {
-    "start" : 1718454834494,
-    "stop" : 1718454834786,
-    "duration" : 292
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "10aa41b31e52087b",
-  "name" : "test_account_history_order_price[Bun + single ingredient]",
-  "time" : {
-    "start" : 1718455099879,
-    "stop" : 1718455114982,
-    "duration" : 15103
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b5d21868e70269e",
-  "name" : "test_exist_email_validation",
-  "time" : {
-    "start" : 1718454863552,
-    "stop" : 1718454863720,
-    "duration" : 168
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "38c940f12a1acdd",
-  "name" : "test_payload_type_validation",
-  "time" : {
-    "start" : 1718454839652,
-    "stop" : 1718454840096,
-    "duration" : 444
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d78ae807180ab48b",
-  "name" : "test_password_validation[Password < 6]",
-  "time" : {
-    "start" : 1718454939566,
-    "stop" : 1718454939727,
-    "duration" : 161
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "43d7f4633eaea209",
-  "name" : "test_register_name_validation[User post_login with 2 strings]",
-  "time" : {
-    "start" : 1718455997422,
-    "stop" : 1718456003541,
-    "duration" : 6119
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1716061e7d772aea",
-  "name" : "test_register_email_validation[Email with dash and dot in username]",
-  "time" : {
-    "start" : 1718456055569,
-    "stop" : 1718456056657,
-    "duration" : 1088
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6558433fe8c088e2",
-  "name" : "test_account_history_order_price[Single bun]",
-  "time" : {
-    "start" : 1718455083725,
-    "stop" : 1718455098700,
-    "duration" : 14975
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5ec604acfc51e59",
-  "name" : "test_headers[None]",
-  "time" : {
-    "start" : 1718454841714,
-    "stop" : 1718454842122,
-    "duration" : 408
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "83921e9e2f2958bc",
-  "name" : "test_orders_all_number_changes",
-  "time" : {
-    "start" : 1718454922201,
-    "stop" : 1718454923992,
-    "duration" : 1791
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9ad17d5644277075",
-  "name" : "test_invalid_methods[PUT]",
-  "time" : {
-    "start" : 1718454958210,
-    "stop" : 1718454958380,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d88fbfb44e06e318",
-  "name" : "test_reset_header_btns[Redirection to Login page]",
-  "time" : {
-    "start" : 1718456232825,
-    "stop" : 1718456234931,
-    "duration" : 2106
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f201490aa31c261",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1718454838684,
-    "stop" : 1718454839227,
-    "duration" : 543
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a864d0b2eaa8a3a1",
-  "name" : "test_register_header_btns[Redirection to Main page]",
-  "time" : {
-    "start" : 1718456080198,
-    "stop" : 1718456080251,
-    "duration" : 53
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff57c50a3ac1478",
-  "name" : "test_register_email_validation[Email with three underscores in username]",
-  "time" : {
-    "start" : 1718456046136,
-    "stop" : 1718456047258,
-    "duration" : 1122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fc744ea8badf058",
-  "name" : "test_forgot_header_btns[Redirection to Login page]",
-  "time" : {
-    "start" : 1718456148463,
-    "stop" : 1718456148521,
-    "duration" : 58
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "47747579831039bf",
-  "name" : "test_reset_validation[Wrong confirm code]",
-  "time" : {
-    "start" : 1718456171580,
-    "stop" : 1718456175719,
-    "duration" : 4139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca0fee6154d5855c",
-  "name" : "test_register_direct_access",
-  "time" : {
-    "start" : 1718455940592,
-    "stop" : 1718455941034,
-    "duration" : 442
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abd3a43ce275756c",
-  "name" : "test_empty_credentials_validation[All empty]",
-  "time" : {
-    "start" : 1718454930767,
-    "stop" : 1718454930928,
-    "duration" : 161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e7d9587625b57c4",
-  "name" : "test_email_validation[Email with dash in username]",
-  "time" : {
-    "start" : 1718454937603,
-    "stop" : 1718454937825,
-    "duration" : 222
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca7eedef72913b62",
-  "name" : "test_register_email_invalid_format_validation[Email without username part]",
-  "time" : {
-    "start" : 1718456034103,
-    "stop" : 1718456035208,
-    "duration" : 1105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2ee86a2f9b193546",
-  "name" : "test_authorization_validation[Invalid token]",
-  "time" : {
-    "start" : 1718454927209,
-    "stop" : 1718454927388,
-    "duration" : 179
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b416216a2c3bdac",
-  "name" : "test_headers[application/json; charset=utf-8]",
-  "time" : {
-    "start" : 1718454833354,
-    "stop" : 1718454833640,
-    "duration" : 286
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6164b9351780ad37",
-  "name" : "test_invalid_methods[PATCH]",
-  "time" : {
-    "start" : 1718454871246,
-    "stop" : 1718454871413,
-    "duration" : 167
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fb9e85857d398c1",
-  "name" : "test_response_payload[PATCH name]",
-  "time" : {
-    "start" : 1718454854627,
-    "stop" : 1718454854793,
-    "duration" : 166
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28840d7c66f8227b",
-  "name" : "test_payload_type_validation",
-  "time" : {
-    "start" : 1718454929111,
-    "stop" : 1718454929335,
-    "duration" : 224
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b4e48258eacae3f",
-  "name" : "test_invalid_token[Empty token-PATCH password]",
-  "time" : {
-    "start" : 1718454861258,
-    "stop" : 1718454861427,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "191c405df17df73b",
-  "name" : "test_name_validation[User name with special chars]",
-  "time" : {
-    "start" : 1718454941873,
-    "stop" : 1718454942104,
-    "duration" : 231
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a469f33c9870016c",
-  "name" : "test_get_user_orders_invalid_auth[Invalid token]",
-  "time" : {
-    "start" : 1718454918001,
-    "stop" : 1718454918167,
-    "duration" : 166
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2f5e3969a9d816f",
-  "name" : "test_orders_access",
-  "time" : {
-    "start" : 1718455862613,
-    "stop" : 1718455863475,
-    "duration" : 862
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e3417eb0d23be764",
-  "name" : "test_invalid_token[Empty token]",
-  "time" : {
-    "start" : 1718454849688,
-    "stop" : 1718454849853,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6748862fa27adb9",
-  "name" : "test_reset_validation[Empty fields]",
-  "time" : {
-    "start" : 1718456153797,
-    "stop" : 1718456157952,
-    "duration" : 4155
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87478aee833ad575",
-  "name" : "test_invalid_methods[PATCH]",
-  "time" : {
-    "start" : 1718454931923,
-    "stop" : 1718454932094,
-    "duration" : 171
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2ce534511bf28de",
-  "name" : "test_register_header_btns[Redirection to Login page]",
-  "time" : {
-    "start" : 1718456081848,
-    "stop" : 1718456081908,
-    "duration" : 60
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f154fc1a71a289fb",
-  "name" : "test_register_header_btns[Redirection to List of orders page]",
-  "time" : {
-    "start" : 1718456077265,
-    "stop" : 1718456078177,
-    "duration" : 912
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "36f551c1f8eb5469",
-  "name" : "test_invalid_methods[GET]",
-  "time" : {
-    "start" : 1718454957384,
-    "stop" : 1718454957543,
-    "duration" : 159
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d7dd921dbfcec58a",
-  "name" : "test_register_email_validation[Email with one dot in username]",
-  "time" : {
-    "start" : 1718456036738,
-    "stop" : 1718456037842,
-    "duration" : 1104
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd44a638b9af0191",
-  "name" : "test_register_email_error_txt[Email without \"@\"]",
-  "time" : {
-    "start" : 1718456058218,
-    "stop" : 1718456064328,
-    "duration" : 6110
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "45875b0050211cf8",
-  "name" : "test_register_exist_user",
-  "time" : {
-    "start" : 1718456069418,
-    "stop" : 1718456070511,
-    "duration" : 1093
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e38b438026f71f92",
-  "name" : "test_ingredients_different_titles[150 chars string]",
-  "time" : {
-    "start" : 1718454980071,
-    "stop" : 1718454986735,
-    "duration" : 6664
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "991ce6ba744528e8",
-  "name" : "test_order_configur[Order with no bun and ingredients [1 to 10]]",
-  "time" : {
-    "start" : 1718454884950,
-    "stop" : 1718454886058,
-    "duration" : 1108
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f52b59057014cec",
-  "name" : "test_main_buns_changing_in_constructor",
-  "time" : {
-    "start" : 1718455755154,
-    "stop" : 1718455759426,
-    "duration" : 4272
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "93b149a95670fc54",
-  "name" : "test_register_email_validation[Email with two dots in username]",
-  "time" : {
-    "start" : 1718456040070,
-    "stop" : 1718456041191,
-    "duration" : 1121
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa65bab1873151c3",
-  "name" : "test_account_logout",
-  "time" : {
-    "start" : 1718455047859,
-    "stop" : 1718455049137,
-    "duration" : 1278
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8017ab7a5088c142",
-  "name" : "test_reset_exist_password[Registered email]",
-  "time" : {
-    "start" : 1718456207329,
-    "stop" : 1718456223180,
-    "duration" : 15851
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "554490a10987a013",
-  "name" : "test_register_email_invalid_format_validation[Email without domain part]",
-  "time" : {
-    "start" : 1718456031536,
-    "stop" : 1718456032624,
-    "duration" : 1088
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3a34965137fabd7",
-  "name" : "test_register_validation_empty[Empty password]",
-  "time" : {
-    "start" : 1718455952323,
-    "stop" : 1718455953425,
-    "duration" : 1102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1dc5dda008eeb792",
-  "name" : "test_payload_type_validation[PATCH password]",
-  "time" : {
-    "start" : 1718454857270,
-    "stop" : 1718454857500,
-    "duration" : 230
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f332c2980718dcf",
-  "name" : "test_invalid_methods[POST]",
-  "time" : {
-    "start" : 1718454832526,
-    "stop" : 1718454832810,
-    "duration" : 284
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1564fe5d1af6af3",
-  "name" : "test_main_ingredients_counter_change[Verify 3 ingredients counter]",
-  "time" : {
-    "start" : 1718455383819,
-    "stop" : 1718455466606,
-    "duration" : 82787
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "47e289431ac9a93d",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1718454864123,
-    "stop" : 1718454864556,
-    "duration" : 433
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16df95f0a0070ca3",
-  "name" : "test_payload_validation",
-  "time" : {
-    "start" : 1718454950679,
-    "stop" : 1718454952011,
-    "duration" : 1332
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "363d71f99b76c342",
-  "name" : "test_email_validation[Email with underscore in username]",
-  "time" : {
-    "start" : 1718454936264,
-    "stop" : 1718454936505,
-    "duration" : 241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b417fddd7eb8b20",
-  "name" : "test_login_validation[Not registered email, empty password]",
-  "time" : {
-    "start" : 1718455228150,
-    "stop" : 1718455231271,
-    "duration" : 3121
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73c46035ee1d86cb",
-  "name" : "test_status_code[PATCH name]",
-  "time" : {
-    "start" : 1718454852863,
-    "stop" : 1718454853026,
-    "duration" : 163
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fb8c4332a1c8927",
-  "name" : "test_status_code[PATCH email]",
-  "time" : {
-    "start" : 1718454852298,
-    "stop" : 1718454852459,
-    "duration" : 161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1b6290b8fcda08d",
-  "name" : "test_headers[application/xml]",
-  "time" : {
-    "start" : 1718454838237,
-    "stop" : 1718454838411,
-    "duration" : 174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9cc02fdea55175b4",
-  "name" : "test_orders_number",
-  "time" : {
-    "start" : 1718454998784,
-    "stop" : 1718455000633,
-    "duration" : 1849
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c0eb76b45d992a69",
-  "name" : "test_account_history_ingredients_icons[Bun + not single ingredient]",
-  "time" : {
-    "start" : 1718455161435,
-    "stop" : 1718455181313,
-    "duration" : 19878
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f652ec593cccbc0f",
-  "name" : "test_invalid_methods[PUT]",
-  "time" : {
-    "start" : 1718454851620,
-    "stop" : 1718454851899,
-    "duration" : 279
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6933a111d09bf440",
+  "uid" : "a265be9995481fd0",
   "name" : "test_reset_header_btns[Redirection to Main page]",
   "time" : {
-    "start" : 1718456229193,
-    "stop" : 1718456231309,
+    "start" : 1718457918113,
+    "stop" : 1718457920229,
     "duration" : 2116
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "366ee2cf55505286",
-  "name" : "test_invalid_methods[POST]",
+  "uid" : "db9bcff883c95a26",
+  "name" : "test_register_email_invalid_format_validation[Email without username part]",
   "time" : {
-    "start" : 1718454840498,
-    "stop" : 1718454840664,
-    "duration" : 166
+    "start" : 1718457712424,
+    "stop" : 1718457713513,
+    "duration" : 1089
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "668a2657969fd54d",
-  "name" : "test_status_code",
+  "uid" : "fa97273eeda6c53",
+  "name" : "test_register_email_validation[Email with two dots in username]",
   "time" : {
-    "start" : 1718454927818,
-    "stop" : 1718454928040,
-    "duration" : 222
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d0e77bd5e43c6070",
-  "name" : "test_forgot_redirection_to_login_page",
-  "time" : {
-    "start" : 1718456138598,
-    "stop" : 1718456138654,
-    "duration" : 56
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9d21ddc391aac16",
-  "name" : "test_payload_values_validation",
-  "time" : {
-    "start" : 1718454832236,
-    "stop" : 1718454832523,
-    "duration" : 287
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d28fc89b382be235",
-  "name" : "test_orders_complete_items",
-  "time" : {
-    "start" : 1718455923230,
-    "stop" : 1718455936695,
-    "duration" : 13465
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b486100cb61766a2",
-  "name" : "test_login_validation[Empty user credentials]",
-  "time" : {
-    "start" : 1718455223649,
-    "stop" : 1718455226754,
-    "duration" : 3105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53eeda61fa29096a",
-  "name" : "test_forgot_email_validation[Empty email]",
-  "time" : {
-    "start" : 1718456086633,
-    "stop" : 1718456093704,
-    "duration" : 7071
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5c7a673c9b0d895",
-  "name" : "test_reset_setup_new_pass[Registered email]",
-  "time" : {
-    "start" : 1718456191812,
-    "stop" : 1718456196902,
-    "duration" : 5090
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "37ff7d526e97e665",
-  "name" : "test_response_payload",
-  "time" : {
-    "start" : 1718454847864,
-    "stop" : 1718454848029,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6937b803ff08ec09",
-  "name" : "test_payload_type_validation",
-  "time" : {
-    "start" : 1718454865803,
-    "stop" : 1718454866252,
-    "duration" : 449
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5c880e355eae2957",
-  "name" : "test_account_history_order_window",
-  "time" : {
-    "start" : 1718455214020,
-    "stop" : 1718455216574,
-    "duration" : 2554
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d77c577db719f29",
-  "name" : "test_forgot_email_validation[Random number]",
-  "time" : {
-    "start" : 1718456130098,
-    "stop" : 1718456137170,
-    "duration" : 7072
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "27c52a1264387587",
-  "name" : "test_empty_credentials_validation[No email]",
-  "time" : {
-    "start" : 1718454929757,
-    "stop" : 1718454929922,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fdfc6861cc5409a4",
-  "name" : "test_account_no_access",
-  "time" : {
-    "start" : 1718455053909,
-    "stop" : 1718455055229,
-    "duration" : 1320
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ccc5ffeaee0f757",
-  "name" : "test_login_redirection[Redirection to Register page]",
-  "time" : {
-    "start" : 1718455259715,
-    "stop" : 1718455259772,
-    "duration" : 57
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9718fa5601d4f0",
-  "name" : "test_headers[Authorization: valid token]",
-  "time" : {
-    "start" : 1718454845762,
-    "stop" : 1718454846181,
-    "duration" : 419
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f443e6c2b8edbf7b",
-  "name" : "test_register_name_validation[User post_login with 10 digits]",
-  "time" : {
-    "start" : 1718455974672,
-    "stop" : 1718455980759,
-    "duration" : 6087
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a1e19f2c50c569e9",
-  "name" : "test_account_header_btns[Redirection to Main page]",
-  "time" : {
-    "start" : 1718455065925,
-    "stop" : 1718455066327,
-    "duration" : 402
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "487091c8780aed66",
-  "name" : "test_register_name_validation[User post_login with 3 strings]",
-  "time" : {
-    "start" : 1718456005121,
-    "stop" : 1718456011225,
-    "duration" : 6104
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "56ea23b6bc9e0067",
-  "name" : "test_reset_redirection_to_login_page",
-  "time" : {
-    "start" : 1718456150131,
-    "stop" : 1718456152234,
-    "duration" : 2103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "51105dc3c8fd30ea",
-  "name" : "test_main_drag_all_ingredients",
-  "time" : {
-    "start" : 1718455321190,
-    "stop" : 1718455381321,
-    "duration" : 60131
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cde4e60b210538e2",
-  "name" : "test_invalid_data[None data_models]",
-  "time" : {
-    "start" : 1718454932269,
-    "stop" : 1718454932557,
-    "duration" : 288
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3e110a8b769cc814",
-  "name" : "test_main_order_not_empty[Single bun]",
-  "time" : {
-    "start" : 1718455810703,
-    "stop" : 1718455819250,
-    "duration" : 8547
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e3251e5bd8993b2",
-  "name" : "test_register_password_validation[Password 10]",
-  "time" : {
-    "start" : 1718455963672,
-    "stop" : 1718455964794,
-    "duration" : 1122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61952ed8b771aa4e",
-  "name" : "test_invalid_token[Empty token-PATCH name]",
-  "time" : {
-    "start" : 1718454860698,
-    "stop" : 1718454860864,
-    "duration" : 166
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3002c11e8b519297",
-  "name" : "test_main_nutrition_wnd",
-  "time" : {
-    "start" : 1718455856132,
-    "stop" : 1718455856156,
-    "duration" : 24
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b4fcc55d88974a2e",
-  "name" : "test_orders_number",
-  "time" : {
-    "start" : 1718454840098,
-    "stop" : 1718454840496,
-    "duration" : 398
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "129a77eb5566d52",
-  "name" : "test_name_validation[User name with 2 strings]",
-  "time" : {
-    "start" : 1718454943167,
-    "stop" : 1718454943330,
-    "duration" : 163
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "677c62af66b554f0",
-  "name" : "test_reset_send_email[Registered email]",
-  "time" : {
-    "start" : 1718456182113,
-    "stop" : 1718456185560,
-    "duration" : 3447
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bfb4d852338902c",
-  "name" : "test_headers[application/html]",
-  "time" : {
-    "start" : 1718454836792,
-    "stop" : 1718454837067,
-    "duration" : 275
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cda7d4beabc34b49",
-  "name" : "test_account_history_new_order_item",
-  "time" : {
-    "start" : 1718455067432,
-    "stop" : 1718455082534,
-    "duration" : 15102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8176fde51b7e0075",
-  "name" : "test_orders_ready",
-  "time" : {
-    "start" : 1718455887199,
-    "stop" : 1718455902904,
-    "duration" : 15705
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "98e23cea27fadf2e",
-  "name" : "test_payload_type_validation",
-  "time" : {
-    "start" : 1718454848548,
-    "stop" : 1718454848717,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "164b3db81c7146a4",
-  "name" : "test_payload_credentials_validation",
-  "time" : {
-    "start" : 1718454849122,
-    "stop" : 1718454849288,
-    "duration" : 166
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "878e506b037a082d",
-  "name" : "test_register_validation_empty[Empty email]",
-  "time" : {
-    "start" : 1718455948806,
-    "stop" : 1718455949892,
-    "duration" : 1086
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cfd279e588a4d895",
-  "name" : "test_invalid_token[Invalid token-PATCH name]",
-  "time" : {
-    "start" : 1718454862392,
-    "stop" : 1718454862582,
-    "duration" : 190
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d01271c4692db8c",
-  "name" : "test_headers[application/xml]",
-  "time" : {
-    "start" : 1718454846352,
-    "stop" : 1718454846766,
-    "duration" : 414
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "981e470826bd2d32",
-  "name" : "test_register_exist_user",
-  "time" : {
-    "start" : 1718454945480,
-    "stop" : 1718454945877,
-    "duration" : 397
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4259ddb606e585ef",
-  "name" : "test_account_history_order_price[Bun + not single ingredient]",
-  "time" : {
-    "start" : 1718455116073,
-    "stop" : 1718455131049,
-    "duration" : 14976
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d42241d9578abc85",
-  "name" : "test_forgot_direct_access",
-  "time" : {
-    "start" : 1718456084584,
-    "stop" : 1718456085026,
-    "duration" : 442
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61ae5c23ecac8197",
-  "name" : "test_main_header_btns[Redirection to Account page]",
-  "time" : {
-    "start" : 1718455860576,
-    "stop" : 1718455860896,
-    "duration" : 320
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9c4d54639e96960",
-  "name" : "test_forgot_header_btns[Redirection to List of orders page]",
-  "time" : {
-    "start" : 1718456143680,
-    "stop" : 1718456144592,
-    "duration" : 912
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b405dc3b985b5c4b",
-  "name" : "test_response_payload",
-  "time" : {
-    "start" : 1718454839229,
-    "stop" : 1718454839650,
-    "duration" : 421
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2fbbedfb2a6342d0",
-  "name" : "test_invalid_methods[PATCH]",
-  "time" : {
-    "start" : 1718454840830,
-    "stop" : 1718454841110,
-    "duration" : 280
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a7572d2fd8317e97",
-  "name" : "test_register_validation_empty[Empty user credentials]",
-  "time" : {
-    "start" : 1718455942690,
-    "stop" : 1718455943782,
-    "duration" : 1092
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79bb7d1b7fb8df00",
-  "name" : "test_items_number_in_order[Order with no bun and 3 ingredient]",
-  "time" : {
-    "start" : 1718454878691,
-    "stop" : 1718454879752,
-    "duration" : 1061
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34a3285745bb0fab",
-  "name" : "test_reset_validation[PWD < 6]",
-  "time" : {
-    "start" : 1718456160314,
-    "stop" : 1718456164457,
-    "duration" : 4143
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "118b33f35c85d64f",
-  "name" : "test_headers[Application/Json]",
-  "time" : {
-    "start" : 1718454842294,
-    "stop" : 1718454842697,
-    "duration" : 403
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6ce33209b991f1d0",
-  "name" : "test_account_history_ingredients_icons[Bun + single ingredient]",
-  "time" : {
-    "start" : 1718455147104,
-    "stop" : 1718455160314,
-    "duration" : 13210
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd2bcc1b363f575e",
-  "name" : "test_order_configur[Order with 1 bun and ingredients [1 to 10]]",
-  "time" : {
-    "start" : 1718454881221,
-    "stop" : 1718454882297,
-    "duration" : 1076
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "54f92b449f57b0e0",
-  "name" : "test_main_buns_counter_change",
-  "time" : {
-    "start" : 1718455747825,
-    "stop" : 1718455752828,
-    "duration" : 5003
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b77b762cd2d1e4e9",
-  "name" : "test_invalid_data[Invalid data_models]",
-  "time" : {
-    "start" : 1718454932849,
-    "stop" : 1718454933013,
-    "duration" : 164
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "630a2007e8cbfdd0",
-  "name" : "test_email_validation[Email with three underscores in username]",
-  "time" : {
-    "start" : 1718454936939,
-    "stop" : 1718454937165,
-    "duration" : 226
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "715a991bafd7c771",
-  "name" : "test_main_order_not_empty[Bun + single ingredient]",
-  "time" : {
-    "start" : 1718455820347,
-    "stop" : 1718455831000,
-    "duration" : 10653
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3e14313078fc486",
-  "name" : "test_headers[Authorization \"\"]",
-  "time" : {
-    "start" : 1718454837337,
-    "stop" : 1718454837628,
-    "duration" : 291
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "27f92c736fc8c225",
-  "name" : "test_register_email_invalid_format_validation[Email without \"@\"]",
-  "time" : {
-    "start" : 1718456028803,
-    "stop" : 1718456029898,
-    "duration" : 1095
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f6f988b0bc18ee0",
-  "name" : "test_main_drag_single_ingredient",
-  "time" : {
-    "start" : 1718455279142,
-    "stop" : 1718455319029,
-    "duration" : 39887
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3d6aa46d5b6d3e",
-  "name" : "test_headers[APPLICATION/]",
-  "time" : {
-    "start" : 1718454843443,
-    "stop" : 1718454843861,
-    "duration" : 418
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8a46ce05871823d",
-  "name" : "test_main_order_empty",
-  "time" : {
-    "start" : 1718455805399,
-    "stop" : 1718455809617,
-    "duration" : 4218
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5ed5194224cb94c",
-  "name" : "test_invalid_token[Empty token-PATCH email]",
-  "time" : {
-    "start" : 1718454860027,
-    "stop" : 1718454860190,
-    "duration" : 163
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "82ca73629cce5ecd",
-  "name" : "test_main_access",
-  "time" : {
-    "start" : 1718455267419,
-    "stop" : 1718455267446,
-    "duration" : 27
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "edf13e5a4845344f",
-  "name" : "test_headers[application/text]",
-  "time" : {
-    "start" : 1718454844029,
-    "stop" : 1718454844428,
-    "duration" : 399
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abc8d0d3b2317799",
-  "name" : "test_ingredients_number",
-  "time" : {
-    "start" : 1718454831931,
-    "stop" : 1718454832234,
-    "duration" : 303
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "31d37295e4f94dee",
-  "name" : "test_headers[APPLICATION/]",
-  "time" : {
-    "start" : 1718454835639,
-    "stop" : 1718454835931,
-    "duration" : 292
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da2efc8af1c554d2",
-  "name" : "test_account_access",
-  "time" : {
-    "start" : 1718455022427,
-    "stop" : 1718455022788,
-    "duration" : 361
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "491fbc78bc8700ca",
-  "name" : "test_response_payload",
-  "time" : {
-    "start" : 1718454831658,
-    "stop" : 1718454831929,
-    "duration" : 271
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "43d7bebc569fb9f8",
-  "name" : "test_main_header_btns[Redirection to List of orders page]",
-  "time" : {
-    "start" : 1718455858467,
-    "stop" : 1718455859392,
-    "duration" : 925
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "42d08961fa12acdc",
-  "name" : "test_email_validation[Email with dash and dot in username]",
-  "time" : {
-    "start" : 1718454938916,
-    "stop" : 1718454939141,
-    "duration" : 225
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "261b92ff33b6900f",
-  "name" : "test_main_top_title_color_changes",
-  "time" : {
-    "start" : 1718455269784,
-    "stop" : 1718455276863,
-    "duration" : 7079
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc3b5a9a22385319",
-  "name" : "test_response_payload",
-  "time" : {
-    "start" : 1718454864967,
-    "stop" : 1718454865399,
-    "duration" : 432
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d9edcc2399152a6e",
-  "name" : "test_reset_validation[No confirm code]",
-  "time" : {
-    "start" : 1718456165997,
-    "stop" : 1718456170136,
-    "duration" : 4139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26dbd57dc678d17c",
-  "name" : "test_reset_code_structure[Registered email]",
-  "time" : {
-    "start" : 1718456187013,
-    "stop" : 1718456190373,
-    "duration" : 3360
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4bb21ebe3d79c103",
-  "name" : "test_email_validation[Email with one dot in username]",
-  "time" : {
-    "start" : 1718454934966,
-    "stop" : 1718454935197,
-    "duration" : 231
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e307ff7a9e9a7641",
-  "name" : "test_invalid_token[Invalid token]",
-  "time" : {
-    "start" : 1718454867509,
-    "stop" : 1718454867957,
-    "duration" : 448
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "479ade922c5ee90a",
-  "name" : "test_invalid_token[Empty token]",
-  "time" : {
-    "start" : 1718454866671,
-    "stop" : 1718454867113,
-    "duration" : 442
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e2873ba0fe8ad44",
-  "name" : "test_ingredients_different_titles[single eng string]",
-  "time" : {
-    "start" : 1718454970429,
-    "stop" : 1718454977246,
-    "duration" : 6817
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6bfc3e3fcc949883",
-  "name" : "test_reset_header_btns[Redirection to List of orders page]",
-  "time" : {
-    "start" : 1718456224693,
-    "stop" : 1718456227654,
-    "duration" : 2961
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf4154711556f8f4",
-  "name" : "test_register_name_validation[User post_login with special chars]",
-  "time" : {
-    "start" : 1718455982206,
-    "stop" : 1718455988325,
-    "duration" : 6119
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "508ef79eb622afe",
-  "name" : "test_status_code[PATCH password]",
-  "time" : {
-    "start" : 1718454853422,
-    "stop" : 1718454853648,
-    "duration" : 226
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38ebbe508d5d8802",
-  "name" : "test_orders_number_changes",
-  "time" : {
-    "start" : 1718454918826,
-    "stop" : 1718454921557,
-    "duration" : 2731
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c10e37f256cd2252",
-  "name" : "test_account_history_ingredients_icons[Single bun]",
-  "time" : {
-    "start" : 1718455133579,
-    "stop" : 1718455144682,
-    "duration" : 11103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4300b0ac122110",
-  "name" : "test_forgot_email_validation[Not registered email]",
-  "time" : {
-    "start" : 1718456095966,
-    "stop" : 1718456103039,
-    "duration" : 7073
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e1f6c67d039bc42",
-  "name" : "test_invalid_token[Invalid token-PATCH password]",
-  "time" : {
-    "start" : 1718454862984,
-    "stop" : 1718454863142,
-    "duration" : 158
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f097c16280c0df5",
-  "name" : "test_login_validation[Not registered email, with password < 6]",
-  "time" : {
-    "start" : 1718455233016,
-    "stop" : 1718455236144,
-    "duration" : 3128
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58733066bef033cf",
-  "name" : "test_ingredients_json",
-  "time" : {
-    "start" : 1718454962289,
-    "stop" : 1718454967610,
-    "duration" : 5321
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "99430be81d51efa",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1718454831310,
-    "stop" : 1718454831656,
-    "duration" : 346
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bc26b0d82c0b3c1d",
-  "name" : "test_login_header_btns[Redirection to List of orders page]",
-  "time" : {
-    "start" : 1718455263030,
-    "stop" : 1718455263927,
-    "duration" : 897
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6dca7dc996898531",
-  "name" : "test_login_validation[Valid email, invalid password = 6]",
-  "time" : {
-    "start" : 1718455243265,
-    "stop" : 1718455246381,
-    "duration" : 3116
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "377acd6f4708f127",
-  "name" : "test_main_delete_ingredients",
-  "time" : {
-    "start" : 1718455760512,
-    "stop" : 1718455760533,
-    "duration" : 21
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f51f0a1099e3eabd",
-  "name" : "test_account_header_btns[Redirection to List of orders page]",
-  "time" : {
-    "start" : 1718455059809,
-    "stop" : 1718455060567,
-    "duration" : 758
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "630906b60f75cde5",
-  "name" : "test_headers[Authorization \"\"]",
-  "time" : {
-    "start" : 1718454845200,
-    "stop" : 1718454845600,
-    "duration" : 400
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf432c476cc8159b",
-  "name" : "test_register_valid_user[Valid user credentials]",
-  "time" : {
-    "start" : 1718456066853,
-    "stop" : 1718456067957,
+    "start" : 1718457719157,
+    "stop" : 1718457720261,
     "duration" : 1104
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a324ba53fe89cb34",
-  "name" : "test_update_credentials_validation[PATCH name]",
+  "uid" : "f6c7e3469eb74590",
+  "name" : "test_reset_validation[Wrong confirm code]",
   "time" : {
-    "start" : 1718454858608,
-    "stop" : 1718454858778,
-    "duration" : 170
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f6a142a08bbabd5",
-  "name" : "test_name_validation[User name with front space string]",
-  "time" : {
-    "start" : 1718454944164,
-    "stop" : 1718454944386,
-    "duration" : 222
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "33aa889b5f41a9ad",
-  "name" : "test_account_profile_redirection",
-  "time" : {
-    "start" : 1718455039926,
-    "stop" : 1718455042422,
-    "duration" : 2496
+    "start" : 1718457855352,
+    "stop" : 1718457859490,
+    "duration" : 4138
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "67ce4e8d8e154996",
-  "name" : "test_response_payload",
-  "time" : {
-    "start" : 1718454873524,
-    "stop" : 1718454874597,
-    "duration" : 1073
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22795d218a605898",
-  "name" : "test_reset_code[Registered email]",
-  "time" : {
-    "start" : 1718454954326,
-    "stop" : 1718454956685,
-    "duration" : 2359
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aaa0481b679fdb0a",
-  "name" : "test_headers[None]",
-  "time" : {
-    "start" : 1718454833921,
-    "stop" : 1718454834203,
-    "duration" : 282
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9155cb160b8db531",
-  "name" : "test_authorization_validation[Empty token]",
-  "time" : {
-    "start" : 1718454926386,
-    "stop" : 1718454926555,
-    "duration" : 169
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc17cb86751b59d5",
-  "name" : "test_invalid_token[Invalid token]",
-  "time" : {
-    "start" : 1718454850256,
-    "stop" : 1718454850412,
-    "duration" : 156
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "811ef6106899cdea",
-  "name" : "test_ingredients_double_data",
-  "time" : {
-    "start" : 1718454989021,
-    "stop" : 1718454995689,
-    "duration" : 6668
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ed3d4ae12fc1efed",
-  "name" : "test_orders_direct_access",
-  "time" : {
-    "start" : 1718455864560,
-    "stop" : 1718455865708,
-    "duration" : 1148
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1678c00ec3bd00ef",
-  "name" : "test_register_name_validation[User post_login with 1 char]",
-  "time" : {
-    "start" : 1718455966222,
-    "stop" : 1718455972315,
-    "duration" : 6093
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb06d36de45fb144",
-  "name" : "test_empty_credentials_validation[No password]",
-  "time" : {
-    "start" : 1718454930085,
-    "stop" : 1718454930267,
-    "duration" : 182
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "841961abd9b81d03",
-  "name" : "test_email_validation[Email without domain part]",
-  "time" : {
-    "start" : 1718454933670,
-    "stop" : 1718454933908,
-    "duration" : 238
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b3b60e4815c74c5",
-  "name" : "test_email_validation[Email with three dashes in username]",
-  "time" : {
-    "start" : 1718454938258,
-    "stop" : 1718454938496,
-    "duration" : 238
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a7a5e6c60e4f34e",
-  "name" : "test_login_validation[Valid email, invalid password < 6]",
-  "time" : {
-    "start" : 1718455248832,
-    "stop" : 1718455251955,
-    "duration" : 3123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3130c46ff42264c",
-  "name" : "test_response_payload",
-  "time" : {
-    "start" : 1718454949010,
-    "stop" : 1718454950033,
-    "duration" : 1023
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f0fa80dc771fe6d",
-  "name" : "test_get_user_orders[Single order]",
-  "time" : {
-    "start" : 1718454888399,
-    "stop" : 1718454889763,
-    "duration" : 1364
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6fcd99bf334798d5",
-  "name" : "test_main_order_not_empty[No bun, random ingredient number]",
-  "time" : {
-    "start" : 1718455846261,
-    "stop" : 1718455854816,
-    "duration" : 8555
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "972a4d3a9f1a3ec9",
-  "name" : "test_email_validation[Email without username part]",
-  "time" : {
-    "start" : 1718454934078,
-    "stop" : 1718454934405,
-    "duration" : 327
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0e64f0973f59e81",
-  "name" : "test_forgot_email_validation[Email without username part]",
-  "time" : {
-    "start" : 1718456113033,
-    "stop" : 1718456120104,
-    "duration" : 7071
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "68deecb97148dc4",
-  "name" : "test_main_ingredients_counter_change[Verify 10 ingredients counter]",
-  "time" : {
-    "start" : 1718455469110,
-    "stop" : 1718455745171,
-    "duration" : 276061
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28ed6a480e62a4bc",
-  "name" : "test_order_configur[Order with 1 bun and 100 ingredients]",
-  "time" : {
-    "start" : 1718454882970,
-    "stop" : 1718454884230,
-    "duration" : 1260
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8010941a7756783f",
-  "name" : "test_password_validation[Password 100]",
-  "time" : {
-    "start" : 1718455014293,
-    "stop" : 1718455016618,
-    "duration" : 2325
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc437acf48b1caa1",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1718454871808,
-    "stop" : 1718454872855,
-    "duration" : 1047
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a7720b7f68b81d31",
-  "name" : "test_name_validation[User name with back space string]",
-  "time" : {
-    "start" : 1718454944814,
-    "stop" : 1718454945049,
-    "duration" : 235
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "26069a1f514dd62a",
-  "name" : "test_reset_send_email[Not registered email]",
-  "time" : {
-    "start" : 1718456177146,
-    "stop" : 1718456180525,
-    "duration" : 3379
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88fdb7debda8d9f6",
-  "name" : "test_get_user_orders[3 orders]",
-  "time" : {
-    "start" : 1718454890411,
-    "stop" : 1718454893898,
-    "duration" : 3487
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dae6283039461e94",
-  "name" : "test_reset_login_with_new_pwd[Registered email]",
-  "time" : {
-    "start" : 1718456198330,
-    "stop" : 1718456205867,
-    "duration" : 7537
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce4978ff9d764fa5",
-  "name" : "test_update_credentials_validation[PATCH email]",
-  "time" : {
-    "start" : 1718454857892,
-    "stop" : 1718454858171,
-    "duration" : 279
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "2630f0419609b181",
-  "name" : "test_invalid_methods[PUT]",
-  "time" : {
-    "start" : 1718454840666,
-    "stop" : 1718454840827,
-    "duration" : 161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a359685abdeaacb4",
-  "name" : "test_name_validation[User name with 100 char]",
-  "time" : {
-    "start" : 1718454942520,
-    "stop" : 1718454942740,
-    "duration" : 220
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "46257e33d6f11d3f",
-  "name" : "test_login_access",
-  "time" : {
-    "start" : 1718455219199,
-    "stop" : 1718455219206,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac3f641bccdfcdea",
-  "name" : "test_register_login_new_registered_user[Valid user credentials]",
-  "time" : {
-    "start" : 1718456072052,
-    "stop" : 1718456074196,
-    "duration" : 2144
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f22608c38c4800fb",
-  "name" : "test_register_password_validation[Password < 6]",
-  "time" : {
-    "start" : 1718455957456,
-    "stop" : 1718455958572,
-    "duration" : 1116
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6128cef26fe091f5",
-  "name" : "test_order_configur[Empty order]",
-  "time" : {
-    "start" : 1718454880410,
-    "stop" : 1718454880572,
-    "duration" : 162
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "36df320abf16fb7d",
-  "name" : "test_headers[Authorization: valid token]",
-  "time" : {
-    "start" : 1718454837796,
-    "stop" : 1718454837962,
-    "duration" : 166
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c8a47f63921c3d37",
-  "name" : "test_email_validation[Integer in email]",
-  "time" : {
-    "start" : 1718454934568,
-    "stop" : 1718454934789,
-    "duration" : 221
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "dfce930b7b796547",
-  "name" : "test_register_validation_empty[Empty post_login]",
-  "time" : {
-    "start" : 1718455946156,
-    "stop" : 1718455947243,
-    "duration" : 1087
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0190968c4797ef4",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1718454847155,
-    "stop" : 1718454847326,
-    "duration" : 171
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c22f55b05a659574",
-  "name" : "test_invalid_methods[PATCH]",
-  "time" : {
-    "start" : 1718454833085,
-    "stop" : 1718454833351,
-    "duration" : 266
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7dafff229c2e31fd",
-  "name" : "test_forgot_access",
-  "time" : {
-    "start" : 1718456083416,
-    "stop" : 1718456083422,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89be1389b4bf0cb6",
-  "name" : "test_items_number_in_order[Order with bun and 1 ingredient]",
-  "time" : {
-    "start" : 1718454876962,
-    "stop" : 1718454878031,
-    "duration" : 1069
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "54c102dc05162714",
-  "name" : "test_invalid_methods[GET]",
-  "time" : {
-    "start" : 1718454870070,
-    "stop" : 1718454870233,
-    "duration" : 163
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "db21c24f703357dc",
-  "name" : "test_response_payload[PATCH email]",
-  "time" : {
-    "start" : 1718454854047,
-    "stop" : 1718454854212,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87c989e589dffa8d",
-  "name" : "test_account_history_ingredients_icons[No bun, random ingredient number]",
-  "time" : {
-    "start" : 1718455183611,
-    "stop" : 1718455209415,
-    "duration" : 25804
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c879e42d33908302",
-  "name" : "test_invalid_methods[POST]",
-  "time" : {
-    "start" : 1718454850924,
-    "stop" : 1718454851188,
-    "duration" : 264
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "346c29282735cc62",
-  "name" : "test_register_password_validation[Password 100]",
-  "time" : {
-    "start" : 1718455960323,
-    "stop" : 1718455961445,
-    "duration" : 1122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f7d9d782f0199586",
-  "name" : "test_invalid_methods[GET]",
-  "time" : {
-    "start" : 1718454931117,
-    "stop" : 1718454931290,
-    "duration" : 173
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d64cdc2ea231f506",
-  "name" : "test_response_payload[PATCH password]",
-  "time" : {
-    "start" : 1718454855177,
-    "stop" : 1718454855405,
-    "duration" : 228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4b43911de4ab65",
-  "name" : "test_register_email_validation[Email with underscore in username]",
-  "time" : {
-    "start" : 1718456042753,
-    "stop" : 1718456043875,
-    "duration" : 1122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f84092156e25b724",
-  "name" : "test_invalid_methods[PATCH]",
-  "time" : {
-    "start" : 1718454959032,
-    "stop" : 1718454959195,
-    "duration" : 163
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9632faf19d1eab4",
-  "name" : "test_headers[application/html]",
-  "time" : {
-    "start" : 1718454844596,
-    "stop" : 1718454845029,
-    "duration" : 433
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4d84c97ecfc2e45",
-  "name" : "test_account_history_redirection",
-  "time" : {
-    "start" : 1718455032993,
-    "stop" : 1718455035428,
-    "duration" : 2435
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a79cc3bff46333af",
-  "name" : "test_email_validation[Email without \"@\"]",
-  "time" : {
-    "start" : 1718454933278,
-    "stop" : 1718454933502,
-    "duration" : 224
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "21f614a58b6df3a0",
-  "name" : "test_name_validation[User name with 3 strings]",
-  "time" : {
-    "start" : 1718454943517,
-    "stop" : 1718454943751,
-    "duration" : 234
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "46f8275787c7caaf",
-  "name" : "test_response_payload",
-  "time" : {
-    "start" : 1718454928462,
-    "stop" : 1718454928687,
-    "duration" : 225
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eaac911314b809ae",
-  "name" : "test_reset_code[Not registered email]",
-  "time" : {
-    "start" : 1718454952668,
-    "stop" : 1718454953645,
-    "duration" : 977
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "358e2e99b5a4e3b",
-  "name" : "test_invalid_methods[PUT]",
-  "time" : {
-    "start" : 1718454931468,
-    "stop" : 1718454931755,
-    "duration" : 287
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fcdaffd00037b4e",
-  "name" : "test_login_valid",
-  "time" : {
-    "start" : 1718455254231,
-    "stop" : 1718455257375,
-    "duration" : 3144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15b7bf748530ad6d",
-  "name" : "test_register_name_validation[User post_login with front space string]",
-  "time" : {
-    "start" : 1718456013621,
-    "stop" : 1718456019725,
-    "duration" : 6104
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "332739918de5dc48",
-  "name" : "test_name_validation[User name with 1 char]",
-  "time" : {
-    "start" : 1718454940560,
-    "stop" : 1718454940796,
-    "duration" : 236
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "96f5a35dad5a11f2",
-  "name" : "test_headers[APPLICATION/JSON]",
-  "time" : {
-    "start" : 1718454842869,
-    "stop" : 1718454843274,
-    "duration" : 405
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a5fb840b5c4a74e2",
-  "name" : "test_orders_info_window",
-  "time" : {
-    "start" : 1718455867997,
-    "stop" : 1718455870048,
-    "duration" : 2051
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a77d5b2f511a43e",
-  "name" : "test_invalid_token[Invalid token-PATCH email]",
-  "time" : {
-    "start" : 1718454861822,
-    "stop" : 1718454861998,
-    "duration" : 176
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d9ca32a4e16394",
-  "name" : "test_invalid_token_payload_validation[Empty token]",
-  "time" : {
-    "start" : 1718454868357,
-    "stop" : 1718454868816,
-    "duration" : 459
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ed13d45501112f8d",
-  "name" : "test_forgot_redirection_to_reset_page",
-  "time" : {
-    "start" : 1718456140197,
-    "stop" : 1718456142272,
-    "duration" : 2075
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "244d3a7a72c0d9a2",
-  "name" : "test_register_email_validation[Email with three dashes in username]",
-  "time" : {
-    "start" : 1718456052886,
-    "stop" : 1718456053991,
+  "uid" : "af2cb0b855282fda",
+  "name" : "test_register_email_validation[Email with one dot in username]",
+  "time" : {
+    "start" : 1718457716224,
+    "stop" : 1718457717329,
     "duration" : 1105
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2553c9bd96ea5002",
-  "name" : "test_status_code",
+  "uid" : "f097a4273d826ece",
+  "name" : "test_register_valid_user[Valid user credentials]",
   "time" : {
-    "start" : 1718454946527,
-    "stop" : 1718454948364,
-    "duration" : 1837
+    "start" : 1718457744424,
+    "stop" : 1718457745535,
+    "duration" : 1111
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9357a060204d9c44",
-  "name" : "test_orders_price",
+  "uid" : "8d96ca9b61e29806",
+  "name" : "test_register_redirection_to_login_page",
   "time" : {
-    "start" : 1718455903981,
-    "stop" : 1718455921828,
-    "duration" : 17847
+    "start" : 1718457753672,
+    "stop" : 1718457753726,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e98e16d7256d193",
+  "name" : "test_forgot_email_validation[Email without domain part]",
+  "time" : {
+    "start" : 1718457783120,
+    "stop" : 1718457790193,
+    "duration" : 7073
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "e5fbe3313c7ed63a",
+  "uid" : "53323d30151602e2",
+  "name" : "test_login_validation[Valid email, invalid password = 6]",
+  "time" : {
+    "start" : 1718457392669,
+    "stop" : 1718457395784,
+    "duration" : 3115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c02a8e605eec05a",
+  "name" : "test_account_profile_redirection",
+  "time" : {
+    "start" : 1718457173299,
+    "stop" : 1718457175817,
+    "duration" : 2518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "902842cfc055171e",
+  "name" : "test_main_ingredients_counter_change[Verify 3 ingredients counter]",
+  "time" : {
+    "start" : 1718457435856,
+    "stop" : 1718457435879,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8d52239add26781",
+  "name" : "test_register_exist_user",
+  "time" : {
+    "start" : 1718457747105,
+    "stop" : 1718457748200,
+    "duration" : 1095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32e1272fa7d69d6a",
+  "name" : "test_register_validation_empty[Empty post_login]",
+  "time" : {
+    "start" : 1718457618628,
+    "stop" : 1718457619730,
+    "duration" : 1102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b822350b2bd6caa",
+  "name" : "test_forgot_redirection_to_login_page",
+  "time" : {
+    "start" : 1718457817702,
+    "stop" : 1718457817758,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a6191e68592892b",
+  "name" : "test_reset_exist_password[Registered email]",
+  "time" : {
+    "start" : 1718457892867,
+    "stop" : 1718457909352,
+    "duration" : 16485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95409a94ecf7b680",
+  "name" : "test_register_validation_empty[Empty password]",
+  "time" : {
+    "start" : 1718457625461,
+    "stop" : 1718457626563,
+    "duration" : 1102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf9403448d7dd374",
+  "name" : "test_forgot_email_validation[Random number]",
+  "time" : {
+    "start" : 1718457809020,
+    "stop" : 1718457816091,
+    "duration" : 7071
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "df09501b612509ea",
+  "name" : "test_register_email_validation[Email with underscore in username]",
+  "time" : {
+    "start" : 1718457721924,
+    "stop" : 1718457723012,
+    "duration" : 1088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98a15ff743b2ebde",
+  "name" : "test_login_redirection[Redirection to Forgot password page]",
+  "time" : {
+    "start" : 1718457409850,
+    "stop" : 1718457409907,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a3cdd375e4b2bdd",
+  "name" : "test_main_drag_single_ingredient",
+  "time" : {
+    "start" : 1718457428205,
+    "stop" : 1718457428229,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e11329b391f24ca",
+  "name" : "test_main_order_not_empty[Bun + not single ingredient]",
+  "time" : {
+    "start" : 1718457481538,
+    "stop" : 1718457498619,
+    "duration" : 17081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73739c8c885e5b03",
+  "name" : "test_register_email_validation[Email with dash and dot in username]",
+  "time" : {
+    "start" : 1718457733940,
+    "stop" : 1718457735063,
+    "duration" : 1123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc0ceee04237292d",
+  "name" : "test_main_nutrition_wnd",
+  "time" : {
+    "start" : 1718457517710,
+    "stop" : 1718457519899,
+    "duration" : 2189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d497b02196e3160",
+  "name" : "test_reset_send_email[Registered email]",
+  "time" : {
+    "start" : 1718457865850,
+    "stop" : 1718457869478,
+    "duration" : 3628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4be125d383d547f",
+  "name" : "test_orders_price",
+  "time" : {
+    "start" : 1718457574014,
+    "stop" : 1718457589750,
+    "duration" : 15736
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7bba5b16f84af57",
+  "name" : "test_main_order_empty",
+  "time" : {
+    "start" : 1718457454036,
+    "stop" : 1718457458607,
+    "duration" : 4571
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d79cc2d6144b9b4",
+  "name" : "test_register_name_validation[User post_login with special chars]",
+  "time" : {
+    "start" : 1718457657744,
+    "stop" : 1718457663847,
+    "duration" : 6103
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de0192842bf95f86",
+  "name" : "test_login_validation[Not registered email, with password = 6]",
+  "time" : {
+    "start" : 1718457387986,
+    "stop" : 1718457391106,
+    "duration" : 3120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7bf522859e08911",
+  "name" : "test_main_buns_counter_change",
+  "time" : {
+    "start" : 1718457438255,
+    "stop" : 1718457443698,
+    "duration" : 5443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cf9de479d90db9f",
+  "name" : "test_account_history_redirection",
+  "time" : {
+    "start" : 1718457166115,
+    "stop" : 1718457168567,
+    "duration" : 2452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f7aed1c1fc36ce4",
+  "name" : "test_account_no_access",
+  "time" : {
+    "start" : 1718457187613,
+    "stop" : 1718457188966,
+    "duration" : 1353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5b561bb5272a3e4",
+  "name" : "test_forgot_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718457824134,
+    "stop" : 1718457825047,
+    "duration" : 913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6853890f6094c06b",
+  "name" : "test_register_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718457755319,
+    "stop" : 1718457756234,
+    "duration" : 915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c611817ca540c014",
+  "name" : "test_register_password_validation[Password 10]",
+  "time" : {
+    "start" : 1718457639578,
+    "stop" : 1718457640686,
+    "duration" : 1108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e4bc53a2d9d158e",
+  "name" : "test_reset_send_email[Not registered email]",
+  "time" : {
+    "start" : 1718457861067,
+    "stop" : 1718457864240,
+    "duration" : 3173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebece72c90ee988b",
+  "name" : "test_account_history_ingredients_icons[Bun + single ingredient]",
+  "time" : {
+    "start" : 1718457293500,
+    "stop" : 1718457306739,
+    "duration" : 13239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac3229b48eb89b89",
+  "name" : "test_reset_validation[Empty fields]",
+  "time" : {
+    "start" : 1718457836051,
+    "stop" : 1718457840190,
+    "duration" : 4139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79690e260aa13092",
+  "name" : "test_register_login_new_registered_user[Valid user credentials]",
+  "time" : {
+    "start" : 1718457749806,
+    "stop" : 1718457751920,
+    "duration" : 2114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "282261eee6561152",
+  "name" : "test_account_history_order_price[Bun + not single ingredient]",
+  "time" : {
+    "start" : 1718457260267,
+    "stop" : 1718457277136,
+    "duration" : 16869
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb31c8bf849ea29",
+  "name" : "test_main_order_not_empty[Bun + single ingredient]",
+  "time" : {
+    "start" : 1718457469573,
+    "stop" : 1718457480387,
+    "duration" : 10814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69ac50792d794543",
+  "name" : "test_reset_header_btns[Redirection to Login page]",
+  "time" : {
+    "start" : 1718457921796,
+    "stop" : 1718457923903,
+    "duration" : 2107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69cbe29ac4948143",
+  "name" : "test_forgot_header_btns[Redirection to Main page]",
+  "time" : {
+    "start" : 1718457827633,
+    "stop" : 1718457827704,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1585b1e2f5f77a7",
+  "name" : "test_orders_ready",
+  "time" : {
+    "start" : 1718457554713,
+    "stop" : 1718457572889,
+    "duration" : 18176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60bf7576ebd0f14e",
+  "name" : "test_login_validation[Not registered email, with password < 6]",
+  "time" : {
+    "start" : 1718457381850,
+    "stop" : 1718457384979,
+    "duration" : 3129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3308b2c8f929161",
+  "name" : "test_forgot_email_validation[Email without username part]",
+  "time" : {
+    "start" : 1718457791753,
+    "stop" : 1718457798825,
+    "duration" : 7072
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "890e90b64b53cb50",
+  "name" : "test_forgot_access",
+  "time" : {
+    "start" : 1718457761371,
+    "stop" : 1718457761377,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae97be2e14b1ba88",
+  "name" : "test_forgot_direct_access",
+  "time" : {
+    "start" : 1718457762552,
+    "stop" : 1718457763045,
+    "duration" : 493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65a43f4679211f1f",
+  "name" : "test_login_access",
+  "time" : {
+    "start" : 1718457367587,
+    "stop" : 1718457367593,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17ad1f0aecaa45ec",
+  "name" : "test_login_redirection[Redirection to Register page]",
+  "time" : {
+    "start" : 1718457408018,
+    "stop" : 1718457408077,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77ee7e0aac28175e",
+  "name" : "test_account_logout",
+  "time" : {
+    "start" : 1718457181647,
+    "stop" : 1718457182940,
+    "duration" : 1293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "138024ce3c268114",
+  "name" : "test_register_name_validation[User post_login with 1 char]",
+  "time" : {
+    "start" : 1718457642328,
+    "stop" : 1718457648436,
+    "duration" : 6108
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cade37b3f40bd54",
+  "name" : "test_forgot_header_btns[Redirection to Login page]",
+  "time" : {
+    "start" : 1718457829349,
+    "stop" : 1718457829393,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5963dc27568dbec1",
+  "name" : "test_account_history_ingredients_icons[No bun, random ingredient number]",
+  "time" : {
+    "start" : 1718457330813,
+    "stop" : 1718457356640,
+    "duration" : 25827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "918dd79298d0e47d",
+  "name" : "test_account_history_order_price[Single bun]",
+  "time" : {
+    "start" : 1718457222179,
+    "stop" : 1718457239070,
+    "duration" : 16891
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0739fc2437c51d1",
+  "name" : "test_forgot_email_validation[Empty email]",
+  "time" : {
+    "start" : 1718457765738,
+    "stop" : 1718457772812,
+    "duration" : 7074
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "894a292ed9ba5354",
+  "name" : "test_account_history_ingredients_icons[Single bun]",
+  "time" : {
+    "start" : 1718457279834,
+    "stop" : 1718457290935,
+    "duration" : 11101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "617d5ed09045fa51",
+  "name" : "test_account_history_order_price[Bun + single ingredient]",
+  "time" : {
+    "start" : 1718457240360,
+    "stop" : 1718457257621,
+    "duration" : 17261
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9139f7223dff07de",
   "name" : "test_main_total_price_changing",
   "time" : {
-    "start" : 1718455763012,
-    "stop" : 1718455802889,
-    "duration" : 39877
+    "start" : 1718457452754,
+    "stop" : 1718457452780,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb96b6813e118d53",
+  "name" : "test_account_credentials",
+  "time" : {
+    "start" : 1718457161037,
+    "stop" : 1718457161403,
+    "duration" : 366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f75f92002f28733b",
+  "name" : "test_account_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718457195062,
+    "stop" : 1718457195834,
+    "duration" : 772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93c9d21bbc1be6aa",
+  "name" : "test_register_direct_access",
+  "time" : {
+    "start" : 1718457612667,
+    "stop" : 1718457613167,
+    "duration" : 500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "350fce5e30b3e91",
+  "name" : "test_account_access",
+  "time" : {
+    "start" : 1718457155015,
+    "stop" : 1718457155377,
+    "duration" : 362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1080ad8dc046acd0",
+  "name" : "test_main_ingredients_counter_change[Verify 10 ingredients counter]",
+  "time" : {
+    "start" : 1718457436986,
+    "stop" : 1718457437008,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "212f70cdc6a1caf",
+  "name" : "test_register_email_invalid_format_validation[Email without domain part]",
+  "time" : {
+    "start" : 1718457708541,
+    "stop" : 1718457709629,
+    "duration" : 1088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecb17515cde20f82",
+  "name" : "test_login_validation[Valid email, invalid password < 6]",
+  "time" : {
+    "start" : 1718457398551,
+    "stop" : 1718457401674,
+    "duration" : 3123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab10a073ff3dac74",
+  "name" : "test_forgot_email_validation[Random string]",
+  "time" : {
+    "start" : 1718457800302,
+    "stop" : 1718457807376,
+    "duration" : 7074
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "15b223d455f8c235",
+  "name" : "test_register_name_validation[User post_login with 10 digits]",
+  "time" : {
+    "start" : 1718457650060,
+    "stop" : 1718457656163,
+    "duration" : 6103
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "645760d160fe7007",
+  "name" : "test_main_ingredients_items",
+  "time" : {
+    "start" : 1718457418788,
+    "stop" : 1718457418815,
+    "duration" : 27
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4563fb92b478ae7",
+  "name" : "test_account_header_btns[Redirection to Main page]",
+  "time" : {
+    "start" : 1718457200562,
+    "stop" : 1718457200981,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f086396144b48eb",
+  "name" : "test_orders_direct_access",
+  "time" : {
+    "start" : 1718457530493,
+    "stop" : 1718457531564,
+    "duration" : 1071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "671f7d041307f84d",
+  "name" : "test_register_name_validation[User post_login with 3 strings]",
+  "time" : {
+    "start" : 1718457681775,
+    "stop" : 1718457687862,
+    "duration" : 6087
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "18001a7516245c2c",
+  "name" : "test_main_order_not_empty[Single bun]",
+  "time" : {
+    "start" : 1718457459756,
+    "stop" : 1718457468438,
+    "duration" : 8682
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73b33c3e8f3cf65f",
+  "name" : "test_reset_validation[No confirm code]",
+  "time" : {
+    "start" : 1718457848602,
+    "stop" : 1718457852740,
+    "duration" : 4138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67d3292ae0b0ba64",
+  "name" : "test_main_header_btns[Redirection to Account page]",
+  "time" : {
+    "start" : 1718457523737,
+    "stop" : 1718457524183,
+    "duration" : 446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebfd093f888fc153",
+  "name" : "test_register_name_validation[User post_login with front space string]",
+  "time" : {
+    "start" : 1718457690443,
+    "stop" : 1718457696528,
+    "duration" : 6085
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "25b9e89b2196fae0",
+  "name" : "test_account_history_new_order_item",
+  "time" : {
+    "start" : 1718457202386,
+    "stop" : 1718457219671,
+    "duration" : 17285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f20c586abfa71c52",
+  "name" : "test_main_access",
+  "time" : {
+    "start" : 1718457417623,
+    "stop" : 1718457417653,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90fa8b0a709d5079",
+  "name" : "test_account_history_order_window",
+  "time" : {
+    "start" : 1718457363422,
+    "stop" : 1718457365970,
+    "duration" : 2548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26d7edf659d22537",
+  "name" : "test_forgot_email_validation[Not registered email]",
+  "time" : {
+    "start" : 1718457774454,
+    "stop" : 1718457781526,
+    "duration" : 7072
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0236342fa0b9232",
+  "name" : "test_reset_setup_new_pass[Registered email]",
+  "time" : {
+    "start" : 1718457876267,
+    "stop" : 1718457881939,
+    "duration" : 5672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3827082ea5acb6db",
+  "name" : "test_account_history_ingredients_icons[Bun + not single ingredient]",
+  "time" : {
+    "start" : 1718457308260,
+    "stop" : 1718457328033,
+    "duration" : 19773
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dc93260be61df01",
+  "name" : "test_login_validation[Empty user credentials]",
+  "time" : {
+    "start" : 1718457371301,
+    "stop" : 1718457374407,
+    "duration" : 3106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5b7347ad43c54e8",
+  "name" : "test_register_name_validation[User post_login with back space string]",
+  "time" : {
+    "start" : 1718457698141,
+    "stop" : 1718457704228,
+    "duration" : 6087
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b994f7e5b75b2a1c",
+  "name" : "test_reset_redirection_to_login_page",
+  "time" : {
+    "start" : 1718457832235,
+    "stop" : 1718457834339,
+    "duration" : 2104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9c3813809678476",
+  "name" : "test_register_name_validation[User post_login with 100 char]",
+  "time" : {
+    "start" : 1718457665393,
+    "stop" : 1718457671479,
+    "duration" : 6086
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f48af91de646a8e",
+  "name" : "test_reset_code_structure[Registered email]",
+  "time" : {
+    "start" : 1718457871084,
+    "stop" : 1718457874699,
+    "duration" : 3615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c4e73ad0ec8d4c4",
+  "name" : "test_login_direct_access",
+  "time" : {
+    "start" : 1718457369105,
+    "stop" : 1718457369593,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e38f2cbc1db435aa",
+  "name" : "test_register_validation_empty[Empty user credentials]",
+  "time" : {
+    "start" : 1718457614795,
+    "stop" : 1718457615880,
+    "duration" : 1085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "570b680f32b5ef00",
+  "name" : "test_main_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718457521047,
+    "stop" : 1718457522329,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a41cd97972defeac",
+  "name" : "test_reset_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718457912380,
+    "stop" : 1718457915341,
+    "duration" : 2961
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27c445871b4d48ab",
+  "name" : "test_register_header_btns[Redirection to Login page]",
+  "time" : {
+    "start" : 1718457759585,
+    "stop" : 1718457759629,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56a04cc73a49baa4",
+  "name" : "test_main_delete_ingredients",
+  "time" : {
+    "start" : 1718457451570,
+    "stop" : 1718457451594,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78f814af242af020",
+  "name" : "test_main_top_title_color_changes",
+  "time" : {
+    "start" : 1718457419941,
+    "stop" : 1718457427033,
+    "duration" : 7092
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "433bcbaa43e65b4f",
+  "name" : "test_reset_validation[PWD < 6]",
+  "time" : {
+    "start" : 1718457841784,
+    "stop" : 1718457845927,
+    "duration" : 4143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d541fab89a4df4",
+  "name" : "test_main_order_not_empty[No bun, random ingredient number]",
+  "time" : {
+    "start" : 1718457499750,
+    "stop" : 1718457514806,
+    "duration" : 15056
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8967d0e7f63b9a8",
+  "name" : "test_orders_info_window",
+  "time" : {
+    "start" : 1718457535170,
+    "stop" : 1718457537219,
+    "duration" : 2049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c238bb4e91e8558",
+  "name" : "test_register_email_validation[Email with dash in username]",
+  "time" : {
+    "start" : 1718457728557,
+    "stop" : 1718457729662,
+    "duration" : 1105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "435b4028573021f6",
+  "name" : "test_register_email_validation[Email with three dashes in username]",
+  "time" : {
+    "start" : 1718457731240,
+    "stop" : 1718457732328,
+    "duration" : 1088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8de81cb07a9418e3",
+  "name" : "test_register_access",
+  "time" : {
+    "start" : 1718457611044,
+    "stop" : 1718457611052,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f20f85f81dd171",
+  "name" : "test_login_header_btns[Redirection to Main page]",
+  "time" : {
+    "start" : 1718457416218,
+    "stop" : 1718457416289,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "871b54cfc2eebaa5",
+  "name" : "test_register_email_validation[Email with three underscores in username]",
+  "time" : {
+    "start" : 1718457724657,
+    "stop" : 1718457725745,
+    "duration" : 1088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f659e5f59a71400",
+  "name" : "test_register_password_validation[Password < 6]",
+  "time" : {
+    "start" : 1718457632961,
+    "stop" : 1718457634093,
+    "duration" : 1132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2be572dfc741fdd",
+  "name" : "test_orders_in_progress",
+  "time" : {
+    "start" : 1718457538381,
+    "stop" : 1718457553602,
+    "duration" : 15221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6481fbe05857a27",
+  "name" : "test_orders_access",
+  "time" : {
+    "start" : 1718457526904,
+    "stop" : 1718457527767,
+    "duration" : 863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be95fe86766b01cb",
+  "name" : "test_login_validation[Not registered email, empty password]",
+  "time" : {
+    "start" : 1718457377217,
+    "stop" : 1718457380323,
+    "duration" : 3106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b303d318d32341fd",
+  "name" : "test_main_drag_all_ingredients",
+  "time" : {
+    "start" : 1718457429367,
+    "stop" : 1718457434714,
+    "duration" : 5347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fa0f1d1729fd32d",
+  "name" : "test_reset_login_with_new_pwd[Registered email]",
+  "time" : {
+    "start" : 1718457883551,
+    "stop" : 1718457891221,
+    "duration" : 7670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8921ffce5e5cecc8",
+  "name" : "test_register_name_validation[User post_login with 2 strings]",
+  "time" : {
+    "start" : 1718457674062,
+    "stop" : 1718457680170,
+    "duration" : 6108
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "80607926a37a43ea",
+  "name" : "test_register_password_error_msg[Password < 6]",
+  "time" : {
+    "start" : 1718457629129,
+    "stop" : 1718457630236,
+    "duration" : 1107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a7de4f055566c25",
+  "name" : "test_register_header_btns[Redirection to Main page]",
+  "time" : {
+    "start" : 1718457757870,
+    "stop" : 1718457757938,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bdfbd0b364e033c",
+  "name" : "test_orders_complete_items",
+  "time" : {
+    "start" : 1718457592383,
+    "stop" : 1718457607949,
+    "duration" : 15566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59a0d6057e914ae3",
+  "name" : "test_forgot_redirection_to_reset_page",
+  "time" : {
+    "start" : 1718457820371,
+    "stop" : 1718457822445,
+    "duration" : 2074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e811efd423d8b148",
+  "name" : "test_login_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718457412652,
+    "stop" : 1718457413564,
+    "duration" : 912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7393b73a4db2dd5",
+  "name" : "test_register_email_invalid_format_validation[Email without \"@\"]",
+  "time" : {
+    "start" : 1718457705824,
+    "stop" : 1718457706912,
+    "duration" : 1088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fcefcdd893a2fa9",
+  "name" : "test_register_email_error_txt[Email without \"@\"]",
+  "time" : {
+    "start" : 1718457736673,
+    "stop" : 1718457742764,
+    "duration" : 6091
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "adfb5a25b597acb8",
+  "name" : "test_register_password_validation[Password 100]",
+  "time" : {
+    "start" : 1718457635861,
+    "stop" : 1718457636970,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a88b9f5d7ddfd04",
+  "name" : "test_register_validation_empty[Empty email]",
+  "time" : {
+    "start" : 1718457621611,
+    "stop" : 1718457622720,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "981a3e91ce35db7a",
+  "name" : "test_main_buns_changing_in_constructor",
+  "time" : {
+    "start" : 1718457446173,
+    "stop" : 1718457450446,
+    "duration" : 4273
   },
   "status" : "passed",
   "severity" : "normal"

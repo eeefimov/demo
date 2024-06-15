@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "adam.robertson@torres.net",
-        "name": "Centevillanuevaerik"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWE2OWVkMjgwMDAxYjQzZGFhNSIsImlhdCI6MTcxODQ1NDk1MCwiZXhwIjoxNzE4NDU2MTUwfQ.5Pihk5YKyoM8FOOATGGU3csUA1LJLE45NP_76UIN_Hg",
-    "refreshToken": "952164f310dff009307703fa97a20979c858420b5ba9c5b9e736df46ad2bbee076b7fc7b520f0e1b"
-}

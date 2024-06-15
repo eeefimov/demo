@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "kurt.cannon@rogers.org",
-        "name": "Fill poconnor"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQxOWVkMjgwMDAxYjQzZDllNiIsImlhdCI6MTcxODQ1NDg0OSwiZXhwIjoxNzE4NDU2MDQ5fQ.yhCEM0steiicmEXAPVhFvoB8gdXifpKGrLOW_-YRwCQ",
-    "refreshToken": "8fe436365bda4cc266b462759919583f588204cc860c061cf04549f1f2388fbb0b4e72b8284a0013"
-}

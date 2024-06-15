@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "brittany.reynolds@charles.com",
-        "name": "Over linda05"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTg1OWVkMjgwMDAxYjQzZGE2MyIsImlhdCI6MTcxODQ1NDkxNywiZXhwIjoxNzE4NDU2MTE3fQ.jLPDzHyIERyQLAOT2nFLPGvdKATa7vU-XtEsTE-650E",
-    "refreshToken": "bd1f16e79ed6e50949b6276e6382fec9a129a435e3c8b572d623e883856f19b15d4984cf8904f73e"
-}
