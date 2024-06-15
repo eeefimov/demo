@@ -90,11 +90,11 @@ jobs:
           DEPLOYMENT_TARGET: ${{ github.event.inputs.deployment_target }}
         run: |
           if [ "${{ github.event.inputs.deployment_target }}" == "tests_api" ]; then
-            export TEST_COMMAND="pytest -sv tests/api/ --alluredir=allure-results"
+            export TEST_COMMAND="pytest -sv tests/tests_api/ --alluredir=allure-results"
           elif [ "${{ github.event.inputs.deployment_target }}" == "tests_ui" ]; then
-            export TEST_COMMAND="pytest -sv tests/ui/ --alluredir=allure-results"
+            export TEST_COMMAND="pytest -sv tests/tests_ui/ --alluredir=allure-results"
           elif [ "${{ github.event.inputs.deployment_target }}" == "tests_integration" ]; then
-            export TEST_COMMAND="pytest -sv tests/integration/ --alluredir=allure-results"
+            export TEST_COMMAND="pytest -sv tests/tests_integration/ --alluredir=allure-results"
           else
             export TEST_COMMAND="pytest -sv tests/ --alluredir=allure-results"
           fi
