@@ -2,142 +2,142 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test_login_access",
-    "uid" : "7369f7d726ac537",
+    "uid" : "fb12e7b568ee8c18",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377793825,
-      "stop" : 1718377793832,
-      "duration" : 7
+      "start" : 1718451913048,
+      "stop" : 1718451913054,
+      "duration" : 6
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_login_direct_access",
-    "uid" : "247515b809ea5704",
+    "uid" : "39167d1fbc0f564e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377796999,
-      "stop" : 1718377797749,
-      "duration" : 750
+      "start" : 1718451916053,
+      "stop" : 1718451916538,
+      "duration" : 485
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_login_validation[Empty user credentials]",
-    "uid" : "45d5d6fd87485f02",
+    "uid" : "f994876b07cda268",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377800073,
-      "stop" : 1718377803177,
-      "duration" : 3104
+      "start" : 1718451919765,
+      "stop" : 1718451922870,
+      "duration" : 3105
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "''", "''" ]
   }, {
     "name" : "test_login_validation[Not registered email, empty password]",
-    "uid" : "e512878494f0e427",
+    "uid" : "403d11f8912c17c9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377806790,
-      "stop" : 1718377809910,
-      "duration" : 3120
+      "start" : 1718451924414,
+      "stop" : 1718451927519,
+      "duration" : 3105
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "'mitchellkeith@example.com'", "''" ]
+    "parameters" : [ "'david19@example.com'", "''" ]
   }, {
     "name" : "test_login_validation[Not registered email, with password < 6]",
-    "uid" : "5a63e27c8a7def29",
+    "uid" : "7ccc08642a436243",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377811506,
-      "stop" : 1718377814633,
-      "duration" : 3127
+      "start" : 1718451930115,
+      "stop" : 1718451933227,
+      "duration" : 3112
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "'melissa11@example.net'", "'^JJGT'" ]
+    "parameters" : [ "'david98@example.org'", "'%(P%&'" ]
   }, {
     "name" : "test_login_validation[Not registered email, with password = 6]",
-    "uid" : "85d071b42b1ec220",
+    "uid" : "5fc483b6f16e788f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377817389,
-      "stop" : 1718377820511,
-      "duration" : 3122
+      "start" : 1718451935814,
+      "stop" : 1718451938924,
+      "duration" : 3110
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "'johnsonian@example.org'", "'v5W+4^'" ]
+    "parameters" : [ "'smithjerry@example.org'", "'J&li30'" ]
   }, {
     "name" : "test_login_validation[Valid email, invalid password = 6]",
-    "uid" : "36aa68d9660e85b6",
+    "uid" : "b653868c3b4d0896",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377822089,
-      "stop" : 1718377825204,
-      "duration" : 3115
+      "start" : 1718451940463,
+      "stop" : 1718451943563,
+      "duration" : 3100
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "'kamibumaga@gmail.com'", "'$#1Nzw'" ]
+    "parameters" : [ "'kamibumaga@gmail.com'", "'T!63N9'" ]
   }, {
     "name" : "test_login_validation[Valid email, invalid password < 6]",
-    "uid" : "b342e7dc3b7ca981",
+    "uid" : "127c715478c5ee1d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377826821,
-      "stop" : 1718377829944,
-      "duration" : 3123
+      "start" : 1718451946148,
+      "stop" : 1718451949253,
+      "duration" : 3105
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "'kamibumaga@gmail.com'", "'ge7KV'" ]
+    "parameters" : [ "'kamibumaga@gmail.com'", "'_cWm2'" ]
   }, {
     "name" : "test_login_valid",
-    "uid" : "a33608155ff3b4a4",
+    "uid" : "d50155b1c0157c45",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377831670,
-      "stop" : 1718377834815,
-      "duration" : 3145
+      "start" : 1718451951847,
+      "stop" : 1718451954990,
+      "duration" : 3143
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_login_redirection[Redirection to Register page]",
-    "uid" : "e51e364b2bd98d9c",
+    "uid" : "d54f1582e53d586f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377837588,
-      "stop" : 1718377837647,
-      "duration" : 59
+      "start" : 1718451956528,
+      "stop" : 1718451956571,
+      "duration" : 43
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'//a[contains(text(), 'Зарегистрироваться')]'", "'//h2[contains(text(), 'Регистрация')]'" ]
   }, {
     "name" : "test_login_redirection[Redirection to Forgot password page]",
-    "uid" : "c4554340d0563196",
+    "uid" : "8723ad746034345a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377839803,
-      "stop" : 1718377839845,
+      "start" : 1718451958212,
+      "stop" : 1718451958254,
       "duration" : 42
     },
     "flaky" : false,
@@ -145,26 +145,26 @@
     "parameters" : [ "'//a[contains(text(), 'Восстановить пароль')]'", "'//h2[contains(text(), 'Восстановление пароля')]'" ]
   }, {
     "name" : "test_login_header_btns[Redirection to List of orders page]",
-    "uid" : "ec4858dadb182bba",
+    "uid" : "3b7d53e1e217f45c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377841636,
-      "stop" : 1718377842536,
-      "duration" : 900
+      "start" : 1718451959930,
+      "stop" : 1718451960824,
+      "duration" : 894
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'//p[contains(text(), 'Лента Заказов')]'", "'//h1[contains(text(), 'Лента заказов')]'" ]
   }, {
     "name" : "test_login_header_btns[Redirection to Main page]",
-    "uid" : "e110e15582c8b7f9",
+    "uid" : "4e73baffb2601f8a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718377844136,
-      "stop" : 1718377844192,
-      "duration" : 56
+      "start" : 1718451962329,
+      "stop" : 1718451962382,
+      "duration" : 53
     },
     "flaky" : false,
     "newFailed" : false,

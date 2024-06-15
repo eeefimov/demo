@@ -1,32 +1,32 @@
 {
-  "uid" : "247515b809ea5704",
-  "name" : "test_login_direct_access",
-  "fullName" : "tests_ui.test_login_page#test_login_direct_access",
-  "historyId" : "2fce5f28bda8aeb575ad9c8cd761f552",
+  "uid" : "8723ad746034345a",
+  "name" : "test_login_redirection[Redirection to Forgot password page]",
+  "fullName" : "tests_ui.test_login_page#test_login_redirection",
+  "historyId" : "8e17b53894d3ffab356823b91a47cf6a",
   "time" : {
-    "start" : 1718377796999,
-    "stop" : 1718377797749,
-    "duration" : 750
+    "start" : 1718451958212,
+    "stop" : 1718451958254,
+    "duration" : 42
   },
-  "description" : "Verify direct access to Login page.",
-  "descriptionHtml" : "<p>Verify direct access to Login page.</p>\n",
+  "description" : "Verify redirection to Register and Forgot-password pages.",
+  "descriptionHtml" : "<p>Verify redirection to Register and Forgot-password pages.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "page_browser",
+    "name" : "login_page",
     "time" : {
-      "start" : 1718377794515,
-      "stop" : 1718377796999,
-      "duration" : 2484
+      "start" : 1718451957771,
+      "stop" : 1718451958212,
+      "duration" : 441
     },
     "status" : "passed",
     "steps" : [ {
-      "name" : "Go to site",
+      "name" : "Click Account button on Header",
       "time" : {
-        "start" : 1718377794904,
-        "stop" : 1718377796999,
-        "duration" : 2095
+        "start" : 1718451957771,
+        "stop" : 1718451958212,
+        "duration" : 441
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,40 +44,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "_session_faker",
+    "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790054,
-      "duration" : 23
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -91,8 +61,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +74,70 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "delete_output_dir",
+    "name" : "base_url",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909242,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718451956823,
+      "stop" : 1718451957771,
+      "duration" : 948
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718451957209,
+        "stop" : 1718451957771,
+        "duration" : 562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -120,14 +150,14 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Verify direct access to Login page.",
+    "description" : "Verify redirection to Register and Forgot-password pages.",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Set the address to the browser",
+      "name" : "Click on the link at the top of Login form",
       "time" : {
-        "start" : 1718377796999,
-        "stop" : 1718377797725,
-        "duration" : 726
+        "start" : 1718451958212,
+        "stop" : 1718451958248,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,11 +168,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Verify redirection to Login page",
+      "name" : "Verify redirection to //a[contains(text(), 'Восстановить пароль')] page",
       "time" : {
-        "start" : 1718377797725,
-        "stop" : 1718377797748,
-        "duration" : 23
+        "start" : 1718451958248,
+        "stop" : 1718451958254,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -163,18 +193,18 @@
   "afterStages" : [ {
     "name" : "page_browser::0",
     "time" : {
-      "start" : 1718377797749,
-      "stop" : 1718377797893,
-      "duration" : 144
+      "start" : 1718451958255,
+      "stop" : 1718451958538,
+      "duration" : 283
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a6bce34fc24de1a3",
-      "name" : "Screenshot_2024-06-14 15:09:57.847253",
-      "source" : "a6bce34fc24de1a3.png",
+      "uid" : "7f76c77febd72914",
+      "name" : "Screenshot_2024-06-15 11:45:58.488490",
+      "source" : "7f76c77febd72914.png",
       "type" : "image/png",
-      "size" : 45428
+      "size" : 39906
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -190,7 +220,7 @@
     "value" : "test_login_page"
   }, {
     "name" : "host",
-    "value" : "e286e0a7c845"
+    "value" : "cee2e65d0cde"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -207,7 +237,13 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "link",
+    "value" : "'//a[contains(text(), 'Восстановить пароль')]'"
+  }, {
+    "name" : "title_txt",
+    "value" : "'//h2[contains(text(), 'Восстановление пароля')]'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -215,8 +251,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c4554340d0563196",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718377839803,
+          "stop" : 1718377839845,
+          "duration" : 42
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "247515b809ea5704.json",
-  "parameterValues" : [ ]
+  "source" : "8723ad746034345a.json",
+  "parameterValues" : [ "'//a[contains(text(), 'Восстановить пароль')]'", "'//h2[contains(text(), 'Восстановление пароля')]'" ]
 }

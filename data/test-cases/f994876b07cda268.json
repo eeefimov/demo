@@ -1,12 +1,12 @@
 {
-  "uid" : "e512878494f0e427",
-  "name" : "test_login_validation[Not registered email, empty password]",
+  "uid" : "f994876b07cda268",
+  "name" : "test_login_validation[Empty user credentials]",
   "fullName" : "tests_ui.test_login_page#test_login_validation",
-  "historyId" : "dfbc2b2eb5e72f1b7cf8e5ca326d70ae",
+  "historyId" : "10206c1620e065f3dd2bfb23829b2622",
   "time" : {
-    "start" : 1718377806790,
-    "stop" : 1718377809910,
-    "duration" : 3120
+    "start" : 1718451919765,
+    "stop" : 1718451922870,
+    "duration" : 3105
   },
   "description" : "Verify sign in with different credentials.",
   "descriptionHtml" : "<p>Verify sign in with different credentials.</p>\n",
@@ -16,17 +16,17 @@
   "beforeStages" : [ {
     "name" : "login_page",
     "time" : {
-      "start" : 1718377806709,
-      "stop" : 1718377806789,
-      "duration" : 80
+      "start" : 1718451919677,
+      "stop" : 1718451919764,
+      "duration" : 87
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Click Account button on Header",
       "time" : {
-        "start" : 1718377806710,
-        "stop" : 1718377806789,
-        "duration" : 79
+        "start" : 1718451919677,
+        "stop" : 1718451919764,
+        "duration" : 87
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,70 +44,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "page_browser",
+    "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718377803321,
-      "stop" : 1718377806709,
-      "duration" : 3388
-    },
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "Go to site",
-      "time" : {
-        "start" : 1718377803710,
-        "stop" : 1718377806709,
-        "duration" : 2999
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    } ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 1,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790054,
-      "duration" : 23
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,8 +61,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -134,10 +74,70 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "delete_output_dir",
+    "name" : "base_url",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909242,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718451916691,
+      "stop" : 1718451919677,
+      "duration" : 2986
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718451917073,
+        "stop" : 1718451919677,
+        "duration" : 2604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -155,8 +155,8 @@
     "steps" : [ {
       "name" : "Fill Email field",
       "time" : {
-        "start" : 1718377807790,
-        "stop" : 1718377807809,
+        "start" : 1718451920765,
+        "stop" : 1718451920784,
         "duration" : 19
       },
       "status" : "passed",
@@ -170,9 +170,9 @@
     }, {
       "name" : "Fill PASSWORD field",
       "time" : {
-        "start" : 1718377807809,
-        "stop" : 1718377807823,
-        "duration" : 14
+        "start" : 1718451920784,
+        "stop" : 1718451920796,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -185,9 +185,9 @@
     }, {
       "name" : "Click Entry button",
       "time" : {
-        "start" : 1718377807823,
-        "stop" : 1718377807875,
-        "duration" : 52
+        "start" : 1718451920796,
+        "stop" : 1718451920834,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -200,9 +200,9 @@
     }, {
       "name" : "Click on Entry button",
       "time" : {
-        "start" : 1718377809876,
-        "stop" : 1718377809904,
-        "duration" : 28
+        "start" : 1718451922835,
+        "stop" : 1718451922864,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -215,8 +215,8 @@
     }, {
       "name" : "Verify the user stays at Login page",
       "time" : {
-        "start" : 1718377809905,
-        "stop" : 1718377809910,
+        "start" : 1718451922865,
+        "stop" : 1718451922870,
         "duration" : 5
       },
       "status" : "passed",
@@ -238,18 +238,18 @@
   "afterStages" : [ {
     "name" : "page_browser::0",
     "time" : {
-      "start" : 1718377809911,
-      "stop" : 1718377810069,
-      "duration" : 158
+      "start" : 1718451922872,
+      "stop" : 1718451923011,
+      "duration" : 139
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "813c8d117a41ea36",
-      "name" : "Screenshot_2024-06-14 15:10:10.020097",
-      "source" : "813c8d117a41ea36.png",
+      "uid" : "1b4352f86a798fa9",
+      "name" : "Screenshot_2024-06-15 11:45:22.980271",
+      "source" : "1b4352f86a798fa9.png",
       "type" : "image/png",
-      "size" : 53283
+      "size" : 49193
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -265,7 +265,7 @@
     "value" : "test_login_page"
   }, {
     "name" : "host",
-    "value" : "e286e0a7c845"
+    "value" : "cee2e65d0cde"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -284,7 +284,7 @@
   } ],
   "parameters" : [ {
     "name" : "email_val",
-    "value" : "'mitchellkeith@example.com'"
+    "value" : "''"
   }, {
     "name" : "pwd_val",
     "value" : "''"
@@ -296,8 +296,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "45d5d6fd87485f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718377800073,
+          "stop" : 1718377803177,
+          "duration" : 3104
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "e512878494f0e427.json",
-  "parameterValues" : [ "'mitchellkeith@example.com'", "''" ]
+  "source" : "f994876b07cda268.json",
+  "parameterValues" : [ "''", "''" ]
 }

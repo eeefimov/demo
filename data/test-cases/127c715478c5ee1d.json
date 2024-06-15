@@ -1,12 +1,12 @@
 {
-  "uid" : "b342e7dc3b7ca981",
+  "uid" : "127c715478c5ee1d",
   "name" : "test_login_validation[Valid email, invalid password < 6]",
   "fullName" : "tests_ui.test_login_page#test_login_validation",
-  "historyId" : "0206f1fcc5b97a5aedd44d4aff09992f",
+  "historyId" : "6c5a65d0e1878e65dd51caa086cbb1f3",
   "time" : {
-    "start" : 1718377826821,
-    "stop" : 1718377829944,
-    "duration" : 3123
+    "start" : 1718451946148,
+    "stop" : 1718451949253,
+    "duration" : 3105
   },
   "description" : "Verify sign in with different credentials.",
   "descriptionHtml" : "<p>Verify sign in with different credentials.</p>\n",
@@ -14,49 +14,19 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "login_page",
-    "time" : {
-      "start" : 1718377826373,
-      "stop" : 1718377826820,
-      "duration" : 447
-    },
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "Click Account button on Header",
-      "time" : {
-        "start" : 1718377826373,
-        "stop" : 1718377826820,
-        "duration" : 447
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    } ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 1,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
-  }, {
     "name" : "page_browser",
     "time" : {
-      "start" : 1718377825370,
-      "stop" : 1718377826373,
-      "duration" : 1003
+      "start" : 1718451943712,
+      "stop" : 1718451946074,
+      "duration" : 2362
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Go to site",
       "time" : {
-        "start" : 1718377825762,
-        "stop" : 1718377826373,
-        "duration" : 611
+        "start" : 1718451944094,
+        "stop" : 1718451946074,
+        "duration" : 1980
       },
       "status" : "passed",
       "steps" : [ ],
@@ -74,40 +44,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "_session_faker",
+    "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790054,
-      "duration" : 23
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,8 +61,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -134,10 +74,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "delete_output_dir",
+    "name" : "base_url",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -148,6 +88,66 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909242,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_page",
+    "time" : {
+      "start" : 1718451946074,
+      "stop" : 1718451946147,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718451946074,
+        "stop" : 1718451946147,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   } ],
   "testStage" : {
     "description" : "Verify sign in with different credentials.",
@@ -155,8 +155,8 @@
     "steps" : [ {
       "name" : "Fill Email field",
       "time" : {
-        "start" : 1718377827821,
-        "stop" : 1718377827840,
+        "start" : 1718451947148,
+        "stop" : 1718451947167,
         "duration" : 19
       },
       "status" : "passed",
@@ -170,9 +170,9 @@
     }, {
       "name" : "Fill PASSWORD field",
       "time" : {
-        "start" : 1718377827840,
-        "stop" : 1718377827855,
-        "duration" : 15
+        "start" : 1718451947167,
+        "stop" : 1718451947180,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -185,9 +185,9 @@
     }, {
       "name" : "Click Entry button",
       "time" : {
-        "start" : 1718377827855,
-        "stop" : 1718377827905,
-        "duration" : 50
+        "start" : 1718451947180,
+        "stop" : 1718451947214,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -200,8 +200,8 @@
     }, {
       "name" : "Click on Entry button",
       "time" : {
-        "start" : 1718377829905,
-        "stop" : 1718377829939,
+        "start" : 1718451949214,
+        "stop" : 1718451949248,
         "duration" : 34
       },
       "status" : "passed",
@@ -215,8 +215,8 @@
     }, {
       "name" : "Verify password error shows up",
       "time" : {
-        "start" : 1718377829939,
-        "stop" : 1718377829944,
+        "start" : 1718451949248,
+        "stop" : 1718451949253,
         "duration" : 5
       },
       "status" : "passed",
@@ -238,18 +238,18 @@
   "afterStages" : [ {
     "name" : "page_browser::0",
     "time" : {
-      "start" : 1718377829946,
-      "stop" : 1718377830101,
-      "duration" : 155
+      "start" : 1718451949255,
+      "stop" : 1718451949414,
+      "duration" : 159
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ce6e7d609be31338",
-      "name" : "Screenshot_2024-06-14 15:10:30.054848",
-      "source" : "ce6e7d609be31338.png",
+      "uid" : "d77727cdf5628fa3",
+      "name" : "Screenshot_2024-06-15 11:45:49.364057",
+      "source" : "d77727cdf5628fa3.png",
       "type" : "image/png",
-      "size" : 55455
+      "size" : 56808
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -265,7 +265,7 @@
     "value" : "test_login_page"
   }, {
     "name" : "host",
-    "value" : "e286e0a7c845"
+    "value" : "cee2e65d0cde"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -287,7 +287,7 @@
     "value" : "'kamibumaga@gmail.com'"
   }, {
     "name" : "pwd_val",
-    "value" : "'ge7KV'"
+    "value" : "'_cWm2'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -298,6 +298,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b342e7dc3b7ca981.json",
-  "parameterValues" : [ "'kamibumaga@gmail.com'", "'ge7KV'" ]
+  "source" : "127c715478c5ee1d.json",
+  "parameterValues" : [ "'kamibumaga@gmail.com'", "'_cWm2'" ]
 }

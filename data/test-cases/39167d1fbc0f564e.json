@@ -1,83 +1,23 @@
 {
-  "uid" : "7369f7d726ac537",
-  "name" : "test_login_access",
-  "fullName" : "tests_ui.test_login_page#test_login_access",
-  "historyId" : "cfb8e7024b58fb71083f864a957aef2b",
+  "uid" : "39167d1fbc0f564e",
+  "name" : "test_login_direct_access",
+  "fullName" : "tests_ui.test_login_page#test_login_direct_access",
+  "historyId" : "2fce5f28bda8aeb575ad9c8cd761f552",
   "time" : {
-    "start" : 1718377793825,
-    "stop" : 1718377793832,
-    "duration" : 7
+    "start" : 1718451916053,
+    "stop" : 1718451916538,
+    "duration" : 485
   },
-  "description" : "Verify access to Login page.",
-  "descriptionHtml" : "<p>Verify access to Login page.</p>\n",
+  "description" : "Verify direct access to Login page.",
+  "descriptionHtml" : "<p>Verify direct access to Login page.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "page_browser",
+    "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718377790054,
-      "stop" : 1718377793742,
-      "duration" : 3688
-    },
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "Go to site",
-      "time" : {
-        "start" : 1718377790484,
-        "stop" : 1718377793742,
-        "duration" : 3258
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    } ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 1,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790054,
-      "duration" : 23
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -91,8 +31,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,19 +44,49 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "login_page",
+    "name" : "base_url",
     "time" : {
-      "start" : 1718377793742,
-      "stop" : 1718377793824,
-      "duration" : 82
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909242,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718451913471,
+      "stop" : 1718451916053,
+      "duration" : 2582
     },
     "status" : "passed",
     "steps" : [ {
-      "name" : "Click Account button on Header",
+      "name" : "Go to site",
       "time" : {
-        "start" : 1718377793742,
-        "stop" : 1718377793824,
-        "duration" : 82
+        "start" : 1718451913858,
+        "stop" : 1718451916053,
+        "duration" : 2195
       },
       "status" : "passed",
       "steps" : [ ],
@@ -134,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "delete_output_dir",
+    "name" : "_verify_url",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -150,14 +120,29 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Verify access to Login page.",
+    "description" : "Verify direct access to Login page.",
     "status" : "passed",
     "steps" : [ {
+      "name" : "Set the address to the browser",
+      "time" : {
+        "start" : 1718451916053,
+        "stop" : 1718451916514,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
       "name" : "Verify redirection to Login page",
       "time" : {
-        "start" : 1718377793825,
-        "stop" : 1718377793831,
-        "duration" : 6
+        "start" : 1718451916514,
+        "stop" : 1718451916538,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -170,7 +155,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -178,18 +163,18 @@
   "afterStages" : [ {
     "name" : "page_browser::0",
     "time" : {
-      "start" : 1718377793832,
-      "stop" : 1718377794513,
-      "duration" : 681
+      "start" : 1718451916539,
+      "stop" : 1718451916689,
+      "duration" : 150
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5176384376d43efa",
-      "name" : "Screenshot_2024-06-14 15:09:54.464334",
-      "source" : "5176384376d43efa.png",
+      "uid" : "60a1d602c578356",
+      "name" : "Screenshot_2024-06-15 11:45:16.642856",
+      "source" : "60a1d602c578356.png",
       "type" : "image/png",
-      "size" : 47924
+      "size" : 49299
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -205,7 +190,7 @@
     "value" : "test_login_page"
   }, {
     "name" : "host",
-    "value" : "e286e0a7c845"
+    "value" : "cee2e65d0cde"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -230,8 +215,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "247515b809ea5704",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718377796999,
+          "stop" : 1718377797749,
+          "duration" : 750
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "7369f7d726ac537.json",
+  "source" : "39167d1fbc0f564e.json",
   "parameterValues" : [ ]
 }

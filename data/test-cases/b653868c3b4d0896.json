@@ -1,32 +1,32 @@
 {
-  "uid" : "e110e15582c8b7f9",
-  "name" : "test_login_header_btns[Redirection to Main page]",
-  "fullName" : "tests_ui.test_login_page#test_login_header_btns",
-  "historyId" : "351f83bd8de5a48036b26681041d21de",
+  "uid" : "b653868c3b4d0896",
+  "name" : "test_login_validation[Valid email, invalid password = 6]",
+  "fullName" : "tests_ui.test_login_page#test_login_validation",
+  "historyId" : "912253c5741b13a64e97e663e87de0be",
   "time" : {
-    "start" : 1718377844136,
-    "stop" : 1718377844192,
-    "duration" : 56
+    "start" : 1718451940463,
+    "stop" : 1718451943563,
+    "duration" : 3100
   },
-  "description" : "Verify redirection to pages using Header buttons.",
-  "descriptionHtml" : "<p>Verify redirection to pages using Header buttons.</p>\n",
+  "description" : "Verify sign in with different credentials.",
+  "descriptionHtml" : "<p>Verify sign in with different credentials.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "page_browser",
+    "name" : "login_page",
     "time" : {
-      "start" : 1718377842706,
-      "stop" : 1718377843704,
-      "duration" : 998
+      "start" : 1718451940019,
+      "stop" : 1718451940462,
+      "duration" : 443
     },
     "status" : "passed",
     "steps" : [ {
-      "name" : "Go to site",
+      "name" : "Click Account button on Header",
       "time" : {
-        "start" : 1718377843113,
-        "stop" : 1718377843704,
-        "duration" : 591
+        "start" : 1718451940019,
+        "stop" : 1718451940462,
+        "duration" : 443
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,11 +44,56 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "_session_faker",
+    "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790054,
-      "duration" : 23
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718451939061,
+      "stop" : 1718451940019,
+      "duration" : 958
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718451939460,
+        "stop" : 1718451940019,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,8 +106,8 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -74,70 +119,25 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "login_page",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718377843704,
-      "stop" : 1718377844136,
-      "duration" : 432
+      "start" : 1718451909221,
+      "stop" : 1718451909242,
+      "duration" : 21
     },
     "status" : "passed",
-    "steps" : [ {
-      "name" : "Click Account button on Header",
-      "time" : {
-        "start" : 1718377843704,
-        "stop" : 1718377844136,
-        "duration" : 432
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    } ],
+    "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "hasContent" : false
   }, {
     "name" : "_verify_url",
     "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "delete_output_dir",
-    "time" : {
-      "start" : 1718377790031,
-      "stop" : 1718377790031,
+      "start" : 1718451909221,
+      "stop" : 1718451909221,
       "duration" : 0
     },
     "status" : "passed",
@@ -150,14 +150,14 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Verify redirection to pages using Header buttons.",
+    "description" : "Verify sign in with different credentials.",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Click on button at Header",
+      "name" : "Fill Email field",
       "time" : {
-        "start" : 1718377844137,
-        "stop" : 1718377844186,
-        "duration" : 49
+        "start" : 1718451941463,
+        "stop" : 1718451941481,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,11 +168,41 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Verify redirection to page",
+      "name" : "Fill PASSWORD field",
       "time" : {
-        "start" : 1718377844186,
-        "stop" : 1718377844192,
-        "duration" : 6
+        "start" : 1718451941481,
+        "stop" : 1718451941496,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Entry button",
+      "time" : {
+        "start" : 1718451941496,
+        "stop" : 1718451941534,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on Entry button",
+      "time" : {
+        "start" : 1718451943534,
+        "stop" : 1718451943563,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -185,7 +215,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 4,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -193,18 +223,18 @@
   "afterStages" : [ {
     "name" : "page_browser::0",
     "time" : {
-      "start" : 1718377844195,
-      "stop" : 1718377844457,
-      "duration" : 262
+      "start" : 1718451943564,
+      "stop" : 1718451943710,
+      "duration" : 146
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1d96b4c3ac709732",
-      "name" : "Screenshot_2024-06-14 15:10:44.407772",
-      "source" : "1d96b4c3ac709732.png",
+      "uid" : "ab8ececb8056afb7",
+      "name" : "Screenshot_2024-06-15 11:45:43.677968",
+      "source" : "ab8ececb8056afb7.png",
       "type" : "image/png",
-      "size" : 100805
+      "size" : 53084
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -220,7 +250,7 @@
     "value" : "test_login_page"
   }, {
     "name" : "host",
-    "value" : "e286e0a7c845"
+    "value" : "cee2e65d0cde"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -238,11 +268,11 @@
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "btn",
-    "value" : "'//p[contains(text(), 'Конструктор')]'"
+    "name" : "email_val",
+    "value" : "'kamibumaga@gmail.com'"
   }, {
-    "name" : "exp",
-    "value" : "'//h1[contains(text(),'Соберите бургер')]'"
+    "name" : "pwd_val",
+    "value" : "'T!63N9'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -253,6 +283,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e110e15582c8b7f9.json",
-  "parameterValues" : [ "'//p[contains(text(), 'Конструктор')]'", "'//h1[contains(text(),'Соберите бургер')]'" ]
+  "source" : "b653868c3b4d0896.json",
+  "parameterValues" : [ "'kamibumaga@gmail.com'", "'T!63N9'" ]
 }
