@@ -1,6 +1,11 @@
 Total tests amount: 260
+
 Full execution time: ~30 min
+
 Linters checked: flake8, pylint
+
+Allure report url: https://eeefimov.github.io/demo/
+
 <details>
 <summary>UI CHECKLIST</summary>
 

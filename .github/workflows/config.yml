@@ -1,6 +1,68 @@
+#name: Automated tests
+#
+#on: workflow_dispatch
+#
+#jobs:
+#  test:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v2
+#
+#      - name: Checkout gh-pages
+#        uses: actions/checkout@v2
+#        with:
+#          ref: gh-pages
+#          path: ./.github/gh-pages
+#
+#      - name: Run Tests using docker-compose
+#        env:
+#          AUTH_EMAIL: ${{ secrets.AUTH_EMAIL }}
+#          AUTH_LOGIN: ${{ secrets.AUTH_LOGIN }}
+#          AUTH_PASS: ${{ secrets.AUTH_PASS }}
+#          PWD_NOT_REGISTERED: ${{ secrets.PWD_NOT_REGISTERED }}
+#          PWD_REGISTERED: ${{ secrets.PWD_REGISTERED }}
+#          USR_NOT_REGISTERED: ${{ secrets.USR_NOT_REGISTERED }}
+#          USR_REGISTERED: ${{ secrets.USR_REGISTERED }}
+#        run: |
+#          docker-compose up --exit-code-from regression || true
+#
+#      - name: Copy history from gh-pages to allure-results
+#        run: |
+#          sudo mkdir -p allure-results/history
+#          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+#
+#      - name: Generate Allure report
+#        run: |
+#          sudo docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
+#
+#      - name: Update Allure history
+#        run: |
+#          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+#
+#      - name: Deploy to GitHub Pages
+#        uses: JamesIves/github-pages-deploy-action@4.1.5
+#        with:
+#          token: ${{ secrets.DEMO_BURGERS_v2 }}
+#          branch: gh-pages
+#          folder: allure-report
+#          clean: true
 name: Automated tests
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_target:
+        description: Choose target
+        required: true
+        default: all
+        type: choice
+        options:
+          - tests_api
+          - tests_ui
+          - tests_integration
+          - all
 
 jobs:
   test:
@@ -25,7 +87,17 @@ jobs:
           PWD_REGISTERED: ${{ secrets.PWD_REGISTERED }}
           USR_NOT_REGISTERED: ${{ secrets.USR_NOT_REGISTERED }}
           USR_REGISTERED: ${{ secrets.USR_REGISTERED }}
+          DEPLOYMENT_TARGET: ${{ github.event.inputs.deployment_target }}
         run: |
+          if [ "${{ github.event.inputs.deployment_target }}" == "tests_api" ]; then
+            export TEST_COMMAND="pytest -sv tests/api/ --alluredir=allure-results"
+          elif [ "${{ github.event.inputs.deployment_target }}" == "tests_ui" ]; then
+            export TEST_COMMAND="pytest -sv tests/ui/ --alluredir=allure-results"
+          elif [ "${{ github.event.inputs.deployment_target }}" == "tests_integration" ]; then
+            export TEST_COMMAND="pytest -sv tests/integration/ --alluredir=allure-results"
+          else
+            export TEST_COMMAND="pytest -sv tests/ --alluredir=allure-results"
+          fi
           docker-compose up --exit-code-from regression || true
 
       - name: Copy history from gh-pages to allure-results
