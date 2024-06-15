@@ -1,0 +1,321 @@
+{
+  "uid" : "856de7f65ecc3b54",
+  "name" : "test_register_validation_empty[Empty post_login]",
+  "fullName" : "tests_ui.test_registration_page#test_register_validation_empty",
+  "historyId" : "cbee3e1a6404278dd96c7258975cea72",
+  "time" : {
+    "start" : 1718459487350,
+    "stop" : 1718459488454,
+    "duration" : 1104
+  },
+  "description" : "Verify registration with empty credentials.",
+  "descriptionHtml" : "<p>Verify registration with empty credentials.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718459485764,
+      "stop" : 1718459486870,
+      "duration" : 1106
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718459486163,
+        "stop" : 1718459486870,
+        "duration" : 707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register_page",
+    "time" : {
+      "start" : 1718459486871,
+      "stop" : 1718459487350,
+      "duration" : 479
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718459486871,
+        "stop" : 1718459487296,
+        "duration" : 425
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Registration link",
+      "time" : {
+        "start" : 1718459487296,
+        "stop" : 1718459487350,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify registration with empty credentials.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fill in Login field",
+      "time" : {
+        "start" : 1718459487350,
+        "stop" : 1718459487371,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in Email field",
+      "time" : {
+        "start" : 1718459487372,
+        "stop" : 1718459487388,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in Password field",
+      "time" : {
+        "start" : 1718459487388,
+        "stop" : 1718459487405,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Registration button",
+      "time" : {
+        "start" : 1718459487405,
+        "stop" : 1718459488447,
+        "duration" : 1042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User stays at Registration page.",
+      "time" : {
+        "start" : 1718459488447,
+        "stop" : 1718459488453,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718459488455,
+      "stop" : 1718459488603,
+      "duration" : 148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "536952abc03370e6",
+      "name" : "Screenshot_2024-06-15 13:51:28.561744",
+      "source" : "536952abc03370e6.png",
+      "type" : "image/png",
+      "size" : 67821
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration_page"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_registration_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mail",
+    "value" : "'kimberly39@example.org'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  }, {
+    "name" : "pwd",
+    "value" : "'%d9!Rz'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "856de7f65ecc3b54.json",
+  "parameterValues" : [ "'kimberly39@example.org'", "''", "'%d9!Rz'" ]
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "destiny.mitchell@velazquez.biz",
+        "name": "Yes walexdaniel"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQyOWVkMjgwMDAxYjQzZGJiNCIsImlhdCI6MTcxODQ1ODU3OCwiZXhwIjoxNzE4NDU5Nzc4fQ.AxvfCeZUkxLQ_Oyey5TSJBXkKrPfiVFqlUVwfuM_heY",
+    "refreshToken": "7c63bec10df6020ac5054395ced7a267b6c98bf3c50dc0cf219c9f702e6315a2e6fc19e3671b7105"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "dale.allen@newman.com",
+        "name": "Arm cqgarner"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGUwOWVkMjgwMDAxYjQzZGJkOCIsImlhdCI6MTcxODQ1ODU5MiwiZXhwIjoxNzE4NDU5NzkyfQ.JmL5b6GK7L_M0-Uoi7UZxXXhaqfAzybz4DBDamDTgzc",
+    "refreshToken": "8ed977008e95f1d93f1264f2f213f533b452b5ca8429e40fc3619ea52c18715a0579142f8066f66f"
+}

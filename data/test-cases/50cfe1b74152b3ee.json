@@ -1,0 +1,318 @@
+{
+  "uid" : "50cfe1b74152b3ee",
+  "name" : "test_login_validation[Not registered email, with password < 6]",
+  "fullName" : "tests_ui.test_login_page#test_login_validation",
+  "historyId" : "3e04e897e0ebc12c04c672e5f8027083",
+  "time" : {
+    "start" : 1718458992019,
+    "stop" : 1718458995146,
+    "duration" : 3127
+  },
+  "description" : "Verify sign in with different credentials.",
+  "descriptionHtml" : "<p>Verify sign in with different credentials.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_page",
+    "time" : {
+      "start" : 1718458991940,
+      "stop" : 1718458992018,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718458991940,
+        "stop" : 1718458992018,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718458989261,
+      "stop" : 1718458991940,
+      "duration" : 2679
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718458989665,
+        "stop" : 1718458991939,
+        "duration" : 2274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify sign in with different credentials.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fill Email field",
+      "time" : {
+        "start" : 1718458993019,
+        "stop" : 1718458993040,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill PASSWORD field",
+      "time" : {
+        "start" : 1718458993040,
+        "stop" : 1718458993055,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Entry button",
+      "time" : {
+        "start" : 1718458993055,
+        "stop" : 1718458993101,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on Entry button",
+      "time" : {
+        "start" : 1718458995101,
+        "stop" : 1718458995134,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify password error shows up",
+      "time" : {
+        "start" : 1718458995134,
+        "stop" : 1718458995140,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify the user stays at Login page",
+      "time" : {
+        "start" : 1718458995140,
+        "stop" : 1718458995146,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718458995147,
+      "stop" : 1718458995283,
+      "duration" : 136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "39ab7eb2aafef38e",
+      "name" : "Screenshot_2024-06-15 13:43:15.249062",
+      "source" : "39ab7eb2aafef38e.png",
+      "type" : "image/png",
+      "size" : 55462
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email_val",
+    "value" : "'morganbond@example.com'"
+  }, {
+    "name" : "pwd_val",
+    "value" : "'g#5HB'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50cfe1b74152b3ee.json",
+  "parameterValues" : [ "'morganbond@example.com'", "'g#5HB'" ]
+}

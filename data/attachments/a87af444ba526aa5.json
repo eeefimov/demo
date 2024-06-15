@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kristen.rodriguez@sanchez-martinez.com",
+        "name": "Housechamberscharlene"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGVjOWVkMjgwMDAxYjQzZGJlZiIsImlhdCI6MTcxODQ1ODYwNCwiZXhwIjoxNzE4NDU5ODA0fQ.IOKuU57EeN0pQBa63MUnjTpDV5HOHarJhk9wtmctKQQ",
+    "refreshToken": "1238c9889140b82ff0e40d8f044c85337e9b804fb99fbfe7adeae50fdf855244b5433111e4fb7be9"
+}

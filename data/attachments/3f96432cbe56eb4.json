@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "daniel.craig@byrd-hurley.com",
+        "name": "Shoulamanda37"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGUzOWVkMjgwMDAxYjQzZGJkZSIsImlhdCI6MTcxODQ1ODU5NSwiZXhwIjoxNzE4NDU5Nzk1fQ.QgbUtdqkzKeNwCblNveKojKN5IfxGFBYAelkEQc0QCQ",
+    "refreshToken": "3360a01a1a5bc4f35ce5d416891a45fd69ee368e69fbf3887e0937b70283a2ddc123a33e0ebfc370"
+}

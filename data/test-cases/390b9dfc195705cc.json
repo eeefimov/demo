@@ -1,0 +1,466 @@
+{
+  "uid" : "390b9dfc195705cc",
+  "name" : "test_password_validation[Password < 6]",
+  "fullName" : "tests_integration.test_registration#test_password_validation",
+  "historyId" : "f532d84ba24512bddb8f70dbdc0c08ae",
+  "time" : {
+    "start" : 1718458755361,
+    "stop" : 1718458764767,
+    "duration" : 9406
+  },
+  "description" : "Verify UI SignIn with different API password registration.",
+  "descriptionHtml" : "<p>Verify UI SignIn with different API password registration.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h1[contains(text(),'Соберите бургер')]\")\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"",
+  "statusTrace" : "login_page = <Page url='https://stellarburgers.nomoreparties.site/'>\nregister = <api.user.USER object at 0x7fb5c0da55d0>, name = 'alexandriamccoy'\nmail = 'jorgerush@example.org', pwd = '+3Fae', exp = 404\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", password_validation)\n    def test_password_validation(login_page, register, name, mail, pwd, exp):\n        \"\"\"Verify UI SignIn with different API password registration.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        register.post_register()\n        mail = register.data['email']\n        pwd = register.data['password']\n        LOGIN.set_login_fields(login_page, mail, pwd)\n        if len(pwd) < 6:\n            with allure.step('Double check SignIn with invalid pwd'):\n                login_page.locator(LOGIN.ENTRY_BTN).click()\n                time.sleep(2)\n>               expect(login_page.locator(MAIN.TOP_TITLE)).not_to_be_visible()\nE               AssertionError: Locator expected not to be visible\nE               Actual value: True \nE               Call log:\nE               LocatorAssertions.not_to_be_visible with timeout 5000ms\nE                 - waiting for locator(\"//h1[contains(text(),'Соберите бургер')]\")\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\n\ntests/tests_integration/test_registration.py:40: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718458755359,
+      "stop" : 1718458755360,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718458755359,
+        "stop" : 1718458755360,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718458755360,
+          "stop" : 1718458755360,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Envirjohn02'"
+        }, {
+          "name" : "mail",
+          "value" : "'Jason.Chavez@chambers.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'!HNH(l'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718458753820,
+      "stop" : 1718458754927,
+      "duration" : 1107
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718458754220,
+        "stop" : 1718458754927,
+        "duration" : 707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_page",
+    "time" : {
+      "start" : 1718458754927,
+      "stop" : 1718458755359,
+      "duration" : 432
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718458754927,
+        "stop" : 1718458755359,
+        "duration" : 432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify UI SignIn with different API password registration.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h1[contains(text(),'Соберите бургер')]\")\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"",
+    "statusTrace" : "login_page = <Page url='https://stellarburgers.nomoreparties.site/'>\nregister = <api.user.USER object at 0x7fb5c0da55d0>, name = 'alexandriamccoy'\nmail = 'jorgerush@example.org', pwd = '+3Fae', exp = 404\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", password_validation)\n    def test_password_validation(login_page, register, name, mail, pwd, exp):\n        \"\"\"Verify UI SignIn with different API password registration.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        register.post_register()\n        mail = register.data['email']\n        pwd = register.data['password']\n        LOGIN.set_login_fields(login_page, mail, pwd)\n        if len(pwd) < 6:\n            with allure.step('Double check SignIn with invalid pwd'):\n                login_page.locator(LOGIN.ENTRY_BTN).click()\n                time.sleep(2)\n>               expect(login_page.locator(MAIN.TOP_TITLE)).not_to_be_visible()\nE               AssertionError: Locator expected not to be visible\nE               Actual value: True \nE               Call log:\nE               LocatorAssertions.not_to_be_visible with timeout 5000ms\nE                 - waiting for locator(\"//h1[contains(text(),'Соберите бургер')]\")\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\nE                 -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\nE                 -   unexpected value \"visible\"\n\ntests/tests_integration/test_registration.py:40: AssertionError",
+    "steps" : [ {
+      "name" : "Set user registration data_models",
+      "time" : {
+        "start" : 1718458755361,
+        "stop" : 1718458755361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'alexandriamccoy'"
+      }, {
+        "name" : "mail",
+        "value" : "'jorgerush@example.org'"
+      }, {
+        "name" : "pwd",
+        "value" : "'+3Fae'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718458755361,
+        "stop" : 1718458755643,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94c508ebd908805c",
+        "name" : "Request Info",
+        "source" : "94c508ebd908805c.txt",
+        "type" : "text/plain",
+        "size" : 196
+      }, {
+        "uid" : "9ef57f2b1dd51e7c",
+        "name" : "api Response",
+        "source" : "9ef57f2b1dd51e7c.json",
+        "type" : "application/json",
+        "size" : 425
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill Email field",
+      "time" : {
+        "start" : 1718458756644,
+        "stop" : 1718458756665,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill PASSWORD field",
+      "time" : {
+        "start" : 1718458756665,
+        "stop" : 1718458756681,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Entry button",
+      "time" : {
+        "start" : 1718458756681,
+        "stop" : 1718458756727,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Double check SignIn with invalid pwd",
+      "time" : {
+        "start" : 1718458757727,
+        "stop" : 1718458764766,
+        "duration" : 7039
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h1[contains(text(),'Соберите бургер')]\")\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/tests_integration/test_registration.py\", line 40, in test_password_validation\n    expect(login_page.locator(MAIN.TOP_TITLE)).not_to_be_visible()\n  File \"/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py\", line 20924, in not_to_be_visible\n    self._sync(\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 667, in not_to_be_visible\n    await self._not.to_be_visible(visible, timeout)\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 654, in to_be_visible\n    await self._expect_impl(\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 70, in _expect_impl\n    raise AssertionError(\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718458764772,
+      "stop" : 1718458765259,
+      "duration" : 487
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718458764772,
+        "stop" : 1718458765258,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458764772,
+          "stop" : 1718458764772,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTgzOWVkMjgwMDAxYjQzZGM4NSIsImlhdCI6MTcxODQ1ODc1NSwiZXhwIjoxNzE4NDU5OTU1fQ.Rhv0t6HyzwSdiCD-fT-3Z8W7_08h7Dd6u87kQBSc3fc'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "95ac3d2e270d570",
+        "name" : "Request Info",
+        "source" : "95ac3d2e270d570.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTgzOWVkMjgwMDAxYjQzZGM4NSIsImlhdCI6MTcxODQ1ODc1NSwiZXhwIjoxNzE4NDU5OTU1fQ.Rhv0t6HyzwSdiCD-fT-3Z8W7_08h7Dd6u87kQBSc3fc'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718458765260,
+      "stop" : 1718458765439,
+      "duration" : 179
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dcf10110ce7b3b6d",
+      "name" : "Screenshot_2024-06-15 13:39:25.387381",
+      "source" : "dcf10110ce7b3b6d.png",
+      "type" : "image/png",
+      "size" : 156996
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_integration"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_integration.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "404"
+  }, {
+    "name" : "mail",
+    "value" : "'jorgerush@example.org'"
+  }, {
+    "name" : "name",
+    "value" : "'alexandriamccoy'"
+  }, {
+    "name" : "pwd",
+    "value" : "'+3Fae'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "390b9dfc195705cc.json",
+  "parameterValues" : [ "404", "'jorgerush@example.org'", "'alexandriamccoy'", "'+3Fae'" ]
+}

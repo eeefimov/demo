@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jennifer.warren@smith-johnson.com",
+        "name": "Citizlisa92"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTI1OWVkMjgwMDAxYjQzZGMzNiIsImlhdCI6MTcxODQ1ODY2MSwiZXhwIjoxNzE4NDU5ODYxfQ.gTjNNC2iBWNCCQH9sRq0H_e9IMLasrhRdZnJTRLdH6k",
+    "refreshToken": "eab798d92080295f5a435700a7bbddcd2eab01cbcbc32bf5616eaff9eccd37a4450a0f4f429af64f"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "ryan.mcguire@kennedy.com",
+        "name": "Musicsarah25"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTdlOWVkMjgwMDAxYjQzZGM4MiIsImlhdCI6MTcxODQ1ODc1MCwiZXhwIjoxNzE4NDU5OTUwfQ.p_coA0UGorH-SFD0ggn1gKCjC-SadPeEcbX0f7Woz4s",
+    "refreshToken": "faa00b6be5165faa02baa6a87358606e00d321c177e8b808a621bf82313e281a8dac86e1d3670492"
+}

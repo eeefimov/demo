@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ1OWVkMjgwMDAxYjQzZGJiYSIsImlhdCI6MTcxODQ1ODU4MSwiZXhwIjoxNzE4NDU5NzgxfQ.pPVydUT6YUhAybrwzz432X1J-3fGWdZiJOpMymqkcBU'}
+data_models = {'name': 'Sisteqfitzgerald', 'email': 'Matthew.Haley@calderon.org', 'password': '%G99KL'}

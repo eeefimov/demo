@@ -1,0 +1,444 @@
+{
+  "uid" : "926a78110766aa7d",
+  "name" : "test_payload_type_validation",
+  "fullName" : "tests_api.test_post_logout.TestPostLogout#test_payload_type_validation",
+  "historyId" : "ba7d6006f06f89f0f5e3076158710b60",
+  "time" : {
+    "start" : 1718458594993,
+    "stop" : 1718458595493,
+    "duration" : 500
+  },
+  "description" : "Verify payload values in response.",
+  "descriptionHtml" : "<p>Verify payload values in response.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logout",
+    "time" : {
+      "start" : 1718458594700,
+      "stop" : 1718458594993,
+      "duration" : 293
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup logout data",
+      "time" : {
+        "start" : 1718458594700,
+        "stop" : 1718458594700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718458594700,
+        "stop" : 1718458594993,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e56f02aae688d18",
+        "name" : "Request Info",
+        "source" : "e56f02aae688d18.txt",
+        "type" : "text/plain",
+        "size" : 208
+      }, {
+        "uid" : "91bb5ed1b091a207",
+        "name" : "api Response",
+        "source" : "91bb5ed1b091a207.json",
+        "type" : "application/json",
+        "size" : 436
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718458594699,
+      "stop" : 1718458594700,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718458594699,
+        "stop" : 1718458594700,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718458594700,
+          "stop" : 1718458594700,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Hour laurenpeterson'"
+        }, {
+          "name" : "mail",
+          "value" : "'Lisa.Perry@murray-hughes.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'hgSo42'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify payload values in response.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST logout request",
+      "time" : {
+        "start" : 1718458594994,
+        "stop" : 1718458595492,
+        "duration" : 498
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup logout data",
+        "time" : {
+          "start" : 1718458594994,
+          "stop" : 1718458594994,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "data",
+          "value" : "'b035e9081d4b9904986f814c478ad3b01e69eb6bd05b200ec61d577cfd636be095a1356ac825e284'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "bb2a5075bc9d46d0",
+        "name" : "Request Info",
+        "source" : "bb2a5075bc9d46d0.txt",
+        "type" : "text/plain",
+        "size" : 207
+      }, {
+        "uid" : "a447c3d4f737bd1",
+        "name" : "api Response",
+        "source" : "a447c3d4f737bd1.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "'b035e9081d4b9904986f814c478ad3b01e69eb6bd05b200ec61d577cfd636be095a1356ac825e284'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup response model",
+      "time" : {
+        "start" : 1718458595492,
+        "stop" : 1718458595492,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "model",
+        "value" : "<class 'data_models.user_model.MsgModel'>"
+      }, {
+        "name" : "input_data",
+        "value" : "{'success': True, 'message': 'Successful logout'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup response model",
+      "time" : {
+        "start" : 1718458595492,
+        "stop" : 1718458595492,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "model",
+        "value" : "<class 'data_models.user_model.MsgModel'>"
+      }, {
+        "name" : "input_data",
+        "value" : "{'success': True, 'message': 'Successful logout'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "logout::0",
+    "time" : {
+      "start" : 1718458595493,
+      "stop" : 1718458595494,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718458595495,
+      "stop" : 1718458595715,
+      "duration" : 220
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718458595495,
+        "stop" : 1718458595714,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458595495,
+          "stop" : 1718458595495,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "None"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "253fc129d26e5e35",
+        "name" : "Request Info",
+        "source" : "253fc129d26e5e35.txt",
+        "type" : "text/plain",
+        "size" : 137
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "None"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_logout"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostLogout"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6937b803ff08ec09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454865803,
+          "stop" : 1718454866252,
+          "duration" : 449
+        }
+      }, {
+        "uid" : "7587208a812f8965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453528700,
+          "stop" : 1718453529132,
+          "duration" : 432
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "926a78110766aa7d.json",
+  "parameterValues" : [ ]
+}

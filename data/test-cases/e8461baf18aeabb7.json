@@ -1,0 +1,589 @@
+{
+  "uid" : "e8461baf18aeabb7",
+  "name" : "test_orders_number",
+  "fullName" : "tests_integration.test_orders#test_orders_number",
+  "historyId" : "9bcb8f33b70e4dad0f33fc193132508e",
+  "time" : {
+    "start" : 1718458746484,
+    "stop" : 1718458748411,
+    "duration" : 1927
+  },
+  "description" : "Verify order number changes.",
+  "descriptionHtml" : "<p>Verify order number changes.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "user_order",
+    "time" : {
+      "start" : 1718458744617,
+      "stop" : 1718458744909,
+      "duration" : 292
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Make Order",
+      "time" : {
+        "start" : 1718458744617,
+        "stop" : 1718458749043,
+        "duration" : 4426
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718458744618,
+          "stop" : 1718458744618,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Execukirkcourtney'"
+        }, {
+          "name" : "mail",
+          "value" : "'Jeffrey.Clark@berry.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'jOWCwd'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718458744618,
+          "stop" : 1718458744909,
+          "duration" : 291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7921f19e2f6de9f1",
+          "name" : "Request Info",
+          "source" : "7921f19e2f6de9f1.txt",
+          "type" : "text/plain",
+          "size" : 201
+        }, {
+          "uid" : "723c5c2a73f4ed44",
+          "name" : "api Response",
+          "source" : "723c5c2a73f4ed44.json",
+          "type" : "application/json",
+          "size" : 429
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458744909,
+          "stop" : 1718458744909,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTc4OWVkMjgwMDAxYjQzZGM3ZSIsImlhdCI6MTcxODQ1ODc0NCwiZXhwIjoxNzE4NDU5OTQ0fQ.pxdVnSEHL0CoOezZo16FiW7NcbiOKGZ1uviP7u8Ebvs'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718458744909,
+          "stop" : 1718458744909,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fa7b460c2bef79e1",
+          "name" : "api Response",
+          "source" : "fa7b460c2bef79e1.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "orders_page",
+    "time" : {
+      "start" : 1718458746019,
+      "stop" : 1718458746484,
+      "duration" : 465
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click List of Orders button on Header",
+      "time" : {
+        "start" : 1718458746020,
+        "stop" : 1718458746484,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718458744909,
+      "stop" : 1718458746019,
+      "duration" : 1110
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718458745317,
+        "stop" : 1718458746019,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify order number changes.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get last order number from Orders page",
+      "time" : {
+        "start" : 1718458746484,
+        "stop" : 1718458747272,
+        "duration" : 788
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/feed'>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send POST request with user oder",
+      "time" : {
+        "start" : 1718458747272,
+        "stop" : 1718458748406,
+        "duration" : 1134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup User order",
+        "time" : {
+          "start" : 1718458747272,
+          "stop" : 1718458747273,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Load data_models from json file",
+          "time" : {
+            "start" : 1718458747272,
+            "stop" : 1718458747272,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e079b2ec6bceb52",
+            "name" : "api Response",
+            "source" : "e079b2ec6bceb52.json",
+            "type" : "application/json",
+            "size" : 7597
+          } ],
+          "parameters" : [ {
+            "name" : "filename",
+            "value" : "'ingredients.json'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Set buns in order",
+          "time" : {
+            "start" : 1718458747272,
+            "stop" : 1718458747272,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Set ingredients in order",
+          "time" : {
+            "start" : 1718458747272,
+            "stop" : 1718458747272,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "fde3beb4b95789b6",
+          "name" : "api Response",
+          "source" : "fde3beb4b95789b6.json",
+          "type" : "application/json",
+          "size" : 129
+        } ],
+        "parameters" : [ {
+          "name" : "empty",
+          "value" : "False"
+        }, {
+          "name" : "buns",
+          "value" : "True"
+        }, {
+          "name" : "buns_number",
+          "value" : "1"
+        }, {
+          "name" : "ingr_number",
+          "value" : "3"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send post requests",
+        "time" : {
+          "start" : 1718458747273,
+          "stop" : 1718458748406,
+          "duration" : 1133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6ce4e63fc6251e51",
+          "name" : "Request Info",
+          "source" : "6ce4e63fc6251e51.txt",
+          "type" : "text/plain",
+          "size" : 431
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "351334851fc05fd8",
+        "name" : "api Response",
+        "source" : "351334851fc05fd8.json",
+        "type" : "application/json",
+        "size" : 3874
+      } ],
+      "parameters" : [ {
+        "name" : "user_order",
+        "value" : "<tests.conftest.user_order.<locals>.USERORDERS object at 0x7fb5bfc3a3d0>"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get last order number from Orders page",
+      "time" : {
+        "start" : 1718458748407,
+        "stop" : 1718458748411,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/feed'>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user_order::0",
+    "time" : {
+      "start" : 1718458748576,
+      "stop" : 1718458749044,
+      "duration" : 468
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718458748576,
+        "stop" : 1718458749042,
+        "duration" : 466
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458748576,
+          "stop" : 1718458748576,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTc4OWVkMjgwMDAxYjQzZGM3ZSIsImlhdCI6MTcxODQ1ODc0NCwiZXhwIjoxNzE4NDU5OTQ0fQ.pxdVnSEHL0CoOezZo16FiW7NcbiOKGZ1uviP7u8Ebvs'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "1bd454c11637d64b",
+        "name" : "Request Info",
+        "source" : "1bd454c11637d64b.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTc4OWVkMjgwMDAxYjQzZGM3ZSIsImlhdCI6MTcxODQ1ODc0NCwiZXhwIjoxNzE4NDU5OTQ0fQ.pxdVnSEHL0CoOezZo16FiW7NcbiOKGZ1uviP7u8Ebvs'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718458748412,
+      "stop" : 1718458748575,
+      "duration" : 163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3bbbd88d136b729",
+      "name" : "Screenshot_2024-06-15 13:39:08.524667",
+      "source" : "c3bbbd88d136b729.png",
+      "type" : "image/png",
+      "size" : 213065
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_integration"
+  }, {
+    "name" : "suite",
+    "value" : "test_orders"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_integration.test_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9cc02fdea55175b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454998784,
+          "stop" : 1718455000633,
+          "duration" : 1849
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e8461baf18aeabb7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kathleen.olsen@lee.biz",
+        "name": "Noticmark64"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTI3OWVkMjgwMDAxYjQzZGMzYSIsImlhdCI6MTcxODQ1ODY2MywiZXhwIjoxNzE4NDU5ODYzfQ.cYO10runOLstvvHSqYIF-WvRojc8annhcQ7lMSKkMVA",
+    "refreshToken": "bc7b2050461b0decec115f2f1d4a9d237d4214600f57bc38a42bd3fad6aac2e81323b6edfb0a7b47"
+}

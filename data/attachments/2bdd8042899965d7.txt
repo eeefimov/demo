@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ4OWVkMjgwMDAxYjQzZGJjMiIsImlhdCI6MTcxODQ1ODU4NCwiZXhwIjoxNzE4NDU5Nzg0fQ.D7OVElFC5oDtuBXpIbqzyzIRhiE99Wph7D20Vzjeuz0'}
+data_models = {'name': 'Fly ehickswilliam', 'email': 'Carolyn.Doyle@reynolds.com', 'password': '6y^Iz0'}

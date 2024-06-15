@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lucas.nelson@dennis-hahn.com",
+        "name": "Thingstephensmatthew"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGRiOWVkMjgwMDAxYjQzZGJjYSIsImlhdCI6MTcxODQ1ODU4NywiZXhwIjoxNzE4NDU5Nzg3fQ.MRCE1rktrtsgXTxumgvNTNkzQ7QRhWx8bmksOc5adq4",
+    "refreshToken": "a1d3160fedbefdd15dd1baa7742f75bda7055027676c51b3f8c797bdddfc6153b7b04d3aaa6136ac"
+}

@@ -1,0 +1,318 @@
+{
+  "uid" : "ae2ba65dee643b63",
+  "name" : "test_email_validation[Email with three dashes in username]",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_email_validation",
+  "historyId" : "31e45cd1334880f31f91430719ccf93e",
+  "time" : {
+    "start" : 1718458676588,
+    "stop" : 1718458676885,
+    "duration" : 297
+  },
+  "description" : "Verify response code with different email.",
+  "descriptionHtml" : "<p>Verify response code with different email.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718458676586,
+      "stop" : 1718458676587,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718458676586,
+        "stop" : 1718458676587,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718458676587,
+          "stop" : 1718458676587,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Commeswelch'"
+        }, {
+          "name" : "mail",
+          "value" : "'April.James@martin.net'"
+        }, {
+          "name" : "pwd",
+          "value" : "'*f%8BT'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with different email.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Set user registration data_models",
+      "time" : {
+        "start" : 1718458676588,
+        "stop" : 1718458676588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'yking'"
+      }, {
+        "name" : "mail",
+        "value" : "'Pam-Valdez-Price@gonzales.net'"
+      }, {
+        "name" : "pwd",
+        "value" : "'z&+2k1'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718458676588,
+        "stop" : 1718458676884,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7273547676b54cdd",
+        "name" : "Request Info",
+        "source" : "7273547676b54cdd.txt",
+        "type" : "text/plain",
+        "size" : 195
+      }, {
+        "uid" : "7404934d066f24a0",
+        "name" : "api Response",
+        "source" : "7404934d066f24a0.json",
+        "type" : "application/json",
+        "size" : 423
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718458676886,
+      "stop" : 1718458677363,
+      "duration" : 477
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718458676886,
+        "stop" : 1718458677362,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458676887,
+          "stop" : 1718458676887,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTM0OWVkMjgwMDAxYjQzZGM0ZSIsImlhdCI6MTcxODQ1ODY3NiwiZXhwIjoxNzE4NDU5ODc2fQ.FKGlzbqSCK9G7jVbHBbnc1oX0PeioafRf90rdBx2y84'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c2ee9fc500a047af",
+        "name" : "Request Info",
+        "source" : "c2ee9fc500a047af.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTM0OWVkMjgwMDAxYjQzZGM0ZSIsImlhdCI6MTcxODQ1ODY3NiwiZXhwIjoxNzE4NDU5ODc2fQ.FKGlzbqSCK9G7jVbHBbnc1oX0PeioafRf90rdBx2y84'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "200"
+  }, {
+    "name" : "mail",
+    "value" : "'Pam-Valdez-Price@gonzales.net'"
+  }, {
+    "name" : "name",
+    "value" : "'yking'"
+  }, {
+    "name" : "pwd",
+    "value" : "'z&+2k1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae2ba65dee643b63.json",
+  "parameterValues" : [ "200", "'Pam-Valdez-Price@gonzales.net'", "'yking'", "'z&+2k1'" ]
+}

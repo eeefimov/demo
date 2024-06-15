@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jennifer.santiago@miller-adams.biz",
+        "name": "Wall slawson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGY4OWVkMjgwMDAxYjQzZGMwMyIsImlhdCI6MTcxODQ1ODYxNiwiZXhwIjoxNzE4NDU5ODE2fQ.yyqydraSTan3ObYt8hwAUtJkqw6L_344IWIM7d7I2Vc",
+    "refreshToken": "e776c9f17edcce7d0b73d5749d8b218915b2fc134974b9377fcb5f46a38605d50bd03a532d2bf70c"
+}

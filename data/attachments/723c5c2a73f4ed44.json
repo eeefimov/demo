@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jeffrey.clark@berry.com",
+        "name": "Execukirkcourtney"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTc4OWVkMjgwMDAxYjQzZGM3ZSIsImlhdCI6MTcxODQ1ODc0NCwiZXhwIjoxNzE4NDU5OTQ0fQ.pxdVnSEHL0CoOezZo16FiW7NcbiOKGZ1uviP7u8Ebvs",
+    "refreshToken": "684985509ce3d65512da728540f77a396f2fa286ebd599d1d128c14ed86ae10ba2cc5eece1a2b4e9"
+}

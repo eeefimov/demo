@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "briana.douglas@estes.net",
+        "name": "Theorloweryjessica"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGNmOWVkMjgwMDAxYjQzZGJhYyIsImlhdCI6MTcxODQ1ODU3NSwiZXhwIjoxNzE4NDU5Nzc1fQ.lnyIM7EU8PNj6o_5JH-1qE1ecDf1hsbyjHJqbgW-7SI",
+    "refreshToken": "77da00ff4c88d429f5b57a26baedb9011a5b51aa1a9d2708d2c0a1f033771d69d1195a93f7dc2fde"
+}

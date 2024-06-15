@@ -1,0 +1,399 @@
+{
+  "uid" : "61312d75ecd03efb",
+  "name" : "test_payload_credentials_validation",
+  "fullName" : "tests_api.test_get_user.TestGetUser#test_payload_credentials_validation",
+  "historyId" : "275b4024623aa2b4a0aac97054155487",
+  "time" : {
+    "start" : 1718458574055,
+    "stop" : 1718458574277,
+    "duration" : 222
+  },
+  "description" : "Verify user credentials in response.",
+  "descriptionHtml" : "<p>Verify user credentials in response.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718458573765,
+      "stop" : 1718458573766,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718458573765,
+        "stop" : 1718458573766,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718458573766,
+          "stop" : 1718458573766,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Readycharles70'"
+        }, {
+          "name" : "mail",
+          "value" : "'Jordan.Richardson@ritter-farmer.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "')pTtbm'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "usr",
+    "time" : {
+      "start" : 1718458573766,
+      "stop" : 1718458574055,
+      "duration" : 289
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup User data",
+      "time" : {
+        "start" : 1718458573766,
+        "stop" : 1718458573766,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718458573766,
+        "stop" : 1718458574055,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c7e1a3780fc2fc",
+        "name" : "Request Info",
+        "source" : "1c7e1a3780fc2fc.txt",
+        "type" : "text/plain",
+        "size" : 210
+      }, {
+        "uid" : "67bc7144f799b2cd",
+        "name" : "api Response",
+        "source" : "67bc7144f799b2cd.json",
+        "type" : "application/json",
+        "size" : 438
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup Header with user token",
+      "time" : {
+        "start" : 1718458574055,
+        "stop" : 1718458574055,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGNkOWVkMjgwMDAxYjQzZGJhOCIsImlhdCI6MTcxODQ1ODU3MywiZXhwIjoxNzE4NDU5NzczfQ.ini2glQ6mGi2q9dGTTIhepzu_KJXtzh8FI4FLWWAmYc'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify user credentials in response.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send GET user request",
+      "time" : {
+        "start" : 1718458574055,
+        "stop" : 1718458574276,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42359f46844467e",
+        "name" : "Request Info",
+        "source" : "42359f46844467e.txt",
+        "type" : "text/plain",
+        "size" : 308
+      }, {
+        "uid" : "30c611b77b3e78d8",
+        "name" : "api Response",
+        "source" : "30c611b77b3e78d8.json",
+        "type" : "application/json",
+        "size" : 133
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718458574279,
+      "stop" : 1718458574817,
+      "duration" : 538
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718458574279,
+        "stop" : 1718458574816,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458574280,
+          "stop" : 1718458574280,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "None"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "8e041f440e44263",
+        "name" : "Request Info",
+        "source" : "8e041f440e44263.txt",
+        "type" : "text/plain",
+        "size" : 137
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "None"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "usr::0",
+    "time" : {
+      "start" : 1718458574278,
+      "stop" : 1718458574279,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetUser"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_get_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "164b3db81c7146a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454849122,
+          "stop" : 1718454849288,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "2c4f01f30bc260f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453512423,
+          "stop" : 1718453512584,
+          "duration" : 161
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "61312d75ecd03efb.json",
+  "parameterValues" : [ ]
+}

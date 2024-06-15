@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lisa.perry@murray-hughes.com",
+        "name": "Hour laurenpeterson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGUyOWVkMjgwMDAxYjQzZGJkYyIsImlhdCI6MTcxODQ1ODU5NCwiZXhwIjoxNzE4NDU5Nzk0fQ.t8chbqpY42v1Xo8_i7QKiRMkYOUL6GqHRiNgxi1P0X0",
+    "refreshToken": "b035e9081d4b9904986f814c478ad3b01e69eb6bd05b200ec61d577cfd636be095a1356ac825e284"
+}

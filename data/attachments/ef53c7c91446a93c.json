@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lauren.ortiz@stevens-roberson.com",
+        "name": "Valueheather30"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGUxOWVkMjgwMDAxYjQzZGJkYSIsImlhdCI6MTcxODQ1ODU5MywiZXhwIjoxNzE4NDU5NzkzfQ.7WdoxLXkYygMn0Drm867JVER0_fonV8M6EWt63JUZGg",
+    "refreshToken": "2d7371c132c3c945cefc1fcd1f2c26bded9a899850fccd48d7353e154b886df271a5dd0fb3e7481d"
+}

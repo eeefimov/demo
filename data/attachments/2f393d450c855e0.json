@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "vanessa.moore@valentine-weber.com",
+        "name": "Throulrobinson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ1OWVkMjgwMDAxYjQzZGJiYyIsImlhdCI6MTcxODQ1ODU4MSwiZXhwIjoxNzE4NDU5NzgxfQ.ZkeC5akNDzdO9lbuqCo_4evB6tCMxKcmxqs6ZdMBlr8",
+    "refreshToken": "3b3ed05cba81df863e8cc5e8adf7c143d33cd79c757e40b555a138e5caf67b18277c331cc16d1edc"
+}

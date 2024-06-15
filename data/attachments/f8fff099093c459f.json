@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jeffrey.meyer@lewis-haas.com",
+        "name": "Bringjwilliams"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGVhOWVkMjgwMDAxYjQzZGJlYyIsImlhdCI6MTcxODQ1ODYwMiwiZXhwIjoxNzE4NDU5ODAyfQ.QK72tq1RzKBm-Q2w1wkSrcyRlJ37TIBIKNmFg6sEd6Y",
+    "refreshToken": "4a4d6eb759d4aa1a066bcc5bc97ec01fb897a1a27eeb2d5624f82acdbb50be2b47f561efd479278c"
+}

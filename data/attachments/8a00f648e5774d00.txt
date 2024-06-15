@@ -1,0 +1,4 @@
+method = get
+endpoint = https://stellarburgers.nomoreparties.site/api/orders/all
+header = {'Content-Type': 'application/html'}
+data_models = None

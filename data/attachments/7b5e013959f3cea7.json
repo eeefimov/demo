@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lisa.miller@guzman.com",
+        "name": "Partifryandrea"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ5OWVkMjgwMDAxYjQzZGJjNiIsImlhdCI6MTcxODQ1ODU4NSwiZXhwIjoxNzE4NDU5Nzg1fQ.lDeEssIdSLBnm6Qpjth1rPUjZUGnrvYpzaeyO8IXrnA",
+    "refreshToken": "6d4595a9cc3d1e00479d4bd62bf5a985372f3c79c834bc5041a5f5db5302cedb9be461dd67c2260e"
+}

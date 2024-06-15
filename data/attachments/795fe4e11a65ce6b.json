@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "david-wise.farley@caldwell-wright.com",
+        "name": "ypatterson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTM1OWVkMjgwMDAxYjQzZGM1MCIsImlhdCI6MTcxODQ1ODY3NywiZXhwIjoxNzE4NDU5ODc3fQ.II3cDwe4dTu5vHPOobBNMVR6FTlO-ED5OidBlpfGZUw",
+    "refreshToken": "18f1d035150592392d281ce4df680dd9c154f052f193d903b89c3655730e3b52a41f491bdbe238e3"
+}

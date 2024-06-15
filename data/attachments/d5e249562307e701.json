@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "emily.whitaker@rodriguez.biz",
+        "name": "Mouthdanny75"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTI2OWVkMjgwMDAxYjQzZGMzOCIsImlhdCI6MTcxODQ1ODY2MiwiZXhwIjoxNzE4NDU5ODYyfQ.z6-Kyrk8ml4IqHComl3iHTNcthBLD-N5th_cgbieeOE",
+    "refreshToken": "eb80b4dc4602615fd3bde4894bb1ff35760c607eadf9aecd7abd234b9666a72201652237a9f624a1"
+}

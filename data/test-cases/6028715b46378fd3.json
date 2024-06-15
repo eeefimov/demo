@@ -1,0 +1,450 @@
+{
+  "uid" : "6028715b46378fd3",
+  "name" : "test_items_number_in_order[Order with no bun and 3 ingredient]",
+  "fullName" : "tests_api.test_post_orders.TestUserOrder#test_items_number_in_order",
+  "historyId" : "75ba93c95348d40fe45dd67a9eb233ea",
+  "time" : {
+    "start" : 1718458609808,
+    "stop" : 1718458610928,
+    "duration" : 1120
+  },
+  "description" : "Verify number of ingredients in response.",
+  "descriptionHtml" : "<p>Verify number of ingredients in response.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "user_order",
+    "time" : {
+      "start" : 1718458609511,
+      "stop" : 1718458609808,
+      "duration" : 297
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Make Order",
+      "time" : {
+        "start" : 1718458609511,
+        "stop" : 1718458611406,
+        "duration" : 1895
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718458609512,
+          "stop" : 1718458609512,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Else catherineodom'"
+        }, {
+          "name" : "mail",
+          "value" : "'John.Grimes@chavez-dudley.biz'"
+        }, {
+          "name" : "pwd",
+          "value" : "'%kxQKx'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718458609512,
+          "stop" : 1718458609807,
+          "duration" : 295
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "184a8d1de7e2227b",
+          "name" : "Request Info",
+          "source" : "184a8d1de7e2227b.txt",
+          "type" : "text/plain",
+          "size" : 208
+        }, {
+          "uid" : "68ac9567677feac4",
+          "name" : "api Response",
+          "source" : "68ac9567677feac4.json",
+          "type" : "application/json",
+          "size" : 436
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458609807,
+          "stop" : 1718458609807,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGYxOWVkMjgwMDAxYjQzZGJmOCIsImlhdCI6MTcxODQ1ODYwOSwiZXhwIjoxNzE4NDU5ODA5fQ.rHnaUUCrVoixfaWw0kLeSCfbOY8lMqgoQCysAQe_iqk'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718458609807,
+          "stop" : 1718458609808,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "335bf8be5cef690f",
+          "name" : "api Response",
+          "source" : "335bf8be5cef690f.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify number of ingredients in response.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup User order",
+      "time" : {
+        "start" : 1718458609808,
+        "stop" : 1718458609809,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718458609809,
+          "stop" : 1718458609809,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e94e616938a33df0",
+          "name" : "api Response",
+          "source" : "e94e616938a33df0.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Set ingredients in order",
+        "time" : {
+          "start" : 1718458609809,
+          "stop" : 1718458609809,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "f34df4f7572325c0",
+        "name" : "api Response",
+        "source" : "f34df4f7572325c0.json",
+        "type" : "application/json",
+        "size" : 101
+      } ],
+      "parameters" : [ {
+        "name" : "empty",
+        "value" : "False"
+      }, {
+        "name" : "buns",
+        "value" : "False"
+      }, {
+        "name" : "buns_number",
+        "value" : "1"
+      }, {
+        "name" : "ingr_number",
+        "value" : "3"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send post requests",
+      "time" : {
+        "start" : 1718458609809,
+        "stop" : 1718458610927,
+        "duration" : 1118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "408440780a1ae499",
+        "name" : "Request Info",
+        "source" : "408440780a1ae499.txt",
+        "type" : "text/plain",
+        "size" : 403
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user_order::0",
+    "time" : {
+      "start" : 1718458610929,
+      "stop" : 1718458611407,
+      "duration" : 478
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718458610929,
+        "stop" : 1718458611405,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458610929,
+          "stop" : 1718458610929,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGYxOWVkMjgwMDAxYjQzZGJmOCIsImlhdCI6MTcxODQ1ODYwOSwiZXhwIjoxNzE4NDU5ODA5fQ.rHnaUUCrVoixfaWw0kLeSCfbOY8lMqgoQCysAQe_iqk'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "cf2d435550f7c053",
+        "name" : "Request Info",
+        "source" : "cf2d435550f7c053.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGYxOWVkMjgwMDAxYjQzZGJmOCIsImlhdCI6MTcxODQ1ODYwOSwiZXhwIjoxNzE4NDU5ODA5fQ.rHnaUUCrVoixfaWw0kLeSCfbOY8lMqgoQCysAQe_iqk'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_orders"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserOrder"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "buns",
+    "value" : "False"
+  }, {
+    "name" : "number",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "79bb7d1b7fb8df00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454878691,
+          "stop" : 1718454879752,
+          "duration" : 1061
+        }
+      }, {
+        "uid" : "d731043854ee8004",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453541682,
+          "stop" : 1718453542784,
+          "duration" : 1102
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6028715b46378fd3.json",
+  "parameterValues" : [ "False", "3" ]
+}

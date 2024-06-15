@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ5OWVkMjgwMDAxYjQzZGJjNCIsImlhdCI6MTcxODQ1ODU4NSwiZXhwIjoxNzE4NDU5Nzg1fQ.s6Vl-WuX2NFvdXPCa1kBEvywv1tZJ1YXHZ976xwkilA'}
+data_models = {'name': 'Suffemcdanielallison', 'email': 'Heather.Fleming@richardson-acosta.com', 'password': '_j)2RP'}

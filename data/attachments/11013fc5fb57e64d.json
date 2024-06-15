@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "pamela.mason@hanson-harris.com",
+        "name": "Situavirginia71"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTAzOWVkMjgwMDAxYjQzZGMxMiIsImlhdCI6MTcxODQ1ODYyNywiZXhwIjoxNzE4NDU5ODI3fQ.lJgq6_R7QW4-PGxDIo1SCYmUmnGGdCwQDvOdVBp_KSc",
+    "refreshToken": "1cbb81447e9af40f8de49acb1e6c0f6209da0aa7cb52fa7ea8a54985d83f5d83f10b26a01d178784"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jason.peterson@knight.com",
+        "name": "Almosrogersjonathan"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGRkOWVkMjgwMDAxYjQzZGJjZSIsImlhdCI6MTcxODQ1ODU4OSwiZXhwIjoxNzE4NDU5Nzg5fQ.M_aCgqH3_8WHqzgO7qCbvUB0sJqOSPoHL_lpnT1qgR8",
+    "refreshToken": "d4311338ffd9c23c6f843129368ce560b673ee826b3c667168fd1d78624d83bd1f8fff95234628d3"
+}

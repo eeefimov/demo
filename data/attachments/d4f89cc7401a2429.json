@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kathryn.mora@tate.com",
+        "name": "Populmillerlisa"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGZjOWVkMjgwMDAxYjQzZGMwYSIsImlhdCI6MTcxODQ1ODYyMCwiZXhwIjoxNzE4NDU5ODIwfQ.Io7Q4nG7OQgudZ7J4arAZSChuog9cZ80WfRpTNazV8M",
+    "refreshToken": "6d540038041da0f99896908b2fc24b13fcb8d4e3ae25921c5fa4c83e611f50a6c478af9e2d64ea26"
+}

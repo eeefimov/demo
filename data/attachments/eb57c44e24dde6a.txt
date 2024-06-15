@@ -1,0 +1,4 @@
+method = patch
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/logout
+header = None
+data_models = {'token': '6890b580a4497d73a2d9037e13b44d05745e03e65a1c7e433d74a08554deebc2aed98e34f9868789'}

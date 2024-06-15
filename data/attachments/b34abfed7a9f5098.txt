@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ2OWVkMjgwMDAxYjQzZGJiZSIsImlhdCI6MTcxODQ1ODU4MiwiZXhwIjoxNzE4NDU5NzgyfQ.zZR48Z-xm2teyfWLAcYqTb8aZ8eXj-tsoXhA2UVDyvQ'}
+data_models = {'name': 'Storyvgrant', 'email': 'Tracy.Sexton@drake-diaz.org', 'password': 'Bf#2YS'}

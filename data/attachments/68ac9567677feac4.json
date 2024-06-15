@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "john.grimes@chavez-dudley.biz",
+        "name": "Else catherineodom"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGYxOWVkMjgwMDAxYjQzZGJmOCIsImlhdCI6MTcxODQ1ODYwOSwiZXhwIjoxNzE4NDU5ODA5fQ.rHnaUUCrVoixfaWw0kLeSCfbOY8lMqgoQCysAQe_iqk",
+    "refreshToken": "5641eb37d2779e420a25c77d95077608e9cc39081cbf76e11027451f9c4e3e7a96e212110ecd7169"
+}

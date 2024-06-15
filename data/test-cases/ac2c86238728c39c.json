@@ -1,0 +1,468 @@
+{
+  "uid" : "ac2c86238728c39c",
+  "name" : "test_order_configur[Order with 1 bun and ingredients [1 to 10]]",
+  "fullName" : "tests_api.test_post_orders.TestUserOrder#test_order_configur",
+  "historyId" : "87bbaf86fd28e10519cd9ea77b0a5c81",
+  "time" : {
+    "start" : 1718458612703,
+    "stop" : 1718458613821,
+    "duration" : 1118
+  },
+  "description" : "Verify different types of orders.",
+  "descriptionHtml" : "<p>Verify different types of orders.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "user_order",
+    "time" : {
+      "start" : 1718458612408,
+      "stop" : 1718458612702,
+      "duration" : 294
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Make Order",
+      "time" : {
+        "start" : 1718458612408,
+        "stop" : 1718458614291,
+        "duration" : 1883
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718458612409,
+          "stop" : 1718458612409,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Rich peggy68'"
+        }, {
+          "name" : "mail",
+          "value" : "'Christina.Snyder@cole.info'"
+        }, {
+          "name" : "pwd",
+          "value" : "'VgIDLo'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718458612409,
+          "stop" : 1718458612701,
+          "duration" : 292
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9ac0e518c64144c1",
+          "name" : "Request Info",
+          "source" : "9ac0e518c64144c1.txt",
+          "type" : "text/plain",
+          "size" : 199
+        }, {
+          "uid" : "f1dbb619f9831750",
+          "name" : "api Response",
+          "source" : "f1dbb619f9831750.json",
+          "type" : "application/json",
+          "size" : 427
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458612701,
+          "stop" : 1718458612701,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGY0OWVkMjgwMDAxYjQzZGJmZCIsImlhdCI6MTcxODQ1ODYxMiwiZXhwIjoxNzE4NDU5ODEyfQ.jso9G9Pk41uoelmBHY6wF5FbZryXkviJLzvsIm7Fy14'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718458612701,
+          "stop" : 1718458612702,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e7203bd8fafb3ac5",
+          "name" : "api Response",
+          "source" : "e7203bd8fafb3ac5.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify different types of orders.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup User order",
+      "time" : {
+        "start" : 1718458612703,
+        "stop" : 1718458612703,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718458612703,
+          "stop" : 1718458612703,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "97319008065f4f7",
+          "name" : "api Response",
+          "source" : "97319008065f4f7.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Set buns in order",
+        "time" : {
+          "start" : 1718458612703,
+          "stop" : 1718458612703,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Set ingredients in order",
+        "time" : {
+          "start" : 1718458612703,
+          "stop" : 1718458612703,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "25cfbbf93a8f7854",
+        "name" : "api Response",
+        "source" : "25cfbbf93a8f7854.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ {
+        "name" : "empty",
+        "value" : "False"
+      }, {
+        "name" : "buns",
+        "value" : "True"
+      }, {
+        "name" : "buns_number",
+        "value" : "1"
+      }, {
+        "name" : "ingr_number",
+        "value" : "1"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send post requests",
+      "time" : {
+        "start" : 1718458612703,
+        "stop" : 1718458613819,
+        "duration" : 1116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dce6880d3b5c5947",
+        "name" : "Request Info",
+        "source" : "dce6880d3b5c5947.txt",
+        "type" : "text/plain",
+        "size" : 375
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup response model",
+      "time" : {
+        "start" : 1718458613820,
+        "stop" : 1718458613820,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "model",
+        "value" : "<class 'data_models.orders_model.OrderResponse'>"
+      }, {
+        "name" : "input_data",
+        "value" : "{'success': True, 'name': 'Традиционный-галактический флюоресцентный бургер', 'order': {'ingredients': [{'_id': '61c0c5a71d1f82001bdaaa6d', 'name': 'Флюоресцентная булка R2-D3', 'type': 'bun', 'proteins': 44, 'fat': 26, 'carbohydrates': 85, 'calories': 643, 'price': 988, 'image': 'https://code.s3.yandex.net/react/code/bun-01.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/bun-01-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/bun-01-large.png', '__v': 0}, {'_id': '61c0c5a71d1f82001bdaaa74', 'name': 'Соус традиционный галактический', 'type': 'sauce', 'proteins': 42, 'fat': 24, 'carbohydrates': 42, 'calories': 99, 'price': 15, 'image': 'https://code.s3.yandex.net/react/code/sauce-03.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-03-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-03-large.png', '__v': 0}], '_id': '666d98f49ed280001b43dbff', 'owner': {'name': 'Rich peggy68', 'email': 'christina.snyder@cole.info', 'createdAt': '2024-06-15T13:36:52.608Z', 'updatedAt': '2024-06-15T13:36:52.608Z'}, 'status': 'done', 'name': 'Традиционный-галактический флюоресцентный бургер', 'createdAt': '2024-06-15T13:36:52.839Z', 'updatedAt': '2024-06-15T13:36:53.364Z', 'number': 80055, 'price': 1003}}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user_order::0",
+    "time" : {
+      "start" : 1718458613822,
+      "stop" : 1718458614292,
+      "duration" : 470
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718458613822,
+        "stop" : 1718458614290,
+        "duration" : 468
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718458613822,
+          "stop" : 1718458613822,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGY0OWVkMjgwMDAxYjQzZGJmZCIsImlhdCI6MTcxODQ1ODYxMiwiZXhwIjoxNzE4NDU5ODEyfQ.jso9G9Pk41uoelmBHY6wF5FbZryXkviJLzvsIm7Fy14'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "5db69c3d9dfe02cb",
+        "name" : "Request Info",
+        "source" : "5db69c3d9dfe02cb.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGY0OWVkMjgwMDAxYjQzZGJmZCIsImlhdCI6MTcxODQ1ODYxMiwiZXhwIjoxNzE4NDU5ODEyfQ.jso9G9Pk41uoelmBHY6wF5FbZryXkviJLzvsIm7Fy14'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_orders"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserOrder"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "b_number",
+    "value" : "1"
+  }, {
+    "name" : "buns",
+    "value" : "True"
+  }, {
+    "name" : "emty",
+    "value" : "False"
+  }, {
+    "name" : "exp",
+    "value" : "200"
+  }, {
+    "name" : "number",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac2c86238728c39c.json",
+  "parameterValues" : [ "1", "True", "False", "200", "1" ]
+}

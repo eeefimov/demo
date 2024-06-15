@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "julian.wells@rivera.info",
+        "name": "Develfarleylaura"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQyOWVkMjgwMDAxYjQzZGJiMiIsImlhdCI6MTcxODQ1ODU3OCwiZXhwIjoxNzE4NDU5Nzc4fQ.qSpfSsA019ejsS7UVjTLU6FctToC62qxF_teeS_uvHM",
+    "refreshToken": "e2001d63e50e2a5c1ec35ddaa00bd136732e1e556126353471c7a8b1f4189fdf696406e28b82aea4"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "nicholas30@example.com",
+        "name": "!!!!!!!!!!"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTM5OWVkMjgwMDAxYjQzZGM1YSIsImlhdCI6MTcxODQ1ODY4MSwiZXhwIjoxNzE4NDU5ODgxfQ.W2ThlFfL-YOVdvzGPHQUAI0WBUq-Hi6iVD1KBlX1V8U",
+    "refreshToken": "e5a9da0a7598f510ecd387cb3d39c45b898da388117b8711bd154e9fd9c1db5a0ce9043f8ddbb31f"
+}

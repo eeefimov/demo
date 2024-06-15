@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "paul.decker@phillips.com",
+        "name": "Checktammy59"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGRkOWVkMjgwMDAxYjQzZGJkMCIsImlhdCI6MTcxODQ1ODU4OSwiZXhwIjoxNzE4NDU5Nzg5fQ.8stA93bGRvb1IU4SYkmS6t0z1XJXuECLiTUGUYIYgbY",
+    "refreshToken": "a511ec8d19a11766d09b4cfaaba247b652e9e16fcc8d1f4d8eb0d05ea0b0c0277f4ff23211bf82e4"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "courtney.lucas@smith.com",
+        "name": "Reprehreynolds"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTFjOWVkMjgwMDAxYjQzZGMyYyIsImlhdCI6MTcxODQ1ODY1MiwiZXhwIjoxNzE4NDU5ODUyfQ.uXoaCNnG2dNkCBoI6jGcdATTECtbsWMi9rrK2vB_6eE",
+    "refreshToken": "3153bc7ba94f4246aa36c23d31a52120b689a7735fd0799620a2c828d8b3b2d5f5bfc157ef19b20f"
+}

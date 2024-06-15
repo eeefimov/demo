@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "matthew.haley@calderon.org",
+        "name": "Sisteqfitzgerald"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ1OWVkMjgwMDAxYjQzZGJiYSIsImlhdCI6MTcxODQ1ODU4MSwiZXhwIjoxNzE4NDU5NzgxfQ.pPVydUT6YUhAybrwzz432X1J-3fGWdZiJOpMymqkcBU",
+    "refreshToken": "249143871ef02e21aa0fff2779bc8e77b5638316854d0b38044372ba5a105fa2edb9e150c1b3e4c7"
+}

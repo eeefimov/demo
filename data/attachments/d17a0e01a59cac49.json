@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "name": "\u0424\u0430\u043b\u043b\u0435\u043d\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u043b\u044e\u043c\u0438\u043d\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 space \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6d",
+                "name": "\u0424\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u0430\u044f \u0431\u0443\u043b\u043a\u0430 R2-D3",
+                "type": "bun",
+                "proteins": 44,
+                "fat": 26,
+                "carbohydrates": 85,
+                "calories": 643,
+                "price": 988,
+                "image": "https://code.s3.yandex.net/react/code/bun-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/bun-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/bun-01-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa77",
+                "name": "\u041f\u043b\u043e\u0434\u044b \u0424\u0430\u043b\u043b\u0435\u043d\u0438\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u0434\u0435\u0440\u0435\u0432\u0430",
+                "type": "main",
+                "proteins": 20,
+                "fat": 5,
+                "carbohydrates": 55,
+                "calories": 77,
+                "price": 874,
+                "image": "https://code.s3.yandex.net/react/code/sp_1.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sp_1-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sp_1-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa73",
+                "name": "\u0421\u043e\u0443\u0441 \u0444\u0438\u0440\u043c\u0435\u043d\u043d\u044b\u0439 Space Sauce",
+                "type": "sauce",
+                "proteins": 50,
+                "fat": 22,
+                "carbohydrates": 11,
+                "calories": 14,
+                "price": 80,
+                "image": "https://code.s3.yandex.net/react/code/sauce-04.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sauce-04-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sauce-04-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6e",
+                "name": "\u0424\u0438\u043b\u0435 \u041b\u044e\u043c\u0438\u043d\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u043e\u0433\u043e \u0442\u0435\u0442\u0440\u0430\u043e\u0434\u043e\u043d\u0442\u0438\u043c\u0444\u043e\u0440\u043c\u0430",
+                "type": "main",
+                "proteins": 44,
+                "fat": 26,
+                "carbohydrates": 85,
+                "calories": 643,
+                "price": 988,
+                "image": "https://code.s3.yandex.net/react/code/meat-03.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/meat-03-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/meat-03-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "666d99179ed280001b43dc26",
+        "owner": {
+            "name": "Situavirginia71",
+            "email": "pamela.mason@hanson-harris.com",
+            "createdAt": "2024-06-15T13:37:07.092Z",
+            "updatedAt": "2024-06-15T13:37:07.092Z"
+        },
+        "status": "done",
+        "name": "\u0424\u0430\u043b\u043b\u0435\u043d\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u043b\u044e\u043c\u0438\u043d\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 space \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+        "createdAt": "2024-06-15T13:37:27.578Z",
+        "updatedAt": "2024-06-15T13:37:28.105Z",
+        "number": 80081,
+        "price": 2930
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "benjamin.campos@mahoney.com",
+        "name": "Underymorrow"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTNmOWVkMjgwMDAxYjQzZGM2OCIsImlhdCI6MTcxODQ1ODY4NywiZXhwIjoxNzE4NDU5ODg3fQ.dxIAdMuC66QC87czE-QbWsorK1-fwTvnVJJ-vhNIwhE",
+    "refreshToken": "f8ad3b5b274bf3c59939456fe2fe23a6877263e3a93e4195054c56be0683d0dedf2364991912e646"
+}

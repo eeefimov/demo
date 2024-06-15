@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "charles.hopkins@hopkins-padilla.com",
+        "name": "Mediarcaldwell"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGU1OWVkMjgwMDAxYjQzZGJlMiIsImlhdCI6MTcxODQ1ODU5NywiZXhwIjoxNzE4NDU5Nzk3fQ.dlX4AtulNjj7VfhdxoDfAFkeO_8R8rTmwdCrUTYR7h4",
+    "refreshToken": "c7e7a2ee01fd3f47a202223dc099718482e47b6237fbb0c17a649d0d7d0128b59f8f2c5b65c12a21"
+}

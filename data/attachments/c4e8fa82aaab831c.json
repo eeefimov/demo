@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "abigail-rodriguez@kelly.com",
+        "name": "jennifer23"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTM0OWVkMjgwMDAxYjQzZGM0YyIsImlhdCI6MTcxODQ1ODY3NiwiZXhwIjoxNzE4NDU5ODc2fQ.AIF1xp7Bs9qwCFGJiMLVt--2AM7kB8diJWvNV21R7zA",
+    "refreshToken": "bb80c8ba9684c84b79f9588206fb62ddecbd9e93fb4959003c2625cf85704697c1dea23ac7fb0edf"
+}

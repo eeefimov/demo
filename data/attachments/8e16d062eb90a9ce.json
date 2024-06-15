@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "patrick.wilson@mcdonald-rogers.com",
+        "name": "Coursmichelle10"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTFhOWVkMjgwMDAxYjQzZGMyOCIsImlhdCI6MTcxODQ1ODY1MCwiZXhwIjoxNzE4NDU5ODUwfQ.rH9WZvC8M0nj030gdNfjmBeuDpXwWe_US_nb_OupSZE",
+    "refreshToken": "d9837be24ae0fc1127d2b618aadceeee5751dd0890b359f06b1abce6b692970d37689d54d56168f6"
+}

@@ -1,0 +1,594 @@
+{
+  "uid" : "12f25862c1e66a13",
+  "name" : "test_reset_exist_password[Registered email]",
+  "fullName" : "tests_ui.test_restore_password#test_reset_exist_password",
+  "historyId" : "6508e9d423d99ed2646d56648f836870",
+  "time" : {
+    "start" : 1718459759087,
+    "stop" : 1718459775889,
+    "duration" : 16802
+  },
+  "description" : "Verify reset password with exist password.",
+  "descriptionHtml" : "<p>Verify reset password with exist password.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718458550624,
+      "stop" : 1718458550646,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718459757611,
+      "stop" : 1718459758723,
+      "duration" : 1112
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718459757999,
+        "stop" : 1718459758723,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718458550623,
+      "stop" : 1718458550623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "forgot_page",
+    "time" : {
+      "start" : 1718459758723,
+      "stop" : 1718459759086,
+      "duration" : 363
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718459758723,
+        "stop" : 1718459759034,
+        "duration" : 311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Restore password link",
+      "time" : {
+        "start" : 1718459759034,
+        "stop" : 1718459759086,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify reset password with exist password.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Reset valid user password and login.",
+      "time" : {
+        "start" : 1718459759087,
+        "stop" : 1718459767102,
+        "duration" : 8015
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fill email field",
+        "time" : {
+          "start" : 1718459759087,
+          "stop" : 1718459759104,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Restore button",
+        "time" : {
+          "start" : 1718459759104,
+          "stop" : 1718459761155,
+          "duration" : 2051
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Password field",
+        "time" : {
+          "start" : 1718459762961,
+          "stop" : 1718459762975,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Confirm code field",
+        "time" : {
+          "start" : 1718459762975,
+          "stop" : 1718459762987,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Save button",
+        "time" : {
+          "start" : 1718459762988,
+          "stop" : 1718459763036,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Email field",
+        "time" : {
+          "start" : 1718459766036,
+          "stop" : 1718459766050,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill PASSWORD field",
+        "time" : {
+          "start" : 1718459766050,
+          "stop" : 1718459766063,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Entry button",
+        "time" : {
+          "start" : 1718459766063,
+          "stop" : 1718459766101,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "forgot_page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/forgot-password'>"
+      }, {
+        "name" : "mail",
+        "value" : "'efimov.evgeniy.e@gmail.com'"
+      }, {
+        "name" : "pwd",
+        "value" : "'ilinjvqrdhsmwxen'"
+      } ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify redirection to Main page",
+      "time" : {
+        "start" : 1718459767102,
+        "stop" : 1718459767108,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Reset valid user password and login.",
+      "time" : {
+        "start" : 1718459768468,
+        "stop" : 1718459775884,
+        "duration" : 7416
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fill email field",
+        "time" : {
+          "start" : 1718459768468,
+          "stop" : 1718459768480,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Restore button",
+        "time" : {
+          "start" : 1718459768480,
+          "stop" : 1718459770518,
+          "duration" : 2038
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Password field",
+        "time" : {
+          "start" : 1718459771750,
+          "stop" : 1718459771763,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Confirm code field",
+        "time" : {
+          "start" : 1718459771763,
+          "stop" : 1718459771776,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Save button",
+        "time" : {
+          "start" : 1718459771776,
+          "stop" : 1718459771818,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Email field",
+        "time" : {
+          "start" : 1718459774818,
+          "stop" : 1718459774831,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill PASSWORD field",
+        "time" : {
+          "start" : 1718459774831,
+          "stop" : 1718459774844,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Entry button",
+        "time" : {
+          "start" : 1718459774844,
+          "stop" : 1718459774884,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "forgot_page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/forgot-password'>"
+      }, {
+        "name" : "mail",
+        "value" : "'efimov.evgeniy.e@gmail.com'"
+      }, {
+        "name" : "pwd",
+        "value" : "'ilinjvqrdhsmwxen'"
+      } ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify redirection to Main page",
+      "time" : {
+        "start" : 1718459775884,
+        "stop" : 1718459775889,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718459775890,
+      "stop" : 1718459776046,
+      "duration" : 156
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2ed9ffa5130d0e9b",
+      "name" : "Screenshot_2024-06-15 13:56:16.013187",
+      "source" : "2ed9ffa5130d0e9b.png",
+      "type" : "image/png",
+      "size" : 157098
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_restore_password"
+  }, {
+    "name" : "host",
+    "value" : "8c6f236140c2"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_restore_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'Praktikum <no.more.parties@yandex.ru>'"
+  }, {
+    "name" : "mail",
+    "value" : "'efimov.evgeniy.e@gmail.com'"
+  }, {
+    "name" : "pwd",
+    "value" : "'ilinjvqrdhsmwxen'"
+  }, {
+    "name" : "status",
+    "value" : "True"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3a6191e68592892b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457892867,
+          "stop" : 1718457909352,
+          "duration" : 16485
+        }
+      }, {
+        "uid" : "8017ab7a5088c142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718456207329,
+          "stop" : 1718456223180,
+          "duration" : 15851
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "12f25862c1e66a13.json",
+  "parameterValues" : [ "'Praktikum <no.more.parties@yandex.ru>'", "'efimov.evgeniy.e@gmail.com'", "'ilinjvqrdhsmwxen'", "True" ]
+}

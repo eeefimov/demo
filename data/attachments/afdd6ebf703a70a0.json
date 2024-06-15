@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kristen15@example.org",
+        "name": "Mission industry maybe want. Western listen rather discover his past whether."
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTNhOWVkMjgwMDAxYjQzZGM1YyIsImlhdCI6MTcxODQ1ODY4MiwiZXhwIjoxNzE4NDU5ODgyfQ.AJS0m7Xwlw1sDDhwy6SCaiRBNTr6KfirIHXxdGSzZRo",
+    "refreshToken": "6fcf34325a52d6bc95f424438ec8b59c1d86b54a6b568f64221bfd24af3a45790bf285256c5f71a6"
+}

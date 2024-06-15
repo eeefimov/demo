@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "dana48@example.com",
+        "name": "cost green"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTNiOWVkMjgwMDAxYjQzZGM1ZSIsImlhdCI6MTcxODQ1ODY4MywiZXhwIjoxNzE4NDU5ODgzfQ.NMQiQUkN7oVSpLVuSZRFNPPkaLtGZB83frc35PjvYlE",
+    "refreshToken": "9d3b14fb657ac19794db82107f73464899e77b43b4187de8efda12f09cd3194f395279197e49437f"
+}

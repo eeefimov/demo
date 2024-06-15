@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "michael.bright@williams.info",
+        "name": "Workekarenvega"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGU3OWVkMjgwMDAxYjQzZGJlNiIsImlhdCI6MTcxODQ1ODU5OSwiZXhwIjoxNzE4NDU5Nzk5fQ.0OOf5KzX635mH_I-kOy51A-6puf5PVmNJTWPhdjP_As",
+    "refreshToken": "cfd3ba5278d6a82cf2b694c72f3e85dcd6b8dfe264a77ffe031339d061f6264dd0c94b9cdae72c46"
+}

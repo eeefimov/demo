@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "katie.smith@jackson.com",
+        "name": "Eat lbmartinez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGZhOWVkMjgwMDAxYjQzZGMwNyIsImlhdCI6MTcxODQ1ODYxOCwiZXhwIjoxNzE4NDU5ODE4fQ.T76lBz4Uw14DgveT9SOnbVRSxNWkxinStB2qflHd5yI",
+    "refreshToken": "232fe24fc46165b57f6b1275e92ccba71143bed1c24b20815bd2d6fdbc2a29752aee143a3e8bba21"
+}

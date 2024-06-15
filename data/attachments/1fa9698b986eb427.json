@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "miranda.curry.joseph@ho.info",
+        "name": "jacquelinefletcher"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTMxOWVkMjgwMDAxYjQzZGM0NiIsImlhdCI6MTcxODQ1ODY3MywiZXhwIjoxNzE4NDU5ODczfQ.vIA38g6V0et0oNv24YGrlGnjORML1FTXgFIVQM5fyjM",
+    "refreshToken": "e25ab53784ee653ac8ab01af9218fa24c73307c48f2d7da382187953e2cf827e946b60b0ced7bde4"
+}

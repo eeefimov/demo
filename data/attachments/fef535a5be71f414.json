@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jared.pena@cortez-gilbert.net",
+        "name": "Bringthorntoncatherine"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGRhOWVkMjgwMDAxYjQzZGJjOCIsImlhdCI6MTcxODQ1ODU4NiwiZXhwIjoxNzE4NDU5Nzg2fQ.A3E30y3zK3evAkdnTuG7DKaFb9AxiYhDCkaob07NkHw",
+    "refreshToken": "5260f2e467c17054591ea93acdfd9a17f5405a7a66b037b24249e80b3996b5fcd487472369a8688f"
+}

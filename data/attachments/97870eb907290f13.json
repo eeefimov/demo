@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "melanie.patterson@curtis-holloway.com",
+        "name": "Charajacobsdeborah"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGRlOWVkMjgwMDAxYjQzZGJkMiIsImlhdCI6MTcxODQ1ODU5MCwiZXhwIjoxNzE4NDU5NzkwfQ.pSkRc-Tx-zSuKvWVWpnNFwX-M47iDtg3sI7VbrTsMp0",
+    "refreshToken": "d2318bfe79d68798eebed911f56adca8f3b5490390d3f90afdca83a4dc326ea0e96da60ab12f10d9"
+}

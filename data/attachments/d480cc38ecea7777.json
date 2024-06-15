@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "caroline.mckinney@johnson.com",
+        "name": "Officbennettmichelle"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGYzOWVkMjgwMDAxYjQzZGJmYiIsImlhdCI6MTcxODQ1ODYxMSwiZXhwIjoxNzE4NDU5ODExfQ.ERvokEJuEBD3zBEo5lRl9rUTkwGz3DuvIcsvXbW9sgA",
+    "refreshToken": "fabc1c915e43441a80d15f6179937740868f4bcb2bc9ffeb5a24d49782f9f6c0621c67eef66f8d16"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "matthew.johnson@jefferson.com",
+        "name": "Officjuliehunt"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTQ3OWVkMjgwMDAxYjQzZGM3NSIsImlhdCI6MTcxODQ1ODY5NSwiZXhwIjoxNzE4NDU5ODk1fQ.bdyNFFP10EqACv4OPJI8NEE1Pfcj8Tw5KcKWx4uLLok",
+    "refreshToken": "f75f8a9c86dbc2f6fa0ab6f79cb42b06da0f4e0b6715e6acf28b00eaa107d020d5d2be8a15040fbc"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "heather.fleming@richardson-acosta.com",
+        "name": "Suffemcdanielallison"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ5OWVkMjgwMDAxYjQzZGJjNCIsImlhdCI6MTcxODQ1ODU4NSwiZXhwIjoxNzE4NDU5Nzg1fQ.s6Vl-WuX2NFvdXPCa1kBEvywv1tZJ1YXHZ976xwkilA",
+    "refreshToken": "e8843a83ae833062cedf1fee52ec74d01d89b150a1ceac84b8ba5616c58de8ee730d2402950fec86"
+}

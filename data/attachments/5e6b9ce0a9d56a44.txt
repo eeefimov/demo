@@ -1,0 +1,4 @@
+method = patch
+endpoint = https://stellarburgers.nomoreparties.site/api/ingredients
+header = None
+data_models = None

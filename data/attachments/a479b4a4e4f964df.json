@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cory.graves@jones-harris.com",
+        "name": "Resulvhuber"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTIzOWVkMjgwMDAxYjQzZGMzMyIsImlhdCI6MTcxODQ1ODY1OSwiZXhwIjoxNzE4NDU5ODU5fQ.1A4O6c59RZN5_iVKuILsZDNJNbjBnWl6ENqzw3tFplk",
+    "refreshToken": "5b2a938a12c834e652e9fe731d9726e36da20f43081458d674a7ecbebac78d4278f0dba31163113e"
+}

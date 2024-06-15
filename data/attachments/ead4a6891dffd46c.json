@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "madison.smith@butler.net",
+        "name": "Workexmiller"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGZlOWVkMjgwMDAxYjQzZGMwZCIsImlhdCI6MTcxODQ1ODYyMiwiZXhwIjoxNzE4NDU5ODIyfQ.TbxY-V74xltsWc13aLUQyC56k2341pI514TV3JuJvQ4",
+    "refreshToken": "7318701109da9466cf1ac44b10185c13b795ed1193513a4debbf80c10e1d37dad5453df36b9f6d25"
+}

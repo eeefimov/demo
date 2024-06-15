@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "paul.smith@mccann.com",
+        "name": "Few htimothy88"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGNjOWVkMjgwMDAxYjQzZGJhNCIsImlhdCI6MTcxODQ1ODU3MiwiZXhwIjoxNzE4NDU5NzcyfQ.Hmlkm7IUBnjNSYsNQyVIVSoVRv143l0QarO-9ZKKzKE",
+    "refreshToken": "ccd313ec2aa77c8aeeed72c7e1b4c4bf00fb2dfc433a8be0f6727febce1318da2adaf73ea50092f2"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "dustin.graham@lewis.com",
+        "name": "Minutfbecker"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTIwOWVkMjgwMDAxYjQzZGMzMCIsImlhdCI6MTcxODQ1ODY1NiwiZXhwIjoxNzE4NDU5ODU2fQ.MpQL7-_cTZH7n9QY2P3RAA34UHouZy32jW--qOb3mvU",
+    "refreshToken": "1bfeb2bb4ac3357ca683b14bd8aeda4e98a9652c6bc91fd8e404317b22526b11e03bfeddf3ebbc7f"
+}

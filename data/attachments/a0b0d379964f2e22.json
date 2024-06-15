@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "katherine.hernandez@villanueva.biz",
+        "name": "paynechristopher"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTMwOWVkMjgwMDAxYjQzZGM0NCIsImlhdCI6MTcxODQ1ODY3MiwiZXhwIjoxNzE4NDU5ODcyfQ.KQr5Cmn0P5nkyvxrTPBtGNEhSKp4L_5U_q49Iiis7r4",
+    "refreshToken": "4c3e30b73b6d7d912f7b3da169d5689e258d8726c3a77f92c6e2649adce046f3033933f45c53a6bd"
+}

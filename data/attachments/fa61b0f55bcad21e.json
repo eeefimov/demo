@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "gerald.knight@russell.biz",
+        "name": "Act hnelsonhaley"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTNlOWVkMjgwMDAxYjQzZGM2NiIsImlhdCI6MTcxODQ1ODY4NiwiZXhwIjoxNzE4NDU5ODg2fQ.hFp6cxfbbqQ2Qkhy51fICYOiM5p6zdj9Ppl38pv-QV8",
+    "refreshToken": "719161abc2e51875a53c64faaaacbbf2cc7ccb1a99ce658b05339bea658b3766b0a1295f46fc7614"
+}
