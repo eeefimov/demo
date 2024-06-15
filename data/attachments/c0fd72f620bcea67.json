@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "calvin.brown@parks.com",
+        "name": "Poor harveyjeanne"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRlOWVkMjgwMDAxYjQzZGEwZSIsImlhdCI6MTcxODQ1NDg2MiwiZXhwIjoxNzE4NDU2MDYyfQ.RQYY1ndVZ6JBtrvkIyG-mdF4wMLbjTXBRHCw3d80roQ",
+    "refreshToken": "599fd8a9dccda16340183820c8a8216642cfb4c686974fc958a776bd17a84a1322cf9cefa5f4dfb1"
+}

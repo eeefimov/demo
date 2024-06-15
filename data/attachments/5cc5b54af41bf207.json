@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "michelle.rodriguez@hood-kelly.com",
+        "name": "Key agarciatricia"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTYyOWVkMjgwMDAxYjQzZGEzYyIsImlhdCI6MTcxODQ1NDg4MiwiZXhwIjoxNzE4NDU2MDgyfQ.yejC5Qy47XvQIz1Vzry9DxINK6vffragLFq9oh9f-QM",
+    "refreshToken": "e41f4fb5e985a5cea091686eff1e0431f41a98454b84fe3d13808bc66498a7358cfcd115257c7731"
+}

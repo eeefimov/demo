@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "carol.myers@kelly-trujillo.com",
+        "name": "Defenicox"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWFkOWVkMjgwMDAxYjQzZGFhZCIsImlhdCI6MTcxODQ1NDk1NywiZXhwIjoxNzE4NDU2MTU3fQ.Kg_XTR1EGKOhGa8IVF_nk69LbKHe_UT7ECiY_vdfWiM",
+    "refreshToken": "781466380a93c27b1a5be4d4c4df0c5c23386c6812c79ecf197be7c1d1808ab3ec50c59eace28f0d"
+}

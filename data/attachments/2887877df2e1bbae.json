@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jamie.gutierrez@patton.com",
+        "name": "Keep rosslee"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTUzOWVkMjgwMDAxYjQzZGExYyIsImlhdCI6MTcxODQ1NDg2NywiZXhwIjoxNzE4NDU2MDY3fQ.5KGeZWiRjmDH5BCTOsa_5W2riqYiwDYGo4etCjntL9A",
+    "refreshToken": "b58b23b47ae64d4b6def906be1021766580e344a6e5029b2219ac3e0e97927564b22822bc192dd88"
+}

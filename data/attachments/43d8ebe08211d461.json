@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "john.dunn@anderson-freeman.biz",
-        "name": "Powerywallace"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTJkOWVkMjgwMDAxYjQzZDkyZSIsImlhdCI6MTcxODQ1MzU0OSwiZXhwIjoxNzE4NDU0NzQ5fQ.PWX13p7GKyulS-TzQaRGiPIcMRhkBxg07_MA-wkmEHU",
-    "refreshToken": "fa51a079cd4c3b30246107369e102e058fb70e2fc5b7bf91625f4dd6c3deb70ec3a482a6ba2cf5a9"
-}

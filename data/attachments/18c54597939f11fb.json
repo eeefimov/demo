@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cathy.lee@montgomery.com",
+        "name": "Vote victoriajackson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTU3OWVkMjgwMDAxYjQzZGEyNiIsImlhdCI6MTcxODQ1NDg3MSwiZXhwIjoxNzE4NDU2MDcxfQ.hbOagnMequhXFctCG2bjHTTF8B8QnGeF3OJuBl6WHGo",
+    "refreshToken": "01b4734a792fe8d839dc92879ce7d7824e3b67d1188352d50f8be82ce56c15dc0f6581141c1e299b"
+}

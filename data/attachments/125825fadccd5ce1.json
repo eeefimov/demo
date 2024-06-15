@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "donna.collins@ashley.com",
-        "name": "Militsimpsonbilly"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTA4OWVkMjgwMDAxYjQzZDhkMCIsImlhdCI6MTcxODQ1MzUxMiwiZXhwIjoxNzE4NDU0NzEyfQ.R2etWzDTXedkd9FtxXUn1YE32dWwzFSGWoCzECtuL_E",
-    "refreshToken": "ce6b869ba5a89a347da51dca62428dbf7576fbcd96d8aad384abf1bf23682eac8d4f8d9cd62288a5"
-}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jason.black@silva-taylor.com",
+        "name": "List jason13"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWQ0OWVkMjgwMDAxYjQzZGFiMyIsImlhdCI6MTcxODQ1NDk5NiwiZXhwIjoxNzE4NDU2MTk2fQ.EfnbvqSORcsEzpbjMLYM77kj5O54_TJqOW4w_lLgCg0",
+    "refreshToken": "79786d15e6854fa3d7bd8d88eab4252451076540fb6ecb05e12524d0c02e4f5e4110f38385a42d9d"
+}

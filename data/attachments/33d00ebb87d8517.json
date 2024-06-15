@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "anthony.schneider@oliver.com",
-        "name": "Missimonique59"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBlOWVkMjgwMDAxYjQzZDhlNCIsImlhdCI6MTcxODQ1MzUxOCwiZXhwIjoxNzE4NDU0NzE4fQ.PYdo4fPfUnW6dM3t9cMidhLk5nYU5JvqKowdW5wMI4c",
-    "refreshToken": "a6e05266aa4f3e083533f57544da3d1e2c44c9a8340184d9cb8ccc2723feaa33b1bbf96a2dec159e"
-}

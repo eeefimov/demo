@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jose.park@sharp.com",
-        "name": "Pieceygonzalez"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTA4OWVkMjgwMDAxYjQzZDhkMiIsImlhdCI6MTcxODQ1MzUxMiwiZXhwIjoxNzE4NDU0NzEyfQ.HSfydu6Rtt4IgC7SdEUzy3kUj-rLx5ESRnUI99O3BeY",
-    "refreshToken": "db1084007431ed8efbffd0dc9f40d38a2bdc039d3d2091a6412d64f841c4c5e03c9ac8e7e3f4e140"
-}

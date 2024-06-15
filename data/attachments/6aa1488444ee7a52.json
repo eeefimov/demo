@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "daniel.fisher@christensen.net",
+        "name": "Pick wwang"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQyOWVkMjgwMDAxYjQzZDllOCIsImlhdCI6MTcxODQ1NDg1MCwiZXhwIjoxNzE4NDU2MDUwfQ.hRwvoF_KkNqrTnu-0dwyyp5Pjhpwx615_PJQhe3fHxE",
+    "refreshToken": "8dae570d030b6caac0faa53869700e679c1d90b06d9b6065dbcd8c9c14a047998ea5b7daa22fa16e"
+}

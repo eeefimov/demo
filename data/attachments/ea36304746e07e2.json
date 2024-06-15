@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cindy.castaneda@herrera.org",
+        "name": "Autholwalker"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWRhOWVkMjgwMDAxYjQzZGFiNiIsImlhdCI6MTcxODQ1NTAwMiwiZXhwIjoxNzE4NDU2MjAyfQ.GcMtZaarn5TpMnFaudgwQLRLw4Dup8x-J1vO16OecyE",
+    "refreshToken": "96368e81d366f9a40c1ff1a56a9ea15e17b084999cc0b6af8c74638c2859fb8fba797b1663361877"
+}

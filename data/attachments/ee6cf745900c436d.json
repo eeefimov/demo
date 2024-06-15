@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "tammy.chavez@hunter.org",
+        "name": "Nice sshah"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTU2OWVkMjgwMDAxYjQzZGEyNCIsImlhdCI6MTcxODQ1NDg3MCwiZXhwIjoxNzE4NDU2MDcwfQ.JCS_AZ54x_bxiWSulYy1omSsrFOxQaQNObCrKIFfK0U",
+    "refreshToken": "e15b522d5ff03f94c4d7e0da09232a9c74a48ec3d4e2c936e20bd8ae97b2553c6f634aab1af17e85"
+}

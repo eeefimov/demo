@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "angela.casey@jensen.org",
-        "name": "Hand jonathan90"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBlOWVkMjgwMDAxYjQzZDhlMiIsImlhdCI6MTcxODQ1MzUxOCwiZXhwIjoxNzE4NDU0NzE4fQ.UCBRUc4yrpuC57_EZe3JXMRaU7_JRJ0oHkbqCL9_bGw",
-    "refreshToken": "98faf01b765ac66117673816921e73e4d2911030a48caf08d3e480e96a2784a4f168ce92bd4c2024"
-}

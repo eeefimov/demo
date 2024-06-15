@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "michelle.west@smith.com",
-        "name": "Appeanrobinson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTI4OWVkMjgwMDAxYjQzZDkyNSIsImlhdCI6MTcxODQ1MzU0NCwiZXhwIjoxNzE4NDU0NzQ0fQ.T3ndy2D6lxXM4Fx23UJKKiuiY_reEGb88qcsI7t9Z9k",
-    "refreshToken": "4c9b2b2ea042286e122b6510d99dbdc608adba33af4b2872f5a0321117fb4842b984086690c65519"
-}

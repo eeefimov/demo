@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "david.hutchinson@casey.info",
+        "name": "Piecegmiller"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ4OWVkMjgwMDAxYjQzZDlmYyIsImlhdCI6MTcxODQ1NDg1NiwiZXhwIjoxNzE4NDU2MDU2fQ.gDsrsZhl02CP5dHhPx3UIFfCP9JxJUY2UAP1odxfL3Y",
+    "refreshToken": "30a6d580f1ccaf137c54cac85fe661bb1236fdf65a6f2ae31865e965afddc9287484f24640777cd7"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "sean.johnson@lawrence-sanchez.net",
+        "name": "Storykeithnicole"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQxOWVkMjgwMDAxYjQzZDllNCIsImlhdCI6MTcxODQ1NDg0OSwiZXhwIjoxNzE4NDU2MDQ5fQ.gafr6cfzQ81SxmAuhbZuCzVr3H4d45xYfdvbLU903eg",
+    "refreshToken": "7c262c0a45ebd57ee6760ebfb08620ca70ce860ff3c142e5534b9515a1121c1f64c5aa34e6fee113"
+}

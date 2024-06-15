@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "robertpham@example.com",
-        "name": "Recognize fact garden operation. Heavy history north someone trial drive arm."
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY2OWVkMjgwMDAxYjQzZDk4NSIsImlhdCI6MTcxODQ1MzYwNiwiZXhwIjoxNzE4NDU0ODA2fQ.eCZyOg2vqYfE49z9msiIra91VkbbTTFjZpZk-4KzvRw",
-    "refreshToken": "fb48426cff35d5b5e853a3c8d95bf00adc8c2b6d2be500ec361ef416aaaea0c1a8b170262b824bbb"
-}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "matthew.solomon@ford.biz",
+        "name": "Get tdevans"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRmOWVkMjgwMDAxYjQzZGExMiIsImlhdCI6MTcxODQ1NDg2MywiZXhwIjoxNzE4NDU2MDYzfQ.J3i0br9i155zWcQ48g0BaofahhGz9KiIJehM4QYtMLI",
+    "refreshToken": "366435bb8d91d6ed28bd72dc543304ecb9217e279aec594e7c560d61bb500d0e58cb06b99fec201e"
+}

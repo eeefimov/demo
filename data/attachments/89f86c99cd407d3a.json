@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kimberly.smith@carroll.com",
+        "name": "Down eric71"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWE0OWVkMjgwMDAxYjQzZGFhMiIsImlhdCI6MTcxODQ1NDk0OCwiZXhwIjoxNzE4NDU2MTQ4fQ.-N6V0s_JCgbfH56bORw4Uwm8nHCo-5X5qwPcfohayVI",
+    "refreshToken": "a65ce3bc2a83caffa6ef4a96b941190911dbc223910785f4fc8c84c3a5e3c97ced4d0472798c8ea8"
+}

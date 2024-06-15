@@ -1,4 +1,0 @@
-method = PATCH
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBmOWVkMjgwMDAxYjQzZDhlOCIsImlhdCI6MTcxODQ1MzUxOSwiZXhwIjoxNzE4NDU0NzE5fQ.uXkiPAUPF1guuibE4jJWHRG5sM5XNK0SDvOD1P07SMc'}
-data_models = {'name': 'Whom lsimpson', 'email': 'Lori.Hunter@simpson-singleton.info', 'password': '4F7Uh8'}

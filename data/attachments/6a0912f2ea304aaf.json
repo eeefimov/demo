@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "name": "Space spicy \u043a\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6c",
+                "name": "\u041a\u0440\u0430\u0442\u043e\u0440\u043d\u0430\u044f \u0431\u0443\u043b\u043a\u0430 N-200i",
+                "type": "bun",
+                "proteins": 80,
+                "fat": 24,
+                "carbohydrates": 53,
+                "calories": 420,
+                "price": 1255,
+                "image": "https://code.s3.yandex.net/react/code/bun-02.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/bun-02-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/bun-02-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa73",
+                "name": "\u0421\u043e\u0443\u0441 \u0444\u0438\u0440\u043c\u0435\u043d\u043d\u044b\u0439 Space Sauce",
+                "type": "sauce",
+                "proteins": 50,
+                "fat": 22,
+                "carbohydrates": 11,
+                "calories": 14,
+                "price": 80,
+                "image": "https://code.s3.yandex.net/react/code/sauce-04.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sauce-04-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sauce-04-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa73",
+                "name": "\u0421\u043e\u0443\u0441 \u0444\u0438\u0440\u043c\u0435\u043d\u043d\u044b\u0439 Space Sauce",
+                "type": "sauce",
+                "proteins": 50,
+                "fat": 22,
+                "carbohydrates": 11,
+                "calories": 14,
+                "price": 80,
+                "image": "https://code.s3.yandex.net/react/code/sauce-04.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sauce-04-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sauce-04-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa72",
+                "name": "\u0421\u043e\u0443\u0441 Spicy-X",
+                "type": "sauce",
+                "proteins": 30,
+                "fat": 20,
+                "carbohydrates": 40,
+                "calories": 30,
+                "price": 90,
+                "image": "https://code.s3.yandex.net/react/code/sauce-02.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sauce-02-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sauce-02-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "666d8a829ed280001b43da61",
+        "owner": {
+            "name": "Enjoyyortiz",
+            "email": "richard.turner@wiggins.biz",
+            "createdAt": "2024-06-15T12:34:54.498Z",
+            "updatedAt": "2024-06-15T12:34:54.498Z"
+        },
+        "status": "done",
+        "name": "Space spicy \u043a\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+        "createdAt": "2024-06-15T12:35:14.215Z",
+        "updatedAt": "2024-06-15T12:35:14.746Z",
+        "number": 80012,
+        "price": 1505
+    }
+}

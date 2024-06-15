@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kevin.rodriguez@ochoa-roy.com",
+        "name": "Purpojason85"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YThjOWVkMjgwMDAxYjQzZGE2ZSIsImlhdCI6MTcxODQ1NDkyNCwiZXhwIjoxNzE4NDU2MTI0fQ.UP_gip0nyofHqHwR5HwY7ALIAg-84r6IEg2eV7ay8Ck",
+    "refreshToken": "81ace69be4656c868d15cc952bc43723e8252f3c9841f28dba548015f864dec0a8cb0c883dd86fe2"
+}

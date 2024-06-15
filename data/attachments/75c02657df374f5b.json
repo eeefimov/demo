@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "joshua.smith@thomas-brown.com",
-        "name": "Newspharrisamy"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFhOWVkMjgwMDAxYjQzZDkwOCIsImlhdCI6MTcxODQ1MzUzMCwiZXhwIjoxNzE4NDU0NzMwfQ.QY56cjy219gjQH0qwUtK3mmpKaDrT--2t5Zhe99brgo",
-    "refreshToken": "5caf32a938c7559503851e8d24df8e01e621c1c111c55e621f3ba008a7f22482275bc5e1d0997e39"
-}

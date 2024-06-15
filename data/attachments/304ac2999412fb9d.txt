@@ -1,4 +1,0 @@
-method = post
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBhOWVkMjgwMDAxYjQzZDhkNiIsImlhdCI6MTcxODQ1MzUxNCwiZXhwIjoxNzE4NDU0NzE0fQ.GcV_0IgpKGjwRZH011cXbBnXUhmwcBhz1CU-hQ8ND6E'}
-data_models = None

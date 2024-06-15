@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "rachel.martinez@smith.com",
+        "name": "Changdianerobinson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTkwOWVkMjgwMDAxYjQzZGE3NyIsImlhdCI6MTcxODQ1NDkyOCwiZXhwIjoxNzE4NDU2MTI4fQ.uf4GDfLSNtnRarURDGY_FMd3YoxGWfxp0gXyPBQ620o",
+    "refreshToken": "6b7247226b0b24030bbfc342368d05b8b53ef8022f49e0863340c0f5050510fe6e9c7396abef3659"
+}

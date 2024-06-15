@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "cynthia.grant@church.net",
-        "name": "Magazkevin27"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTI5OWVkMjgwMDAxYjQzZDkyOCIsImlhdCI6MTcxODQ1MzU0NSwiZXhwIjoxNzE4NDU0NzQ1fQ.HLGM6eoK8lfsDAVK5L9XdxgMRlAISw2RkZBdo0oMF9U",
-    "refreshToken": "40e049b81320d9dd22ed695a444396611050eeef5a70b640b64f53a20d624700fb80c7fab1c82cf2"
-}

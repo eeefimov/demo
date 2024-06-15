@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "clayton.nguyen@hebert-maldonado.com",
+        "name": "Militrachelowens"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ0OWVkMjgwMDAxYjQzZDlmMCIsImlhdCI6MTcxODQ1NDg1MiwiZXhwIjoxNzE4NDU2MDUyfQ.DjfYZ1WxRDeVO9T0RYPDEYIbMIAkEViH51YEBjYHQxY",
+    "refreshToken": "7e256d2b23a611b1c283c23e8c11618c616af60aed59138abce651273725dccd201698e488bc52a9"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "douglas.cross@daniels.info",
+        "name": "Sort ashleynoble"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YThhOWVkMjgwMDAxYjQzZGE2YiIsImlhdCI6MTcxODQ1NDkyMiwiZXhwIjoxNzE4NDU2MTIyfQ.sDkC-IynjY_uaCIr4-DvY615fBDaNOVBYG-gqfg1SP8",
+    "refreshToken": "6e5852d3dc0a678a28c9262b5a083a2350ff4e99aa85ea0a15f952f1984ebe8392e1da4e84925ea9"
+}

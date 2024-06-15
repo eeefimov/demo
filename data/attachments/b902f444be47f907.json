@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kevin.smith@brown.com",
+        "name": "Especmarianewman"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQyOWVkMjgwMDAxYjQzZDllYSIsImlhdCI6MTcxODQ1NDg1MCwiZXhwIjoxNzE4NDU2MDUwfQ.61h5xZWhBKPuAqUwXFwVxCoaiveick93HqDN3e2areI",
+    "refreshToken": "990ea18d61cd8274bc931ad0219399b67f7eeddb1fd3e247a78c0a42ced4bc068a17ca75cfe74b48"
+}

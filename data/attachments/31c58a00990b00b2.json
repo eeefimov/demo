@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "tristan.campbell@rodgers.com",
+        "name": "Succerodriguezgregory"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTNmOWVkMjgwMDAxYjQzZDlkZSIsImlhdCI6MTcxODQ1NDg0NywiZXhwIjoxNzE4NDU2MDQ3fQ.mVSZNiKNeLA7AbuqELL3fhWhaRbBwqqCmBtZWFIp7Fk",
+    "refreshToken": "ef73f41b37c3aa6de56742fc46c0c8023cee050f98289336eb2047be6fe429b19fc258b2f79e370d"
+}

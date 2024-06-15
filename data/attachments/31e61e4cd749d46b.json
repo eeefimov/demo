@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kimberly.pacheco@carrillo.com",
+        "name": "Yes mcatherinesosa"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTYwOWVkMjgwMDAxYjQzZGEzNyIsImlhdCI6MTcxODQ1NDg4MCwiZXhwIjoxNzE4NDU2MDgwfQ.8OF5-063NtPN8UEHIyFtXYPtSgr7HahZHIim1fMXQ2Q",
+    "refreshToken": "f8c0f9255213a435ff599e645392bd03b16c326f604599dcb13404fefcb60360a72909e940af4bdb"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jamie.taylor@miller.biz",
+        "name": "Sociarrodriguez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ1OWVkMjgwMDAxYjQzZDlmNCIsImlhdCI6MTcxODQ1NDg1MywiZXhwIjoxNzE4NDU2MDUzfQ.iFPCMsEiH50H0hPcxyzI-00IB-hWT6z153F-jAcGeUg",
+    "refreshToken": "614430c867cd71b740d255ac97174e8319e265e1e7a8749f321bcf93476f7c130a85e90d38bf2feb"
+}

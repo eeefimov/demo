@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "bvalentine@example.org",
-        "name": "1748577278"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY0OWVkMjgwMDAxYjQzZDk4MSIsImlhdCI6MTcxODQ1MzYwNCwiZXhwIjoxNzE4NDU0ODA0fQ.tnHv6mXh8R8H9I4SllNJ6OQBB71_EVh-JTpHKEoue-I",
-    "refreshToken": "661dacd5e3113024d3cf6ceb707ba8c63359c3810ab654fe1a2a1ddb802487c8420e7932f92bccb8"
-}

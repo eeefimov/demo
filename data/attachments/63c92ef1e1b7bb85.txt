@@ -1,4 +1,0 @@
-method = get
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/logout
-header = None
-data_models = {'token': '146cb08ecf3260f6d9a9d074c60b2690b3227e9bad73eee1fdf2946d0a3d45d07800132d93e05fa6'}

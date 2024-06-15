@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "pamela.johnson@hall-moody.com",
-        "name": "Bloodsnyderdenise"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTEyOWVkMjgwMDAxYjQzZDhmMiIsImlhdCI6MTcxODQ1MzUyMiwiZXhwIjoxNzE4NDU0NzIyfQ.H64p0e3Wyil7cBdCpnH9r0QJo8LyE0nCBO8IrXFUInI",
-    "refreshToken": "a08687d38e42c6f4e0c88f67f70cfba75bee285f4a2c248d91ee10a5a2a310eb04f4ecbe2bfaa6d3"
-}

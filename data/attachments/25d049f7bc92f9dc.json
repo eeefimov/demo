@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "randy.fitzgerald@hunter-patterson.biz",
-        "name": "Drug ewashington"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTIwOWVkMjgwMDAxYjQzZDkxNyIsImlhdCI6MTcxODQ1MzUzNiwiZXhwIjoxNzE4NDU0NzM2fQ.xtF6gXoeusCwG0b_OoA4iLxJhU_D16vei18OvQfBs-U",
-    "refreshToken": "a784f7b7ee258a1bfb88f9b3a7dddf86ada7c7c2cb3351bdb95d7b327ada9565d1161f9a770a66d3"
-}

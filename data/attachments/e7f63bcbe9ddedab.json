@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "kenneth.hawkins@anderson.com",
-        "name": "Imporlisa16"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFjOWVkMjgwMDAxYjQzZDkwYyIsImlhdCI6MTcxODQ1MzUzMiwiZXhwIjoxNzE4NDU0NzMyfQ.j5XwVngfQs60LqY17IX7T80Ci-qXM9Ad7uRglL05lcA",
-    "refreshToken": "aa636575f4f4b43dc8dee84019f5f0d6cab04ab9474888621d914d48583fceae2224972ac0439036"
-}

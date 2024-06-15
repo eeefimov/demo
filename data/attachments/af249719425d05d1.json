@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kimberlyperry@example.com",
+        "name": "^^^^^^^^^^"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTllOWVkMjgwMDAxYjQzZGE5MyIsImlhdCI6MTcxODQ1NDk0MiwiZXhwIjoxNzE4NDU2MTQyfQ.eP2MSRpoUgawfQvXQcvIXnLGinJk-Z-j5J3vySwOVwc",
+    "refreshToken": "a67163e9431b2d227f31a30ceac7e0141a59c397ac31faeeeb323a0afc1778c08164bc9988e3601f"
+}

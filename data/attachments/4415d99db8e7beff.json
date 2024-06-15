@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "dorothy_boone_booth@anderson-thomas.org",
-        "name": "rhanna"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTYwOWVkMjgwMDAxYjQzZDk3MyIsImlhdCI6MTcxODQ1MzYwMCwiZXhwIjoxNzE4NDU0ODAwfQ.ydN_FoxXLr1HFibKox7pKQhFUY_v7q8s1yJ16FOu4b0",
-    "refreshToken": "8014acbef8f0237bc4cf2873296665926862c7863ff9da75741dfb66f8b1a610cd1b4b36af1be8b0"
-}

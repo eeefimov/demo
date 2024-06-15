@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "manuel.huffman@fisher.biz",
+        "name": "Naturkararoberts"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRiOWVkMjgwMDAxYjQzZGEwNCIsImlhdCI6MTcxODQ1NDg1OSwiZXhwIjoxNzE4NDU2MDU5fQ.aVTrkdKgU2yPzcjMAX3f_h4QAvq5xgbLsupmOJMGITw",
+    "refreshToken": "2e3730526777ce253e9dc559218b36b28598db17ffc2f76f9aefbe48b1671eff00121af047cf6ae1"
+}

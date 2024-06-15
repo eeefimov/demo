@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "juan.simon@phelps.com",
+        "name": "Receiregina09"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YThmOWVkMjgwMDAxYjQzZGE3NSIsImlhdCI6MTcxODQ1NDkyNywiZXhwIjoxNzE4NDU2MTI3fQ.5xAfpmCizAfxQ5F0Igw9oqGExY_9UQ_XFQ5_y1wIPrQ",
+    "refreshToken": "287630a132ed65c6480c611e8acff56f7712799e1229505bcc36932a867e1794af2e254516eaec50"
+}

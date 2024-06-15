@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kimberly.santana@ellis.org",
+        "name": "Missijosephroth"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWFhOWVkMjgwMDAxYjQzZGFhYSIsImlhdCI6MTcxODQ1NDk1NCwiZXhwIjoxNzE4NDU2MTU0fQ.vch0MqWIvOb8dKwI0mIc1sJ866FIUNnWpxgek-LCoM8",
+    "refreshToken": "6f7654973b5ba98b483e849d9ad476892fafcc39b9e0937e3445b3b1a170785235aaceed89a62988"
+}

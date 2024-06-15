@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "joseph.clark@young-frazier.biz",
-        "name": "Bill thompsonsharon"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTMxOWVkMjgwMDAxYjQzZDkzNCIsImlhdCI6MTcxODQ1MzU1MywiZXhwIjoxNzE4NDU0NzUzfQ.sl_Shln9nDReF_4cu588f2RKWMjq3NaQF9rx1lCmYgM",
-    "refreshToken": "9db0f9ac3d7d35d39a2d87210ea322839eb8289de3b0a771c79cadc6851f6d58f936f952c1709bee"
-}

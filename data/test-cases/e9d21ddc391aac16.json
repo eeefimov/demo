@@ -1,0 +1,289 @@
+{
+  "uid" : "e9d21ddc391aac16",
+  "name" : "test_payload_values_validation",
+  "fullName" : "tests_api.test_get_ingedients.TestIngredients#test_payload_values_validation",
+  "historyId" : "d06f2ece93e28787dfae2e8a5c9e3c4d",
+  "time" : {
+    "start" : 1718454832236,
+    "stop" : 1718454832523,
+    "duration" : 287
+  },
+  "description" : "Verify values of ingredient items.",
+  "descriptionHtml" : "<p>Verify values of ingredient items.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ingredients",
+    "time" : {
+      "start" : 1718454832236,
+      "stop" : 1718454832236,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Ingredients",
+      "time" : {
+        "start" : 1718454832236,
+        "stop" : 1718454832236,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831310,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify values of ingredient items.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send GET request",
+      "time" : {
+        "start" : 1718454832236,
+        "stop" : 1718454832521,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c45c72408a8eed9d",
+        "name" : "api Response",
+        "source" : "c45c72408a8eed9d.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "738c5393bd22977",
+        "name" : "api Response",
+        "source" : "738c5393bd22977.json",
+        "type" : "application/json",
+        "size" : 7747
+      } ],
+      "parameters" : [ {
+        "name" : "endpoint",
+        "value" : "'https://stellarburgers.nomoreparties.site/api/ingredients'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup response model",
+      "time" : {
+        "start" : 1718454832522,
+        "stop" : 1718454832522,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "model",
+        "value" : "<class 'data_models.ingredients_models.IngredientsModel'>"
+      }, {
+        "name" : "input_data",
+        "value" : "{'success': True, 'data': [{'_id': '61c0c5a71d1f82001bdaaa6d', 'name': 'Флюоресцентная булка R2-D3', 'type': 'bun', 'proteins': 44, 'fat': 26, 'carbohydrates': 85, 'calories': 643, 'price': 988, 'image': 'https://code.s3.yandex.net/react/code/bun-01.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/bun-01-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/bun-01-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa6f', 'name': 'Мясо бессмертных моллюсков Protostomia', 'type': 'main', 'proteins': 433, 'fat': 244, 'carbohydrates': 33, 'calories': 420, 'price': 1337, 'image': 'https://code.s3.yandex.net/react/code/meat-02.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-02-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-02-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa70', 'name': 'Говяжий метеорит (отбивная)', 'type': 'main', 'proteins': 800, 'fat': 800, 'carbohydrates': 300, 'calories': 2674, 'price': 3000, 'image': 'https://code.s3.yandex.net/react/code/meat-04.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-04-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-04-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa71', 'name': 'Биокотлета из марсианской Магнолии', 'type': 'main', 'proteins': 420, 'fat': 142, 'carbohydrates': 242, 'calories': 4242, 'price': 424, 'image': 'https://code.s3.yandex.net/react/code/meat-01.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-01-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-01-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa72', 'name': 'Соус Spicy-X', 'type': 'sauce', 'proteins': 30, 'fat': 20, 'carbohydrates': 40, 'calories': 30, 'price': 90, 'image': 'https://code.s3.yandex.net/react/code/sauce-02.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-02-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-02-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa6e', 'name': 'Филе Люминесцентного тетраодонтимформа', 'type': 'main', 'proteins': 44, 'fat': 26, 'carbohydrates': 85, 'calories': 643, 'price': 988, 'image': 'https://code.s3.yandex.net/react/code/meat-03.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-03-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-03-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa73', 'name': 'Соус фирменный Space Sauce', 'type': 'sauce', 'proteins': 50, 'fat': 22, 'carbohydrates': 11, 'calories': 14, 'price': 80, 'image': 'https://code.s3.yandex.net/react/code/sauce-04.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-04-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-04-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa74', 'name': 'Соус традиционный галактический', 'type': 'sauce', 'proteins': 42, 'fat': 24, 'carbohydrates': 42, 'calories': 99, 'price': 15, 'image': 'https://code.s3.yandex.net/react/code/sauce-03.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-03-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-03-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa6c', 'name': 'Краторная булка N-200i', 'type': 'bun', 'proteins': 80, 'fat': 24, 'carbohydrates': 53, 'calories': 420, 'price': 1255, 'image': 'https://code.s3.yandex.net/react/code/bun-02.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/bun-02-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/bun-02-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa75', 'name': 'Соус с шипами Антарианского плоскоходца', 'type': 'sauce', 'proteins': 101, 'fat': 99, 'carbohydrates': 100, 'calories': 100, 'price': 88, 'image': 'https://code.s3.yandex.net/react/code/sauce-01.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-01-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-01-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa76', 'name': 'Хрустящие минеральные кольца', 'type': 'main', 'proteins': 808, 'fat': 689, 'carbohydrates': 609, 'calories': 986, 'price': 300, 'image': 'https://code.s3.yandex.net/react/code/mineral_rings.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/mineral_rings-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/mineral_rings-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa77', 'name': 'Плоды Фалленианского дерева', 'type': 'main', 'proteins': 20, 'fat': 5, 'carbohydrates': 55, 'calories': 77, 'price': 874, 'image': 'https://code.s3.yandex.net/react/code/sp_1.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sp_1-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sp_1-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa78', 'name': 'Кристаллы марсианских альфа-сахаридов', 'type': 'main', 'proteins': 234, 'fat': 432, 'carbohydrates': 111, 'calories': 189, 'price': 762, 'image': 'https://code.s3.yandex.net/react/code/core.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/core-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/core-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa79', 'name': 'Мини-салат Экзо-Плантаго', 'type': 'main', 'proteins': 1, 'fat': 2, 'carbohydrates': 3, 'calories': 6, 'price': 4400, 'image': 'https://code.s3.yandex.net/react/code/salad.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/salad-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/salad-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa7a', 'name': 'Сыр с астероидной плесенью', 'type': 'main', 'proteins': 84, 'fat': 48, 'carbohydrates': 420, 'calories': 3377, 'price': 4142, 'image': 'https://code.s3.yandex.net/react/code/cheese.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/cheese-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/cheese-large.png'}]}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Load data_models from json file",
+      "time" : {
+        "start" : 1718454832523,
+        "stop" : 1718454832523,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b92e1a5078827161",
+        "name" : "api Response",
+        "source" : "b92e1a5078827161.json",
+        "type" : "application/json",
+        "size" : 7597
+      } ],
+      "parameters" : [ {
+        "name" : "filename",
+        "value" : "'ingredients.json'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup response model",
+      "time" : {
+        "start" : 1718454832523,
+        "stop" : 1718454832523,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "model",
+        "value" : "<class 'data_models.ingredients_models.IngredientsModel'>"
+      }, {
+        "name" : "input_data",
+        "value" : "{'success': True, 'data': [{'_id': '61c0c5a71d1f82001bdaaa6d', 'name': 'Флюоресцентная булка R2-D3', 'type': 'bun', 'proteins': 44, 'fat': 26, 'carbohydrates': 85, 'calories': 643, 'price': 988, 'image': 'https://code.s3.yandex.net/react/code/bun-01.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/bun-01-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/bun-01-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa6f', 'name': 'Мясо бессмертных моллюсков Protostomia', 'type': 'main', 'proteins': 433, 'fat': 244, 'carbohydrates': 33, 'calories': 420, 'price': 1337, 'image': 'https://code.s3.yandex.net/react/code/meat-02.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-02-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-02-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa70', 'name': 'Говяжий метеорит (отбивная)', 'type': 'main', 'proteins': 800, 'fat': 800, 'carbohydrates': 300, 'calories': 2674, 'price': 3000, 'image': 'https://code.s3.yandex.net/react/code/meat-04.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-04-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-04-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa71', 'name': 'Биокотлета из марсианской Магнолии', 'type': 'main', 'proteins': 420, 'fat': 142, 'carbohydrates': 242, 'calories': 4242, 'price': 424, 'image': 'https://code.s3.yandex.net/react/code/meat-01.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-01-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-01-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa72', 'name': 'Соус Spicy-X', 'type': 'sauce', 'proteins': 30, 'fat': 20, 'carbohydrates': 40, 'calories': 30, 'price': 90, 'image': 'https://code.s3.yandex.net/react/code/sauce-02.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-02-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-02-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa6e', 'name': 'Филе Люминесцентного тетраодонтимформа', 'type': 'main', 'proteins': 44, 'fat': 26, 'carbohydrates': 85, 'calories': 643, 'price': 988, 'image': 'https://code.s3.yandex.net/react/code/meat-03.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/meat-03-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/meat-03-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa73', 'name': 'Соус фирменный Space Sauce', 'type': 'sauce', 'proteins': 50, 'fat': 22, 'carbohydrates': 11, 'calories': 14, 'price': 80, 'image': 'https://code.s3.yandex.net/react/code/sauce-04.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-04-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-04-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa74', 'name': 'Соус традиционный галактический', 'type': 'sauce', 'proteins': 42, 'fat': 24, 'carbohydrates': 42, 'calories': 99, 'price': 15, 'image': 'https://code.s3.yandex.net/react/code/sauce-03.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-03-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-03-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa6c', 'name': 'Краторная булка N-200i', 'type': 'bun', 'proteins': 80, 'fat': 24, 'carbohydrates': 53, 'calories': 420, 'price': 1255, 'image': 'https://code.s3.yandex.net/react/code/bun-02.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/bun-02-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/bun-02-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa75', 'name': 'Соус с шипами Антарианского плоскоходца', 'type': 'sauce', 'proteins': 101, 'fat': 99, 'carbohydrates': 100, 'calories': 100, 'price': 88, 'image': 'https://code.s3.yandex.net/react/code/sauce-01.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sauce-01-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sauce-01-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa76', 'name': 'Хрустящие минеральные кольца', 'type': 'main', 'proteins': 808, 'fat': 689, 'carbohydrates': 609, 'calories': 986, 'price': 300, 'image': 'https://code.s3.yandex.net/react/code/mineral_rings.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/mineral_rings-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/mineral_rings-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa77', 'name': 'Плоды Фалленианского дерева', 'type': 'main', 'proteins': 20, 'fat': 5, 'carbohydrates': 55, 'calories': 77, 'price': 874, 'image': 'https://code.s3.yandex.net/react/code/sp_1.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/sp_1-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/sp_1-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa78', 'name': 'Кристаллы марсианских альфа-сахаридов', 'type': 'main', 'proteins': 234, 'fat': 432, 'carbohydrates': 111, 'calories': 189, 'price': 762, 'image': 'https://code.s3.yandex.net/react/code/core.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/core-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/core-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa79', 'name': 'Мини-салат Экзо-Плантаго', 'type': 'main', 'proteins': 1, 'fat': 2, 'carbohydrates': 3, 'calories': 6, 'price': 4400, 'image': 'https://code.s3.yandex.net/react/code/salad.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/salad-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/salad-large.png'}, {'_id': '61c0c5a71d1f82001bdaaa7a', 'name': 'Сыр с астероидной плесенью', 'type': 'main', 'proteins': 84, 'fat': 48, 'carbohydrates': 420, 'calories': 3377, 'price': 4142, 'image': 'https://code.s3.yandex.net/react/code/cheese.png', 'image_mobile': 'https://code.s3.yandex.net/react/code/cheese-mobile.png', 'image_large': 'https://code.s3.yandex.net/react/code/cheese-large.png'}]}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_ingedients"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIngredients"
+  }, {
+    "name" : "host",
+    "value" : "9b654ca84938"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_get_ingedients"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "59f855f17c7c43c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453496924,
+          "stop" : 1718453497202,
+          "duration" : 278
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e9d21ddc391aac16.json",
+  "parameterValues" : [ ]
+}

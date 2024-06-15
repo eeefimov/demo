@@ -1,0 +1,4 @@
+method = put
+endpoint = https://stellarburgers.nomoreparties.site/api/password-reset
+header = None
+data_models = {'email': 'Christine.Flores@welch-hardy.com'}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lori.simpson@griffin.info",
+        "name": "Ok mekenneth69"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTU1OWVkMjgwMDAxYjQzZGEyMCIsImlhdCI6MTcxODQ1NDg2OSwiZXhwIjoxNzE4NDU2MDY5fQ.mVnMd-yAr7RBBV5gRhSf82lT5-tGEtzANaGDbRLJASc",
+    "refreshToken": "1bb004940554fc4d2adc13c3ca1386ad1f22dfc87aa5b1d4f64c1442e224149f79f686b190e44fee"
+}

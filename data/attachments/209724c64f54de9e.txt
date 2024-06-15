@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRmOWVkMjgwMDAxYjQzZGExMiIsImlhdCI6MTcxODQ1NDg2MywiZXhwIjoxNzE4NDU2MDYzfQ.J3i0br9i155zWcQ48g0BaofahhGz9KiIJehM4QYtMLI'}
+data_models = {'name': 'Get tdevans', 'email': 'Matthew.Solomon@ford.biz', 'password': '+1gR_C'}

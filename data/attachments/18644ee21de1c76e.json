@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "stephen.weber@schneider-white.com",
+        "name": "Truthbryansmith"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTg2OWVkMjgwMDAxYjQzZGE2NyIsImlhdCI6MTcxODQ1NDkxOCwiZXhwIjoxNzE4NDU2MTE4fQ.NH9Tvn7kLNXbHrryMs1gVJh61BYqrP3hT28awdhp25U",
+    "refreshToken": "2aa902bf962864892267c39edd278ee420b8c6be4c6ccdac678cf011eba9772f96a2dd43cc1b974a"
+}

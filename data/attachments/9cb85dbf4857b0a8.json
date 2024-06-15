@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "miranda.pena@butler-johnson.com",
-        "name": "Physiteresa45"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU2OWVkMjgwMDAxYjQzZDk2MSIsImlhdCI6MTcxODQ1MzU5MCwiZXhwIjoxNzE4NDU0NzkwfQ.50T9WDoB5VbWgwdqPqcm8vrPi9sTs9J0_vfkzn_dOsM",
-    "refreshToken": "688de0713fd9a29efef66d2b9f07b363dbd2498d169edeea99070f739d76f3b85c929cb5ad8cf3d6"
-}

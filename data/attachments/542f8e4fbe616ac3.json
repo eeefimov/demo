@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "webergail@example.net",
-        "name": "focus just"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY2OWVkMjgwMDAxYjQzZDk4NyIsImlhdCI6MTcxODQ1MzYwNiwiZXhwIjoxNzE4NDU0ODA2fQ.swiN9A0Sa_Jhk76DJiXU6jqbgGU4ZhLJz5j9Jujy_KU",
-    "refreshToken": "884062c6903b4957e0fbb2ec041cbbd936bc942551823cc070e9e9e63a6f76155681ce663c60258e"
-}

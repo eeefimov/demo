@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jessica.wilson@clark.com",
-        "name": "A govlwilliams"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU3OWVkMjgwMDAxYjQzZDk2NSIsImlhdCI6MTcxODQ1MzU5MSwiZXhwIjoxNzE4NDU0NzkxfQ.Sazgmni1I7xEkUfB4ycC4DM01zKYMC7_VHZ56lIfdTo",
-    "refreshToken": "8db814e0089cd97edb6715683b7f227fa254a2a69fb684fc738f86e2361ea2af1f6c314a4cc41656"
-}

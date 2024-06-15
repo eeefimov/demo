@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kelsey.nelson@jones-smith.com",
+        "name": "Langudaniellekhan"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRkOWVkMjgwMDAxYjQzZGEwYyIsImlhdCI6MTcxODQ1NDg2MSwiZXhwIjoxNzE4NDU2MDYxfQ.Egb1ugyW2S0evUFlI_Np3NNfC5v69TEpbmkDbdu1zqQ",
+    "refreshToken": "45b325b618ce6afb694a68aa1b9e2695405ee4d2e2d1699bf73cae04640f472a325a2bcc45434cf2"
+}

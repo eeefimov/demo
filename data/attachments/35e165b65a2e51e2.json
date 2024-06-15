@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "pamela.herman@thompson-madden.com",
-        "name": "Fast harrisjustin"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFjOWVkMjgwMDAxYjQzZDkwZSIsImlhdCI6MTcxODQ1MzUzMiwiZXhwIjoxNzE4NDU0NzMyfQ.cyIjfRXB3-IKpzbEGYfQX8smNcWtHxqMhbQ-46ACerU",
-    "refreshToken": "146cb08ecf3260f6d9a9d074c60b2690b3227e9bad73eee1fdf2946d0a3d45d07800132d93e05fa6"
-}

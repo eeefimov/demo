@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "mary.ross@nguyen-chang.org",
-        "name": "Fall hurleydana"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTUzOWVkMjgwMDAxYjQzZDk1YyIsImlhdCI6MTcxODQ1MzU4NywiZXhwIjoxNzE4NDU0Nzg3fQ.VTN_AbHJu3D_VQtVklyv32jA9QhOR3TE8XES8NpVmcg",
-    "refreshToken": "49f7c652807d00d01f7355f7c01035c4b9a56599b93fa465ed7399ea73082cb8adaa2f82a5d69172"
-}

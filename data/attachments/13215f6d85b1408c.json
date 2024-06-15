@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "marcus.evans@cooper.com",
+        "name": "Task maysjulia"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ2OWVkMjgwMDAxYjQzZDlmNiIsImlhdCI6MTcxODQ1NDg1NCwiZXhwIjoxNzE4NDU2MDU0fQ.sDig5eeqvIVdyWZIfxN8IyQ6tUDx1p-0xB3O8c1BZgk",
+    "refreshToken": "1c8dd2e772ddad5c96f59a4d916aeda9245538f09f66bc1e6fff7a4c8112daf9a2187e51cb32a4ac"
+}

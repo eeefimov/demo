@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ0OWVkMjgwMDAxYjQzZDllZSIsImlhdCI6MTcxODQ1NDg1MiwiZXhwIjoxNzE4NDU2MDUyfQ.hqyEdyRBA4jeL8F1-3te2mwnf9p5uv8JnWuQpsH74_w'}
+data_models = {'name': 'Watchtwarren', 'email': 'Amber.Coffey@leach.com', 'password': '%!rUvq'}

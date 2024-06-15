@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "david.peterson@brooks.com",
-        "name": "With mbaker"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTA3OWVkMjgwMDAxYjQzZDhjYyIsImlhdCI6MTcxODQ1MzUxMSwiZXhwIjoxNzE4NDU0NzExfQ.mIIGdcmDrOfQygAAFPCBX40u4ivUN3zdoMc_AohLfuc",
-    "refreshToken": "fa921f689d9d8001e23313b6eb61102fef98bbd4f2e599f1cea9250e1c7439cccca303eadb806f3d"
-}

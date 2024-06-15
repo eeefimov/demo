@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "brian.green@fleming-hernandez.com",
+        "name": "Avoiduwerner"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTU0OWVkMjgwMDAxYjQzZGExZSIsImlhdCI6MTcxODQ1NDg2OCwiZXhwIjoxNzE4NDU2MDY4fQ.by0z6sDDTiDrpU5l6Zz8wjzVPBlQ5IvocBVQAsbR-dY",
+    "refreshToken": "76f50a4b1293821b33824eb0cfa17707b3c0f41da571b59cb19b77b34c6f2dd7fc949cc6b818e0a9"
+}

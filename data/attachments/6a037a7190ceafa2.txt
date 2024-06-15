@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ2OWVkMjgwMDAxYjQzZDlmNiIsImlhdCI6MTcxODQ1NDg1NCwiZXhwIjoxNzE4NDU2MDU0fQ.sDig5eeqvIVdyWZIfxN8IyQ6tUDx1p-0xB3O8c1BZgk'}
+data_models = {'name': 'Task maysjulia', 'email': 'Marcus.Evans@cooper.com', 'password': '25yoxB'}

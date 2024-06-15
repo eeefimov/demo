@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "steven.graves@chang.com",
+        "name": "Doctodouglas34"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQzOWVkMjgwMDAxYjQzZDllYyIsImlhdCI6MTcxODQ1NDg1MSwiZXhwIjoxNzE4NDU2MDUxfQ.4Msiq_pOAqcqmkl05f3hIAfTR20WyKBoJ6PrRmhhxWQ",
+    "refreshToken": "ecae6b8a17eed403d5438f22d965c3ddb180fa6a4729c21073f3fb49d2d522efd37de1701a03c06d"
+}

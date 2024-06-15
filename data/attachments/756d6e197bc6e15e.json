@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "amy.garcia@fuller.com",
+        "name": "portertammy"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTk3OWVkMjgwMDAxYjQzZGE3ZiIsImlhdCI6MTcxODQ1NDkzNSwiZXhwIjoxNzE4NDU2MTM1fQ.W3pGsGbyh144gnJ8qE5k9Rla3TPCk3EDm9pC7GgbIPs",
+    "refreshToken": "6d19f354f87b0dc9df66fb9b41968fff94c34970dfeb3fca66a526ad009ec47ab551cc30ef2144dd"
+}

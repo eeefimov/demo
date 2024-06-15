@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jillian.williams@charles.com",
-        "name": "Authodbowen"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFiOWVkMjgwMDAxYjQzZDkwYSIsImlhdCI6MTcxODQ1MzUzMSwiZXhwIjoxNzE4NDU0NzMxfQ.4DYtlkHfkF_xcQpmd7L3WZ9_oZYu6j9KwO7nAZ_qniA",
-    "refreshToken": "5165d2f8efb00004bc465655b3ae120aaac1b03466f6a346de62d3f5982107221cbff6ef63c44880"
-}

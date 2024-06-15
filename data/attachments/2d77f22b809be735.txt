@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ5OWVkMjgwMDAxYjQzZGEwMCIsImlhdCI6MTcxODQ1NDg1NywiZXhwIjoxNzE4NDU2MDU3fQ.C1yLvH-W1M9F7naT8XB-2i6l-izii6Bc2rIz6ZR7W08'}
+data_models = {'name': 'Familrhoover', 'email': 'Jennifer.Lynch@dillon-patterson.org', 'password': 'mnq96J'}

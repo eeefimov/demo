@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "deborah.petty@foley-brandt.com",
+        "name": "Envirvernon86"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTZhOWVkMjgwMDAxYjQzZGE0OCIsImlhdCI6MTcxODQ1NDg5MCwiZXhwIjoxNzE4NDU2MDkwfQ.EhKRLfi5JkHOJfJo4q858NeEyRyiXNvKAaBwg0iF4CE",
+    "refreshToken": "f2e73412319eca9605f3026ccecfd40163d2d86194e249477465b8dd0078f916163227d699aa6de4"
+}

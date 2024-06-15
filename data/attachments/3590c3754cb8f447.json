@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "steve.skinner@hill.com",
-        "name": "Prepaypitts"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE5OWVkMjgwMDAxYjQzZDkwNiIsImlhdCI6MTcxODQ1MzUyOSwiZXhwIjoxNzE4NDU0NzI5fQ.PPFbL-GI63P_7fjaTnshDHVar_vZ2tLIbnHqsyYtSTY",
-    "refreshToken": "d7bae51d490f55dd2bf1c2a5b17467a1d674f8046aa11ca787f5ce2cad25c7fefc84fabb454bd10b"
-}

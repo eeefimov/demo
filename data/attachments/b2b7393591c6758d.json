@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "carla.phelps@pena.net",
-        "name": "Militkimberlythompson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTc1OWVkMjgwMDAxYjQzZDk5ZiIsImlhdCI6MTcxODQ1MzYyMSwiZXhwIjoxNzE4NDU0ODIxfQ.YRL3tUwyNhUHPtXVJRwwqiw4udERb2iKAi28aRhwubE",
-    "refreshToken": "2f38dc897bbbcff5f5cdcdd58ef098b1d124e403511f6e066eea1f1137f49d6c5de72a6ffa7fa030"
-}

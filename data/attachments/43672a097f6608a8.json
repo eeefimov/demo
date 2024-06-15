@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "nina.rivera@martinez.com",
+        "name": "Mind diaznicholas"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRkOWVkMjgwMDAxYjQzZGEwYSIsImlhdCI6MTcxODQ1NDg2MSwiZXhwIjoxNzE4NDU2MDYxfQ.0Sixr9hkKByQujHgAHDm5HBhbWFh5KvUL6mafgFMwoE",
+    "refreshToken": "b8fce9cc2427c7c9e97639ceca5aba774941c08830ac649afa3b84c0851f2e7af08629fc0c668cc8"
+}

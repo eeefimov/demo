@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "paula.jackson@henderson.com",
+        "name": "Phonebestshari"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRhOWVkMjgwMDAxYjQzZGEwMiIsImlhdCI6MTcxODQ1NDg1OCwiZXhwIjoxNzE4NDU2MDU4fQ.gkXkjB3LcKy2FiRMDtMyZYH5o2s8Iz33ZMVRSFj1izQ",
+    "refreshToken": "c593cd7561664220beeb0c12f2add2754d028079102f45bd4754c76bfac7afeff1b8c0240f9788ef"
+}

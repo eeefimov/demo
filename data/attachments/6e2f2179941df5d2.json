@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "matthew.khan@diaz.com",
-        "name": "Prepamgriffin"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTRiOWVkMjgwMDAxYjQzZDk1MSIsImlhdCI6MTcxODQ1MzU3OSwiZXhwIjoxNzE4NDU0Nzc5fQ.vGrLi2nG-SV0Npb5W0F2zLcs_ZNPKlzYz3mS3xltHEE",
-    "refreshToken": "b8f5614445fd730fcaddb485d7951f42ed149f25a8c5e823869f4fd61b7ead4e2335bd2bedd1ff0c"
-}

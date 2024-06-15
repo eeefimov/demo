@@ -1,0 +1,4 @@
+method = put
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/logout
+header = None
+data_models = {'token': 'e15b522d5ff03f94c4d7e0da09232a9c74a48ec3d4e2c936e20bd8ae97b2553c6f634aab1af17e85'}

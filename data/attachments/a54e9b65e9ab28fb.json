@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "paul.neal@garcia.com",
-        "name": "Focustammyfrancis"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBjOWVkMjgwMDAxYjQzZDhkZSIsImlhdCI6MTcxODQ1MzUxNiwiZXhwIjoxNzE4NDU0NzE2fQ.Xjm1EnIfVceMLXKUi50uYlrEH44rnxAEN7T8QMOPy7s",
-    "refreshToken": "14521d92610e06717d9bac75d8e35549503e055ea5420c6164b0d91fffc73a18e5f9ca586d12728a"
-}

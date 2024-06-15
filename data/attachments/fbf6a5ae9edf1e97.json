@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jessica.ochoa@guzman.com",
-        "name": "Profejeremy48"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTZmOWVkMjgwMDAxYjQzZDk5OCIsImlhdCI6MTcxODQ1MzYxNSwiZXhwIjoxNzE4NDU0ODE1fQ.T93Tmt5TpRboofyLnZo8ScTSr0e0oorJFn3u36zE7Gk",
-    "refreshToken": "a3269c43c820e0b4099ca41fb3f051ce100895aee9276bdd5029700d2cf1709f2056149af35a6223"
-}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "richard.turner@wiggins.biz",
+        "name": "Enjoyyortiz"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTZlOWVkMjgwMDAxYjQzZGE0ZCIsImlhdCI6MTcxODQ1NDg5NCwiZXhwIjoxNzE4NDU2MDk0fQ.5oVf_GIpY3h-c7OeGKfcchJhQbQn3EP7pvjx2jZDmzI",
+    "refreshToken": "5b2f81eccb9be0a5e964c6c5749d2900047840098ac9d5b285ac5b1afc985537eedb18adb302d899"
+}

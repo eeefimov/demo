@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "christine.flores@welch-hardy.com",
+        "name": "Lightcharlesjohnston"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWFlOWVkMjgwMDAxYjQzZGFhZiIsImlhdCI6MTcxODQ1NDk1OCwiZXhwIjoxNzE4NDU2MTU4fQ.qr1z7d9antUzH9MZtZsCuVERw7X6anzT95LIcGzDdzA",
+    "refreshToken": "399368ac77fd50fa89e98e9f64288ce63eb0aed1abcd4772929b9248f88a4dfe1d7ae0aa8efae7b9"
+}

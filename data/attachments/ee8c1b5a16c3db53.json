@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "megan.tran@jones-hernandez.org",
+        "name": "Rangejoseharper"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YThlOWVkMjgwMDAxYjQzZGE3MSIsImlhdCI6MTcxODQ1NDkyNiwiZXhwIjoxNzE4NDU2MTI2fQ.JEKbXDdOyJtCt7O_XcODypudOUVfIsZT-xSKmL7g1pA",
+    "refreshToken": "721fafddef49fd3db56705efe3efcd86e95d80e297746f282fb644dd9d7c93a26ebed71bf93daf6f"
+}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "brian.fuentes@tucker.org",
-        "name": "Read brandon38"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBiOWVkMjgwMDAxYjQzZDhkYSIsImlhdCI6MTcxODQ1MzUxNSwiZXhwIjoxNzE4NDU0NzE1fQ.JJfeinqaKL3ECGWscG46egHfT2iY-s9_Wb42d2WKcOA",
-    "refreshToken": "8d666672fccb6578e91d75142394f3e10e8c176fdb68b9df18942aa8bba11b3ec0d665bd2c5613f8"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "martin.vazquez@davis.com",
-        "name": "Long ericadams"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBkOWVkMjgwMDAxYjQzZDhlMCIsImlhdCI6MTcxODQ1MzUxNywiZXhwIjoxNzE4NDU0NzE3fQ.3C4K_31WD--tP3EP2qjEHQZzHe8YlmnS4UK7uLGHSK8",
-    "refreshToken": "437203749dcdfa923e941b1e4f637c071edff1b00f0d71e4895381ffe4eb8a2bbe8195ea5d5ec372"
-}

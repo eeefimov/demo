@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "anthony.marsh@weeks.com",
-        "name": "Leavebrownhayden"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTJmOWVkMjgwMDAxYjQzZDkzMSIsImlhdCI6MTcxODQ1MzU1MSwiZXhwIjoxNzE4NDU0NzUxfQ.vBTkRK7N397vjpZnlwm1m90KiiIN9HWVdBm3mPtqGYM",
-    "refreshToken": "2141d68b8afcd5f04fe685a49947f86e3538d52d81837af968de1101c78629d26abe6883a96c0083"
-}

@@ -1,0 +1,318 @@
+{
+  "uid" : "5bbfac443b9d35fe",
+  "name" : "test_password_validation[Password 100]",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_password_validation",
+  "historyId" : "07ecaf4287e51f461869c769c178c6b3",
+  "time" : {
+    "start" : 1718454939894,
+    "stop" : 1718454940123,
+    "duration" : 229
+  },
+  "description" : "Verify response code with different password length.",
+  "descriptionHtml" : "<p>Verify response code with different password length.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831310,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718454939893,
+      "stop" : 1718454939894,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718454939893,
+        "stop" : 1718454939894,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718454939894,
+          "stop" : 1718454939894,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Detaibrian32'"
+        }, {
+          "name" : "mail",
+          "value" : "'Kimberly.Gonzalez@hayden.biz'"
+        }, {
+          "name" : "pwd",
+          "value" : "'x!8Jw6'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718454831288,
+      "stop" : 1718454831288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with different password length.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Set user registration data_models",
+      "time" : {
+        "start" : 1718454939894,
+        "stop" : 1718454939894,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'johnnybailey'"
+      }, {
+        "name" : "mail",
+        "value" : "'brianna29@example.org'"
+      }, {
+        "name" : "pwd",
+        "value" : "'e^8M_QWV3JKb))p$5bSz9an5*8tlBegpuaek33Hz*P0n&aWyg(U@V9VD!UBbOtsFaX*HFNMTn2TL2EqJwHDX5Gd&Nr9F5i1L)Vel'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718454939894,
+        "stop" : 1718454940122,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "705fa222f1b8de9d",
+        "name" : "Request Info",
+        "source" : "705fa222f1b8de9d.txt",
+        "type" : "text/plain",
+        "size" : 288
+      }, {
+        "uid" : "489af977700b0174",
+        "name" : "api Response",
+        "source" : "489af977700b0174.json",
+        "type" : "application/json",
+        "size" : 422
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718454940124,
+      "stop" : 1718454940557,
+      "duration" : 433
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718454940124,
+        "stop" : 1718454940556,
+        "duration" : 432
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718454940124,
+          "stop" : 1718454940124,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTljOWVkMjgwMDAxYjQzZGE4ZCIsImlhdCI6MTcxODQ1NDk0MCwiZXhwIjoxNzE4NDU2MTQwfQ.mg3MIzKQw5uy6YyBIB-EtxO97srn0Sbzr4PwfVik1o8'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "91920bba85b26703",
+        "name" : "Request Info",
+        "source" : "91920bba85b26703.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTljOWVkMjgwMDAxYjQzZGE4ZCIsImlhdCI6MTcxODQ1NDk0MCwiZXhwIjoxNzE4NDU2MTQwfQ.mg3MIzKQw5uy6YyBIB-EtxO97srn0Sbzr4PwfVik1o8'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "9b654ca84938"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "200"
+  }, {
+    "name" : "mail",
+    "value" : "'brianna29@example.org'"
+  }, {
+    "name" : "name",
+    "value" : "'johnnybailey'"
+  }, {
+    "name" : "pwd",
+    "value" : "'e^8M_QWV3JKb))p$5bSz9an5*8tlBegpuaek33Hz*P0n&aWyg(U@V9VD!UBbOtsFaX*HFNMTn2TL2EqJwHDX5Gd&Nr9F5i1L)Vel'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bbfac443b9d35fe.json",
+  "parameterValues" : [ "200", "'brianna29@example.org'", "'johnnybailey'", "'e^8M_QWV3JKb))p$5bSz9an5*8tlBegpuaek33Hz*P0n&aWyg(U@V9VD!UBbOtsFaX*HFNMTn2TL2EqJwHDX5Gd&Nr9F5i1L)Vel'" ]
+}

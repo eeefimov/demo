@@ -1,4 +1,0 @@
-method = DELETE
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY3OWVkMjgwMDAxYjQzZDk4OSIsImlhdCI6MTcxODQ1MzYwNywiZXhwIjoxNzE4NDU0ODA3fQ.KMpEJmUEbMqldzC5ow1FIGHm2xB9fKkcJazTcDMX3Zw'}
-data_models = None

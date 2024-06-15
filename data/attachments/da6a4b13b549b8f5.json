@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "miguel.briggs@alexander.com",
+        "name": "Base chernandez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTU2OWVkMjgwMDAxYjQzZGEyMiIsImlhdCI6MTcxODQ1NDg3MCwiZXhwIjoxNzE4NDU2MDcwfQ.KU5uHDf1JlthxJK3yCG5BbwfiD07P3eELRl_QLfVHmQ",
+    "refreshToken": "b502140d99033a51e63ee971de50c661e9c4fdc5f61c09c90cd3b78ce654b3e44f0065a0190f0000"
+}

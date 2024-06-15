@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "rebecca.ali@hudson-moore.com",
-        "name": "You cdonnahenderson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE1OWVkMjgwMDAxYjQzZDhmYSIsImlhdCI6MTcxODQ1MzUyNSwiZXhwIjoxNzE4NDU0NzI1fQ.SkIyyQyI18SJCt9LIQlCQR1oRwQGx-DFrSv-B5N3c24",
-    "refreshToken": "729e9d35754400dbb79c8718088a855fd9e45d2202f660fed6280fb34c65a70ae586ad22fe485d89"
-}

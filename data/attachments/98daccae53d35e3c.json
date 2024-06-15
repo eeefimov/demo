@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "richard.hayes@green.com",
-        "name": "Workeburgesserin"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTc1OWVkMjgwMDAxYjQzZDlhMSIsImlhdCI6MTcxODQ1MzYyMSwiZXhwIjoxNzE4NDU0ODIxfQ.1BHwUha2VFaZSsyKkFKmfjYbkZ3-87czJzsVG-MorKk",
-    "refreshToken": "0f067422cf71778abdb94d2713f73491cc207fe1b01913a8ae0094a3fce87f3f97ba5cb2747ebcd2"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "john.hall@scott.biz",
-        "name": "Big fthomasstevens"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBiOWVkMjgwMDAxYjQzZDhkYyIsImlhdCI6MTcxODQ1MzUxNSwiZXhwIjoxNzE4NDU0NzE1fQ.TPiXh05inA10XZi0bPp4xDewZw_0U-N3uujkfpZNPhY",
-    "refreshToken": "70644cfdd98e6461329b88d3e2bf800ced059264923d83d2a4ccd1589578edac77c2283ed7b8a564"
-}

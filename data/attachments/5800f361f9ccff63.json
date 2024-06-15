@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jamie_schmidt@hudson.biz",
-        "name": "bmercer"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTVmOWVkMjgwMDAxYjQzZDk3MSIsImlhdCI6MTcxODQ1MzU5OSwiZXhwIjoxNzE4NDU0Nzk5fQ.jiA7yJzJJIS58TPy9N1VgJReYR40xQvP2rElbyVe-ow",
-    "refreshToken": "f7b8c08d7e58221c2fea063a24822a1450472cbdb773bacff12e495bcd38b29d1050fccb51b1451f"
-}

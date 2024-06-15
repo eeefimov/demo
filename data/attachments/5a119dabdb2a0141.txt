@@ -1,0 +1,4 @@
+method = post
+endpoint = https://stellarburgers.nomoreparties.site/api/orders
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTZlOWVkMjgwMDAxYjQzZGE0ZCIsImlhdCI6MTcxODQ1NDg5NCwiZXhwIjoxNzE4NDU2MDk0fQ.5oVf_GIpY3h-c7OeGKfcchJhQbQn3EP7pvjx2jZDmzI'}
+data_models = {'ingredients': ['61c0c5a71d1f82001bdaaa6c', '61c0c5a71d1f82001bdaaa73', '61c0c5a71d1f82001bdaaa73', '61c0c5a71d1f82001bdaaa72']}

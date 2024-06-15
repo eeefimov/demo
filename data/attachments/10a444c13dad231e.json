@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "sarah.phillips@moon-scott.com",
+        "name": "Work osnow"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTRiOWVkMjgwMDAxYjQzZGEwNiIsImlhdCI6MTcxODQ1NDg1OSwiZXhwIjoxNzE4NDU2MDU5fQ.cGxITmwwOiEVj2GpZh7fVhYNl5f1UBQ4RwAzAfU00QM",
+    "refreshToken": "6c10e730b04afa738ec47d88262794c41c6cae9f4d8fdd3a3bf916d78d7b0da54100f46620599341"
+}

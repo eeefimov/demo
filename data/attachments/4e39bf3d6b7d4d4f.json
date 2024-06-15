@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "chris.harris@mccarthy-roberson.com",
-        "name": "Focusoliverdavid"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU4OWVkMjgwMDAxYjQzZDk2NyIsImlhdCI6MTcxODQ1MzU5MiwiZXhwIjoxNzE4NDU0NzkyfQ.1fNMykSKgme9yk1gLiwgM489-9oaxtVsnLH7ACCw38A",
-    "refreshToken": "17c05da446f73cfc215bdea1f068d7d8463e35676a5a806d75532a6dc01f15db87e234fbd1b720f2"
-}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "scott.smith@proctor.net",
+        "name": "Listegallagherbecky"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTVlOWVkMjgwMDAxYjQzZGEzNCIsImlhdCI6MTcxODQ1NDg3OCwiZXhwIjoxNzE4NDU2MDc4fQ.DQkI5svSMBDI2hCCtOoRbuq0HHfhAywfb_be5abm_sg",
+    "refreshToken": "6fc30f75d2e696da620daf8fa161c110950be78672a27692d337f2a63b3764d3b221745bdc4fe868"
+}

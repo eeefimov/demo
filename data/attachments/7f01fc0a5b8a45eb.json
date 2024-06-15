@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jamie_baker_cooper@kline.com",
+        "name": "qlamb"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTk5OWVkMjgwMDAxYjQzZGE4NSIsImlhdCI6MTcxODQ1NDkzNywiZXhwIjoxNzE4NDU2MTM3fQ.0ZZIhnYh0RxyQ7SRgz8DVGb1yrIGnbYB99lR62I0IS4",
+    "refreshToken": "b1dab060992a7ee8687a5ace23a86b822985f5f06c3daa58f147a7d0573d1626ab28cabd61861d20"
+}

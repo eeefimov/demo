@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "tiffany.snyder@lyons.biz",
+        "name": "Chancfrhodes"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YWExOWVkMjgwMDAxYjQzZGE5ZCIsImlhdCI6MTcxODQ1NDk0NSwiZXhwIjoxNzE4NDU2MTQ1fQ.QIDBTK-I26JL2StXMw7mUe4hr0XVtScrrS7X4qDgZzU",
+    "refreshToken": "478f424f18724f4580b6505387dff3d0fb1842716aab14e03e9b8c809914bd17692b780cf4277bc0"
+}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "flynnjonathan@example.com",
-        "name": " pass"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY4OWVkMjgwMDAxYjQzZDk4YiIsImlhdCI6MTcxODQ1MzYwOCwiZXhwIjoxNzE4NDU0ODA4fQ.Mf-eqR0DRoqOkSsHut_jInCQ-YSMJpWJI99y4zcVUN0",
-    "refreshToken": "cd253b26630a8f05c14f7610d2269e68f0cdfe510c62e61f09f7c9ba70acc8d7529dbe26d7eb2e2a"
-}

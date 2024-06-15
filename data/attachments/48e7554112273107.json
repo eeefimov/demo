@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "shari.burch@roberts.com",
-        "name": "Born lroth"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE0OWVkMjgwMDAxYjQzZDhmNiIsImlhdCI6MTcxODQ1MzUyNCwiZXhwIjoxNzE4NDU0NzI0fQ.4vCGeElLB7EfKGHKhL89Q18aS-L8-tpZokvPmsu1nAA",
-    "refreshToken": "7d0bd593d04e84edcebd7663839176f1ec11e9ecaf77c12454f39dc5061c4175e114e4d6299268c0"
-}

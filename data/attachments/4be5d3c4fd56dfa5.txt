@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTQ4OWVkMjgwMDAxYjQzZDlmYyIsImlhdCI6MTcxODQ1NDg1NiwiZXhwIjoxNzE4NDU2MDU2fQ.gDsrsZhl02CP5dHhPx3UIFfCP9JxJUY2UAP1odxfL3Y'}
+data_models = {'name': 'Piecegmiller', 'email': 'David.Hutchinson@casey.info', 'password': '#N2Vq&'}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "margaret.bishop@mckee.info",
-        "name": "Year noah26"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTUwOWVkMjgwMDAxYjQzZDk1OSIsImlhdCI6MTcxODQ1MzU4NCwiZXhwIjoxNzE4NDU0Nzg0fQ.5C8ucV6ZbAJUwhDFDFAzSEigviDG4gztXH2twqhLC5I",
-    "refreshToken": "3528c1718fc5c0f2849ad284d3fa9e4126974cd244544eea598777aec0c19c24d332f45adda8c62f"
-}

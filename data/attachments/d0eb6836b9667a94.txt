@@ -1,4 +1,0 @@
-method = PATCH
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTEwOWVkMjgwMDAxYjQzZDhlYSIsImlhdCI6MTcxODQ1MzUyMCwiZXhwIjoxNzE4NDU0NzIwfQ.kMoodrWrs8tdUD3HNO3FyZzzTz2KQJKFdtVrUndpIlI'}
-data_models = {'name': 'Unit ucline', 'email': 'Melissa.Espinoza@kerr.com', 'password': 'GEm0$c'}

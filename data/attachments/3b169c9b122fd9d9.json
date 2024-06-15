@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "rose.smith@conner.com",
-        "name": "Seek ariasbethany"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTA2OWVkMjgwMDAxYjQzZDhjYSIsImlhdCI6MTcxODQ1MzUxMCwiZXhwIjoxNzE4NDU0NzEwfQ.OSIIJzHvTzJkSIertqVC7G8RKUUQef3WjnAIxl_BvXw",
-    "refreshToken": "77cc306bed7e172ffd6fb30a553e49446a29d614410f1bf3def5196a601536fe61c730fa82393e88"
-}

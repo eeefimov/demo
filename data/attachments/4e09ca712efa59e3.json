@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "anthony.phillips@miller.com",
+        "name": "Side abigail02"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTkxOWVkMjgwMDAxYjQzZGE3OSIsImlhdCI6MTcxODQ1NDkyOSwiZXhwIjoxNzE4NDU2MTI5fQ.0AEsb-VMBqT2mk2YnM5k69wLV-yKKIz6l3sgI3koybA",
+    "refreshToken": "e924f8abaebfe127b27de413ab0066b21a72c7cf82e7b50055db7089bf7959fdcfe152bb069ae617"
+}

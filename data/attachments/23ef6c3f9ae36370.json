@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "john-white.lee@cole.com",
+        "name": "mariagarcia"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTliOWVkMjgwMDAxYjQzZGE4YiIsImlhdCI6MTcxODQ1NDkzOSwiZXhwIjoxNzE4NDU2MTM5fQ.PaXuzFIxz6Dy3d2AXq7MwQ87gT2b6CtIS87SIm7FF9c",
+    "refreshToken": "a61a13846546c0fa9e3070e7675287bd673ff27793eaf26dc20a96d7461152f0e84bc42c532d7577"
+}

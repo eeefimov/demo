@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "michelle.roberson@clark.com",
-        "name": "Move petersmichael"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY5OWVkMjgwMDAxYjQzZDk4ZCIsImlhdCI6MTcxODQ1MzYwOSwiZXhwIjoxNzE4NDU0ODA5fQ.oKhFAc2iXgj-FRy2C382IvXh4ZqeGn8FqP-TougMWfM",
-    "refreshToken": "d758d2a537a2ac4d6a43970517ec3c8cde1c7cc7eae592e7108633c633d042f8cb51808f31ae6d90"
-}

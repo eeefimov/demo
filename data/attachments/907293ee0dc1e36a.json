@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "ashley_manning@hernandez.net",
+        "name": "christopher06"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4YTk4OWVkMjgwMDAxYjQzZGE4MyIsImlhdCI6MTcxODQ1NDkzNiwiZXhwIjoxNzE4NDU2MTM2fQ.J_1FbjgOaToF8WVCaV9iLnjBp_K6zFlSqlg_D4-tV_c",
+    "refreshToken": "6c2d2d67af9a556970f9ffe16cf2161a882a8fe6fc6f1de8974bcaecc4fd124349e9b2a6ebc5b72b"
+}
