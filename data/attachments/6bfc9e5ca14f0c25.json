@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "travis.holmes@parks.biz",
+        "name": "Appeasmithjennifer"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTIzOWVkMjgwMDAxYjQzZDkxZCIsImlhdCI6MTcxODQ1MzUzOSwiZXhwIjoxNzE4NDU0NzM5fQ.yunI1OuQzeuVeN3T7JB3JbN6cGibRHtEO44QBcpfRPg",
+    "refreshToken": "d884c7852960ba9b0f6e842b35487dce80bb5924878985e3b141482b50158f250f454109f84a974f"
+}

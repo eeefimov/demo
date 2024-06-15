@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "james.henderson@ford.com",
+        "name": "Comparmullins"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTc0OWVkMjgwMDAxYjQzZDk5ZCIsImlhdCI6MTcxODQ1MzYyMCwiZXhwIjoxNzE4NDU0ODIwfQ.5w-gyMv8XxfLT85VXIFLdYX4W0Z9Z2hsMrC6iN3E3Xw",
+    "refreshToken": "664963e3eaa480926b02b73c58fd04be7f7618dcb904666833e9612ec7d023ff883c661343698d31"
+}

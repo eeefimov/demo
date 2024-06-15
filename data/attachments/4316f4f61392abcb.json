@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "melanie.bauer@perez.com",
+        "name": "Courtmelindachapman"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTExOWVkMjgwMDAxYjQzZDhlZSIsImlhdCI6MTcxODQ1MzUyMSwiZXhwIjoxNzE4NDU0NzIxfQ.yrkZKoWhesT9Z4bdrs0rxHpjFtnGCQ_dzD5Y6A6M4cM",
+    "refreshToken": "1ff1f9f12c4232bc75e88cd30b8694604151605fcdfbd8170e088ca47752ff0a1835e75403e2a657"
+}

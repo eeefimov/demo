@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "erika.williams@elliott-young.com",
+        "name": "Interchristopher31"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTA3OWVkMjgwMDAxYjQzZDhjZSIsImlhdCI6MTcxODQ1MzUxMSwiZXhwIjoxNzE4NDU0NzExfQ.kgH1yYUE_g0182G3gXGU2QK2t0zQCXs9yQzYDHiZGf0",
+    "refreshToken": "99fb08e71c00ea215d36a4a9722385bf377d5602aa08f6de00d9622c8890762986e26fb842d800a2"
+}

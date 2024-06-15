@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': '^IO(yFgJc8'}
+data_models = {'name': 'Agentcindysantiago', 'email': 'Jason.Clarke@flores.com', 'password': '!l7BkM'}

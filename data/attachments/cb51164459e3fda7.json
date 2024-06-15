@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "emily.ochoa@farmer.com",
+        "name": "Worryjacobanderson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTJiOWVkMjgwMDAxYjQzZDkyYiIsImlhdCI6MTcxODQ1MzU0NywiZXhwIjoxNzE4NDU0NzQ3fQ.z9LSaHDnn4Gf4V51-OdaSklAl6I7ObFnP8uqbzYB4uE",
+    "refreshToken": "0a479b76725a84c3621a566f60e6da854596420b36b6be00f18712cbdb90eaa946d92358dd6833f8"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "matthew.lambert@becker.com",
+        "name": "Identtammy96"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU1OWVkMjgwMDAxYjQzZDk1ZiIsImlhdCI6MTcxODQ1MzU4OSwiZXhwIjoxNzE4NDU0Nzg5fQ.T3gIeFVWGqOP-p4NmJVeOLqy618464Vmnp1lFwRxnvI",
+    "refreshToken": "048ce33abaf09cfd7bffd39ac70657b287001fbaef61b588bfe6840bc0e88c4f87bd36692bece77e"
+}

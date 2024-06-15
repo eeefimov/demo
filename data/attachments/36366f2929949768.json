@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "michael.wade@walton.org",
+        "name": "Lawyedavieskristi"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTI3OWVkMjgwMDAxYjQzZDkyMyIsImlhdCI6MTcxODQ1MzU0MywiZXhwIjoxNzE4NDU0NzQzfQ.o-A4PMuDYifSiluLQorzGUTA2WYyEbV1kgpuNmuK6NA",
+    "refreshToken": "937e8d8501e878bb8aaecbdcc132f3faaf88ae736c686f367ea4bc190db2015f576deb0cbb2cfc8a"
+}

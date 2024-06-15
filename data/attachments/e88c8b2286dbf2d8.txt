@@ -1,0 +1,4 @@
+method = patch
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
+header = None
+data_models = {'name': 'Speciandersontiffany', 'email': 'Victor.Cummings@gutierrez-khan.org', 'password': '(fLXYd'}

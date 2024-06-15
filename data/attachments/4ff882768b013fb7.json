@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "luke.wall@nelson-peters.info",
+        "name": "Beforalison37"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTEyOWVkMjgwMDAxYjQzZDhmMCIsImlhdCI6MTcxODQ1MzUyMiwiZXhwIjoxNzE4NDU0NzIyfQ.IWoguQcn23ilRL3f82TO7j8s9yFuPVuxkYEsiP9W8Wc",
+    "refreshToken": "89106fd0f0888de8364cc62a8186c6a40d55a0ee6a144e7ee2aa34883d064ef8d48c65ef98be81b0"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "john.evans@wilson.org",
+        "name": "Big tnirwin"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTM1OWVkMjgwMDAxYjQzZDkzOSIsImlhdCI6MTcxODQ1MzU1NywiZXhwIjoxNzE4NDU0NzU3fQ.A66JQ2ReMYWV-OooE0ZemnVq0iCeT-TdQHTh-7Hd4OI",
+    "refreshToken": "d0807982de5651490480885094cfd20fc02e788a83784f2f8b515e41d2dad1b1ea566efecd1f4842"
+}

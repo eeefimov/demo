@@ -1,0 +1,456 @@
+{
+  "uid" : "cd1c2984b54dec00",
+  "name" : "test_status_code",
+  "fullName" : "tests_api.test_post_orders.TestUserOrder#test_status_code",
+  "historyId" : "0e0cc742da2c339e559cb321ac768f6a",
+  "time" : {
+    "start" : 1718453534789,
+    "stop" : 1718453535853,
+    "duration" : 1064
+  },
+  "description" : "Verify response status code.",
+  "descriptionHtml" : "<p>Verify response status code.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496083,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496061,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718453496060,
+      "stop" : 1718453496060,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "user_order",
+    "time" : {
+      "start" : 1718453534558,
+      "stop" : 1718453534789,
+      "duration" : 231
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Make Order",
+      "time" : {
+        "start" : 1718453534558,
+        "stop" : 1718453536263,
+        "duration" : 1705
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718453534559,
+          "stop" : 1718453534559,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Car rdebbie83'"
+        }, {
+          "name" : "mail",
+          "value" : "'Charles.Franco@sullivan.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'1StnVY'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718453534559,
+          "stop" : 1718453534788,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a3a7a59f1ad3f241",
+          "name" : "Request Info",
+          "source" : "a3a7a59f1ad3f241.txt",
+          "type" : "text/plain",
+          "size" : 201
+        }, {
+          "uid" : "5286a09d10de693e",
+          "name" : "api Response",
+          "source" : "5286a09d10de693e.json",
+          "type" : "application/json",
+          "size" : 429
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718453534789,
+          "stop" : 1718453534789,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFlOWVkMjgwMDAxYjQzZDkxNCIsImlhdCI6MTcxODQ1MzUzNCwiZXhwIjoxNzE4NDU0NzM0fQ.McCwl0uoYpx7Jy98m1rfRU3OF0WN7V-3wRwFfDFdKAc'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718453534789,
+          "stop" : 1718453534789,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bad7f39e5f7b6c9e",
+          "name" : "api Response",
+          "source" : "bad7f39e5f7b6c9e.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496061,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496061,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response status code.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request with user oder",
+      "time" : {
+        "start" : 1718453534789,
+        "stop" : 1718453535852,
+        "duration" : 1063
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup User order",
+        "time" : {
+          "start" : 1718453534790,
+          "stop" : 1718453534790,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Load data_models from json file",
+          "time" : {
+            "start" : 1718453534790,
+            "stop" : 1718453534790,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2f5a3116f6bac9ab",
+            "name" : "api Response",
+            "source" : "2f5a3116f6bac9ab.json",
+            "type" : "application/json",
+            "size" : 7597
+          } ],
+          "parameters" : [ {
+            "name" : "filename",
+            "value" : "'ingredients.json'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Set buns in order",
+          "time" : {
+            "start" : 1718453534790,
+            "stop" : 1718453534790,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Set ingredients in order",
+          "time" : {
+            "start" : 1718453534790,
+            "stop" : 1718453534790,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "b8fb29c7ec39517e",
+          "name" : "api Response",
+          "source" : "b8fb29c7ec39517e.json",
+          "type" : "application/json",
+          "size" : 129
+        } ],
+        "parameters" : [ {
+          "name" : "empty",
+          "value" : "False"
+        }, {
+          "name" : "buns",
+          "value" : "True"
+        }, {
+          "name" : "buns_number",
+          "value" : "1"
+        }, {
+          "name" : "ingr_number",
+          "value" : "3"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send post requests",
+        "time" : {
+          "start" : 1718453534790,
+          "stop" : 1718453535852,
+          "duration" : 1062
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e6274fd85c57cd74",
+          "name" : "Request Info",
+          "source" : "e6274fd85c57cd74.txt",
+          "type" : "text/plain",
+          "size" : 431
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "bc920476d020c24c",
+        "name" : "api Response",
+        "source" : "bc920476d020c24c.json",
+        "type" : "application/json",
+        "size" : 3554
+      } ],
+      "parameters" : [ {
+        "name" : "user_order",
+        "value" : "<tests.conftest.user_order.<locals>.USERORDERS object at 0x7fa116fda4d0>"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user_order::0",
+    "time" : {
+      "start" : 1718453535853,
+      "stop" : 1718453536264,
+      "duration" : 411
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718453535853,
+        "stop" : 1718453536262,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718453535854,
+          "stop" : 1718453535854,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFlOWVkMjgwMDAxYjQzZDkxNCIsImlhdCI6MTcxODQ1MzUzNCwiZXhwIjoxNzE4NDU0NzM0fQ.McCwl0uoYpx7Jy98m1rfRU3OF0WN7V-3wRwFfDFdKAc'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "793f26cf989c9f32",
+        "name" : "Request Info",
+        "source" : "793f26cf989c9f32.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFlOWVkMjgwMDAxYjQzZDkxNCIsImlhdCI6MTcxODQ1MzUzNCwiZXhwIjoxNzE4NDU0NzM0fQ.McCwl0uoYpx7Jy98m1rfRU3OF0WN7V-3wRwFfDFdKAc'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_orders"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserOrder"
+  }, {
+    "name" : "host",
+    "value" : "d36a71c73347"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd1c2984b54dec00.json",
+  "parameterValues" : [ ]
+}

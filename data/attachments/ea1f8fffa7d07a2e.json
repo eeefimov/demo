@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "heather.garcia@tyler.com",
+        "name": "Hair chapmanjustin"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBmOWVkMjgwMDAxYjQzZDhlNiIsImlhdCI6MTcxODQ1MzUxOSwiZXhwIjoxNzE4NDU0NzE5fQ.WssFEdDxi3BRGRsMa_jjKX_6nDPWHW3t9K-DBVW1hWs",
+    "refreshToken": "9ceb29acc5b205b379d1313193c02cf34861bf47cfdbd7d1841418fd1c9e61410ae1672f4bea7a07"
+}

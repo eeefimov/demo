@@ -1,1 +1,1331 @@
-[ ]
+[ {
+  "uid" : "1989a47736b7bf4b",
+  "name" : "test_get_user_orders[3 orders]",
+  "time" : {
+    "start" : 1718453553294,
+    "stop" : 1718453556815,
+    "duration" : 3521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f2db93ac35f0799",
+  "name" : "test_response_payload",
+  "time" : {
+    "start" : 1718453511299,
+    "stop" : 1718453511461,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ec895c56a976589",
+  "name" : "test_headers[application/xml]",
+  "time" : {
+    "start" : 1718453509826,
+    "stop" : 1718453510232,
+    "duration" : 406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a053e33a68f9f94a",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1718453590702,
+    "stop" : 1718453590925,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e033acac718b95b",
+  "name" : "test_response_payload[PATCH email]",
+  "time" : {
+    "start" : 1718453517395,
+    "stop" : 1718453517674,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53f5e912113f05be",
+  "name" : "test_invalid_data[Invalid data_models]",
+  "time" : {
+    "start" : 1718453595630,
+    "stop" : 1718453595893,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75d3ea808ff827da",
+  "name" : "test_orders_all_number_changes",
+  "time" : {
+    "start" : 1718453585033,
+    "stop" : 1718453586819,
+    "duration" : 1786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72dfd95fa61960b9",
+  "name" : "test_response_payload",
+  "time" : {
+    "start" : 1718453611743,
+    "stop" : 1718453612554,
+    "duration" : 811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa854c993714d468",
+  "name" : "test_invalid_methods[PUT]",
+  "time" : {
+    "start" : 1718453504982,
+    "stop" : 1718453505145,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fdd7b93cc7c4abb",
+  "name" : "test_items_number_in_order[Order with bun and 1 ingredient]",
+  "time" : {
+    "start" : 1718453539969,
+    "stop" : 1718453541030,
+    "duration" : 1061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a8961d1d63c1e91",
+  "name" : "test_name_validation[User name with back space string]",
+  "time" : {
+    "start" : 1718453608635,
+    "stop" : 1718453608798,
+    "duration" : 163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "573ba8d897168fa8",
+  "name" : "test_invalid_token[Empty token]",
+  "time" : {
+    "start" : 1718453529539,
+    "stop" : 1718453529975,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd1c2984b54dec00",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1718453534789,
+    "stop" : 1718453535853,
+    "duration" : 1064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1401538ec09c9bd1",
+  "name" : "test_name_validation[User name with 1 char]",
+  "time" : {
+    "start" : 1718453603848,
+    "stop" : 1718453604088,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6ce7d45861e15b4",
+  "name" : "test_update_credentials_validation[PATCH name]",
+  "time" : {
+    "start" : 1718453521797,
+    "stop" : 1718453521967,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ccee940d8f79c8",
+  "name" : "test_empty_credentials_validation[All empty]",
+  "time" : {
+    "start" : 1718453593697,
+    "stop" : 1718453593867,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25c37360961a5a3d",
+  "name" : "test_update_credentials_validation[PATCH password]",
+  "time" : {
+    "start" : 1718453522359,
+    "stop" : 1718453522581,
+    "duration" : 222
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bd29cc0996de91",
+  "name" : "test_payload_type_validation",
+  "time" : {
+    "start" : 1718453538236,
+    "stop" : 1718453539317,
+    "duration" : 1081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eed7857e66a8da08",
+  "name" : "test_response_payload",
+  "time" : {
+    "start" : 1718453527761,
+    "stop" : 1718453528196,
+    "duration" : 435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7438fa02ee3b2af5",
+  "name" : "test_headers[application/html]",
+  "time" : {
+    "start" : 1718453508286,
+    "stop" : 1718453508595,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aac42118da2f00df",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1718453496083,
+    "stop" : 1718453496373,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8ad2d3b224d43cd",
+  "name" : "test_email_validation[Integer in email]",
+  "time" : {
+    "start" : 1718453597483,
+    "stop" : 1718453597711,
+    "duration" : 228
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf7d3dea5af76379",
+  "name" : "test_payload_type_validation",
+  "time" : {
+    "start" : 1718453591991,
+    "stop" : 1718453592218,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "830efc58185cec5a",
+  "name" : "test_password_validation[Password 100]",
+  "time" : {
+    "start" : 1718453603186,
+    "stop" : 1718453603418,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97283350bcbd1b99",
+  "name" : "test_register_exist_user",
+  "time" : {
+    "start" : 1718453608964,
+    "stop" : 1718453609352,
+    "duration" : 388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c4f01f30bc260f0",
+  "name" : "test_payload_credentials_validation",
+  "time" : {
+    "start" : 1718453512423,
+    "stop" : 1718453512584,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42c6fcab52ec911",
+  "name" : "test_order_configur[Order with 1 bun and ingredients [1 to 10]]",
+  "time" : {
+    "start" : 1718453544286,
+    "stop" : 1718453545365,
+    "duration" : 1079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e0fe20bc7f5a918",
+  "name" : "test_reset_code[Registered email]",
+  "time" : {
+    "start" : 1718453617509,
+    "stop" : 1718453619762,
+    "duration" : 2253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2b1636d1f8dc1ec",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1718453610025,
+    "stop" : 1718453611058,
+    "duration" : 1033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c88859c1e149660",
+  "name" : "test_headers[application/xml]",
+  "time" : {
+    "start" : 1718453503077,
+    "stop" : 1718453503237,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6911acfe7f1bc2a",
+  "name" : "test_invalid_token[Empty token-PATCH email]",
+  "time" : {
+    "start" : 1718453522989,
+    "stop" : 1718453523149,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4de1515607ab62",
+  "name" : "test_invalid_methods[GET]",
+  "time" : {
+    "start" : 1718453594048,
+    "stop" : 1718453594222,
+    "duration" : 174
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "823f93b3884416a4",
+  "name" : "test_name_validation[User name with 2 strings]",
+  "time" : {
+    "start" : 1718453606649,
+    "stop" : 1718453606877,
+    "duration" : 228
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "60d69d63c702456a",
+  "name" : "test_invalid_methods[GET]",
+  "time" : {
+    "start" : 1718453620415,
+    "stop" : 1718453620576,
+    "duration" : 161
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfb9ea5dba84245f",
+  "name" : "test_headers[None]",
+  "time" : {
+    "start" : 1718453505806,
+    "stop" : 1718453506107,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec172730aa3c3d66",
+  "name" : "test_name_validation[User name with front space string]",
+  "time" : {
+    "start" : 1718453607968,
+    "stop" : 1718453608201,
+    "duration" : 233
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5914fadc79f3305e",
+  "name" : "test_email_validation[Email with three dashes in username]",
+  "time" : {
+    "start" : 1718453601225,
+    "stop" : 1718453601459,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f251ae7008b90cb2",
+  "name" : "test_response_payload",
+  "time" : {
+    "start" : 1718453536496,
+    "stop" : 1718453537587,
+    "duration" : 1091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0e319b9195edf57",
+  "name" : "test_email_validation[Email without \"@\"]",
+  "time" : {
+    "start" : 1718453596065,
+    "stop" : 1718453596289,
+    "duration" : 224
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de1053e87e680921",
+  "name" : "test_email_validation[Email with underscore in username]",
+  "time" : {
+    "start" : 1718453599273,
+    "stop" : 1718453599501,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7be6ce4d77bd5bc",
+  "name" : "test_headers[application/json; charset=utf-8]",
+  "time" : {
+    "start" : 1718453498053,
+    "stop" : 1718453498335,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80188665781d6656",
+  "name" : "test_invalid_token[Invalid token-PATCH email]",
+  "time" : {
+    "start" : 1718453524669,
+    "stop" : 1718453524844,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e42cfc649cda175",
+  "name" : "test_invalid_token_payload_validation[Empty token]",
+  "time" : {
+    "start" : 1718453531235,
+    "stop" : 1718453531673,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9665f866a4d68ef",
+  "name" : "test_exist_email_validation",
+  "time" : {
+    "start" : 1718453526354,
+    "stop" : 1718453526526,
+    "duration" : 172
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5576681e5fef4f6",
+  "name" : "test_payload_type_validation[PATCH email]",
+  "time" : {
+    "start" : 1718453519294,
+    "stop" : 1718453519456,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a96352ec3a9b9c0",
+  "name" : "test_get_user_orders[20 order]",
+  "time" : {
+    "start" : 1718453557469,
+    "stop" : 1718453579247,
+    "duration" : 21778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86ac26369b7db55b",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1718453526931,
+    "stop" : 1718453527367,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3d59ce7e1bfbdd5",
+  "name" : "test_headers[Authorization \"\"]",
+  "time" : {
+    "start" : 1718453502074,
+    "stop" : 1718453502357,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549db50011763a62",
+  "name" : "test_payload_type_validation",
+  "time" : {
+    "start" : 1718453504199,
+    "stop" : 1718453504497,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45b109e988b7724a",
+  "name" : "test_invalid_methods[PUT]",
+  "time" : {
+    "start" : 1718453514712,
+    "stop" : 1718453514886,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91b3c188097230c4",
+  "name" : "test_response_payload[PATCH password]",
+  "time" : {
+    "start" : 1718453518653,
+    "stop" : 1718453518888,
+    "duration" : 235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34a9e1cb3fa00dad",
+  "name" : "test_invalid_methods[POST]",
+  "time" : {
+    "start" : 1718453514140,
+    "stop" : 1718453514314,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8989fadec7bc1a",
+  "name" : "test_email_validation[Email with dash and dot in username]",
+  "time" : {
+    "start" : 1718453601884,
+    "stop" : 1718453602114,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "687bf36607066800",
+  "name" : "test_response_payload[PATCH name]",
+  "time" : {
+    "start" : 1718453518072,
+    "stop" : 1718453518247,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "165aaaa8a18be15f",
+  "name" : "test_invalid_methods[PATCH]",
+  "time" : {
+    "start" : 1718453622054,
+    "stop" : 1718453622257,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b0dbae56403ce48",
+  "name" : "test_invalid_methods[PUT]",
+  "time" : {
+    "start" : 1718453497497,
+    "stop" : 1718453497767,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "850d11b62bfdfc24",
+  "name" : "test_headers[Authorization: valid token]",
+  "time" : {
+    "start" : 1718453509232,
+    "stop" : 1718453509531,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9b063d5bbef5e33",
+  "name" : "test_orders_number",
+  "time" : {
+    "start" : 1718453504499,
+    "stop" : 1718453504803,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "624d13ca7d473c21",
+  "name" : "test_invalid_methods[POST]",
+  "time" : {
+    "start" : 1718453497204,
+    "stop" : 1718453497494,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11724dbcb2252d9d",
+  "name" : "test_invalid_methods[PATCH]",
+  "time" : {
+    "start" : 1718453594840,
+    "stop" : 1718453595003,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24a1356dee3636fe",
+  "name" : "test_invalid_token[Invalid token]",
+  "time" : {
+    "start" : 1718453513553,
+    "stop" : 1718453513729,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ea627ed97ecf2ee",
+  "name" : "test_order_configur[Order with no bun and ingredients [1 to 10]]",
+  "time" : {
+    "start" : 1718453547843,
+    "stop" : 1718453548909,
+    "duration" : 1066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76a7a5342b306c64",
+  "name" : "test_order_configur[Order buns [1 to 5] and ingredients [1 to 5]]",
+  "time" : {
+    "start" : 1718453549565,
+    "stop" : 1718453550620,
+    "duration" : 1055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e609707c50feab4",
+  "name" : "test_payload_validation",
+  "time" : {
+    "start" : 1718453613192,
+    "stop" : 1718453614453,
+    "duration" : 1261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12ab9e416305d68",
+  "name" : "test_get_user_orders[Single order]",
+  "time" : {
+    "start" : 1718453551289,
+    "stop" : 1718453552631,
+    "duration" : 1342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1748b0574530af74",
+  "name" : "test_empty_credentials_validation[No name]",
+  "time" : {
+    "start" : 1718453593357,
+    "stop" : 1718453593524,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e589bca7b818e5e7",
+  "name" : "test_status_code[PATCH email]",
+  "time" : {
+    "start" : 1718453515281,
+    "stop" : 1718453515449,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe2dde468bf68916",
+  "name" : "test_get_user_orders_invalid_auth[Empty token]",
+  "time" : {
+    "start" : 1718453579908,
+    "stop" : 1718453580076,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64bc6d4541824d44",
+  "name" : "test_headers[application/json; charset=utf-8]",
+  "time" : {
+    "start" : 1718453505317,
+    "stop" : 1718453505624,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3edb6786384623ca",
+  "name" : "test_password_validation[Password < 6]",
+  "time" : {
+    "start" : 1718453602537,
+    "stop" : 1718453602766,
+    "duration" : 229
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "37cc3756600a505a",
+  "name" : "test_invalid_methods[GET]",
+  "time" : {
+    "start" : 1718453533055,
+    "stop" : 1718453533225,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ccd315095fbb9af",
+  "name" : "test_payload_type_validation",
+  "time" : {
+    "start" : 1718453511871,
+    "stop" : 1718453512029,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85be029097e8b710",
+  "name" : "test_invalid_token[Empty token]",
+  "time" : {
+    "start" : 1718453512993,
+    "stop" : 1718453513159,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a06c408befe36527",
+  "name" : "test_order_configur[Empty order]",
+  "time" : {
+    "start" : 1718453543463,
+    "stop" : 1718453543636,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "130320fdf73f7d63",
+  "name" : "test_payload_type_validation[PATCH password]",
+  "time" : {
+    "start" : 1718453520556,
+    "stop" : 1718453520778,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d0dc820fb8e3e25",
+  "name" : "test_payload_type_validation[PATCH name]",
+  "time" : {
+    "start" : 1718453519974,
+    "stop" : 1718453520154,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2f02924562c9ee",
+  "name" : "test_response_payload",
+  "time" : {
+    "start" : 1718453591341,
+    "stop" : 1718453591570,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ca71a5f68edd57b",
+  "name" : "test_headers[Authorization: valid token]",
+  "time" : {
+    "start" : 1718453502629,
+    "stop" : 1718453502912,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54ca053dfaad250b",
+  "name" : "test_empty_credentials_validation[No email]",
+  "time" : {
+    "start" : 1718453592669,
+    "stop" : 1718453592831,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b570855f04421e76",
+  "name" : "test_headers[APPLICATION/JSON]",
+  "time" : {
+    "start" : 1718453499753,
+    "stop" : 1718453500052,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faa5cc1bb182a6e8",
+  "name" : "test_invalid_methods[POST]",
+  "time" : {
+    "start" : 1718453504806,
+    "stop" : 1718453504980,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c536784e4e9ebe6",
+  "name" : "test_update_credentials_validation[PATCH email]",
+  "time" : {
+    "start" : 1718453521178,
+    "stop" : 1718453521345,
+    "duration" : 167
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3567751ced447b5",
+  "name" : "test_email_validation[Email with two dots in username]",
+  "time" : {
+    "start" : 1718453598637,
+    "stop" : 1718453598858,
+    "duration" : 221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d780f1b5be7f02",
+  "name" : "test_invalid_methods[PUT]",
+  "time" : {
+    "start" : 1718453594511,
+    "stop" : 1718453594676,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "927d3448d9c2a9b8",
+  "name" : "test_status_code[PATCH name]",
+  "time" : {
+    "start" : 1718453515970,
+    "stop" : 1718453516238,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d971eb17e2ec7515",
+  "name" : "test_headers[application/text]",
+  "time" : {
+    "start" : 1718453507806,
+    "stop" : 1718453508119,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16a7644382a39f68",
+  "name" : "test_email_validation[Email with three underscores in username]",
+  "time" : {
+    "start" : 1718453599925,
+    "stop" : 1718453600154,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7587208a812f8965",
+  "name" : "test_payload_type_validation",
+  "time" : {
+    "start" : 1718453528700,
+    "stop" : 1718453529132,
+    "duration" : 432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3a38e9912c0470f",
+  "name" : "test_authorization_validation[Empty token]",
+  "time" : {
+    "start" : 1718453589210,
+    "stop" : 1718453589416,
+    "duration" : 206
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6a5866f2f1662f1",
+  "name" : "test_headers[Application/Json]",
+  "time" : {
+    "start" : 1718453499211,
+    "stop" : 1718453499481,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea84e0ef62f127a8",
+  "name" : "test_name_validation[User name with 10 digits]",
+  "time" : {
+    "start" : 1718453604518,
+    "stop" : 1718453604750,
+    "duration" : 232
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27166a233b66e8e0",
+  "name" : "test_orders_number_changes",
+  "time" : {
+    "start" : 1718453581557,
+    "stop" : 1718453584355,
+    "duration" : 2798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a3d02d2bd861919",
+  "name" : "test_invalid_methods[PUT]",
+  "time" : {
+    "start" : 1718453533633,
+    "stop" : 1718453533806,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5301ed0ec84b7f",
+  "name" : "test_status_code[PATCH password]",
+  "time" : {
+    "start" : 1718453516770,
+    "stop" : 1718453516994,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fc51c677a4912d4",
+  "name" : "test_headers[Authorization \"\"]",
+  "time" : {
+    "start" : 1718453508763,
+    "stop" : 1718453509062,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68ece99a6ebc6e57",
+  "name" : "test_invalid_token_payload_validation[Invalid token]",
+  "time" : {
+    "start" : 1718453532084,
+    "stop" : 1718453532524,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63808d0cf7a1bee3",
+  "name" : "test_email_validation[Email with one dot in username]",
+  "time" : {
+    "start" : 1718453597990,
+    "stop" : 1718453598220,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f51c086fbb5f4259",
+  "name" : "test_headers[APPLICATION/]",
+  "time" : {
+    "start" : 1718453507323,
+    "stop" : 1718453507632,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62dcfb420144adf8",
+  "name" : "test_invalid_token[Invalid token-PATCH name]",
+  "time" : {
+    "start" : 1718453525232,
+    "stop" : 1718453525393,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b9283ce89ae3438",
+  "name" : "test_response_payload",
+  "time" : {
+    "start" : 1718453496376,
+    "stop" : 1718453496649,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abd1d78d7926755f",
+  "name" : "test_invalid_methods[PATCH]",
+  "time" : {
+    "start" : 1718453497769,
+    "stop" : 1718453498050,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86a729b3d68c04e2",
+  "name" : "test_headers[application/html]",
+  "time" : {
+    "start" : 1718453501501,
+    "stop" : 1718453501791,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aa19fc8dd6c21c2",
+  "name" : "test_response_payload",
+  "time" : {
+    "start" : 1718453503852,
+    "stop" : 1718453504197,
+    "duration" : 345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce766a71c39331c8",
+  "name" : "test_headers[application/text]",
+  "time" : {
+    "start" : 1718453500919,
+    "stop" : 1718453501201,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4c7adc5b5fff280",
+  "name" : "test_name_validation[User name with 3 strings]",
+  "time" : {
+    "start" : 1718453607307,
+    "stop" : 1718453607543,
+    "duration" : 236
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b27c7568f97539a",
+  "name" : "test_invalid_data[None data_models]",
+  "time" : {
+    "start" : 1718453595180,
+    "stop" : 1718453595455,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6789bb050b0a88a",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1718453503401,
+    "stop" : 1718453503849,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a74b5509ecb044c",
+  "name" : "test_invalid_token[Empty token-PATCH password]",
+  "time" : {
+    "start" : 1718453524109,
+    "stop" : 1718453524280,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52a5fd6e4df311c9",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1718453510630,
+    "stop" : 1718453510805,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "736f2561f05134f6",
+  "name" : "test_reset_code[Not registered email]",
+  "time" : {
+    "start" : 1718453615115,
+    "stop" : 1718453616838,
+    "duration" : 1723
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a84a51477f2f9ff2",
+  "name" : "test_orders_price",
+  "time" : {
+    "start" : 1718453587493,
+    "stop" : 1718453588569,
+    "duration" : 1076
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da630f706f67b1",
+  "name" : "test_invalid_methods[PUT]",
+  "time" : {
+    "start" : 1718453621226,
+    "stop" : 1718453621395,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41e61af52ce6eff9",
+  "name" : "test_email_validation[Email without username part]",
+  "time" : {
+    "start" : 1718453596860,
+    "stop" : 1718453597199,
+    "duration" : 339
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fa32990810827ad",
+  "name" : "test_order_configur[Order with 1 bun and 100 ingredients]",
+  "time" : {
+    "start" : 1718453546013,
+    "stop" : 1718453547203,
+    "duration" : 1190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "767e0720e58b8b5e",
+  "name" : "test_invalid_token[Invalid token-PATCH password]",
+  "time" : {
+    "start" : 1718453525797,
+    "stop" : 1718453525961,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f91839bc6faaa9f2",
+  "name" : "test_authorization_validation[Invalid token]",
+  "time" : {
+    "start" : 1718453590077,
+    "stop" : 1718453590240,
+    "duration" : 163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "59f855f17c7c43c2",
+  "name" : "test_payload_values_validation",
+  "time" : {
+    "start" : 1718453496924,
+    "stop" : 1718453497202,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec1fe85c0478a118",
+  "name" : "test_headers[APPLICATION/JSON]",
+  "time" : {
+    "start" : 1718453506744,
+    "stop" : 1718453507150,
+    "duration" : 406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dea18c35f745098",
+  "name" : "test_empty_credentials_validation[No password]",
+  "time" : {
+    "start" : 1718453592994,
+    "stop" : 1718453593162,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fca00b13d51dffe8",
+  "name" : "test_email_validation[Email with dash in username]",
+  "time" : {
+    "start" : 1718453600581,
+    "stop" : 1718453600805,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcf283ea0fb71351",
+  "name" : "test_invalid_token[Invalid token]",
+  "time" : {
+    "start" : 1718453530375,
+    "stop" : 1718453530823,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d731043854ee8004",
+  "name" : "test_items_number_in_order[Order with no bun and 3 ingredient]",
+  "time" : {
+    "start" : 1718453541682,
+    "stop" : 1718453542784,
+    "duration" : 1102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16c6ad76d139f392",
+  "name" : "test_headers[None]",
+  "time" : {
+    "start" : 1718453498629,
+    "stop" : 1718453498917,
+    "duration" : 288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "403c455bc0d9f2c6",
+  "name" : "test_invalid_methods[PATCH]",
+  "time" : {
+    "start" : 1718453534224,
+    "stop" : 1718453534384,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7de70767669ed2a7",
+  "name" : "test_ingredients_number",
+  "time" : {
+    "start" : 1718453496651,
+    "stop" : 1718453496922,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7466d784a52d5a69",
+  "name" : "test_headers[APPLICATION/]",
+  "time" : {
+    "start" : 1718453500337,
+    "stop" : 1718453500636,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5741497e2096294",
+  "name" : "test_headers[Application/Json]",
+  "time" : {
+    "start" : 1718453506271,
+    "stop" : 1718453506578,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d51d5c16d74a94b6",
+  "name" : "test_invalid_token[Empty token-PATCH name]",
+  "time" : {
+    "start" : 1718453523542,
+    "stop" : 1718453523708,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8d19a5ec8a478a5",
+  "name" : "test_invalid_methods[PATCH]",
+  "time" : {
+    "start" : 1718453505147,
+    "stop" : 1718453505314,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e392a4c2a3be507",
+  "name" : "test_name_validation[User name with special chars]",
+  "time" : {
+    "start" : 1718453605169,
+    "stop" : 1718453605516,
+    "duration" : 347
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9132de87bb0fcbbd",
+  "name" : "test_email_validation[Email without domain part]",
+  "time" : {
+    "start" : 1718453596463,
+    "stop" : 1718453596693,
+    "duration" : 230
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cec9d374eb1bf80",
+  "name" : "test_name_validation[User name with 100 char]",
+  "time" : {
+    "start" : 1718453605973,
+    "stop" : 1718453606211,
+    "duration" : 238
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "99d6cadff0c5b3dd",
+  "name" : "test_get_user_orders_invalid_auth[Invalid token]",
+  "time" : {
+    "start" : 1718453580738,
+    "stop" : 1718453580898,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "paul.dominguez@green-nichols.com",
+        "name": "kristen72"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTVlOWVkMjgwMDAxYjQzZDk2ZCIsImlhdCI6MTcxODQ1MzU5OCwiZXhwIjoxNzE4NDU0Nzk4fQ.URQVqMPybYYDX3xahDQM6LJq9QQEbO8a1Z7z7buLof8",
+    "refreshToken": "7be8235a1f5a2fe3ecaa2749db541be37f5669c535336c581be2a16b3fce5b060d8375938f69f09d"
+}

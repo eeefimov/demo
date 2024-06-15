@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBlOWVkMjgwMDAxYjQzZDhlMiIsImlhdCI6MTcxODQ1MzUxOCwiZXhwIjoxNzE4NDU0NzE4fQ.UCBRUc4yrpuC57_EZe3JXMRaU7_JRJ0oHkbqCL9_bGw'}
+data_models = {'name': 'Hand jonathan90', 'email': 'Angela.Casey@jensen.org', 'password': '!W7Fxy'}

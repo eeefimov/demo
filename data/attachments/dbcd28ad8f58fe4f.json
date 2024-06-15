@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "derek.giles@ward.org",
+        "name": "Motheblairelizabeth"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE3OWVkMjgwMDAxYjQzZDkwMiIsImlhdCI6MTcxODQ1MzUyNywiZXhwIjoxNzE4NDU0NzI3fQ.Fu1Oh_rolN8P1J9Pbcop0tMaYrFppk0qycu2rB7imHQ",
+    "refreshToken": "140353a6c02c544e5fdb08d6add1ae7378e5d70dc4b21bd8f1e899f5231e12ff597e2e54ed84cbc2"
+}

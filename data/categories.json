@@ -1,5 +1,348 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {'email': 'Julie.Yoder@miles.com', 'name': 'Watchbrianbrown', 'password': 'T+4$wP'} != {'email': 'Julie.Yoder@miles.com', 'name': 'Watchbrianbrown', 'password': 'T+4$wP'}\n +  where {'email': 'Julie.Yoder@miles.com', 'name': 'Watchbrianbrown', 'password': 'T+4$wP'} = <api.user.USER object at 0x7fa11528f810>.data",
+      "children" : [ {
+        "name" : "test_update_credentials_validation[PATCH email]",
+        "uid" : "2c536784e4e9ebe6",
+        "parentUid" : "3856b2527821ff8897506afd591b4d46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453521178,
+          "stop" : 1718453521345,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "200", "'email'" ]
+      } ],
+      "uid" : "3856b2527821ff8897506afd591b4d46"
+    }, {
+      "name" : "AssertionError: assert {'email': 'Melanie.Bauer@perez.com', 'name': 'Courtmelindachapman', 'password': 'zd+Vh5'} != {'email': 'Melanie.Bauer@perez.com', 'name': 'Courtmelindachapman', 'password': 'zd+Vh5'}\n +  where {'email': 'Melanie.Bauer@perez.com', 'name': 'Courtmelindachapman', 'password': 'zd+Vh5'} = <api.user.USER object at 0x7fa116fb0450>.data",
+      "children" : [ {
+        "name" : "test_update_credentials_validation[PATCH name]",
+        "uid" : "f6ce7d45861e15b4",
+        "parentUid" : "abf7c148f19949f5dee0aac4d3575fbb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453521797,
+          "stop" : 1718453521967,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "200", "'name'" ]
+      } ],
+      "uid" : "abf7c148f19949f5dee0aac4d3575fbb"
+    }, {
+      "name" : "AssertionError: assert {'email': 'Luke.Wall@nelson-peters.info', 'name': 'Beforalison37', 'password': 'l^et9A'} != {'email': 'Luke.Wall@nelson-peters.info', 'name': 'Beforalison37', 'password': 'l^et9A'}\n +  where {'email': 'Luke.Wall@nelson-peters.info', 'name': 'Beforalison37', 'password': 'l^et9A'} = <api.user.USER object at 0x7fa11528f990>.data",
+      "children" : [ {
+        "name" : "test_update_credentials_validation[PATCH password]",
+        "uid" : "25c37360961a5a3d",
+        "parentUid" : "9904781f78e4024d1757ff4a764d4056",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453522359,
+          "stop" : 1718453522581,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "200", "'pwd'" ]
+      } ],
+      "uid" : "9904781f78e4024d1757ff4a764d4056"
+    }, {
+      "name" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+      "children" : [ {
+        "name" : "test_exist_email_validation",
+        "uid" : "b9665f866a4d68ef",
+        "parentUid" : "27971f797795dc1b9fa88da4f076b4d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453526354,
+          "stop" : 1718453526526,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27971f797795dc1b9fa88da4f076b4d0"
+    }, {
+      "name" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+      "children" : [ {
+        "name" : "test_invalid_methods[GET]",
+        "uid" : "37cc3756600a505a",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453533055,
+          "stop" : 1718453533225,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'get'" ]
+      }, {
+        "name" : "test_invalid_methods[GET]",
+        "uid" : "c4de1515607ab62",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453594048,
+          "stop" : 1718453594222,
+          "duration" : 174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'get'" ]
+      }, {
+        "name" : "test_password_validation[Password < 6]",
+        "uid" : "3edb6786384623ca",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453602537,
+          "stop" : 1718453602766,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'omosley@example.net'", "'jason38'", "'g5Q6q'" ]
+      }, {
+        "name" : "test_name_validation[User name with 10 digits]",
+        "uid" : "ea84e0ef62f127a8",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453604518,
+          "stop" : 1718453604750,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'bvalentine@example.org'", "'1748577278'", "'+^M9Ka'" ]
+      }, {
+        "name" : "test_name_validation[User name with special chars]",
+        "uid" : "5e392a4c2a3be507",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453605169,
+          "stop" : 1718453605516,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'mckinneynicholas@example.net'", "'%%%%%%%%%%'", "')u@No7'" ]
+      }, {
+        "name" : "test_name_validation[User name with 100 char]",
+        "uid" : "5cec9d374eb1bf80",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453605973,
+          "stop" : 1718453606211,
+          "duration" : 238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'robertpham@example.com'", "'Recognize fact garden operation. Heavy history north someone trial drive arm.'", "'k948Bd'" ]
+      }, {
+        "name" : "test_name_validation[User name with 2 strings]",
+        "uid" : "823f93b3884416a4",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453606649,
+          "stop" : 1718453606877,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'webergail@example.net'", "'focus just'", "'+Ug6Eo'" ]
+      }, {
+        "name" : "test_name_validation[User name with 3 strings]",
+        "uid" : "c4c7adc5b5fff280",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453607307,
+          "stop" : 1718453607543,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'justinmccormick@example.net'", "'PM shake sing'", "'iCV6(D'" ]
+      }, {
+        "name" : "test_name_validation[User name with front space string]",
+        "uid" : "ec172730aa3c3d66",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453607968,
+          "stop" : 1718453608201,
+          "duration" : 233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'flynnjonathan@example.com'", "' pass'", "'qe7CD#'" ]
+      }, {
+        "name" : "test_invalid_methods[GET]",
+        "uid" : "60d69d63c702456a",
+        "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453620415,
+          "stop" : 1718453620576,
+          "duration" : 161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'get'" ]
+      } ],
+      "uid" : "a70fd19cfa48b8c509b5d37467b901a3"
+    }, {
+      "name" : "AssertionError: assert 4571 == 3316",
+      "children" : [ {
+        "name" : "test_orders_price",
+        "uid" : "a84a51477f2f9ff2",
+        "parentUid" : "15236812d89a8827812d3ff279771a6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453587493,
+          "stop" : 1718453588569,
+          "duration" : 1076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15236812d89a8827812d3ff279771a6b"
+    }, {
+      "name" : "AssertionError: assert 200 == 401\n +  where 200 = <Response [200]>.status_code",
+      "children" : [ {
+        "name" : "test_authorization_validation[Empty token]",
+        "uid" : "e3a38e9912c0470f",
+        "parentUid" : "8d9a19d5cfdc0b2936c94a8a5708fe8a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453589210,
+          "stop" : 1718453589416,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "401", "''" ]
+      }, {
+        "name" : "test_authorization_validation[Invalid token]",
+        "uid" : "f91839bc6faaa9f2",
+        "parentUid" : "8d9a19d5cfdc0b2936c94a8a5708fe8a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453590077,
+          "stop" : 1718453590240,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "401", "'4fd1778e811c57cd07527b4a1ff2c22a9314880b'" ]
+      } ],
+      "uid" : "8d9a19d5cfdc0b2936c94a8a5708fe8a"
+    }, {
+      "name" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code",
+      "children" : [ {
+        "name" : "test_email_validation[Email without \"@\"]",
+        "uid" : "f0e319b9195edf57",
+        "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453596065,
+          "stop" : 1718453596289,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "400", "'christina12aexample.net'", "'palmerrebecca'", "'%bb84E'" ]
+      }, {
+        "name" : "test_email_validation[Email without domain part]",
+        "uid" : "9132de87bb0fcbbd",
+        "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453596463,
+          "stop" : 1718453596693,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "400", "'alvareznathaniel@'", "'kenneth24'", "'Y6^Xcg'" ]
+      }, {
+        "name" : "test_email_validation[Email without username part]",
+        "uid" : "41e61af52ce6eff9",
+        "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453596860,
+          "stop" : 1718453597199,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "400", "'@example.com'", "'davidmaxwell'", "'@A8HL@'" ]
+      }, {
+        "name" : "test_email_validation[Integer in email]",
+        "uid" : "b8ad2d3b224d43cd",
+        "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453597483,
+          "stop" : 1718453597711,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "400", "3265735", "'johnsonerik'", "'wp9*Ib'" ]
+      } ],
+      "uid" : "625defe877c6f5bcd6971d4811a85a26"
+    }, {
+      "name" : "AssertionError: assert 403 == 404\n +  where 403 = <Response [403]>.status_code",
+      "children" : [ {
+        "name" : "test_name_validation[User name with back space string]",
+        "uid" : "7a8961d1d63c1e91",
+        "parentUid" : "07b64c1168ac9286b585fff7057ccc70",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453608635,
+          "stop" : 1718453608798,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "404", "'brandonwilliams@example.com'", "'idea '", "'3l#Co7'" ]
+      } ],
+      "uid" : "07b64c1168ac9286b585fff7057ccc70"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7fa1165698a0>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7fa1165698a0> = RESET.verify_confirmation_code",
+      "children" : [ {
+        "name" : "test_reset_code[Not registered email]",
+        "uid" : "736f2561f05134f6",
+        "parentUid" : "84932b2371682ac995ab546182618b69",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718453615115,
+          "stop" : 1718453616838,
+          "duration" : 1723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'freenancetester@gmail.com'", "'uxidgrqiouboppzc'" ]
+      } ],
+      "uid" : "84932b2371682ac995ab546182618b69"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

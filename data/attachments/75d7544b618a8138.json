@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jack.harrison@holmes.com",
+        "name": "Noticdawnclark"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE1OWVkMjgwMDAxYjQzZDhmYyIsImlhdCI6MTcxODQ1MzUyNSwiZXhwIjoxNzE4NDU0NzI1fQ.LIfseUTva42MVhtdt-RORBWKcSjyptLinX_bRlLrLw8",
+    "refreshToken": "3e17a13405a7e7b47ad31578c6e03123992c1025e2169a798ae7c53ff3ce4e0ef7f40d4953b61e02"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "robert.anderson@castillo.net",
+        "name": "Tonigerika99"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTcxOWVkMjgwMDAxYjQzZDk5YSIsImlhdCI6MTcxODQ1MzYxNywiZXhwIjoxNzE4NDU0ODE3fQ.mGq-IOSXKbZGMTvfEqRvc5XGWbySqmQgU5D_wPQDR_w",
+    "refreshToken": "016bdfc579e8e94ef92bdc18e2641da25dc70d2380c5ce23a04d79483e0f003883490e5cf2c36b08"
+}

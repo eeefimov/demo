@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lori.hunter@simpson-singleton.info",
+        "name": "Whom lsimpson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBmOWVkMjgwMDAxYjQzZDhlOCIsImlhdCI6MTcxODQ1MzUxOSwiZXhwIjoxNzE4NDU0NzE5fQ.uXkiPAUPF1guuibE4jJWHRG5sM5XNK0SDvOD1P07SMc",
+    "refreshToken": "6e704c255f7aa74f2f39c956fd972344bd631ea3c135700b71c2d928994e3c6778635fd50771591e"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "charles.franco@sullivan.com",
+        "name": "Car rdebbie83"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFlOWVkMjgwMDAxYjQzZDkxNCIsImlhdCI6MTcxODQ1MzUzNCwiZXhwIjoxNzE4NDU0NzM0fQ.McCwl0uoYpx7Jy98m1rfRU3OF0WN7V-3wRwFfDFdKAc",
+    "refreshToken": "e37c36b0a8f005c1d0a2c2b8b18feb97edb5a21f6af98d817ea3b47551ab1e39118732a68b01a8f8"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "melissa.espinoza@kerr.com",
+        "name": "Unit ucline"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTEwOWVkMjgwMDAxYjQzZDhlYSIsImlhdCI6MTcxODQ1MzUyMCwiZXhwIjoxNzE4NDU0NzIwfQ.kMoodrWrs8tdUD3HNO3FyZzzTz2KQJKFdtVrUndpIlI",
+    "refreshToken": "69d8fe176826c8105b0ad318d1d4d7f28e549df9ab2abc948963e5b06b7c89643d7699b0a5fa95f3"
+}

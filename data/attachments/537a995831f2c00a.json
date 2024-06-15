@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jason.clarke@flores.com",
+        "name": "Agentcindysantiago"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE0OWVkMjgwMDAxYjQzZDhmOCIsImlhdCI6MTcxODQ1MzUyNCwiZXhwIjoxNzE4NDU0NzI0fQ.lDCC_-ENvioblwXGHKdZrW_4-T7mqUHbU2QpXZc-Cw4",
+    "refreshToken": "a3ee12a5d0795461dbe10e0fee6e2cb9dc29c178375db4915f3e8d1dbcb1a377a6857af14ea9ce63"
+}

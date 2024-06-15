@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "david.martinez@wallace-garcia.biz",
+        "name": "Same aaronfrancis"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTRjOWVkMjgwMDAxYjQzZDk1MyIsImlhdCI6MTcxODQ1MzU4MCwiZXhwIjoxNzE4NDU0NzgwfQ.Ve3FyV1XawebxxtqYXEzUyOzh57vSAU4ti8kQv54Vtc",
+    "refreshToken": "db7a3bbdb80dfc57379241973ba169b69c8ef0d3b65f0305c8c1754c8fc4f340bfa099b2625676da"
+}

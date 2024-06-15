@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "randy.mccoy@nguyen.com",
+        "name": "Valuematthewscassandra"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTZiOWVkMjgwMDAxYjQzZDk5MiIsImlhdCI6MTcxODQ1MzYxMSwiZXhwIjoxNzE4NDU0ODExfQ.iIkCYjaP22l-CrCbdJEMn1dcIfnYT3YZytjYNgZ6iXY",
+    "refreshToken": "c006c1c8589ff816b6f65e6765a968ef6b466fd2669f657f9dd76e80306c260dc37407f10650727c"
+}

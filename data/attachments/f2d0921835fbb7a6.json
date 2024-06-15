@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kayla.fisher@holmes.com",
+        "name": "Hersejohnadkins"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTEzOWVkMjgwMDAxYjQzZDhmNCIsImlhdCI6MTcxODQ1MzUyMywiZXhwIjoxNzE4NDU0NzIzfQ.CLlkWdjYmxf2nXyddLUEDakp8zAawFdRpEJY7OFgnVg",
+    "refreshToken": "e8f78da6f6cbfeaec38e603d74c35ddcc8093198185e5a84e81e608b0000072012ac38ef5d8ba19d"
+}

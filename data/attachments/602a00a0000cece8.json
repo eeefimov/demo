@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jennifer.fisher@garcia-reed.com",
+        "name": "Nor djason65"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTA5OWVkMjgwMDAxYjQzZDhkNCIsImlhdCI6MTcxODQ1MzUxMywiZXhwIjoxNzE4NDU0NzEzfQ.k2ieXETubE_Mx-wYVv87ZGIEDfIe5iyCGobM9VFArag",
+    "refreshToken": "ef3f0917971ca918d90cb7c8bc794a5ead95268a263f42ba8fffcf570c9e1fcabbfce3cf3473137c"
+}

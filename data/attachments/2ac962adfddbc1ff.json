@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "amy.brooks@rivera-alvarado.org",
+        "name": "Stuffhubbardedwin"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU2OWVkMjgwMDAxYjQzZDk2MyIsImlhdCI6MTcxODQ1MzU5MCwiZXhwIjoxNzE4NDU0NzkwfQ.XDyd_Bvq_wibdnM22mYD5dFPS2_zOe52POmyh9FmLbE",
+    "refreshToken": "a2be293b11912b64a6816a9638888e42204e276b604693751a7451d390728a48d1ed6cb5e960b513"
+}

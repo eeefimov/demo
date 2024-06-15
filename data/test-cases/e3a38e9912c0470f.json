@@ -1,0 +1,464 @@
+{
+  "uid" : "e3a38e9912c0470f",
+  "name" : "test_authorization_validation[Empty token]",
+  "fullName" : "tests_api.test_post_orders.TestUserOrder#test_authorization_validation",
+  "historyId" : "f1f5c312ad7fa1b4cedfd809630c356f",
+  "time" : {
+    "start" : 1718453589210,
+    "stop" : 1718453589416,
+    "duration" : 206
+  },
+  "description" : "Verify response code with invalid token.",
+  "descriptionHtml" : "<p>Verify response code with invalid token.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 401\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "self = <tests.tests_api.test_post_orders.TestUserOrder object at 0x7fa1165bfc10>\nuser_order = <tests.conftest.user_order.<locals>.USERORDERS object at 0x7fa116fe49d0>\ntoken = '', exp = 401\n\n    @pytest.mark.parametrize('token, exp', invalid_token)\n    def test_authorization_validation(self, user_order, token, exp):\n        \"\"\"Verify response code with invalid token.\"\"\"\n        user_order.header = user_order.header_auth(token)\n        order = user_order.setup_order(buns=True,\n                                       ingr_number=2)\n        response = user_order.send_requests('post',\n                                            user_order.endpoint,\n                                            user_order.header,\n                                            order)\n>       assert response.status_code == exp\nE       assert 200 == 401\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_orders.py:170: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496083,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496061,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718453496060,
+      "stop" : 1718453496060,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496061,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718453496061,
+      "stop" : 1718453496061,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "user_order",
+    "time" : {
+      "start" : 1718453588987,
+      "stop" : 1718453589210,
+      "duration" : 223
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Make Order",
+      "time" : {
+        "start" : 1718453588987,
+        "stop" : 1718453589841,
+        "duration" : 854
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718453588988,
+          "stop" : 1718453588988,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Identtammy96'"
+        }, {
+          "name" : "mail",
+          "value" : "'Matthew.Lambert@becker.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'*kBo)O'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718453588988,
+          "stop" : 1718453589209,
+          "duration" : 221
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cfd20d844afa8ef0",
+          "name" : "Request Info",
+          "source" : "cfd20d844afa8ef0.txt",
+          "type" : "text/plain",
+          "size" : 199
+        }, {
+          "uid" : "5157eef9cb8de901",
+          "name" : "api Response",
+          "source" : "5157eef9cb8de901.json",
+          "type" : "application/json",
+          "size" : 427
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718453589209,
+          "stop" : 1718453589209,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU1OWVkMjgwMDAxYjQzZDk1ZiIsImlhdCI6MTcxODQ1MzU4OSwiZXhwIjoxNzE4NDU0Nzg5fQ.T3gIeFVWGqOP-p4NmJVeOLqy618464Vmnp1lFwRxnvI'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718453589209,
+          "stop" : 1718453589210,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c518c057686f5085",
+          "name" : "api Response",
+          "source" : "c518c057686f5085.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with invalid token.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 401\n +  where 200 = <Response [200]>.status_code",
+    "statusTrace" : "self = <tests.tests_api.test_post_orders.TestUserOrder object at 0x7fa1165bfc10>\nuser_order = <tests.conftest.user_order.<locals>.USERORDERS object at 0x7fa116fe49d0>\ntoken = '', exp = 401\n\n    @pytest.mark.parametrize('token, exp', invalid_token)\n    def test_authorization_validation(self, user_order, token, exp):\n        \"\"\"Verify response code with invalid token.\"\"\"\n        user_order.header = user_order.header_auth(token)\n        order = user_order.setup_order(buns=True,\n                                       ingr_number=2)\n        response = user_order.send_requests('post',\n                                            user_order.endpoint,\n                                            user_order.header,\n                                            order)\n>       assert response.status_code == exp\nE       assert 200 == 401\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_orders.py:170: AssertionError",
+    "steps" : [ {
+      "name" : "Setup Header with user token",
+      "time" : {
+        "start" : 1718453589210,
+        "stop" : 1718453589210,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup User order",
+      "time" : {
+        "start" : 1718453589210,
+        "stop" : 1718453589211,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Load data_models from json file",
+        "time" : {
+          "start" : 1718453589210,
+          "stop" : 1718453589211,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "15b0c40ee54b9fd5",
+          "name" : "api Response",
+          "source" : "15b0c40ee54b9fd5.json",
+          "type" : "application/json",
+          "size" : 7597
+        } ],
+        "parameters" : [ {
+          "name" : "filename",
+          "value" : "'ingredients.json'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Set buns in order",
+        "time" : {
+          "start" : 1718453589211,
+          "stop" : 1718453589211,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Set ingredients in order",
+        "time" : {
+          "start" : 1718453589211,
+          "stop" : 1718453589211,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "4cc32afa23e4880c",
+        "name" : "api Response",
+        "source" : "4cc32afa23e4880c.json",
+        "type" : "application/json",
+        "size" : 101
+      } ],
+      "parameters" : [ {
+        "name" : "empty",
+        "value" : "False"
+      }, {
+        "name" : "buns",
+        "value" : "True"
+      }, {
+        "name" : "buns_number",
+        "value" : "1"
+      }, {
+        "name" : "ingr_number",
+        "value" : "2"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send post requests",
+      "time" : {
+        "start" : 1718453589211,
+        "stop" : 1718453589416,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4705584a54a3adfb",
+        "name" : "Request Info",
+        "source" : "4705584a54a3adfb.txt",
+        "type" : "text/plain",
+        "size" : 225
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user_order::0",
+    "time" : {
+      "start" : 1718453589421,
+      "stop" : 1718453589842,
+      "duration" : 421
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718453589421,
+        "stop" : 1718453589840,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718453589421,
+          "stop" : 1718453589421,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU1OWVkMjgwMDAxYjQzZDk1ZiIsImlhdCI6MTcxODQ1MzU4OSwiZXhwIjoxNzE4NDU0Nzg5fQ.T3gIeFVWGqOP-p4NmJVeOLqy618464Vmnp1lFwRxnvI'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "3ae89be80eb9573d",
+        "name" : "Request Info",
+        "source" : "3ae89be80eb9573d.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTU1OWVkMjgwMDAxYjQzZDk1ZiIsImlhdCI6MTcxODQ1MzU4OSwiZXhwIjoxNzE4NDU0Nzg5fQ.T3gIeFVWGqOP-p4NmJVeOLqy618464Vmnp1lFwRxnvI'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_orders"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserOrder"
+  }, {
+    "name" : "host",
+    "value" : "d36a71c73347"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "401"
+  }, {
+    "name" : "token",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e3a38e9912c0470f.json",
+  "parameterValues" : [ "401", "''" ]
+}

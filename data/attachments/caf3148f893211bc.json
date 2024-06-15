@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "thomas.coleman@navarro.com",
+        "name": "Ownerheidiallen"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTIyOWVkMjgwMDAxYjQzZDkxYSIsImlhdCI6MTcxODQ1MzUzOCwiZXhwIjoxNzE4NDU0NzM4fQ.4-BkdD5CNDfyyDfj4NS-vIiSdk3UZsQOhLhH9Kdkx3s",
+    "refreshToken": "6f30de26fda431c005484891fa19906c2221260aa5de5a1edc80685443d7066aad639a11ee980849"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "spencer.fuentes@wallace.org",
+        "name": "Cell bdeleon"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTFkOWVkMjgwMDAxYjQzZDkxMCIsImlhdCI6MTcxODQ1MzUzMywiZXhwIjoxNzE4NDU0NzMzfQ.y1tBbsyOnx2g_KvWiirDnIFNckieMZL0I54GQrW9MnI",
+    "refreshToken": "b5acaea219eab5c6bb48f9882941a3f01a6db02e3cfb77a415ffb091ce29b0072a4075e21447dec8"
+}

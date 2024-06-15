@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "haley.casey@flores-perez.com",
+        "name": "Benefpattersonandrea"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTRkOWVkMjgwMDAxYjQzZDk1NSIsImlhdCI6MTcxODQ1MzU4MSwiZXhwIjoxNzE4NDU0NzgxfQ.0kIA6mYRlBZM-kANFUZMg40jvz8F-0BlVrT-kjU1MK8",
+    "refreshToken": "ba8ad3e2609aea6e8c397276b1392350689cfd9a8c29cf606217015613d237f6ded51f2193f81751"
+}

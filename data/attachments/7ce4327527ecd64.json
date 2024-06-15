@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jennifer.hernandez@perry.org",
+        "name": "Maintdmathews"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBhOWVkMjgwMDAxYjQzZDhkNiIsImlhdCI6MTcxODQ1MzUxNCwiZXhwIjoxNzE4NDU0NzE0fQ.GcV_0IgpKGjwRZH011cXbBnXUhmwcBhz1CU-hQ8ND6E",
+    "refreshToken": "de141aa2f1b3e58eed8acc50730a175d4df384b08b62a457f9c321962385488f10f883b90de2099e"
+}

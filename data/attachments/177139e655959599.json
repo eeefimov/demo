@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "vincent.silva@lewis.org",
+        "name": "Intermoorechristine"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE2OWVkMjgwMDAxYjQzZDkwMCIsImlhdCI6MTcxODQ1MzUyNiwiZXhwIjoxNzE4NDU0NzI2fQ.Z76qfoZQ73CoJiJVQjKEVElEkW1Bprf9Ck7j-FxMIb4",
+    "refreshToken": "a2836672e375c01f3e7fcfcc9f2a0a55fc1f649af63f31cbaa440d7207b68e9d67664d22a42b9c48"
+}

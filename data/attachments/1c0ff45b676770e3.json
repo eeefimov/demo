@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "adam.luna@everett.info",
+        "name": "Exactrpayne"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE2OWVkMjgwMDAxYjQzZDhmZSIsImlhdCI6MTcxODQ1MzUyNiwiZXhwIjoxNzE4NDU0NzI2fQ.6VZDKetpqBhhs0zXwIj2WgF8eQW_NFGYXdhQ1gIlSQA",
+    "refreshToken": "4e73a37bc59e2c1271201e1223592b8fd36fc93006e946459abcc0861a369b37ae5c0ff06802d2dd"
+}

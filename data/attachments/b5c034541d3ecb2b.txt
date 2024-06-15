@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBiOWVkMjgwMDAxYjQzZDhkYyIsImlhdCI6MTcxODQ1MzUxNSwiZXhwIjoxNzE4NDU0NzE1fQ.TPiXh05inA10XZi0bPp4xDewZw_0U-N3uujkfpZNPhY'}
+data_models = {'name': 'Big fthomasstevens', 'email': 'John.Hall@scott.biz', 'password': 'd(5O83'}

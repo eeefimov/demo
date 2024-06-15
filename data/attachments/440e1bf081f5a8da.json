@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "justinmccormick@example.net",
+        "name": "PM shake sing"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY3OWVkMjgwMDAxYjQzZDk4OSIsImlhdCI6MTcxODQ1MzYwNywiZXhwIjoxNzE4NDU0ODA3fQ.KMpEJmUEbMqldzC5ow1FIGHm2xB9fKkcJazTcDMX3Zw",
+    "refreshToken": "ff8bfac620792f699d744d3d42a2725067521cd97ec50a2b25c5036c06dcce412086bb59999b0cf4"
+}

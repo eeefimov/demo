@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "julie.yoder@miles.com",
+        "name": "Watchbrianbrown"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTExOWVkMjgwMDAxYjQzZDhlYyIsImlhdCI6MTcxODQ1MzUyMSwiZXhwIjoxNzE4NDU0NzIxfQ.G9gjomn8h3iApL2QNoMzvQa5Ol_pWk4ESSxBbcjy71E",
+    "refreshToken": "2c4d8127ae2182587219f4e3bdfc19b246af7c692265c664ac6204f47b8cc758c29ef9478b5101fc"
+}

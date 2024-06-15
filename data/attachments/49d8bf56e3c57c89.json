@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "dominic.adams@morrison-hill.com",
+        "name": "Up wralbertduran"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTE4OWVkMjgwMDAxYjQzZDkwNCIsImlhdCI6MTcxODQ1MzUyOCwiZXhwIjoxNzE4NDU0NzI4fQ.pRo-66_dcvB0GeDsYOcErPclbCFdItl9gwTh75t6nJU",
+    "refreshToken": "91db5a8d185954c8e9eb3856d2557b906b42611babb6a9bc51a7b2562d3454beaf90ec72cad4849c"
+}

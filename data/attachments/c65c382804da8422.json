@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "gregory.torres.corey@calderon.com",
+        "name": "amber32"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTVlOWVkMjgwMDAxYjQzZDk2ZiIsImlhdCI6MTcxODQ1MzU5OCwiZXhwIjoxNzE4NDU0Nzk4fQ.UWQyk6GERIOp-GzmjfbtXiogNw8L4tSvhVZqxGilU-U",
+    "refreshToken": "dac7f4b5483b08084fc1de72532191e0b79d09dd4c9bf2903b12ac9fa8171eafbfc050638ceaa819"
+}

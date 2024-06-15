@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "scott-allen@george.com",
+        "name": "ruizdavid"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTYwOWVkMjgwMDAxYjQzZDk3NSIsImlhdCI6MTcxODQ1MzYwMCwiZXhwIjoxNzE4NDU0ODAwfQ.NcICORgCRrtUxl3ahFU5pY8BYVnGTw7sWmhWuQURuAc",
+    "refreshToken": "eb58d53e6d4aeb8f2bc2a352936c0025cb4ddd0311c34061d417cc18cf1e6f89dc9764b9085c2bf4"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "monicaodom@example.org",
+        "name": "M"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTY0OWVkMjgwMDAxYjQzZDk3ZiIsImlhdCI6MTcxODQ1MzYwNCwiZXhwIjoxNzE4NDU0ODA0fQ.VZWOty0IBYbt6f5v9EHyXcS7EQjkDyUrc8pTyUNm7HY",
+    "refreshToken": "0492654369bbdbac7d4e63460bc4f3adfd6b2bfda7236bce2587e922eb2301d2ded13852993fc437"
+}

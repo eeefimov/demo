@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': ''}
+data_models = {'name': 'Bloodsnyderdenise', 'email': 'Pamela.Johnson@hall-moody.com', 'password': 'zgD^Ae'}

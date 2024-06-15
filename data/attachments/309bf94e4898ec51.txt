@@ -1,0 +1,4 @@
+method = POST
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
+header = None
+data_models = {'name': 'Profejeremy48', 'email': 'Jessica.Ochoa@guzman.com', 'password': '6DRg0r'}

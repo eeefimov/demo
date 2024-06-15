@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "latoya.ferguson@paul.info",
+        "name": "Prettmary88"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTZkOWVkMjgwMDAxYjQzZDk5NSIsImlhdCI6MTcxODQ1MzYxMywiZXhwIjoxNzE4NDU0ODEzfQ.FeMZtlVJElQSydpS8w1DIzk3bjJltyFPARyOnapjsuM",
+    "refreshToken": "2d02761621ee2b3856e1a20293b53097fad70fa998f2901e0fac681d9907d219e6b722ba5ab0a287"
+}

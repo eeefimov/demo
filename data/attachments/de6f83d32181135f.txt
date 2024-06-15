@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBiOWVkMjgwMDAxYjQzZDhkYSIsImlhdCI6MTcxODQ1MzUxNSwiZXhwIjoxNzE4NDU0NzE1fQ.JJfeinqaKL3ECGWscG46egHfT2iY-s9_Wb42d2WKcOA'}
+data_models = {'name': 'Read brandon38', 'email': 'Brian.Fuentes@tucker.org', 'password': '$2FXnK'}

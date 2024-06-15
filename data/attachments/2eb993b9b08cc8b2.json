@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kristopher.vazquez@thornton.org",
+        "name": "Underkatrina43"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTBhOWVkMjgwMDAxYjQzZDhkOCIsImlhdCI6MTcxODQ1MzUxNCwiZXhwIjoxNzE4NDU0NzE0fQ.gZPOBPSDZR6hUS2DWxH_qQiyYsknV_rZufE4WHNYwW0",
+    "refreshToken": "90811f87b15760a701950c93f7e5aff0bd1e3df9e37c72c87cfc8558333e997bcdffd028965536d0"
+}

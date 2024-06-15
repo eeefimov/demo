@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "melissa-miller-huber@rodriguez.com",
+        "name": "ufrost"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTYxOWVkMjgwMDAxYjQzZDk3NyIsImlhdCI6MTcxODQ1MzYwMSwiZXhwIjoxNzE4NDU0ODAxfQ.gvwkf2nTlQ1eG8LmXYsXL89OGjWPZC60CNZH27oo1lY",
+    "refreshToken": "e78004c4a68f76a89482d85593a6652717e0fed185a672cee3dab70f8e8cc820d955f7ea977b70b6"
+}

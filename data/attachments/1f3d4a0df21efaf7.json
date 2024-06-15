@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "joy.allison@hamilton.com",
+        "name": "Towarybrown"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ4NTI1OWVkMjgwMDAxYjQzZDkyMCIsImlhdCI6MTcxODQ1MzU0MSwiZXhwIjoxNzE4NDU0NzQxfQ.yf-yMV_yF4mqhHhgUdbCOeGhWBLWOt3wpuiuP6542jo",
+    "refreshToken": "2b336192d8bf268fc4f2c870663c5a7e2cffb5ab1725370d20536fee14a0f9ae18b53ed3fdab8859"
+}
