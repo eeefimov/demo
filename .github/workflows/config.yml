@@ -1,6 +1,18 @@
 #name: Automated tests
 #
-#on: workflow_dispatch
+#on:
+#  workflow_dispatch:
+#    inputs:
+#      deployment_target:
+#        description: Choose target
+#        required: true
+#        default: all
+#        type: choice
+#        options:
+#          - tests_api
+#          - tests_ui
+#          - tests_integration
+#          - all
 #
 #jobs:
 #  test:
@@ -25,7 +37,17 @@
 #          PWD_REGISTERED: ${{ secrets.PWD_REGISTERED }}
 #          USR_NOT_REGISTERED: ${{ secrets.USR_NOT_REGISTERED }}
 #          USR_REGISTERED: ${{ secrets.USR_REGISTERED }}
+#          DEPLOYMENT_TARGET: ${{ github.event.inputs.deployment_target }}
 #        run: |
+#          if [ "${{ github.event.inputs.deployment_target }}" == "tests_api" ]; then
+#            export TEST_COMMAND="pytest -sv tests/tests_api/ --alluredir=allure-results"
+#          elif [ "${{ github.event.inputs.deployment_target }}" == "tests_ui" ]; then
+#            export TEST_COMMAND="pytest -sv tests/tests_ui/ --alluredir=allure-results"
+#          elif [ "${{ github.event.inputs.deployment_target }}" == "tests_integration" ]; then
+#            export TEST_COMMAND="pytest -sv tests/tests_integration/ --alluredir=allure-results"
+#          else
+#            export TEST_COMMAND="pytest -sv tests/ --alluredir=allure-results"
+#          fi
 #          docker-compose up --exit-code-from regression || true
 #
 #      - name: Copy history from gh-pages to allure-results
@@ -78,26 +100,30 @@ jobs:
           ref: gh-pages
           path: ./.github/gh-pages
 
-      - name: Run Tests using docker-compose
-        env:
-          AUTH_EMAIL: ${{ secrets.AUTH_EMAIL }}
-          AUTH_LOGIN: ${{ secrets.AUTH_LOGIN }}
-          AUTH_PASS: ${{ secrets.AUTH_PASS }}
-          PWD_NOT_REGISTERED: ${{ secrets.PWD_NOT_REGISTERED }}
-          PWD_REGISTERED: ${{ secrets.PWD_REGISTERED }}
-          USR_NOT_REGISTERED: ${{ secrets.USR_NOT_REGISTERED }}
-          USR_REGISTERED: ${{ secrets.USR_REGISTERED }}
-          DEPLOYMENT_TARGET: ${{ github.event.inputs.deployment_target }}
+      - name: Set up environment variables
+        run: |
+          echo "AUTH_EMAIL=${{ secrets.AUTH_EMAIL }}" >> .env
+          echo "AUTH_LOGIN=${{ secrets.AUTH_LOGIN }}" >> .env
+          echo "AUTH_PASS=${{ secrets.AUTH_PASS }}" >> .env
+          echo "PWD_NOT_REGISTERED=${{ secrets.PWD_NOT_REGISTERED }}" >> .env
+          echo "PWD_REGISTERED=${{ secrets.PWD_REGISTERED }}" >> .env
+          echo "USR_NOT_REGISTERED=${{ secrets.USR_NOT_REGISTERED }}" >> .env
+          echo "USR_REGISTERED=${{ secrets.USR_REGISTERED }}" >> .env
+
+      - name: Set test command
         run: |
           if [ "${{ github.event.inputs.deployment_target }}" == "tests_api" ]; then
-            export TEST_COMMAND="pytest -sv tests/tests_api/ --alluredir=allure-results"
+            echo "TEST_COMMAND=pytest -sv tests/tests_api/ --alluredir=allure-results" >> .env
           elif [ "${{ github.event.inputs.deployment_target }}" == "tests_ui" ]; then
-            export TEST_COMMAND="pytest -sv tests/tests_ui/ --alluredir=allure-results"
+            echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env
           elif [ "${{ github.event.inputs.deployment_target }}" == "tests_integration" ]; then
-            export TEST_COMMAND="pytest -sv tests/tests_integration/ --alluredir=allure-results"
+            echo "TEST_COMMAND=pytest -sv tests/tests_integration/ --alluredir=allure-results" >> .env
           else
-            export TEST_COMMAND="pytest -sv tests/ --alluredir=allure-results"
+            echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> .env
           fi
+
+      - name: Run Tests using docker-compose
+        run: |
           docker-compose up --exit-code-from regression || true
 
       - name: Copy history from gh-pages to allure-results
