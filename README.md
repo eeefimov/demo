@@ -1,11 +1,35 @@
-Total tests amount: 260
+# Automated Testing Project Demo
 
-Full execution time: ~30 min
+This is a demo project showcasing various skills in test automation.
 
-Linters checked: flake8, pylint
+### Test Resource
+- [Stellar Burgers](https://stellarburgers.nomoreparties.site/)
+- UI tests use the Chromium browser ![Chromium](https://upload.wikimedia.org/wikipedia/commons/8/8c/Chromium_Web_Browser_Logo.png) in incognito mode.
+- The project utilizes Docker ![Docker](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png).
+- Base image: python:3.11-slim.
 
-Allure report url: https://eeefimov.github.io/demo/
+### Linters
+<details>
+- flake8
+- pylint
+</details>
 
+### Libraries Used
+<details>
+  <summary>View Libraries</summary>
+  - Programming language: Python 3.11 ![Python](https://www.python.org/static/community_logos/python-logo.png)
+  - Browser framework: Playwright ![Playwright](https://playwright.dev/img/playwright-logo.svg)
+  - API requests: Requests ![Requests](https://requests.readthedocs.io/en/latest/_static/requests-sidebar.png)
+  - Data validation: Pydantic ![Pydantic](https://avatars.githubusercontent.com/u/51408939?s=200&v=4)
+  - Reporting: Allure ![Allure](https://avatars.githubusercontent.com/u/5879127?s=200&v=4)
+  - Test data: Faker ![Faker](https://faker.readthedocs.io/en/master/_static/logo.png)
+</details>
+
+### Test Details
+- Total tests: 260
+- Execution time: ~35 min
+
+### Checklists
 <details>
 <summary>UI CHECKLIST</summary>
 
@@ -274,3 +298,11 @@ Allure report url: https://eeefimov.github.io/demo/
 - Verify UI SignIn with different API password registration (Password < 6).
 - Verify UI SignIn with different API password registration (Password 100).
 </details>
+
+### Allure Report
+- [Allure Report](https://eeefimov.github.io/demo/)
+- Sample Allure Report:
+  <details>
+    <summary>View Report</summary>
+    ![Allure Report Screenshot](path/to/allure-report-screenshot)
+  </details>
