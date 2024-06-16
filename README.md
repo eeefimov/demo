@@ -5,7 +5,7 @@ This is a demo project showcasing various skills in test automation.
 ### Test Resource
 - [Stellar Burgers](https://stellarburgers.nomoreparties.site/)
 - UI tests use the Chromium browser ![Chromium](https://upload.wikimedia.org/wikipedia/commons/8/8c/Chromium_Web_Browser_Logo.png) in incognito mode.
-- The project utilizes Docker ![Docker](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png).
+- The project utilizes Docker ![Docker]<td align="center"><a href="resources/docker.md"><img src="images/docker.png" width="90px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
 - Base image: python:3.11-slim.
 
 ### Linters
