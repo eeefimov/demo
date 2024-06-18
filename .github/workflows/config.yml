@@ -11,6 +11,12 @@ on:
         options:
           - tests_api
           - tests_ui
+          - test_account_page
+          - test_main_page
+          - test_login_page
+          - test_orders_page
+          - test_registration_page
+          - test_restore_pwd
           - tests_integration
           - all
 
@@ -44,6 +50,21 @@ jobs:
             echo "TEST_COMMAND=pytest -sv tests/tests_api/ --alluredir=allure-results" >> .env
           elif [ "${{ github.event.inputs.deployment_target }}" == "tests_ui" ]; then
             echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env
+          
+          elif [ "${{ github.event.inputs.deployment_target }}" == "test_account_page" ]; then
+            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page --alluredir=allure-results" >> .env
+          elif [ "${{ github.event.inputs.deployment_target }}" == "test_main_page" ]; then
+            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_main_page --alluredir=allure-results" >> .env
+          elif [ "${{ github.event.inputs.deployment_target }}" == "test_login_page" ]; then
+            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_login_page --alluredir=allure-results" >> .env
+          elif [ "${{ github.event.inputs.deployment_target }}" == "test_orders_page" ]; then
+            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_orders_page --alluredir=allure-results" >> .env
+          elif [ "${{ github.event.inputs.deployment_target }}" == "test_registration_page" ]; then
+            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_registration_page --alluredir=allure-results" >> .env
+          elif [ "${{ github.event.inputs.deployment_target }}" == "test_restore_pwd" ]; then
+            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_restore_pwd --alluredir=allure-results" >> .env
+        
+          
           elif [ "${{ github.event.inputs.deployment_target }}" == "tests_integration" ]; then
             echo "TEST_COMMAND=pytest -sv tests/tests_integration/ --alluredir=allure-results" >> .env
           else

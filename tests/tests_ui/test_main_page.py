@@ -50,6 +50,8 @@ def test_main_access(page):
 
 def test_main_ingredients_items(page):
     """Verify all ingredients items presence on Main page."""
+    page.wait_for_load_state("networkidle")
+    time.sleep(1)
     counter = page.locator(MAIN.INGREDIENTS_ITEMS).count()
 
     with allure.step("Verify numbers of elements"):
