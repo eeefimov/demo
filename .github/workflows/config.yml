@@ -52,17 +52,17 @@ jobs:
             tests_ui)
               echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env ;;
             test_account_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page --alluredir=allure-results" >> .env ;;
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page.py --alluredir=allure-results" >> .env ;;
             test_main_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_main_page --alluredir=allure-results" >> .env ;;
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_main_page.py --alluredir=allure-results" >> .env ;;
             test_login_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_login_page --alluredir=allure-results" >> .env ;;
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_login_page.py --alluredir=allure-results" >> .env ;;
             test_orders_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_orders_page --alluredir=allure-results" >> .env ;;
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_orders_page.py --alluredir=allure-results" >> .env ;;
             test_registration_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_registration_page --alluredir=allure-results" >> .env ;;
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_registration_page.py --alluredir=allure-results" >> .env ;;
             test_restore_pwd)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_restore_pwd --alluredir=allure-results" >> .env ;;
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_restore_pwd.py --alluredir=allure-results" >> .env ;;
             tests_integration)
               echo "TEST_COMMAND=pytest -sv tests/tests_integration/ --alluredir=allure-results" >> .env ;;
             all)
