@@ -1,0 +1,24 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 18 14:07:39 UTC 2024","Tue Jun 18 14:07:42 UTC 2024","3280","tests_ui","test_main_page","","","","test_main_ingredients_items","Verify all ingredients items presence on Main page."
+"passed","Tue Jun 18 14:09:17 UTC 2024","Tue Jun 18 14:09:17 UTC 2024","21","tests_ui","test_main_page","","","","test_main_nutrition_wnd","Verify all ingredient title open window with Nutrition."
+"passed","Tue Jun 18 14:09:21 UTC 2024","Tue Jun 18 14:09:22 UTC 2024","429","tests_ui","test_main_page","","","","test_main_header_btns[Redirection to Account page]","Verify redirection to pages using Header buttons."
+"passed","Tue Jun 18 14:07:52 UTC 2024","Tue Jun 18 14:07:52 UTC 2024","25","tests_ui","test_main_page","","","","test_main_drag_single_ingredient","Verify user can drag a single ingredient to Constructor."
+"failed","Tue Jun 18 14:07:44 UTC 2024","Tue Jun 18 14:07:51 UTC 2024","7095","tests_ui","test_main_page","","","","test_main_top_title_color_changes","Verify top titles color changes when scrolling."
+"passed","Tue Jun 18 14:08:17 UTC 2024","Tue Jun 18 14:08:17 UTC 2024","21","tests_ui","test_main_page","","","","test_main_total_price_changing","Verify total price changes according
+    to the ingredients in the order."
+"failed","Tue Jun 18 14:09:08 UTC 2024","Tue Jun 18 14:09:16 UTC 2024","8331","tests_ui","test_main_page","","","","test_main_order_not_empty[No bun, random ingredient number]","Verify order single ingredient."
+"failed","Tue Jun 18 14:08:19 UTC 2024","Tue Jun 18 14:08:23 UTC 2024","4567","tests_ui","test_main_page","","","","test_main_order_empty","Verify order empty."
+"passed","Tue Jun 18 14:07:37 UTC 2024","Tue Jun 18 14:07:37 UTC 2024","29","tests_ui","test_main_page","","","","test_main_access","Verify access to Main page."
+"passed","Tue Jun 18 14:08:34 UTC 2024","Tue Jun 18 14:08:45 UTC 2024","10791","tests_ui","test_main_page","","","","test_main_order_not_empty[Bun + single ingredient]","Verify order single ingredient."
+"passed","Tue Jun 18 14:09:19 UTC 2024","Tue Jun 18 14:09:20 UTC 2024","1275","tests_ui","test_main_page","","","","test_main_header_btns[Redirection to List of orders page]","Verify redirection to pages using Header buttons."
+"passed","Tue Jun 18 14:08:16 UTC 2024","Tue Jun 18 14:08:16 UTC 2024","23","tests_ui","test_main_page","","","","test_main_delete_ingredients","Verify user can delete ingredient from Construction."
+"passed","Tue Jun 18 14:07:54 UTC 2024","Tue Jun 18 14:07:59 UTC 2024","5504","tests_ui","test_main_page","","","","test_main_drag_all_ingredients","Verify user can drag all ingredient to Constructor."
+"passed","Tue Jun 18 14:08:48 UTC 2024","Tue Jun 18 14:09:05 UTC 2024","16729","tests_ui","test_main_page","","","","test_main_order_not_empty[Bun + not single ingredient]","Verify order single ingredient."
+"passed","Tue Jun 18 14:08:24 UTC 2024","Tue Jun 18 14:08:33 UTC 2024","8670","tests_ui","test_main_page","","","","test_main_order_not_empty[Single bun]","Verify order single ingredient."
+"passed","Tue Jun 18 14:08:02 UTC 2024","Tue Jun 18 14:08:02 UTC 2024","23","tests_ui","test_main_page","","","","test_main_ingredients_counter_change[Verify 10 ingredients counter]","Verify ingredients counter changes
+    after dragging to Constructor."
+"passed","Tue Jun 18 14:08:03 UTC 2024","Tue Jun 18 14:08:09 UTC 2024","5685","tests_ui","test_main_page","","","","test_main_buns_counter_change","Verify bun's counter changes
+    after dragging to Constructor."
+"passed","Tue Jun 18 14:08:00 UTC 2024","Tue Jun 18 14:08:00 UTC 2024","24","tests_ui","test_main_page","","","","test_main_ingredients_counter_change[Verify 3 ingredients counter]","Verify ingredients counter changes
+    after dragging to Constructor."
+"passed","Tue Jun 18 14:08:10 UTC 2024","Tue Jun 18 14:08:15 UTC 2024","4657","tests_ui","test_main_page","","","","test_main_buns_changing_in_constructor","Verify bus change in Construction."

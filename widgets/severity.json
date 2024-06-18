@@ -1,1 +1,191 @@
-[ ]
+[ {
+  "uid" : "d0636b2b8a1669ac",
+  "name" : "test_main_order_not_empty[Single bun]",
+  "time" : {
+    "start" : 1718719704949,
+    "stop" : 1718719713619,
+    "duration" : 8670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de6ecfce4a78595",
+  "name" : "test_main_header_btns[Redirection to Account page]",
+  "time" : {
+    "start" : 1718719761884,
+    "stop" : 1718719762313,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fa105b123ae3b36",
+  "name" : "test_main_ingredients_counter_change[Verify 3 ingredients counter]",
+  "time" : {
+    "start" : 1718719680806,
+    "stop" : 1718719680830,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f0fcc850f47770a",
+  "name" : "test_main_order_not_empty[No bun, random ingredient number]",
+  "time" : {
+    "start" : 1718719748254,
+    "stop" : 1718719756585,
+    "duration" : 8331
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "26da643f22f3a188",
+  "name" : "test_main_delete_ingredients",
+  "time" : {
+    "start" : 1718719696388,
+    "stop" : 1718719696411,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce6cbf13ba1455d1",
+  "name" : "test_main_order_not_empty[Bun + single ingredient]",
+  "time" : {
+    "start" : 1718719714903,
+    "stop" : 1718719725694,
+    "duration" : 10791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e65b1d6f78ebf1b0",
+  "name" : "test_main_header_btns[Redirection to List of orders page]",
+  "time" : {
+    "start" : 1718719759119,
+    "stop" : 1718719760394,
+    "duration" : 1275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebf0682da277695d",
+  "name" : "test_main_drag_all_ingredients",
+  "time" : {
+    "start" : 1718719674018,
+    "stop" : 1718719679522,
+    "duration" : 5504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7724ed52e83bb889",
+  "name" : "test_main_order_not_empty[Bun + not single ingredient]",
+  "time" : {
+    "start" : 1718719728571,
+    "stop" : 1718719745300,
+    "duration" : 16729
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7634f12964bf12c",
+  "name" : "test_main_ingredients_items",
+  "time" : {
+    "start" : 1718719659252,
+    "stop" : 1718719662532,
+    "duration" : 3280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb22ff9803895407",
+  "name" : "test_main_order_empty",
+  "time" : {
+    "start" : 1718719699053,
+    "stop" : 1718719703620,
+    "duration" : 4567
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5546b9dbd43afe5",
+  "name" : "test_main_ingredients_counter_change[Verify 10 ingredients counter]",
+  "time" : {
+    "start" : 1718719682171,
+    "stop" : 1718719682194,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38ec7bc6aa104674",
+  "name" : "test_main_access",
+  "time" : {
+    "start" : 1718719657732,
+    "stop" : 1718719657761,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6e88403d983f17",
+  "name" : "test_main_drag_single_ingredient",
+  "time" : {
+    "start" : 1718719672487,
+    "stop" : 1718719672512,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8cdeab6eb687c6e",
+  "name" : "test_main_nutrition_wnd",
+  "time" : {
+    "start" : 1718719757849,
+    "stop" : 1718719757870,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76fe81d45f90339d",
+  "name" : "test_main_total_price_changing",
+  "time" : {
+    "start" : 1718719697737,
+    "stop" : 1718719697758,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26e5f5cc0aa03fbd",
+  "name" : "test_main_top_title_color_changes",
+  "time" : {
+    "start" : 1718719664035,
+    "stop" : 1718719671130,
+    "duration" : 7095
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6efee41fdf1f1291",
+  "name" : "test_main_buns_changing_in_constructor",
+  "time" : {
+    "start" : 1718719690467,
+    "stop" : 1718719695124,
+    "duration" : 4657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e854f050f65e3e0c",
+  "name" : "test_main_buns_counter_change",
+  "time" : {
+    "start" : 1718719683491,
+    "stop" : 1718719689176,
+    "duration" : 5685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

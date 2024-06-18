@@ -1,5 +1,60 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Locator expected to have CSS 'rgb(133, 133, 173)'\nActual value: rgb(255, 255, 255) \nCall log:\nLocatorAssertions.to_have_css with timeout 5000ms\n  - waiting for locator(\"//span[contains(text(), 'Булки')]\")\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"",
+      "children" : [ {
+        "name" : "test_main_top_title_color_changes",
+        "uid" : "26e5f5cc0aa03fbd",
+        "parentUid" : "7c5233bdd8986c402548f1f5b27ee134",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718719664035,
+          "stop" : 1718719671130,
+          "duration" : 7095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c5233bdd8986c402548f1f5b27ee134"
+    }, {
+      "name" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+      "children" : [ {
+        "name" : "test_main_order_empty",
+        "uid" : "bb22ff9803895407",
+        "parentUid" : "8875b04dedc5a28df8018208ec0a5b0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718719699053,
+          "stop" : 1718719703620,
+          "duration" : 4567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8875b04dedc5a28df8018208ec0a5b0f"
+    }, {
+      "name" : "AssertionError: assert 9999 != 9999\n +  where 9999 = int('9999')\n +    where '9999' = <function MAIN.get_order_number at 0x7fbdbb89b560>(<Page url='https://stellarburgers.nomoreparties.site/'>)\n +      where <function MAIN.get_order_number at 0x7fbdbb89b560> = MAIN.get_order_number",
+      "children" : [ {
+        "name" : "test_main_order_not_empty[No bun, random ingredient number]",
+        "uid" : "7f0fcc850f47770a",
+        "parentUid" : "711cbf37dcda8f97c19b229aadc6be3a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718719748254,
+          "stop" : 1718719756585,
+          "duration" : 8331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1" ]
+      } ],
+      "uid" : "711cbf37dcda8f97c19b229aadc6be3a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

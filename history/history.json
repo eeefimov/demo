@@ -339,11 +339,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5546b9dbd43afe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719682171,
+        "stop" : 1718719682194,
+        "duration" : 23
+      }
+    }, {
       "uid" : "e7a9b795586f934d",
       "status" : "passed",
       "time" : {
@@ -498,14 +506,23 @@
   },
   "5ce17cfafd0bca7d4872f4d416efec82" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "26e5f5cc0aa03fbd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Locator expected to have CSS 'rgb(133, 133, 173)'\nActual value: rgb(255, 255, 255) \nCall log:\nLocatorAssertions.to_have_css with timeout 5000ms\n  - waiting for locator(\"//span[contains(text(), 'Булки')]\")\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"",
+      "time" : {
+        "start" : 1718719664035,
+        "stop" : 1718719671130,
+        "duration" : 7095
+      }
+    }, {
       "uid" : "320de42379005f36",
       "status" : "failed",
       "statusDetails" : "AssertionError: Locator expected to have CSS 'rgb(133, 133, 173)'\nActual value: rgb(255, 255, 255) \nCall log:\nLocatorAssertions.to_have_css with timeout 5000ms\n  - waiting for locator(\"//span[contains(text(), 'Булки')]\")\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"",
@@ -785,11 +802,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e7634f12964bf12c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719659252,
+        "stop" : 1718719662532,
+        "duration" : 3280
+      }
+    }, {
       "uid" : "b1c177e699e6a0fe",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 0 == 15\n +  where 15 = MAIN.ingredients_number",
@@ -832,11 +857,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2de6ecfce4a78595",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719761884,
+        "stop" : 1718719762313,
+        "duration" : 429
+      }
+    }, {
       "uid" : "1576f84afa0436e7",
       "status" : "passed",
       "time" : {
@@ -2564,11 +2597,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d0636b2b8a1669ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719704949,
+        "stop" : 1718719713619,
+        "duration" : 8670
+      }
+    }, {
       "uid" : "af68228f001faf03",
       "status" : "passed",
       "time" : {
@@ -3539,11 +3580,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "76fe81d45f90339d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719697737,
+        "stop" : 1718719697758,
+        "duration" : 21
+      }
+    }, {
       "uid" : "ba3c3a6ef1ff7f6a",
       "status" : "passed",
       "time" : {
@@ -4092,11 +4141,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e854f050f65e3e0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719683491,
+        "stop" : 1718719689176,
+        "duration" : 5685
+      }
+    }, {
       "uid" : "16c3906a30a98117",
       "status" : "passed",
       "time" : {
@@ -4271,11 +4328,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d8cdeab6eb687c6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719757849,
+        "stop" : 1718719757870,
+        "duration" : 21
+      }
+    }, {
       "uid" : "b2dc1295a479419f",
       "status" : "passed",
       "time" : {
@@ -6062,14 +6127,23 @@
   },
   "eb2b936ab111786cbac76b542100389f" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bb22ff9803895407",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+      "time" : {
+        "start" : 1718719699053,
+        "stop" : 1718719703620,
+        "duration" : 4567
+      }
+    }, {
       "uid" : "63a154126bccea67",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
@@ -6611,11 +6685,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "ce6cbf13ba1455d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719714903,
+        "stop" : 1718719725694,
+        "duration" : 10791
+      }
+    }, {
       "uid" : "6e62a17cc9d05c27",
       "status" : "passed",
       "time" : {
@@ -6712,11 +6794,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "26da643f22f3a188",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719696388,
+        "stop" : 1718719696411,
+        "duration" : 23
+      }
+    }, {
       "uid" : "5f671368743c7587",
       "status" : "passed",
       "time" : {
@@ -7974,11 +8064,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "38ec7bc6aa104674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719657732,
+        "stop" : 1718719657761,
+        "duration" : 29
+      }
+    }, {
       "uid" : "7302f60f65ba62b9",
       "status" : "passed",
       "time" : {
@@ -9048,11 +9146,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9a6e88403d983f17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719672487,
+        "stop" : 1718719672512,
+        "duration" : 25
+      }
+    }, {
       "uid" : "9936e69060d2562c",
       "status" : "passed",
       "time" : {
@@ -9091,11 +9197,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8fa105b123ae3b36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719680806,
+        "stop" : 1718719680830,
+        "duration" : 24
+      }
+    }, {
       "uid" : "d2da6aa20b5239eb",
       "status" : "passed",
       "time" : {
@@ -9173,11 +9287,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e65b1d6f78ebf1b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719759119,
+        "stop" : 1718719760394,
+        "duration" : 1275
+      }
+    }, {
       "uid" : "aca0895733b2846f",
       "status" : "passed",
       "time" : {
@@ -9573,11 +9695,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7724ed52e83bb889",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719728571,
+        "stop" : 1718719745300,
+        "duration" : 16729
+      }
+    }, {
       "uid" : "9e11329b391f24ca",
       "status" : "passed",
       "time" : {
@@ -9665,11 +9795,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "ebf0682da277695d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719674018,
+        "stop" : 1718719679522,
+        "duration" : 5504
+      }
+    }, {
       "uid" : "9ea21293e768a6a8",
       "status" : "passed",
       "time" : {
@@ -11333,11 +11471,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "6efee41fdf1f1291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718719690467,
+        "stop" : 1718719695124,
+        "duration" : 4657
+      }
+    }, {
       "uid" : "4083cab056f59892",
       "status" : "passed",
       "time" : {
@@ -11782,14 +11928,23 @@
   },
   "819c4a759248bc2c3d448388bd8af9a2" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7f0fcc850f47770a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 9999 != 9999\n +  where 9999 = int('9999')\n +    where '9999' = <function MAIN.get_order_number at 0x7fbdbb89b560>(<Page url='https://stellarburgers.nomoreparties.site/'>)\n +      where <function MAIN.get_order_number at 0x7fbdbb89b560> = MAIN.get_order_number",
+      "time" : {
+        "start" : 1718719748254,
+        "stop" : 1718719756585,
+        "duration" : 8331
+      }
+    }, {
       "uid" : "7a350553f81d43f8",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 9999 != 9999\n +  where 9999 = int('9999')\n +    where '9999' = <function MAIN.get_order_number at 0x7fb5bf26a5c0>(<Page url='https://stellarburgers.nomoreparties.site/'>)\n +      where <function MAIN.get_order_number at 0x7fb5bf26a5c0> = MAIN.get_order_number",
