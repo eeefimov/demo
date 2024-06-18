@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "roger.holt@bennett-sims.com",
-        "name": "Want bryan97"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTQzOWVkMjgwMDAxYjQzZGM2ZiIsImlhdCI6MTcxODQ1ODY5MSwiZXhwIjoxNzE4NDU5ODkxfQ.VaBGGmz_tAcanNi_r107H2Rpn-kHIHBLDH4o-kRyYaw",
-    "refreshToken": "211ce1ea25513183efd5f7b5942ffa784b70f7d3135554606687e59516c6bd229f6561614f73b749"
-}

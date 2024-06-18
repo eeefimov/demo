@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "erik.hernandez@long.com",
-        "name": "Case cody10"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTI4OWVkMjgwMDAxYjQzZGMzZSIsImlhdCI6MTcxODQ1ODY2NCwiZXhwIjoxNzE4NDU5ODY0fQ.boWyoAw7Fu2J9YMAWuv6y1KCicXo3UlIxF1ApvYOuSE",
-    "refreshToken": "b1f103cf2ba45195cfc6b78c161ea6fa4693a72e3708be2d8b4aebe380d622c0b28322f66be90f2d"
-}

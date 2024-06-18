@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "thomaslaurie@example.org",
-        "name": "particularly word outside"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTNjOWVkMjgwMDAxYjQzZGM2MCIsImlhdCI6MTcxODQ1ODY4NCwiZXhwIjoxNzE4NDU5ODg0fQ.xYjrZ_5rrDKi15TYwrMD6LtptFoRKeC0zVH7dpeJjXI",
-    "refreshToken": "3987cc773337c504823964df2671a84fc1894823ccfa7fc82606dddc762f881911ed032783c3394a"
-}

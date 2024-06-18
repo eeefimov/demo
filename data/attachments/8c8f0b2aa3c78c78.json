@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "victor.crawford@francis.info",
-        "name": "Seasodaniel07"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQzOWVkMjgwMDAxYjQzZGJiNiIsImlhdCI6MTcxODQ1ODU3OSwiZXhwIjoxNzE4NDU5Nzc5fQ.2CYZm-onB62TwfSQYTHIg4tYqwPey2rL7CSEWRnIX-U",
-    "refreshToken": "27b7c5531d64b00bd29221ceb6cd45d3af259b40de357aa8380b6c3ced80e132fb4a722cbb725427"
-}

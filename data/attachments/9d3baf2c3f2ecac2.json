@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "lisa.jensen@robinson-gay.net",
-        "name": "Informelendezbarbara"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTRjOWVkMjgwMDAxYjQzZGM3YyIsImlhdCI6MTcxODQ1ODcwMCwiZXhwIjoxNzE4NDU5OTAwfQ.nbFpAE5AlY86PXm0DvhLGAvOgauV2UZY40ZQOpwzu0I",
-    "refreshToken": "764032919df409731ea9013818ec1c3fc96c54caf4784c87784a66244ffcf30120a9ddba6349d5f8"
-}

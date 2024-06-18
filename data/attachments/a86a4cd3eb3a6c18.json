@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jamie.smith@monroe.org",
-        "name": "Five ozimmerman"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGNkOWVkMjgwMDAxYjQzZGJhNiIsImlhdCI6MTcxODQ1ODU3MywiZXhwIjoxNzE4NDU5NzczfQ.iCi3ZqWO3KEnapgI3pVpc6JfAPShQX2Y5kwG8adr_FQ",
-    "refreshToken": "7f60eea2ff933786dab5ec4138b8c44aca76981978c6a48cfa7b77c1babe13988692c3789d18675d"
-}

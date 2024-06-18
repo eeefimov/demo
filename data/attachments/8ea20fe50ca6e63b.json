@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "maria.jones@mcgee.com",
-        "name": "Run fshawn37"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGU5OWVkMjgwMDAxYjQzZGJlYSIsImlhdCI6MTcxODQ1ODYwMSwiZXhwIjoxNzE4NDU5ODAxfQ.2OiP54DPlUPF23s4c7ctuv5L7njV8VkX5M9Ejxoe1J4",
-    "refreshToken": "6890b580a4497d73a2d9037e13b44d05745e03e65a1c7e433d74a08554deebc2aed98e34f9868789"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "antonio.colon@walker.com",
-        "name": "Focusmatthewmata"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGNiOWVkMjgwMDAxYjQzZGJhMiIsImlhdCI6MTcxODQ1ODU3MSwiZXhwIjoxNzE4NDU5NzcxfQ.y9vvmMTQ13-iLfTNu_uuy8oD_euUO2C54kmbIiNBiMI",
-    "refreshToken": "069c5795a29a83ed60a1b13dc72e658b19db86ddb22393d6bb8c7501f49ec6fc2529e4ac9436d4d6"
-}

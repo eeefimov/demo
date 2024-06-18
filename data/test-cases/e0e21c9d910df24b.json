@@ -1,0 +1,380 @@
+{
+  "uid" : "e0e21c9d910df24b",
+  "name" : "test_account_no_access",
+  "fullName" : "tests_ui.test_account_page#test_account_no_access",
+  "historyId" : "ef574bb9407ab858b90ef5ee2ca55f52",
+  "time" : {
+    "start" : 1718716573635,
+    "stop" : 1718716574971,
+    "duration" : 1336
+  },
+  "description" : "Verify user has no access to Account page after logout.",
+  "descriptionHtml" : "<p>Verify user has no access to Account page after logout.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718716534371,
+      "stop" : 1718716534371,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718716569220,
+      "stop" : 1718716570186,
+      "duration" : 966
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718716569620,
+        "stop" : 1718716570186,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718716534371,
+      "stop" : 1718716534372,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718716534372,
+      "stop" : 1718716534372,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718716534372,
+      "stop" : 1718716534393,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718716534371,
+      "stop" : 1718716534371,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "account_page",
+    "time" : {
+      "start" : 1718716570186,
+      "stop" : 1718716573635,
+      "duration" : 3449
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User SignIn",
+      "time" : {
+        "start" : 1718716570187,
+        "stop" : 1718716573585,
+        "duration" : 3398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Account button on Header",
+        "time" : {
+          "start" : 1718716570187,
+          "stop" : 1718716570497,
+          "duration" : 310
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Email field",
+        "time" : {
+          "start" : 1718716571497,
+          "stop" : 1718716571517,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill PASSWORD field",
+        "time" : {
+          "start" : 1718716571517,
+          "stop" : 1718716571531,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Entry button",
+        "time" : {
+          "start" : 1718716571531,
+          "stop" : 1718716571585,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718716573585,
+        "stop" : 1718716573635,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify user has no access to Account page after logout.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Logout link",
+      "time" : {
+        "start" : 1718716573636,
+        "stop" : 1718716574048,
+        "duration" : 412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Account on Header",
+      "time" : {
+        "start" : 1718716574048,
+        "stop" : 1718716574965,
+        "duration" : 917
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify user stays at Login page",
+      "time" : {
+        "start" : 1718716574965,
+        "stop" : 1718716574971,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718716574972,
+      "stop" : 1718716575124,
+      "duration" : 152
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "33702b09877f2807",
+      "name" : "Screenshot_2024-06-18 13:16:15.075790",
+      "source" : "33702b09877f2807.png",
+      "type" : "image/png",
+      "size" : 46348
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_page"
+  }, {
+    "name" : "host",
+    "value" : "87274ff0cc76"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_account_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "728378ab81eed834",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458809579,
+          "stop" : 1718458811030,
+          "duration" : 1451
+        }
+      }, {
+        "uid" : "4f7aed1c1fc36ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457187613,
+          "stop" : 1718457188966,
+          "duration" : 1353
+        }
+      }, {
+        "uid" : "fdfc6861cc5409a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455053909,
+          "stop" : 1718455055229,
+          "duration" : 1320
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e0e21c9d910df24b.json",
+  "parameterValues" : [ ]
+}

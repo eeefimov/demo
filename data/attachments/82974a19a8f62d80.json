@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "victoria.gutierrez@forbes.net",
-        "name": "Walk sheena96"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGNmOWVkMjgwMDAxYjQzZGJhYSIsImlhdCI6MTcxODQ1ODU3NSwiZXhwIjoxNzE4NDU5Nzc1fQ.UgnPMVXKHkxa3EabGPijWlK82vVE9dD-hThtmo3byfc",
-    "refreshToken": "df03fe1c16d7a27b40f76ffec8125fcd6796bb344835cc2308fbe1581df89d867effa834b3c2f20a"
-}

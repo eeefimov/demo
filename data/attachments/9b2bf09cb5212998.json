@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "tracy.sexton@drake-diaz.org",
-        "name": "Storyvgrant"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ2OWVkMjgwMDAxYjQzZGJiZSIsImlhdCI6MTcxODQ1ODU4MiwiZXhwIjoxNzE4NDU5NzgyfQ.zZR48Z-xm2teyfWLAcYqTb8aZ8eXj-tsoXhA2UVDyvQ",
-    "refreshToken": "05f73faa177d5b83f159b3f21ed5620157e33296d7930d75eaf9141866bd476459a19356b56732b1"
-}

@@ -1,5 +1,14 @@
 [ {
   "data" : {
+    "failed" : 25,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 93,
+    "unknown" : 0,
+    "total" : 119
+  }
+}, {
+  "data" : {
     "failed" : 48,
     "broken" : 1,
     "skipped" : 0,

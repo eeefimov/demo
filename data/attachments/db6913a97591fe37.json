@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jaime.garcia@paul.com",
-        "name": "Lose owilson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTFiOWVkMjgwMDAxYjQzZGMyYSIsImlhdCI6MTcxODQ1ODY1MSwiZXhwIjoxNzE4NDU5ODUxfQ.VK7_pSlHgvg_4TYf7ZiRKP_O85Fx4cGZABt0ZfaNwHA",
-    "refreshToken": "dcb188cc61fb54e0082e4b5193d065eec1ff603e52696bd8e3814453d0801bbeb6f432f9f9de5b79"
-}

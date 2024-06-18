@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "thomas.carter@graves.com",
-        "name": "Speeckturner"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQxOWVkMjgwMDAxYjQzZGJiMCIsImlhdCI6MTcxODQ1ODU3NywiZXhwIjoxNzE4NDU5Nzc3fQ.Brzd8dCsXs4-SS-mNXTdNM0oY2pT4AQwHxsXnQQSOLk",
-    "refreshToken": "de524875e2552fa320012495a698f39f17f4d6278aa80f83efac0569f267337f2ccaec43ec7d3396"
-}

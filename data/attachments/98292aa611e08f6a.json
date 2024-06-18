@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "amanda.wilson@perez-harris.com",
-        "name": "Similndaniels"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGRjOWVkMjgwMDAxYjQzZGJjYyIsImlhdCI6MTcxODQ1ODU4OCwiZXhwIjoxNzE4NDU5Nzg4fQ.2k9Ac0QIM_6NH86GrApFMz7M2Se8qMASFY914yuBoSs",
-    "refreshToken": "32b625ef4d8ece559b1a21f585b79d82f537bf1052ac32b2309f83c41091f36d8c83991e14b2b22f"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "robert.ellis@velasquez.com",
-        "name": "Estabrobertmullen"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGVmOWVkMjgwMDAxYjQzZGJmNSIsImlhdCI6MTcxODQ1ODYwNywiZXhwIjoxNzE4NDU5ODA3fQ.eBkFK_gDzkwSmWVwfvKv52AzKHurPj-X2pIbwnfLE9c",
-    "refreshToken": "2931f76ee696977ad292cbe721685913a5c841bc4dfc082707d6bd7ba3d9fbe02930bea9179f273c"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "tamara.roberts@mullins.com",
-        "name": "Unit anthonysloan"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTI3OWVkMjgwMDAxYjQzZGMzYyIsImlhdCI6MTcxODQ1ODY2MywiZXhwIjoxNzE4NDU5ODYzfQ.SKCGjxip-hSiE1yE7vjM5_tE_rFBU7Lrq-FHF_fY-Mw",
-    "refreshToken": "62092ad2746048fd1372be7b68688eb312af9241bd7b9e3d0090693adfdc97060cc2db4af182eb68"
-}

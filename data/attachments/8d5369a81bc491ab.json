@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "carolyn.doyle@reynolds.com",
-        "name": "Fly ehickswilliam"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ4OWVkMjgwMDAxYjQzZGJjMiIsImlhdCI6MTcxODQ1ODU4NCwiZXhwIjoxNzE4NDU5Nzg0fQ.D7OVElFC5oDtuBXpIbqzyzIRhiE99Wph7D20Vzjeuz0",
-    "refreshToken": "baec9326c5d412141a507bd22baceb549837883c593c32b738d6d6640363b19c84ed86a5182ac500"
-}

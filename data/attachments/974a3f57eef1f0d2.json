@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "tanya.rodriguez@davis.info",
-        "name": "Realisarah26"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGU2OWVkMjgwMDAxYjQzZGJlNCIsImlhdCI6MTcxODQ1ODU5OCwiZXhwIjoxNzE4NDU5Nzk4fQ.XXi3wgPfL5gCbieKegi73MWFpn-eFw-1nkjD-tnYlco",
-    "refreshToken": "28a3e1423c9d7058bb6a81e5bdacdc80becfecfd168ad51d1f94246a3004da3ee54bc4ad541c11dc"
-}

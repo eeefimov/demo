@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "kendra.landry@brown.biz",
-        "name": "New sbrendan51"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ0OWVkMjgwMDAxYjQzZGJiOCIsImlhdCI6MTcxODQ1ODU4MCwiZXhwIjoxNzE4NDU5NzgwfQ.YquEOhvgfPM7oL1f59oBrrkA5QarWqKj1-7PmxifZCY",
-    "refreshToken": "590625f4f97848a59429214f54a21d507ef10a2bd1275bfc792ee6d6d1dc4399a8190c69b44efa08"
-}

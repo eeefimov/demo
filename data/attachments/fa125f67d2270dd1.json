@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "donald.hayes@peterson.info",
-        "name": "Startjoseph19"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGVkOWVkMjgwMDAxYjQzZGJmMiIsImlhdCI6MTcxODQ1ODYwNSwiZXhwIjoxNzE4NDU5ODA1fQ.8MoMY-kw12YeGSUcEzUGgs65qK0bF7-JOzvHTG-R8U8",
-    "refreshToken": "bd07c7c46e2906e6f203531c9854fd67701ea40779b19e921e845285f593a4cc6544e9c3491e3089"
-}

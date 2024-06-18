@@ -1,4 +1,0 @@
-method = post
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
-header = None
-data_models = None

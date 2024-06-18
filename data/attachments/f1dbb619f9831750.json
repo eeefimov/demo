@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "christina.snyder@cole.info",
-        "name": "Rich peggy68"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGY0OWVkMjgwMDAxYjQzZGJmZCIsImlhdCI6MTcxODQ1ODYxMiwiZXhwIjoxNzE4NDU5ODEyfQ.jso9G9Pk41uoelmBHY6wF5FbZryXkviJLzvsIm7Fy14",
-    "refreshToken": "c39b55af0820794bd6e4f5e27b1dafad0d1712ed390c309e916eaf55d10630f84a80ab5255478808"
-}

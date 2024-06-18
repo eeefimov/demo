@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "pam-valdez-price@gonzales.net",
-        "name": "yking"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTM0OWVkMjgwMDAxYjQzZGM0ZSIsImlhdCI6MTcxODQ1ODY3NiwiZXhwIjoxNzE4NDU5ODc2fQ.FKGlzbqSCK9G7jVbHBbnc1oX0PeioafRf90rdBx2y84",
-    "refreshToken": "5b5677dbad18149d1dcf84cb263e264ffe238797b2b2d506e8752bdda938cf73f324d8a838077cd6"
-}

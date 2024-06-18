@@ -1,4 +1,0 @@
-method = patch
-endpoint = https://stellarburgers.nomoreparties.site/api/password-reset
-header = None
-data_models = {'email': 'Lisa.Jensen@robinson-gay.net'}

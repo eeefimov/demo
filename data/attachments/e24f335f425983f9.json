@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jennifer.stewart@powers.com",
-        "name": "Seasorogerharmon"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQ3OWVkMjgwMDAxYjQzZGJjMCIsImlhdCI6MTcxODQ1ODU4MywiZXhwIjoxNzE4NDU5NzgzfQ.o659aXLHDv4dCbO767pWUlYKAJ2ZZbXt88x5IPaFIuo",
-    "refreshToken": "f9342ec88bd87e6d8a41b64194fd6f690954d0b0980a9e24434924c00ec79b8ed2ae77c68fca2c68"
-}

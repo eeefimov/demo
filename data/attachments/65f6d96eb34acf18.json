@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "leon_schneider@campos.net",
-        "name": "renee71"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTMyOWVkMjgwMDAxYjQzZGM0OCIsImlhdCI6MTcxODQ1ODY3NCwiZXhwIjoxNzE4NDU5ODc0fQ.2DFsJAqXBAW_Bi2adb_LaVRXo1KxG0Jxu_L17deqHQs",
-    "refreshToken": "cf7d3f79f1e9e1192d994576ad04b4e5555e7fff38da0b1fbf85a3de36a04369cb5f3d3a81f16d60"
-}

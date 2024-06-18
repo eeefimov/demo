@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "brett.white@charles-robles.com",
-        "name": "Moneyjohnweaver"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGU0OWVkMjgwMDAxYjQzZGJlMCIsImlhdCI6MTcxODQ1ODU5NiwiZXhwIjoxNzE4NDU5Nzk2fQ.dE7IJTJIqC50oy4dPcgZ0xXndgiCv-4f75NSH_Qjc8c",
-    "refreshToken": "d33b1c973aa241190a5cfa46458af89f2ab21ad8f769297500cc3036792ebfc1576f06f0b2e525e2"
-}

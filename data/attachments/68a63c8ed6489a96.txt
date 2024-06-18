@@ -1,4 +1,0 @@
-method = get
-endpoint = https://stellarburgers.nomoreparties.site/api/ingredients
-header = {'Content-Type': 'APPLICATION/JSON'}
-data_models = None

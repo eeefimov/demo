@@ -1,0 +1,1724 @@
+{
+  "uid" : "9ea21293e768a6a8",
+  "name" : "test_main_drag_all_ingredients",
+  "fullName" : "tests_ui.test_main_page#test_main_drag_all_ingredients",
+  "historyId" : "708ea47ae803db8bedd7e435463df2b0",
+  "time" : {
+    "start" : 1718716862234,
+    "stop" : 1718716922301,
+    "duration" : 60067
+  },
+  "description" : "Verify user can drag all ingredient to Constructor.",
+  "descriptionHtml" : "<p>Verify user can drag all ingredient to Constructor.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718716534371,
+      "stop" : 1718716534371,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718716860086,
+      "stop" : 1718716862234,
+      "duration" : 2148
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718716860485,
+        "stop" : 1718716862234,
+        "duration" : 1749
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718716534371,
+      "stop" : 1718716534372,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718716534372,
+      "stop" : 1718716534372,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718716534372,
+      "stop" : 1718716534393,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718716534371,
+      "stop" : 1718716534371,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1718716862234,
+      "stop" : 1718716862234,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can drag all ingredient to Constructor.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716862263,
+        "stop" : 1718716864378,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag bun to Constructor",
+        "time" : {
+          "start" : 1718716862263,
+          "stop" : 1718716862378,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Флюоресцентная булка R2-D3'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716864383,
+        "stop" : 1718716866474,
+        "duration" : 2091
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716864383,
+          "stop" : 1718716864474,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716866474,
+        "stop" : 1718716866491,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716866495,
+        "stop" : 1718716868590,
+        "duration" : 2095
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716866495,
+          "stop" : 1718716866590,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716868590,
+        "stop" : 1718716868604,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716868608,
+        "stop" : 1718716870706,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716868608,
+          "stop" : 1718716868706,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716870707,
+        "stop" : 1718716870723,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716870727,
+        "stop" : 1718716872823,
+        "duration" : 2096
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716870727,
+          "stop" : 1718716870823,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716872823,
+        "stop" : 1718716872838,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716872841,
+        "stop" : 1718716874941,
+        "duration" : 2100
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716872841,
+          "stop" : 1718716872940,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716874941,
+        "stop" : 1718716874955,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716874958,
+        "stop" : 1718716877056,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716874958,
+          "stop" : 1718716875056,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716877056,
+        "stop" : 1718716877072,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716877075,
+        "stop" : 1718716879173,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716877076,
+          "stop" : 1718716877173,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716879173,
+        "stop" : 1718716879188,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716879192,
+        "stop" : 1718716881291,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716879192,
+          "stop" : 1718716879290,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716881291,
+        "stop" : 1718716881305,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716881309,
+        "stop" : 1718716883407,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716881309,
+          "stop" : 1718716881407,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716883407,
+        "stop" : 1718716883422,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716883426,
+        "stop" : 1718716885525,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716883426,
+          "stop" : 1718716883525,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716885525,
+        "stop" : 1718716885539,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716885543,
+        "stop" : 1718716887639,
+        "duration" : 2096
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716885543,
+          "stop" : 1718716885639,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716887639,
+        "stop" : 1718716887654,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716887657,
+        "stop" : 1718716889759,
+        "duration" : 2102
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716887657,
+          "stop" : 1718716887758,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716889759,
+        "stop" : 1718716889773,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716889777,
+        "stop" : 1718716891872,
+        "duration" : 2095
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716889777,
+          "stop" : 1718716889872,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716891873,
+        "stop" : 1718716891888,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716892271,
+        "stop" : 1718716894605,
+        "duration" : 2334
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag bun to Constructor",
+        "time" : {
+          "start" : 1718716892271,
+          "stop" : 1718716892605,
+          "duration" : 334
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Краторная булка N-200i'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716894609,
+        "stop" : 1718716896706,
+        "duration" : 2097
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716894610,
+          "stop" : 1718716894706,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716896706,
+        "stop" : 1718716896719,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716896723,
+        "stop" : 1718716898820,
+        "duration" : 2097
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716896723,
+          "stop" : 1718716896820,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716898821,
+        "stop" : 1718716898834,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716898838,
+        "stop" : 1718716900937,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716898838,
+          "stop" : 1718716898936,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716900937,
+        "stop" : 1718716900952,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716900956,
+        "stop" : 1718716903055,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716900956,
+          "stop" : 1718716901055,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716903055,
+        "stop" : 1718716903069,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716903073,
+        "stop" : 1718716905172,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716903073,
+          "stop" : 1718716903172,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716905172,
+        "stop" : 1718716905186,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716905190,
+        "stop" : 1718716907288,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716905190,
+          "stop" : 1718716905288,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716907288,
+        "stop" : 1718716907302,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716907307,
+        "stop" : 1718716909405,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716907307,
+          "stop" : 1718716907405,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716909405,
+        "stop" : 1718716909419,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716909423,
+        "stop" : 1718716911522,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716909423,
+          "stop" : 1718716909522,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716911522,
+        "stop" : 1718716911537,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716911540,
+        "stop" : 1718716913639,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716911540,
+          "stop" : 1718716911638,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716913639,
+        "stop" : 1718716913653,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716913657,
+        "stop" : 1718716915755,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716913657,
+          "stop" : 1718716913755,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716915755,
+        "stop" : 1718716915770,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716915774,
+        "stop" : 1718716917872,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716915774,
+          "stop" : 1718716915872,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716917872,
+        "stop" : 1718716917887,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716917891,
+        "stop" : 1718716919990,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716917891,
+          "stop" : 1718716917990,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716919990,
+        "stop" : 1718716920005,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718716920009,
+        "stop" : 1718716922105,
+        "duration" : 2096
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718716920009,
+          "stop" : 1718716920105,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'Краторная булка N-200i (верх)'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify all ingredients set in Constructor",
+      "time" : {
+        "start" : 1718716922105,
+        "stop" : 1718716922121,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 82,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718716922302,
+      "stop" : 1718716922463,
+      "duration" : 161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d17fb4424269b6bf",
+      "name" : "Screenshot_2024-06-18 13:22:02.416630",
+      "source" : "d17fb4424269b6bf.png",
+      "type" : "image/png",
+      "size" : 65922
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "87274ff0cc76"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "647571421c0e44ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459037240,
+          "stop" : 1718459042804,
+          "duration" : 5564
+        }
+      }, {
+        "uid" : "b303d318d32341fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457429367,
+          "stop" : 1718457434714,
+          "duration" : 5347
+        }
+      }, {
+        "uid" : "51105dc3c8fd30ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455321190,
+          "stop" : 1718455381321,
+          "duration" : 60131
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9ea21293e768a6a8.json",
+  "parameterValues" : [ ]
+}

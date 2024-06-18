@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "kristen.hernandez@guzman-lawson.com",
-        "name": "Guessxjones"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTQ1OWVkMjgwMDAxYjQzZGM3MiIsImlhdCI6MTcxODQ1ODY5MywiZXhwIjoxNzE4NDU5ODkzfQ.Kg0bC_ZbYlhyzte9T-X3FYKnS1FgxVkZsYw4mcyIvRI",
-    "refreshToken": "8151c57aae77ef56325f55be669818673846ce3ece2c4e59c14a7ca0179189310bc348092b32e61f"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jeffrey_hunt_benitez@gentry.com",
-        "name": "perezcandice"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTMzOWVkMjgwMDAxYjQzZGM0YSIsImlhdCI6MTcxODQ1ODY3NSwiZXhwIjoxNzE4NDU5ODc1fQ.hUd3SuhFHy7S67hoSgcKtOUEseVa-doxkR7HMw-iV3U",
-    "refreshToken": "49fcfb3a11fa4efbea19f9b8ed0540b8304756e7dde190a077c7647c7d344a6474a264ecef8c69d0"
-}

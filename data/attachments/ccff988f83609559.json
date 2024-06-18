@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "craig.johnson@valdez-barnett.com",
-        "name": "Signiwatsonpeter"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTRhOWVkMjgwMDAxYjQzZGM3OCIsImlhdCI6MTcxODQ1ODY5OCwiZXhwIjoxNzE4NDU5ODk4fQ.FOhQCfHlJODATMt2A8JeeU39wEBmzuGVD4qHz3gwrUE",
-    "refreshToken": "902550f676bcc074cf4e68197b4f720a9db90c37e31e3370c0ccc1be0b1939e81b7ddf2ce094d0ae"
-}

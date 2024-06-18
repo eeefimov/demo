@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jason.nelson@thomas-bauer.org",
-        "name": "Storylauren07"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OTQxOWVkMjgwMDAxYjQzZGM2YiIsImlhdCI6MTcxODQ1ODY4OSwiZXhwIjoxNzE4NDU5ODg5fQ.3rBSy9jt8Ph4XQRBhyWOOCY2Bj6eiH74V9xg9NW_NKY",
-    "refreshToken": "0ebbd7f1fc25aa0a5ad8fdd75f0ebfddce1fa74bd91ac21424743f590a289cccd8da87d8d5d8536f"
-}

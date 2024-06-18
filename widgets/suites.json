@@ -1,37 +1,15 @@
 {
-  "total" : 3,
+  "total" : 1,
   "items" : [ {
     "uid" : "76190dd77608addcd5960e5eaae19c7d",
     "name" : "tests_ui",
     "statistic" : {
-      "failed" : 24,
+      "failed" : 25,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 94,
+      "passed" : 93,
       "unknown" : 0,
       "total" : 119
-    }
-  }, {
-    "uid" : "3692e1d4c008e66ca4b0512a6c57838e",
-    "name" : "tests_api",
-    "statistic" : {
-      "failed" : 23,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 110,
-      "unknown" : 0,
-      "total" : 133
-    }
-  }, {
-    "uid" : "46b37d72cadee6cd965158c483ea9804",
-    "name" : "tests_integration",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 7,
-      "unknown" : 0,
-      "total" : 8
     }
   } ]
 }

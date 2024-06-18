@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "allen.barrett@grant.com",
-        "name": "Activbgraves"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGQwOWVkMjgwMDAxYjQzZGJhZSIsImlhdCI6MTcxODQ1ODU3NiwiZXhwIjoxNzE4NDU5Nzc2fQ.UwzFvGc6Qbtb0qljSaCPQGem25u5t1jbW2UxQp2Ob4c",
-    "refreshToken": "31070aeae7a53ba724843acb396065d993f660df8b143d678f30ee49bcfde8dd4c2c43135b714d4f"
-}

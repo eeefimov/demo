@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "stephanie.barker@randolph.com",
-        "name": "List april70"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGUwOWVkMjgwMDAxYjQzZGJkNiIsImlhdCI6MTcxODQ1ODU5MiwiZXhwIjoxNzE4NDU5NzkyfQ.PR1mwRQVNF1gRGAVnw6ylmZn0qvq0LJ0n1INbfuoCoE",
-    "refreshToken": "85a802ebd5d53109810992ea78766c1716c78e0ba90f11ca58147a2cb1956ddf4e6a0907a0428694"
-}

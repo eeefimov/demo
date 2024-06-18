@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jordan.richardson@ritter-farmer.com",
-        "name": "Readycharles70"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGNkOWVkMjgwMDAxYjQzZGJhOCIsImlhdCI6MTcxODQ1ODU3MywiZXhwIjoxNzE4NDU5NzczfQ.ini2glQ6mGi2q9dGTTIhepzu_KJXtzh8FI4FLWWAmYc",
-    "refreshToken": "c23c7ad8aaf2168826962702a41874cbdeb87efe8394ed59989f5785c4a902daa52bfbef1044c744"
-}

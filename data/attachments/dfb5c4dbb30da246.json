@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "lisa.doyle@pearson.com",
-        "name": "Serieonichols"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmQ5OGRmOWVkMjgwMDAxYjQzZGJkNCIsImlhdCI6MTcxODQ1ODU5MSwiZXhwIjoxNzE4NDU5NzkxfQ.i36tr3-4IKxtzFrreMi8lXfeuKN9m4uF3li2zoILb9o",
-    "refreshToken": "4731fe2a451cb594c461ec34d2528351bac631248e781e73169aaaf1a9fc0926150c7d6f977924b6"
-}
