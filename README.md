@@ -1,39 +1,42 @@
-# Automated Testing Project Demo
+## Automated Testing Project Demo
 
 This is a demo project showcasing various skills in test automation.
 
-### Test Resource
-- [Stellar Burgers](https://stellarburgers.nomoreparties.site/)
-- UI tests use the Chromium browser ![Chromium](https://upload.wikimedia.org/wikipedia/commons/8/8c/Chromium_Web_Browser_Logo.png) in incognito mode.
-- The project utilizes Docker ![Docker]<td align="center"><a href="resources/docker.md"><img src="images/docker.png" width="90px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
-- Base image: python:3.11-slim.
+## Test Resource: [Stellar Burgers](https://stellarburgers.nomoreparties.site/)
 
-### Linters
+UI tests use the Chromium browser in incognito mode.
+
+The project utilizes Docker
+
+Base image: python:3.11-slim.
+
 <details>
-- flake8
-- pylint
+  <summary>LINTERS: </summary>
+
+  - flake8
+  - pylint
 </details>
 
-### Libraries Used
 <details>
-  <summary>View Libraries</summary>
-  - Programming language: Python 3.11 ![Python](https://www.python.org/static/community_logos/python-logo.png)
-  - Browser framework: Playwright ![Playwright](https://playwright.dev/img/playwright-logo.svg)
-  - API requests: Requests ![Requests](https://requests.readthedocs.io/en/latest/_static/requests-sidebar.png)
-  - Data validation: Pydantic ![Pydantic](https://avatars.githubusercontent.com/u/51408939?s=200&v=4)
-  - Reporting: Allure ![Allure](https://avatars.githubusercontent.com/u/5879127?s=200&v=4)
-  - Test data: Faker ![Faker](https://faker.readthedocs.io/en/master/_static/logo.png)
+  <summary>LIBRARIES:</summary>
+  
+  - Programming language: Python 3.11
+  - Browser framework: Playwright
+  - API requests: Requests
+  - Data validation: Pydantic
+  - Reporting: Allure
+  - Test data: Faker
 </details>
 
-### Test Details
+## Test Details
 - Total tests: 260
 - Execution time: ~35 min
 
-### Checklists
+## Checklists
 <details>
 <summary>UI CHECKLIST</summary>
 
-# Login page.
+### Login page.
 - Verify access to Login page.
 - Verify direct access to Login page.
 - Verify sign in with empty user credentials.
@@ -47,7 +50,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify redirection to pages using Header buttons (Forgot password page).
 - Verify redirection to pages using Header buttons (List of orders page).
 - Verify redirection to pages using Header buttons (Main page).
-# Main page.
+### Main page.
 - Verify access to Main page.
 - Verify all ingredients items presence on Main page.
 - Verify top titles color changes when scrolling.
@@ -67,7 +70,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify all ingredient title open window with Nutrition.
 - Verify redirection to pages using Header buttons (List of orders).
 - Verify redirection to pages using Header buttons (Account page).
-# Orders page.
+### Orders page.
 - Verify access to Orders page.
 - Verify direct access to Orders page.
 - Verify order items have Info window.
@@ -75,7 +78,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify transfer new order to ready.
 - Verify presence of the order total price in order item.
 - Verify changes in Total orders number and today orders number.
-# Register page.
+### Register page.
 - Verify access to Register page.
 - Verify direct access to Register page.
 - Verify registration with Empty user credentials.
@@ -112,7 +115,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify redirection to pages using Header buttons (List of orders page).
 - Verify redirection to pages using Header buttons (Main page).
 - Verify redirection to pages using Header buttons (Login page).
-# Forgot-password page.
+### Forgot-password page.
 - Verify access to Forgot-password page.
 - Verify direct access to Forgot-password page.
 - Verify sending restore password link with invalid email (Empty email).
@@ -143,7 +146,7 @@ This is a demo project showcasing various skills in test automation.
 <details>
 <summary>API CHECKLIST</summary>
 
-# GET /ingredients:
+### GET /ingredients:
 - Verify response status code.
 - Verify exist of payload in response.
 - Verify number of ingredients.
@@ -161,7 +164,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify status code with different type of headers (Content-Type: application/json, Authorization: "": 200).
 - Verify status code with different type of headers (Content-Type: application/json, Authorization: "empty": 200).
 - Verify status code with different type of headers (Content-Type: application/xml: 200).
-# GET /orders/all:
+### GET /orders/all:
 - Verify response status code.
 - Verify exist of payload in response.
 - Verify types values in response.
@@ -179,7 +182,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify status code with different type of headers (Content-Type: application/json, Authorization: "": 200).
 - Verify status code with different type of headers (Content-Type: application/json, Authorization: "empty": 200).
 - Verify status code with different type of headers (Content-Type: application/xml: 200). 
-# GET /auth/user:
+### GET /auth/user:
 - Verify response status code.
 - Verify exist of payload in response.
 - Verify types values in response.
@@ -188,7 +191,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify response with invalid token (Invalid token: 401).
 - Verify response code with invalid methods (POST: 403).
 - Verify response code with invalid methods (PUT: 404).
-# PATCH /auth/register:
+### PATCH /auth/register:
 - Verify response status code (email: 200).
 - Verify response status code (name: 200).
 - Verify response status code (password: 200).
@@ -208,7 +211,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify response with invalid token (password, Empty token: 401).
 - Verify response with invalid token (password,Invalid token: 401).
 - Verify response code with exist email patch.
-# POST /auth/logout:
+### POST /auth/logout:
 - Verify response status code.
 - Verify exist of payload in response.
 - Verify payload values in response.
@@ -219,7 +222,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify response code with invalid methods (GET: 404).
 - Verify response code with invalid methods (PUT: 404).
 - Verify response code with invalid methods (PATCH: 404).
-# POST /orders:
+### POST /orders:
 - Verify response status code.
 - Verify exist of payload in response. 
 - Verify values type in response.
@@ -240,7 +243,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify price of order with bun.
 - Verify response code with invalid token (Empty token: 401).
 - Verify response code with invalid token (Invalid token: 401).
-# POST /auth/register:
+### POST /auth/register:
 - Verify response status code.
 - Verify exist of payload in response.
 - Verify values type in response.
@@ -275,7 +278,7 @@ This is a demo project showcasing various skills in test automation.
 - Verify response code with different name (User name with front space string: 404).
 - Verify response code with different name (User name with back space string: 404).
 - Verify response with exist user registration.
-# POST /password-reset:
+### POST /password-reset:
 - Verify response status code.
 - Verify exist of payload in response.
 - Verify values in response.
@@ -299,10 +302,14 @@ This is a demo project showcasing various skills in test automation.
 - Verify UI SignIn with different API password registration (Password 100).
 </details>
 
-### Allure Report
-- [Allure Report](https://eeefimov.github.io/demo/)
-- Sample Allure Report:
-  <details>
-    <summary>View Report</summary>
-    ![Allure Report Screenshot](path/to/allure-report-screenshot)
-  </details>
+## Allure Report [Link:](https://eeefimov.github.io/demo/)
+
+## Allure Report View:
+### Main view:
+![](ScreenShots/AllureMain.png)
+
+### API report view:
+![](ScreenShots/APIReportSample.png)
+
+### UI report view:
+![](ScreenShots/UiReportSample.png)
