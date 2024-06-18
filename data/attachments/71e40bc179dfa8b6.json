@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "amanda.fisher@lee-williams.com",
+        "name": "Regiotina66"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2UzOWVkMjgwMDAxYjQ0MTFkMCIsImlhdCI6MTcxODc0NjMzOSwiZXhwIjoxNzE4NzQ3NTM5fQ.9Xt9jw3042scAJS9v_D6au1AAEY4b_m9HdQDVAEWPmw",
+    "refreshToken": "7f0ff8d3539f6d70821a3a337e328751f959e942545cbbf4f68457b06e578cb28d6873501dfa7800"
+}

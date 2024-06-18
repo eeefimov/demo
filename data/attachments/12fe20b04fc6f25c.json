@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "john.contreras@mccoy.com",
-        "name": "Betwehardinglori"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzgxOWVkMjgwMDAxYjQ0MDk4MiIsImlhdCI6MTcxODcyMDM4NSwiZXhwIjoxNzE4NzIxNTg1fQ.y28Mn_m3YcU8VjPWR6XplO7zopTPDDGWDJ3RYD-sK8E",
-    "refreshToken": "9447e663650158b4d8715256fc18b557b07fca47963f72bc0c8d66295f0bb7abb2773e5713f3bac0"
-}

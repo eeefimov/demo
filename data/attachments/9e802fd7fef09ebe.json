@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "danielle.murillo@anderson-eaton.com",
+        "name": "Oftenfsmith"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzk0OWVkMjgwMDAxYjQ0MTE2OSIsImlhdCI6MTcxODc0NjI2MCwiZXhwIjoxNzE4NzQ3NDYwfQ.NiJ500ZbEmom7nVAme-bgLyIdGZc888sDxH-mwYj8BQ",
+    "refreshToken": "7841aa40392535f84a1d25629dacb878b2c2ac99aa2a1639f79a1e6202b58b1a324a9f30401e553e"
+}

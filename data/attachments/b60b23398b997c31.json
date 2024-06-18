@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "connor.lee@burton-clayton.com",
+        "name": "Tax handrea20"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDAxOWVkMjgwMDAxYjQ0MTIwMCIsImlhdCI6MTcxODc0NjM2OSwiZXhwIjoxNzE4NzQ3NTY5fQ.yBiI4s1ITcTyyqXkoQ_-kctWJBBpVOGp-szHeQZYCMA",
+    "refreshToken": "c9371c0118638d223a31223bb4654c51ce509272613218744811a5b94b9953e707190f9eaf0372b3"
+}

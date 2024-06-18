@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "debra.smith@white.com",
+        "name": "Your simpsonraymond"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhkOWVkMjgwMDAxYjQ0MTE1OSIsImlhdCI6MTcxODc0NjI1MywiZXhwIjoxNzE4NzQ3NDUzfQ.eC0uK2FIujqlIglVMqbRtaBZPf8ZeEC_1sRAOBGLksI",
+    "refreshToken": "df2cc277dfc337fb132f00ca98f6e1ba73289153fd91b225da3701d8552a577a3525380dd9992885"
+}

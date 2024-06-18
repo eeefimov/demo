@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "lmason@example.org",
-        "name": "april51"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQ0OWVkMjgwMDAxYjQ0MDk1MiIsImlhdCI6MTcxODcyMDMyNCwiZXhwIjoxNzE4NzIxNTI0fQ.KyAlvnrOjms-o2gxue6SIpkQeJsXI1mdUETfpFy3U4w",
-    "refreshToken": "6a2d594e6fb6b78a88e250d75683fc43f8f04897d7d1ce3b2ffa4f986571813b9b0bacc9036a8f93"
-}

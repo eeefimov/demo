@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "biancacisneros@example.com",
-        "name": " deep"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzRhOWVkMjgwMDAxYjQ0MDk2MiIsImlhdCI6MTcxODcyMDMzMCwiZXhwIjoxNzE4NzIxNTMwfQ.HB7vbtFS2d4SZQuvVlKDCMDhFPkfXvpjCHkm-3dE8-4",
-    "refreshToken": "84cef469730fd9593aa6ba557050602460d3d9886ed684562955fa603415533f1d695d36437ce6c8"
-}

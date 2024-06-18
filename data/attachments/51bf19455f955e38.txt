@@ -1,4 +1,0 @@
-method = get
-endpoint = https://stellarburgers.nomoreparties.site/api/orders
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzMxOWVkMjgwMDAxYjQ0MDkyZSIsImlhdCI6MTcxODcyMDMwNSwiZXhwIjoxNzE4NzIxNTA1fQ.qsWvO1-UbnyMvukWJ-2YXJws0HBxcYkUJMcesqoY7tw'}
-data_models = None

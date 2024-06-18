@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "justin.gomez@chavez.com",
+        "name": "Everychadlowery"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzgwOWVkMjgwMDAxYjQ0MTEzZCIsImlhdCI6MTcxODc0NjI0MCwiZXhwIjoxNzE4NzQ3NDQwfQ.J4eAUh24wshOzEzbCdFc20OqGhdlX4Qfo9ItGearA5k",
+    "refreshToken": "1c0a5a55fded34981d9e8b7839a9c5f2c602c1b0b6ab45035df5a1646e83b49c05bb03627aedca62"
+}

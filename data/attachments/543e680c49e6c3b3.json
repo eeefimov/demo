@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "carrie.howard@garcia-collins.org",
-        "name": "More stanleyanita"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmZmOWVkMjgwMDAxYjQ0MDhlNCIsImlhdCI6MTcxODcyMDI1NSwiZXhwIjoxNzE4NzIxNDU1fQ.rWhv_rX4pMCO5Q0AMIG4-S2dXfV3K2hD_dWMpK9y7ew",
-    "refreshToken": "1c245ea6cfe379033109354b735f101ba7f8d0c4798300452db20a8dddf6e53435cd00964a210125"
-}

@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "name": "\u0410\u043d\u0442\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439-\u0433\u0430\u043b\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6d",
+                "name": "\u0424\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u0430\u044f \u0431\u0443\u043b\u043a\u0430 R2-D3",
+                "type": "bun",
+                "proteins": 44,
+                "fat": 26,
+                "carbohydrates": 85,
+                "calories": 643,
+                "price": 988,
+                "image": "https://code.s3.yandex.net/react/code/bun-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/bun-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/bun-01-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa75",
+                "name": "\u0421\u043e\u0443\u0441 \u0441 \u0448\u0438\u043f\u0430\u043c\u0438 \u0410\u043d\u0442\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u043f\u043b\u043e\u0441\u043a\u043e\u0445\u043e\u0434\u0446\u0430",
+                "type": "sauce",
+                "proteins": 101,
+                "fat": 99,
+                "carbohydrates": 100,
+                "calories": 100,
+                "price": 88,
+                "image": "https://code.s3.yandex.net/react/code/sauce-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sauce-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sauce-01-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa74",
+                "name": "\u0421\u043e\u0443\u0441 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0433\u0430\u043b\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+                "type": "sauce",
+                "proteins": 42,
+                "fat": 24,
+                "carbohydrates": 42,
+                "calories": 99,
+                "price": 15,
+                "image": "https://code.s3.yandex.net/react/code/sauce-03.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sauce-03-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sauce-03-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa74",
+                "name": "\u0421\u043e\u0443\u0441 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0433\u0430\u043b\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+                "type": "sauce",
+                "proteins": 42,
+                "fat": 24,
+                "carbohydrates": 42,
+                "calories": 99,
+                "price": 15,
+                "image": "https://code.s3.yandex.net/react/code/sauce-03.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sauce-03-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sauce-03-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "6671fca09ed280001b441183",
+        "owner": {
+            "name": "Neverelizabeth34",
+            "email": "lisa.baker@jensen.com",
+            "createdAt": "2024-06-18T21:31:12.629Z",
+            "updatedAt": "2024-06-18T21:31:12.629Z"
+        },
+        "status": "done",
+        "name": "\u0410\u043d\u0442\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439-\u0433\u0430\u043b\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+        "createdAt": "2024-06-18T21:31:12.900Z",
+        "updatedAt": "2024-06-18T21:31:13.426Z",
+        "number": 80806,
+        "price": 1106
+    }
+}

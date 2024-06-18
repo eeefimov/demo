@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "victor.evans@conner.com",
-        "name": "Relatsilvakristy"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVhOWVkMjgwMDAxYjQ0MDhhNyIsImlhdCI6MTcxODcyMDIzNCwiZXhwIjoxNzE4NzIxNDM0fQ.rglVGJrNVi9BPW0MA1E6dwb6GpWsfpTZdbCBLL1S8VU",
-    "refreshToken": "7444d744db7d29d3baf33024470b4853648ab516302f4c000fe7d4920234a16589783032e45b6d30"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "donald.schneider@gibbs.com",
-        "name": "Listevjohnston"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzEwOWVkMjgwMDAxYjQ0MDkwNSIsImlhdCI6MTcxODcyMDI3MiwiZXhwIjoxNzE4NzIxNDcyfQ.bp4ctrb98HitQ0gZTbYI6q7hvonuajR-TZQ2ntTmWIA",
-    "refreshToken": "2b3b8a8ffdd8928bf6b4bac52acbaf569f1faeaa535cec5e44cfd6064ffae3624d973aa1c9ed0d9e"
-}

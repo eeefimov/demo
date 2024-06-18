@@ -1,4 +1,0 @@
-method = POST
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
-header = None
-data_models = {'token': '9040bb17e02f5ea27314e25e5fda032e23c2ca4eb13370c474bb3b04f77311509308f27873eb9de8'}

@@ -1,0 +1,326 @@
+{
+  "uid" : "2836fe0f5110856f",
+  "name" : "test_password_validation[Password < 6]",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_password_validation",
+  "historyId" : "5d71d7cf20ff587ee094724bb47fe8e6",
+  "time" : {
+    "start" : 1718746355079,
+    "stop" : 1718746355404,
+    "duration" : 325
+  },
+  "description" : "Verify response code with different password length.",
+  "descriptionHtml" : "<p>Verify response code with different password length.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 400\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "self = <tests.tests_api.test_post_register.TestRegister object at 0x7fcfc6040410>\nregister = <api.user.USER object at 0x7fcfc6120bd0>, name = 'jcarr'\nmail = 'ricardomartinez@example.net', pwd = '!r7fF', exp = 400\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", password_validation)\n    def test_password_validation(self, register, name, mail, pwd, exp):\n        \"\"\"Verify response code with different password length.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        response = register.post_register()\n>       assert response.status_code == exp\nE       assert 200 == 400\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_register.py:147: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "register",
+    "time" : {
+      "start" : 1718746355077,
+      "stop" : 1718746355078,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718746355077,
+        "stop" : 1718746355078,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718746355078,
+          "stop" : 1718746355078,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Envirerichernandez'"
+        }, {
+          "name" : "mail",
+          "value" : "'Ronald.Mayo@glenn-carlson.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'^46gkJ'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215248,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with different password length.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 400\n +  where 200 = <Response [200]>.status_code",
+    "statusTrace" : "self = <tests.tests_api.test_post_register.TestRegister object at 0x7fcfc6040410>\nregister = <api.user.USER object at 0x7fcfc6120bd0>, name = 'jcarr'\nmail = 'ricardomartinez@example.net', pwd = '!r7fF', exp = 400\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", password_validation)\n    def test_password_validation(self, register, name, mail, pwd, exp):\n        \"\"\"Verify response code with different password length.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        response = register.post_register()\n>       assert response.status_code == exp\nE       assert 200 == 400\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_register.py:147: AssertionError",
+    "steps" : [ {
+      "name" : "Set user registration data_models",
+      "time" : {
+        "start" : 1718746355079,
+        "stop" : 1718746355079,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'jcarr'"
+      }, {
+        "name" : "mail",
+        "value" : "'ricardomartinez@example.net'"
+      }, {
+        "name" : "pwd",
+        "value" : "'!r7fF'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718746355079,
+        "stop" : 1718746355404,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbce81c978ddb580",
+        "name" : "Request Info",
+        "source" : "fbce81c978ddb580.txt",
+        "type" : "text/plain",
+        "size" : 192
+      }, {
+        "uid" : "fab1efca59d6cc84",
+        "name" : "api Response",
+        "source" : "fab1efca59d6cc84.json",
+        "type" : "application/json",
+        "size" : 421
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718746355408,
+      "stop" : 1718746355906,
+      "duration" : 498
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718746355408,
+        "stop" : 1718746355905,
+        "duration" : 497
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718746355408,
+          "stop" : 1718746355408,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2YzOWVkMjgwMDAxYjQ0MTFlNiIsImlhdCI6MTcxODc0NjM1NSwiZXhwIjoxNzE4NzQ3NTU1fQ.nTp-piOdCKJA1Snb2Bnzz7M8z01rxvClIUbTBF8-aBY'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d9db722ca9bffe06",
+        "name" : "Request Info",
+        "source" : "d9db722ca9bffe06.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2YzOWVkMjgwMDAxYjQ0MTFlNiIsImlhdCI6MTcxODc0NjM1NSwiZXhwIjoxNzE4NzQ3NTU1fQ.nTp-piOdCKJA1Snb2Bnzz7M8z01rxvClIUbTBF8-aBY'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "578d3966b87e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "400"
+  }, {
+    "name" : "mail",
+    "value" : "'ricardomartinez@example.net'"
+  }, {
+    "name" : "name",
+    "value" : "'jcarr'"
+  }, {
+    "name" : "pwd",
+    "value" : "'!r7fF'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2836fe0f5110856f.json",
+  "parameterValues" : [ "400", "'ricardomartinez@example.net'", "'jcarr'", "'!r7fF'" ]
+}

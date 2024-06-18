@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "amy.flynn@kelly-thomas.info",
+        "name": "Four wchan"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzlhOWVkMjgwMDAxYjQ0MTE3NSIsImlhdCI6MTcxODc0NjI2NiwiZXhwIjoxNzE4NzQ3NDY2fQ.KiRctLXah1Z41cY916gNMVEHl89BjwU_TcuGHi14TLc",
+    "refreshToken": "ed6aff14ed7861ca47f2f82ace0bd5f98a4e25ebd81a4a4e3c625184c8a00e8987a73676ae10ce48"
+}

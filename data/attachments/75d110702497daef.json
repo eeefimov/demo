@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "marcus.jones@shepherd.com",
+        "name": "Procebakerkaren"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzlmOWVkMjgwMDAxYjQ0MTE3ZiIsImlhdCI6MTcxODc0NjI3MSwiZXhwIjoxNzE4NzQ3NDcxfQ.9zj6ONTbituXZ9lItyHCpA9vQTxBilkoJhDR6PDQ6tA",
+    "refreshToken": "c680532c09980f595cd23f60e2afa68030be06064d5d5fbf0c115d58d0301928018ceaffba6b4344"
+}

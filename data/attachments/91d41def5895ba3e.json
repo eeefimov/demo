@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "tina.lewis@baldwin.biz",
-        "name": "It isdavisrobin"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU5OWVkMjgwMDAxYjQ0MDhhNSIsImlhdCI6MTcxODcyMDIzMywiZXhwIjoxNzE4NzIxNDMzfQ.5dy1Iivbnqo2jYPtqmff3xAgfg1grPIPSSOy_WdtG90",
-    "refreshToken": "e5c545ab1d647544935f0c03956faeb238cb7ec33ebfe70c7e52be68b316500e73a86a637031711f"
-}

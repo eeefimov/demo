@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jaclyn.adams@rivera.com",
-        "name": "Quitenfischer"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzA3OWVkMjgwMDAxYjQ0MDhmNCIsImlhdCI6MTcxODcyMDI2MywiZXhwIjoxNzE4NzIxNDYzfQ.PKzmLSg3fHMKeE1blf9DCyT4a51dDu8NAK5WnUnNZa0",
-    "refreshToken": "92259205725b7d12747a7f2c8536ca1ddc4dbd13e5f2aa790bdfbdac29db1709c46231097da36c76"
-}

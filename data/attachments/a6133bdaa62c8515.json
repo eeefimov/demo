@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "keith.kelly@york.com",
-        "name": "Commeamandahutchinson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU3OWVkMjgwMDAxYjQ0MDg5ZiIsImlhdCI6MTcxODcyMDIzMSwiZXhwIjoxNzE4NzIxNDMxfQ.AosvUwx1Vh30Z6upinYWM_F_ftfMZazpAao2EG4yRH0",
-    "refreshToken": "f5d7ab0ce02fd2d0302baeeebd6b797a64090af643b753fa4d22692d2a89fd7f41e6573f67d6b1ff"
-}

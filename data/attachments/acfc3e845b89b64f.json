@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "walter.smith@griffin-perkins.org",
-        "name": "Onto brittanychristian"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzBiOWVkMjgwMDAxYjQ0MDhmYSIsImlhdCI6MTcxODcyMDI2NywiZXhwIjoxNzE4NzIxNDY3fQ.pAYxuSLyCTg208er-syl7XzlY0VOVflLi3TWWhKHuaw",
-    "refreshToken": "9c893197cf5ec2b529a00df78492439b954763b704c1f9d21ddacb69c2837b903fdfdfcebdcdb0af"
-}

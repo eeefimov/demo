@@ -1,4 +1,0 @@
-method = PATCH
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU4OWVkMjgwMDAxYjQ0MDhhMyIsImlhdCI6MTcxODcyMDIzMiwiZXhwIjoxNzE4NzIxNDMyfQ.hvKy8VBZsVozE-6RwWmQjTKVIuSxkazV2lss2EfDMsU'}
-data_models = {'name': 'Tax aepadilla', 'email': 'Grace.Patterson@martin-campbell.com', 'password': '_A1_B0'}

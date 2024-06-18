@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "sarah-perez-montoya@burnett.com",
-        "name": "dale05"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQzOWVkMjgwMDAxYjQ0MDk0ZSIsImlhdCI6MTcxODcyMDMyMywiZXhwIjoxNzE4NzIxNTIzfQ.JqV8OzwXudqAhZ3Zh1UFOsvIVLJsS5df8BH931uU_5o",
-    "refreshToken": "1546e1ca849b9f7a8407fc36702684f9f711fe41b62e6e260d054bb2ad026b2f6fd06979eda1af8b"
-}

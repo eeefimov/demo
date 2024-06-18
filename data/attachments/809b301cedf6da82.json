@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "rhayes@example.com",
-        "name": "perhaps expert"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQ4OWVkMjgwMDAxYjQ0MDk1ZSIsImlhdCI6MTcxODcyMDMyOCwiZXhwIjoxNzE4NzIxNTI4fQ.XoYIdA6rIO-S4cvvbdyiemXEtde7A3_Ay-V7cS7ihfI",
-    "refreshToken": "d5389a2afa5283142e66da5ec75a14d163460abeb1d3ee019716c2360da4ce19c61f94d0749a2413"
-}

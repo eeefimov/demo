@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "benjamin.brown@gutierrez-keller.com",
+        "name": "Head candice25"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzlkOWVkMjgwMDAxYjQ0MTE3OSIsImlhdCI6MTcxODc0NjI2OSwiZXhwIjoxNzE4NzQ3NDY5fQ.FUNqjYgfN1uU2zLh5hK5bzOb-MZzZ_UmzcLQYcl0IFE",
+    "refreshToken": "bccc523434a1f7fb071b01a497d1c33e8f596da7b595946bbc9705de3067bc1b5378f2cfd0126e20"
+}

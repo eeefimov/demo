@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "larry.garcia@owens-lewis.com",
-        "name": "Bar fdavid14"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzAxOWVkMjgwMDAxYjQ0MDhlOSIsImlhdCI6MTcxODcyMDI1NywiZXhwIjoxNzE4NzIxNDU3fQ.9S6jKlXAW9IQj70os5I9FRBOpwJSRzZX238LvpZS0-I",
-    "refreshToken": "5604a80e1fb4d51f0303dd92fda867d81c6bc42bc4ed8b2da0f2b62d797bdb4e23402256535d211c"
-}

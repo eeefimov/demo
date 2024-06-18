@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "ricky.pierce@graves-harris.com",
+        "name": "Give xsanchez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2RjOWVkMjgwMDAxYjQ0MTFjNyIsImlhdCI6MTcxODc0NjMzMiwiZXhwIjoxNzE4NzQ3NTMyfQ.kWzvEBodRMxTHWMgoBv9fENoYBOOf-w0pfFApLEkTss",
+    "refreshToken": "c1c67d69b21f45d0c1705c54bf9db92a11d5d37f8e23cfac657c60cc18cf774cb23fa9ca786907c6"
+}

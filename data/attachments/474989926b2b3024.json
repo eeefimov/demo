@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "stephen.rodriguez@carr-hall.com",
-        "name": "Speciwaguirre"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmYxOWVkMjgwMDAxYjQ0MDhiZCIsImlhdCI6MTcxODcyMDI0MSwiZXhwIjoxNzE4NzIxNDQxfQ.Uf-3Lti899OnMFAz_U8ofScTYF8g4rMrQC6zZxBab5o",
-    "refreshToken": "a594a260511dd820e9750a28b2a71d66b7494ac181810416246440844ae7a4b2478d1c4883f9f512"
-}

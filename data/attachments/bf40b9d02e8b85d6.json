@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jimmy.matthews@sanchez.com",
+        "name": "Inforxperez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzllOWVkMjgwMDAxYjQ0MTE3ZCIsImlhdCI6MTcxODc0NjI3MSwiZXhwIjoxNzE4NzQ3NDcxfQ.urvdfF_1yBpeqA6-ZJ8M-5PUL-TsU09fRYEJxMiDMH8",
+    "refreshToken": "654c1dfa0742dbb75e1bc961fc6158ceeef47ab8729032cc724ab0a8d95b519a4648c3974a9483a0"
+}

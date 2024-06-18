@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "douglas.melendez@howard.com",
+        "name": "Childgclark"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2Q5OWVkMjgwMDAxYjQ0MTFjNCIsImlhdCI6MTcxODc0NjMyOSwiZXhwIjoxNzE4NzQ3NTI5fQ.-ZGpTqjeFoSmJ85EGvljxHQF4JYKGEzjZB2JI4mqsw4",
+    "refreshToken": "fc1fd6edacf8931c0a4716b3e132450f4e0c26a05b6ae2020ebe449e79501d31ed627fc6914c3678"
+}

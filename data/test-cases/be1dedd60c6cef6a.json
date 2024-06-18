@@ -1,0 +1,303 @@
+{
+  "uid" : "be1dedd60c6cef6a",
+  "name" : "test_orders_info_window",
+  "fullName" : "tests_ui.test_orders_page#test_orders_info_window",
+  "historyId" : "3482fc4e6da55393ebe6c6b326fdc3d1",
+  "time" : {
+    "start" : 1718746838611,
+    "stop" : 1718746840693,
+    "duration" : 2082
+  },
+  "description" : "Verify order items have Info window.",
+  "descriptionHtml" : "<p>Verify order items have Info window.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718746836796,
+      "stop" : 1718746838193,
+      "duration" : 1397
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718746837200,
+        "stop" : 1718746838193,
+        "duration" : 993
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "orders_page",
+    "time" : {
+      "start" : 1718746838193,
+      "stop" : 1718746838611,
+      "duration" : 418
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click List of Orders button on Header",
+      "time" : {
+        "start" : 1718746838193,
+        "stop" : 1718746838611,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215248,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify order items have Info window.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click random order item",
+      "time" : {
+        "start" : 1718746840617,
+        "stop" : 1718746840684,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify presence Modal window",
+      "time" : {
+        "start" : 1718746840685,
+        "stop" : 1718746840693,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718746840693,
+      "stop" : 1718746840887,
+      "duration" : 194
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9483e7758e5f6e8",
+      "name" : "Screenshot_2024-06-18 21:40:40.831421",
+      "source" : "9483e7758e5f6e8.png",
+      "type" : "image/png",
+      "size" : 196485
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_orders_page"
+  }, {
+    "name" : "host",
+    "value" : "578d3966b87e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_orders_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "fe62001ca8bbec0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720865353,
+          "stop" : 1718720867408,
+          "duration" : 2055
+        }
+      }, {
+        "uid" : "fd570a4b8d1ba9f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718717407855,
+          "stop" : 1718717409912,
+          "duration" : 2057
+        }
+      }, {
+        "uid" : "f406ba35f57bb4a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459409241,
+          "stop" : 1718459411299,
+          "duration" : 2058
+        }
+      }, {
+        "uid" : "a8967d0e7f63b9a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457535170,
+          "stop" : 1718457537219,
+          "duration" : 2049
+        }
+      }, {
+        "uid" : "a5fb840b5c4a74e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455867997,
+          "stop" : 1718455870048,
+          "duration" : 2051
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be1dedd60c6cef6a.json",
+  "parameterValues" : [ ]
+}

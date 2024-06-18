@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "brian.jones@rivera.com",
+        "name": "Fine paulawright"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2IxOWVkMjgwMDAxYjQ0MTE5YiIsImlhdCI6MTcxODc0NjI4OSwiZXhwIjoxNzE4NzQ3NDg5fQ.PtaF-wHVIBxTCuipUv62aw-nBOD_Jxl3BaF_y1Z0kA4",
+    "refreshToken": "831d03f2e1a77f06f96e050278e912eecd5ae81ef0690084d2d87ce0cfadcd90d7256d53e62d1b2f"
+}

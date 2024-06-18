@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "william.reynolds@lewis.com",
-        "name": "Majorkbyrd"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmYyOWVkMjgwMDAxYjQ0MDhjMSIsImlhdCI6MTcxODcyMDI0MiwiZXhwIjoxNzE4NzIxNDQyfQ.x6R5xh6NbEASvebKuI2DYDLBwn_ZJIQnT22ZZTS9NIk",
-    "refreshToken": "180a9adecc62246829e964ac2388cb25055c566208efcc963c6d452aabab51bc28e3f6b3b40a5f4b"
-}

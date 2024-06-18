@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "christopher.jenkins@barrera-bradford.biz",
-        "name": "Finalbilly54"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzJjOWVkMjgwMDAxYjQ0MDkyNiIsImlhdCI6MTcxODcyMDMwMCwiZXhwIjoxNzE4NzIxNTAwfQ.W-S0KDq2rZkTgX46ojNWs4heo8zLnGdlMQ05Wjwm3HQ",
-    "refreshToken": "dcd0b5e45002d33e69720ac0d20212e5edc7049030b592ca14350b554df8766e90d9328a5319635d"
-}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "rachel.perkins@taylor.com",
-        "name": "How wscott65"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzUzOWVkMjgwMDAxYjQ0MDk3MyIsImlhdCI6MTcxODcyMDMzOSwiZXhwIjoxNzE4NzIxNTM5fQ.6H3ILSwJNzDgMtgZ-v6nV8RR2eG4xAfgk5KCn7vdWVw",
-    "refreshToken": "395563da1d1686c95c60b64dccd38791090f02f4f002b2f34ceff7293d2a43ed50657205a87c5e9f"
-}

@@ -1,0 +1,331 @@
+{
+  "uid" : "2f64b9fc6ab490d4",
+  "name" : "test_register_name_validation[User post_login with 1 char]",
+  "fullName" : "tests_ui.test_registration_page#test_register_name_validation",
+  "historyId" : "e911547cf4ed3c573f5ff5accb6ea015",
+  "time" : {
+    "start" : 1718746947648,
+    "stop" : 1718746953787,
+    "duration" : 6139
+  },
+  "description" : "Verify registration with a different invalid name values.",
+  "descriptionHtml" : "<p>Verify registration with a different invalid name values.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h2[contains(text(), 'Вход')]\")\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"",
+  "statusTrace" : "register_page = <Page url='https://stellarburgers.nomoreparties.site/login'>\nname = 'B', mail = 'michaelrobinson@example.com', pwd = '0!4Bb('\n\n    @pytest.mark.parametrize(\"name, mail, pwd\", name_validation)\n    def test_register_name_validation(register_page, name, mail, pwd):\n        \"\"\"Verify registration with a different invalid name values.\"\"\"\n        REGISTER.set_register_fields(register_page, name, mail, pwd)\n    \n        with allure.step(\"User stays at Registration page.\"):\n>           expect(register_page.locator(LOGIN.TOP_TITLE)).not_to_be_visible()\nE           AssertionError: Locator expected not to be visible\nE           Actual value: True \nE           Call log:\nE           LocatorAssertions.not_to_be_visible with timeout 5000ms\nE             - waiting for locator(\"//h2[contains(text(), 'Вход')]\")\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\n\ntests/tests_ui/test_registration_page.py:124: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215248,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718746945441,
+      "stop" : 1718746946616,
+      "duration" : 1175
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718746945844,
+        "stop" : 1718746946616,
+        "duration" : 772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register_page",
+    "time" : {
+      "start" : 1718746946616,
+      "stop" : 1718746947647,
+      "duration" : 1031
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718746946616,
+        "stop" : 1718746947582,
+        "duration" : 966
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Registration link",
+      "time" : {
+        "start" : 1718746947582,
+        "stop" : 1718746947646,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify registration with a different invalid name values.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h2[contains(text(), 'Вход')]\")\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"",
+    "statusTrace" : "register_page = <Page url='https://stellarburgers.nomoreparties.site/login'>\nname = 'B', mail = 'michaelrobinson@example.com', pwd = '0!4Bb('\n\n    @pytest.mark.parametrize(\"name, mail, pwd\", name_validation)\n    def test_register_name_validation(register_page, name, mail, pwd):\n        \"\"\"Verify registration with a different invalid name values.\"\"\"\n        REGISTER.set_register_fields(register_page, name, mail, pwd)\n    \n        with allure.step(\"User stays at Registration page.\"):\n>           expect(register_page.locator(LOGIN.TOP_TITLE)).not_to_be_visible()\nE           AssertionError: Locator expected not to be visible\nE           Actual value: True \nE           Call log:\nE           LocatorAssertions.not_to_be_visible with timeout 5000ms\nE             - waiting for locator(\"//h2[contains(text(), 'Вход')]\")\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\nE             -   locator resolved to <h2>Вход</h2>\nE             -   unexpected value \"visible\"\n\ntests/tests_ui/test_registration_page.py:124: AssertionError",
+    "steps" : [ {
+      "name" : "Fill in Login field",
+      "time" : {
+        "start" : 1718746947648,
+        "stop" : 1718746947683,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in Email field",
+      "time" : {
+        "start" : 1718746947683,
+        "stop" : 1718746947711,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in Password field",
+      "time" : {
+        "start" : 1718746947711,
+        "stop" : 1718746947740,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Registration button",
+      "time" : {
+        "start" : 1718746947741,
+        "stop" : 1718746948782,
+        "duration" : 1041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User stays at Registration page.",
+      "time" : {
+        "start" : 1718746948782,
+        "stop" : 1718746953787,
+        "duration" : 5005
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h2[contains(text(), 'Вход')]\")\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/tests_ui/test_registration_page.py\", line 124, in test_register_name_validation\n    expect(register_page.locator(LOGIN.TOP_TITLE)).not_to_be_visible()\n  File \"/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py\", line 20924, in not_to_be_visible\n    self._sync(\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 667, in not_to_be_visible\n    await self._not.to_be_visible(visible, timeout)\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 654, in to_be_visible\n    await self._expect_impl(\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 70, in _expect_impl\n    raise AssertionError(\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718746953792,
+      "stop" : 1718746953942,
+      "duration" : 150
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "28dae89bce56b6b7",
+      "name" : "Screenshot_2024-06-18 21:42:33.888203",
+      "source" : "28dae89bce56b6b7.png",
+      "type" : "image/png",
+      "size" : 45428
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration_page"
+  }, {
+    "name" : "host",
+    "value" : "578d3966b87e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_registration_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mail",
+    "value" : "'michaelrobinson@example.com'"
+  }, {
+    "name" : "name",
+    "value" : "'B'"
+  }, {
+    "name" : "pwd",
+    "value" : "'0!4Bb('"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2f64b9fc6ab490d4.json",
+  "parameterValues" : [ "'michaelrobinson@example.com'", "'B'", "'0!4Bb('" ]
+}

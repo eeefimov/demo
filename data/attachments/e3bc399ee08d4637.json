@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "emma.morrow@hendricks.com",
-        "name": "Anyonfloresveronica"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzRmOWVkMjgwMDAxYjQ0MDk2ZSIsImlhdCI6MTcxODcyMDMzNSwiZXhwIjoxNzE4NzIxNTM1fQ.YFuIxRfRi5PssP3DuhyIanMXPx-o-2wantU9SeYTyp0",
-    "refreshToken": "657e375209432c30c3b361d791e8f45eb029ba49ebada532c0042a9a7812f4269482ceec1a455836"
-}

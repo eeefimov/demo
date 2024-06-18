@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jose.hernandez@gonzalez-good.org",
+        "name": "Strucdannyblair"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzdmOWVkMjgwMDAxYjQ0MTEzOSIsImlhdCI6MTcxODc0NjIzOSwiZXhwIjoxNzE4NzQ3NDM5fQ.Yd3h0JTQ5VsgrKuTZwHNqC3ymNpGSW-kSO2bXZXyiz4",
+    "refreshToken": "1d190f17ca29f7255ce651adf2dfe1e1ff04023074d2229281589ad2daaff127f35e8e5d956d8647"
+}

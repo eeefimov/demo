@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "henry.saunders@johnson-bishop.com",
+        "name": "Thoughardingrebecca"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDM3OWVkMjgwMDAxYjQ0MTIwZSIsImlhdCI6MTcxODc0NjQyMywiZXhwIjoxNzE4NzQ3NjIzfQ.qk0YaJsc-HAu2dhTmFDyMwp7BSWQsR2PqUhY3BFlkgQ",
+    "refreshToken": "88da522da8e6024964a6cfd90559942f58282fd7be62792647867e2d999a93376624bc60d4b79afd"
+}

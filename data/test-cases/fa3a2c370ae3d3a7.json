@@ -1,0 +1,346 @@
+{
+  "uid" : "fa3a2c370ae3d3a7",
+  "name" : "test_payload_type_validation",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_payload_type_validation",
+  "historyId" : "ddf1d4c45a4dd4ad03de8e91176900ad",
+  "time" : {
+    "start" : 1718746340112,
+    "stop" : 1718746340441,
+    "duration" : 329
+  },
+  "description" : "Verify values type in response.",
+  "descriptionHtml" : "<p>Verify values type in response.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215248,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718746340111,
+      "stop" : 1718746340112,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718746340111,
+        "stop" : 1718746340112,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718746340112,
+          "stop" : 1718746340112,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Energhalldorothy'"
+        }, {
+          "name" : "mail",
+          "value" : "'Tanya.Davis@pierce-jackson.org'"
+        }, {
+          "name" : "pwd",
+          "value" : "'_uU5VV'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718746215226,
+      "stop" : 1718746215226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify values type in response.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718746340113,
+        "stop" : 1718746340440,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8be1fd20460f928e",
+        "name" : "Request Info",
+        "source" : "8be1fd20460f928e.txt",
+        "type" : "text/plain",
+        "size" : 207
+      }, {
+        "uid" : "ec78b21391700426",
+        "name" : "api Response",
+        "source" : "ec78b21391700426.json",
+        "type" : "application/json",
+        "size" : 435
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup response model",
+      "time" : {
+        "start" : 1718746340440,
+        "stop" : 1718746340440,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "model",
+        "value" : "<class 'data_models.user_model.RegisterModel'>"
+      }, {
+        "name" : "input_data",
+        "value" : "{'success': True, 'user': {'email': 'tanya.davis@pierce-jackson.org', 'name': 'Energhalldorothy'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2U0OWVkMjgwMDAxYjQ0MTFkMiIsImlhdCI6MTcxODc0NjM0MCwiZXhwIjoxNzE4NzQ3NTQwfQ.yJbFjEX1FL_mymrp_Cso3ewim6_Xyfs-6bM9xvZe1BQ', 'refreshToken': '5aba7c74f02235093d4544dc10ff57c62cbb3f3ae615adb5a9596ce129e498c1581c183bdf93bea8'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718746340442,
+      "stop" : 1718746340950,
+      "duration" : 508
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718746340442,
+        "stop" : 1718746340949,
+        "duration" : 507
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718746340442,
+          "stop" : 1718746340442,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2U0OWVkMjgwMDAxYjQ0MTFkMiIsImlhdCI6MTcxODc0NjM0MCwiZXhwIjoxNzE4NzQ3NTQwfQ.yJbFjEX1FL_mymrp_Cso3ewim6_Xyfs-6bM9xvZe1BQ'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ea3dd048ece18801",
+        "name" : "Request Info",
+        "source" : "ea3dd048ece18801.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2U0OWVkMjgwMDAxYjQ0MTFkMiIsImlhdCI6MTcxODc0NjM0MCwiZXhwIjoxNzE4NzQ3NTQwfQ.yJbFjEX1FL_mymrp_Cso3ewim6_Xyfs-6bM9xvZe1BQ'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "578d3966b87e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "23ea088d8f4b94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720312699,
+          "stop" : 1718720312946,
+          "duration" : 247
+        }
+      }, {
+        "uid" : "eedbf81c1bceb468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458664476,
+          "stop" : 1718458664755,
+          "duration" : 279
+        }
+      }, {
+        "uid" : "28840d7c66f8227b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454929111,
+          "stop" : 1718454929335,
+          "duration" : 224
+        }
+      }, {
+        "uid" : "cf7d3dea5af76379",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453591991,
+          "stop" : 1718453592218,
+          "duration" : 227
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fa3a2c370ae3d3a7.json",
+  "parameterValues" : [ ]
+}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "keith.johnson@coleman-brooks.com",
-        "name": "Term angelawilliams"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzAyOWVkMjgwMDAxYjQ0MDhlYyIsImlhdCI6MTcxODcyMDI1OCwiZXhwIjoxNzE4NzIxNDU4fQ.UC7R0_JmjxxLmQ2AdvDUDV2m0CUIvCVwlaIPTccd1wM",
-    "refreshToken": "14f6f8cda64fb6a32a75ffb77271b91b5f6782990804a417b6273728cc6e0c4e4dfa76db04f4e4b5"
-}

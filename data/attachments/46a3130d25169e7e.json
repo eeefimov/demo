@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "meghan.martinez@scott.biz",
-        "name": "Sort mcbridemeghan"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU0OWVkMjgwMDAxYjQ0MDg5NyIsImlhdCI6MTcxODcyMDIyOCwiZXhwIjoxNzE4NzIxNDI4fQ.atc7WfoAV9qHiN4EAlnUIowqr9_xRY3izILcpkQiLMA",
-    "refreshToken": "088d9202b487dd591a5015c87218a4541b792cf2766c8e9ab173d950a46f88f2c1d791e0f6c0284f"
-}

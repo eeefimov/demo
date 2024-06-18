@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhkOWVkMjgwMDAxYjQ0MTE1YiIsImlhdCI6MTcxODc0NjI1MywiZXhwIjoxNzE4NzQ3NDUzfQ.aMwjqyy1z7BYt5jHCclzzQm4n04kNnITTMVdq2M1QG4'}
+data_models = {'name': 'Gardenicholevaughn', 'email': 'Amy.Acevedo@anderson.com', 'password': 'PVP+2%'}

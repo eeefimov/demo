@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "robert.davies@bryant.com",
+        "name": "Pass harrismelissa"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2ZiOWVkMjgwMDAxYjQ0MTFmOCIsImlhdCI6MTcxODc0NjM2MywiZXhwIjoxNzE4NzQ3NTYzfQ.1xiKAomGd5VGZ9sCoL7nAAt6vGL-amneZ7xfGh9mtCc",
+    "refreshToken": "8437625e039850c26e9e13ba630605552faf1843555dc2005ad9075ce4d973e44faa86ae24a62e41"
+}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "erica.santos@johnson-miller.biz",
-        "name": "Collejeremiah27"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY3OWVkMjgwMDAxYjQ0MDhjZiIsImlhdCI6MTcxODcyMDI0NywiZXhwIjoxNzE4NzIxNDQ3fQ.9yFv2a6kKep71YhEzsX_n589Yq6nELJHE8UbIjWviD0",
-    "refreshToken": "9040bb17e02f5ea27314e25e5fda032e23c2ca4eb13370c474bb3b04f77311509308f27873eb9de8"
-}

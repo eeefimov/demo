@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "christopher.sanders@sparks.com",
-        "name": "Generlynchbryan"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY0OWVkMjgwMDAxYjQ0MDhjNyIsImlhdCI6MTcxODcyMDI0NCwiZXhwIjoxNzE4NzIxNDQ0fQ.BTWxPz_VCpvKEkGNMSHHQh3pEk8x5M0GYsTtBt7Wn_k",
-    "refreshToken": "1e9836a0925aec2ec27e6ed7cc069f77b523242e2312fc8b0361d2863556b74275be683dd34419d9"
-}

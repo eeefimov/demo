@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kristie.thomas@decker.com",
+        "name": "Like sarah93"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2IzOWVkMjgwMDAxYjQ0MTE5ZSIsImlhdCI6MTcxODc0NjI5MSwiZXhwIjoxNzE4NzQ3NDkxfQ.YpJg6b7PZLjsN5Dsm6nzmDRfeli2DOBLX8TKrz-Xmb8",
+    "refreshToken": "8fec9322b47f462eebdf3624555a42a3f17f6c99cd506ae354ef6e13af3ba488988c4cc0ab12fcb5"
+}

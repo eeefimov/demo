@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "brandy.deleon@conley.com",
-        "name": "Full brooksvanessa"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzU3OWVkMjgwMDAxYjQ0MDk3OCIsImlhdCI6MTcxODcyMDM0MywiZXhwIjoxNzE4NzIxNTQzfQ.BOxnuO1CYx9b-5_TWZOvAsEZyYNxmllnTNP-4sNyLAg",
-    "refreshToken": "be747b58ada8e33fe5dc71f7b97f99df974d9f43f1ce19442239979252d8a4bb9fb0b81bc2d6af2c"
-}

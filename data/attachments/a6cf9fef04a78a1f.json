@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jeremy.murillo@fox.com",
-        "name": "Eithechristinamartinez"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY1OWVkMjgwMDAxYjQ0MDhjYiIsImlhdCI6MTcxODcyMDI0NSwiZXhwIjoxNzE4NzIxNDQ1fQ.9XnQ1zrLlAergbXmnSWiU1qsS0-Tf_F8egLFcO0utpw",
-    "refreshToken": "413ca41866bbffbf7ab72a9de6999140b2c594b9b1daa17dfa67ccc29ba9c9e3153783efbb1758f1"
-}

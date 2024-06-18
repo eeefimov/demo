@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "miranda.becker@sharp.info",
+        "name": "Opporsandrawalker"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhjOWVkMjgwMDAxYjQ0MTE1NyIsImlhdCI6MTcxODc0NjI1MiwiZXhwIjoxNzE4NzQ3NDUyfQ.TJ7l0YRqhQjI0L-KdaQGp3DYb9ahHiXPt0gLbd2RKhI",
+    "refreshToken": "803d760b9863e43b99b31f466754c02bc9818f710acf402110879ad658a560e654627bc295fc36de"
+}

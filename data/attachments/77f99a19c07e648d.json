@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lisa.baker@jensen.com",
+        "name": "Neverelizabeth34"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2EwOWVkMjgwMDAxYjQ0MTE4MSIsImlhdCI6MTcxODc0NjI3MiwiZXhwIjoxNzE4NzQ3NDcyfQ.iGMhNRIg8ECi2XteuBSPY0MfXfPisdgqAkR6ABznW6I",
+    "refreshToken": "f8a2343affecdc099c5ef961fdec4f63bc3e3f9a6ff91bdbd38c71f29cd7b316af735f5e9fe07498"
+}

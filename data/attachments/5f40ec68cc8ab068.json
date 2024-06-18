@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "michael.baker@brown-cobb.biz",
-        "name": "Educajmarquez"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmYwOWVkMjgwMDAxYjQ0MDhiYiIsImlhdCI6MTcxODcyMDI0MCwiZXhwIjoxNzE4NzIxNDQwfQ.ScZLZaWlaj4UKY_Ro4Z90ZKGWuESiP4m5cC_8zrmYFo",
-    "refreshToken": "c885f204dbfc46f3ae4b5a08fda070fd0e046beecf66a823e8412d6778ebcfa05f82ba38eaff7d3c"
-}

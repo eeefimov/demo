@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kyle_kline@abbott.com",
+        "name": "destinyrasmussen"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2VlOWVkMjgwMDAxYjQ0MTFkYyIsImlhdCI6MTcxODc0NjM1MCwiZXhwIjoxNzE4NzQ3NTUwfQ.MCvlI3_jeGaZ-Ui8U6mqKnrMgOFkTYuIA5qtN2u4HTU",
+    "refreshToken": "8ee2503c766a1c32c47b7ea39148b2e148dd0c11c310c22e76e490ec81c0545bbe4623bf4691b3fb"
+}

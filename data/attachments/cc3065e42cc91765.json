@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "kaitlyn.wyatt@lee.biz",
-        "name": "Mind phillipsmicheal"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzBjOWVkMjgwMDAxYjQ0MDhmZCIsImlhdCI6MTcxODcyMDI2OCwiZXhwIjoxNzE4NzIxNDY4fQ.wi6JsVGvhbkJsoVUJckbMLJuDgR8RsjjCgC7vXr_NlI",
-    "refreshToken": "a72d123f62655d7bd7966a49e2135c4ebceec2b4527c5be9221aa16e43f4bb1d119798805346dd8f"
-}

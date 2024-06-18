@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': '!dc!TEqR*7'}
+data_models = {'name': 'Oftenfsmith', 'email': 'Danielle.Murillo@anderson-eaton.com', 'password': 'f@2OrT'}

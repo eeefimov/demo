@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "david.floyd@anderson.com",
+        "name": "Wholemichaelbutler"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2Q2OWVkMjgwMDAxYjQ0MTFjMCIsImlhdCI6MTcxODc0NjMyNiwiZXhwIjoxNzE4NzQ3NTI2fQ.__IyyQfMPW9u7k2UqqEa8A8j-RgVRSQd35zTMyhOQXk",
+    "refreshToken": "cc9dfe1fd5402c716cf4fe106206d158eb703ecc58ef98b7deb9b62623d6a329f28f5059131939fa"
+}

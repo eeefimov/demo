@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jacqueline.garcia@beck.com",
+        "name": "Race ysteele"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzg1OWVkMjgwMDAxYjQ0MTE0OSIsImlhdCI6MTcxODc0NjI0NSwiZXhwIjoxNzE4NzQ3NDQ1fQ.E8vzoXqSe-8EqSwfayR8ssJf3DQucgyqKlFNBxJU2QA",
+    "refreshToken": "3c356fc93bcdc62a96f792dca4ad76015cb500a07daf3bcd301ebaa6ec570dd7b84d2ed9804c9cd5"
+}

@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "name": "\u042d\u043a\u0437\u043e-\u043f\u043b\u0430\u043d\u0442\u0430\u0433\u043e \u043b\u044e\u043c\u0438\u043d\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6d",
+                "name": "\u0424\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u0430\u044f \u0431\u0443\u043b\u043a\u0430 R2-D3",
+                "type": "bun",
+                "proteins": 44,
+                "fat": 26,
+                "carbohydrates": 85,
+                "calories": 643,
+                "price": 988,
+                "image": "https://code.s3.yandex.net/react/code/bun-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/bun-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/bun-01-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6e",
+                "name": "\u0424\u0438\u043b\u0435 \u041b\u044e\u043c\u0438\u043d\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u043e\u0433\u043e \u0442\u0435\u0442\u0440\u0430\u043e\u0434\u043e\u043d\u0442\u0438\u043c\u0444\u043e\u0440\u043c\u0430",
+                "type": "main",
+                "proteins": 44,
+                "fat": 26,
+                "carbohydrates": 85,
+                "calories": 643,
+                "price": 988,
+                "image": "https://code.s3.yandex.net/react/code/meat-03.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/meat-03-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/meat-03-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa79",
+                "name": "\u041c\u0438\u043d\u0438-\u0441\u0430\u043b\u0430\u0442 \u042d\u043a\u0437\u043e-\u041f\u043b\u0430\u043d\u0442\u0430\u0433\u043e",
+                "type": "main",
+                "proteins": 1,
+                "fat": 2,
+                "carbohydrates": 3,
+                "calories": 6,
+                "price": 4400,
+                "image": "https://code.s3.yandex.net/react/code/salad.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/salad-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/salad-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa79",
+                "name": "\u041c\u0438\u043d\u0438-\u0441\u0430\u043b\u0430\u0442 \u042d\u043a\u0437\u043e-\u041f\u043b\u0430\u043d\u0442\u0430\u0433\u043e",
+                "type": "main",
+                "proteins": 1,
+                "fat": 2,
+                "carbohydrates": 3,
+                "calories": 6,
+                "price": 4400,
+                "image": "https://code.s3.yandex.net/react/code/salad.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/salad-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/salad-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "6671fcb79ed280001b4411a4",
+        "owner": {
+            "name": "Respowallelizabeth",
+            "email": "renee.gonzalez@mccarthy.com",
+            "createdAt": "2024-06-18T21:31:34.353Z",
+            "updatedAt": "2024-06-18T21:31:34.353Z"
+        },
+        "status": "done",
+        "name": "\u042d\u043a\u0437\u043e-\u043f\u043b\u0430\u043d\u0442\u0430\u0433\u043e \u043b\u044e\u043c\u0438\u043d\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+        "createdAt": "2024-06-18T21:31:35.745Z",
+        "updatedAt": "2024-06-18T21:31:36.275Z",
+        "number": 80817,
+        "price": 10776
+    }
+}

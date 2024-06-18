@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "dominique.perez@alvarado-martinez.com",
+        "name": "Scenesteelesarah"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2ZlOWVkMjgwMDAxYjQ0MTFmZCIsImlhdCI6MTcxODc0NjM2NiwiZXhwIjoxNzE4NzQ3NTY2fQ.Dvp-0Q8l3qoksZRq1uGhrPPh-_kb_twl-cIT0MZz9wI",
+    "refreshToken": "19b0c7b92d21092a5bcd15c85217ff8cd5541cba3fac8fb3685faac7f8ac5acc76a86172c0df125a"
+}

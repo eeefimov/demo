@@ -1,0 +1,4 @@
+method = POST
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
+header = None
+data_models = {'name': 'Face house leader total difference course reflect. Cover he federal sort use anything protect.', 'email': 'tyler30@example.net', 'password': '#pO6ZC'}

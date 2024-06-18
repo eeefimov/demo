@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "alyssa.long@bell.info",
-        "name": "Accorrlewis"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVlOWVkMjgwMDAxYjQ0MDhiMyIsImlhdCI6MTcxODcyMDIzOCwiZXhwIjoxNzE4NzIxNDM4fQ.GoEOVHv1WMte6DzHsicqzMaWZVkLlNdVwnmUhqCegHg",
-    "refreshToken": "22ecbd2060edc4eec5b4e867bc459968db5e0c9f4f6d73a2c03d5194b51267d2636c237e28a7b5a1"
-}

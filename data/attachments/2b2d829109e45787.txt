@@ -1,4 +1,0 @@
-method = PATCH
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVjOWVkMjgwMDAxYjQ0MDhhZiIsImlhdCI6MTcxODcyMDIzNiwiZXhwIjoxNzE4NzIxNDM2fQ.92YT4ALPlAgnVmxDGQbFldIpC2SS7BOreN8jl710FlE'}
-data_models = {'name': 'Degregina79', 'email': 'Colleen.Bruce@sherman.info', 'password': 'T^5uWl'}

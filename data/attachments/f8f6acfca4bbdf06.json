@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kevin.washington@miller.com",
+        "name": "Alreariveraamanda"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzk1OWVkMjgwMDAxYjQ0MTE2YiIsImlhdCI6MTcxODc0NjI2MSwiZXhwIjoxNzE4NzQ3NDYxfQ.s9PNY-1TNmm3dgCWOa2WwaHjhkXqzJns6LMllDsAHRU",
+    "refreshToken": "0f50d1cc4ee46ba930074cd1980f8523e67a9e6cc7704251654017f7995bd3d42b3640729564cedb"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "juan.davenport@combs.com",
+        "name": "Lot sryanbenjamin"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzdmOWVkMjgwMDAxYjQ0MTEzYiIsImlhdCI6MTcxODc0NjIzOSwiZXhwIjoxNzE4NzQ3NDM5fQ.YG06zGewF_5OhmfwL517DQlaKZ78urF_Wv9xWsR58Gk",
+    "refreshToken": "a883435a56fc9a6de0da6cc52aa3f8eb00376de621c11c7135b8ecc9c6c187c2e4b574c53e1d178a"
+}

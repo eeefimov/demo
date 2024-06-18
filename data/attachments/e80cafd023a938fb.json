@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "edward.walker.taylor@fischer.com",
+        "name": "jschwartz"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2VlOWVkMjgwMDAxYjQ0MTFkYSIsImlhdCI6MTcxODc0NjM1MCwiZXhwIjoxNzE4NzQ3NTUwfQ.xJh3zu1bFbQkc_cLlLlRfz15uMTlvEYsDsBXAN_5cHg",
+    "refreshToken": "2c3be7259e73aa83cdd9340d1795b7d1e38291cf8035128cdf216350797c74c1c449ca145d446b28"
+}

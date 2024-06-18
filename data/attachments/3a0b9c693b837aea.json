@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "joshua.gordon@brown-barton.biz",
+        "name": "Old ajordanchristopher"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2EyOWVkMjgwMDAxYjQ0MTE4NCIsImlhdCI6MTcxODc0NjI3NCwiZXhwIjoxNzE4NzQ3NDc0fQ.rYNpebU3uhXxMMqCbQBScLxLWIIhqYe6qEa7RSd6xmM",
+    "refreshToken": "225add28d7257616d5e459c561f7209df74e2cff1fbe6811214d0e09e349b3494ddcb642a37fdc37"
+}

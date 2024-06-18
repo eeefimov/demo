@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "alyssa.becker@benjamin-collins.com",
-        "name": "emcdowell"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzNmOWVkMjgwMDAxYjQ0MDk0NCIsImlhdCI6MTcxODcyMDMxOSwiZXhwIjoxNzE4NzIxNTE5fQ.1K8xkpSdyWiWOQodCSPOOuuvym1Ok_21Koz2E8zKh_Q",
-    "refreshToken": "588879bebcb2f61138849a3b97caa365c26ef15f07531dd4a592a648d6f1c4db1b9f224a54d73203"
-}

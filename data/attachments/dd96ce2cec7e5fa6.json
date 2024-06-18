@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "carolyn.green@cook.com",
+        "name": "Adultjohnsondennis"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzg2OWVkMjgwMDAxYjQ0MTE0YiIsImlhdCI6MTcxODc0NjI0NiwiZXhwIjoxNzE4NzQ3NDQ2fQ.MuylEDTvDCitK9KHEeMy0IUEk6pZo6bOgzJ10lXF6OM",
+    "refreshToken": "23f685675fa2be46de03b026d2ef52b4f3e45c51a22103d5d9c366242a4fe9b9d486deded67cd3df"
+}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "cwalton@example.com",
-        "name": "must coach time"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQ5OWVkMjgwMDAxYjQ0MDk2MCIsImlhdCI6MTcxODcyMDMyOSwiZXhwIjoxNzE4NzIxNTI5fQ.IpV0S2yz5p2Jox4HTbwr9zS_I3uSsB8LFN8yvhJTd8o",
-    "refreshToken": "916ca54c9fa0cb2759e721b1c265238bcd76285eedfb39f3988a94d95d3f4135b2a7c0e1aea16a7e"
-}

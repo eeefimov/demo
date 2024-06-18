@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "veronica.shea@patel.com",
-        "name": "Such erikagalloway"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzJjOWVkMjgwMDAxYjQ0MDkyOCIsImlhdCI6MTcxODcyMDMwMCwiZXhwIjoxNzE4NzIxNTAwfQ.5m5_T610GFpsB68aweIwKNRf0KFG9FGCMf7QxHXBRBg",
-    "refreshToken": "1ddb29671e08f8131b493d276448a8eb2911c8c08fd1da807e09b5361013ed369a9b03c02ec9fe38"
-}

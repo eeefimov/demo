@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cheryl.miller@moore-schmitt.biz",
+        "name": "crystal75"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2VkOWVkMjgwMDAxYjQ0MTFkOCIsImlhdCI6MTcxODc0NjM0OSwiZXhwIjoxNzE4NzQ3NTQ5fQ.6zcoxo89wvtfw4hSI_AkxHxo8RNLSnaSuON0xaPOkRE",
+    "refreshToken": "1411517d823474c46f5b58f55497dea18ade06b30c1adc2280b26b4b66776dd2a9888f7a963b3688"
+}

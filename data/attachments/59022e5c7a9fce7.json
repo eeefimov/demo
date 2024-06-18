@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "kenneth.anderson@joyce.info",
-        "name": "Area agrimes"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmYwOWVkMjgwMDAxYjQ0MDhiOSIsImlhdCI6MTcxODcyMDI0MCwiZXhwIjoxNzE4NzIxNDQwfQ.1nBl4I-72He33NxOBmgpqTOre9MEhvqpH5KYE4N2SXg",
-    "refreshToken": "5abaad8569cda6d063075e53f549395cf358d7d98f24a5d43436ba7da494afbbeaaeb1a40bd38cdb"
-}

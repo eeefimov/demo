@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "russell.brown@castillo-white.org",
-        "name": "Pm avpnelson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzM4OWVkMjgwMDAxYjQ0MDkzYyIsImlhdCI6MTcxODcyMDMxMiwiZXhwIjoxNzE4NzIxNTEyfQ.czD7CAauwi_o6lVkS0RgtKDSSD4UzzxZISOrzkQmEMM",
-    "refreshToken": "1b5d2edec5e2bf25c3952bff389347db9f313f4a0a508a294cfdd6db40f6287ed11e840e0d2b529f"
-}

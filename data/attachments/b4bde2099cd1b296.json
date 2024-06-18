@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "brian.collins@bender-rodriguez.biz",
+        "name": "Some maldonadodavid"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzdlOWVkMjgwMDAxYjQ0MTEzNyIsImlhdCI6MTcxODc0NjIzOCwiZXhwIjoxNzE4NzQ3NDM4fQ.avKgwdtvxTrg8JzPzh2bj4LsC_EPGMX89ccPyccsS0M",
+    "refreshToken": "9f8ee0187c1c3248e0af89ca924b827de0b6a6904ab0cbec3617b5195400a616bab4b4bc784b79f9"
+}

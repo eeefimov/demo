@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "paul.lewis@odonnell-lucero.info",
+        "name": "Hour edwin57"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDBhOWVkMjgwMDAxYjQ0MTIwOCIsImlhdCI6MTcxODc0NjM3OCwiZXhwIjoxNzE4NzQ3NTc4fQ.E7eBqKOw3KAPJzEmbrI7viuuJ5KT4t3GlPw2_Bronss",
+    "refreshToken": "cc13defd6c3329f9612b61004c2315ebf7518b612873a74755daefb11d25cf135e31a41eb477730c"
+}

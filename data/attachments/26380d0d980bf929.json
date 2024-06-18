@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "katherine.ross@jacobs-daniel.info",
-        "name": "Likelthomaskatherine"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzM1OWVkMjgwMDAxYjQ0MDkzNCIsImlhdCI6MTcxODcyMDMwOSwiZXhwIjoxNzE4NzIxNTA5fQ.YmwTimyfSb7wksaV1hOknNUVPVOhC_AWZTbnSudQaUI",
-    "refreshToken": "b21df96484b547ba80637a8a0d88ec965a2e3ad57a25d38853692c6d15c6804e295414eef280f710"
-}

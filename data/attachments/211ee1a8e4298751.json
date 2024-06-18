@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "elizabeth.jones@brown.com",
+        "name": "Commehthompson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDBiOWVkMjgwMDAxYjQ0MTIwYSIsImlhdCI6MTcxODc0NjM3OSwiZXhwIjoxNzE4NzQ3NTc5fQ.vKwTm9rMtjSDKpCE-cEJ3VhtEo-z0zVlpCkeTByQOOs",
+    "refreshToken": "950d3a0125657976972cc21d0fb1b4f0ab1b45c70244131844839a22759b623d8f68143921f52888"
+}

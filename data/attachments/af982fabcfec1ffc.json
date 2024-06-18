@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "darryl.skinner@green.com",
+        "name": "Evidejeffrey82"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2JiOWVkMjgwMDAxYjQ0MTFhNiIsImlhdCI6MTcxODc0NjI5OSwiZXhwIjoxNzE4NzQ3NDk5fQ.0h7B4EUZG5DVQ2X58TJ8cazyxQ99ipQF1bwTV40ClZc",
+    "refreshToken": "9db6542c7cec06dcfaaebc9765716f2972dac171c9ad0ec7d715bba1e009560962c40c0aad6fc067"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "wanda.larson@guerra-williams.com",
+        "name": "Into amy19"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzkyOWVkMjgwMDAxYjQ0MTE2NSIsImlhdCI6MTcxODc0NjI1OCwiZXhwIjoxNzE4NzQ3NDU4fQ.kK9ZBVoote05Srn9GqKtr0XckB-6zIZSOnQYO1PjcAo",
+    "refreshToken": "0ec5de40a2bd6cffc8196ccfa8547de7ab8d82d63dcbb545bc484e73e12379ff8f1924deb291a59d"
+}

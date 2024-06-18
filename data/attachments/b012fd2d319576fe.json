@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jessica.brown@murphy-suarez.com",
-        "name": "Profetammy49"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzJkOWVkMjgwMDAxYjQ0MDkyYSIsImlhdCI6MTcxODcyMDMwMSwiZXhwIjoxNzE4NzIxNTAxfQ.0D-RKxzTG_V-voTSDXtKF8LUlhbgj5P5cWojUeqHmzw",
-    "refreshToken": "5c8d847d55c918b2b0dcde9b740544c58f8697b65f4311c7ce14a0d63231ed9f6edf0f33cbf3ac7a"
-}

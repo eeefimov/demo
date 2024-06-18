@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "christine.weaver@williamson.com",
-        "name": "Send williamskimberly"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzRkOWVkMjgwMDAxYjQ0MDk2YiIsImlhdCI6MTcxODcyMDMzMywiZXhwIjoxNzE4NzIxNTMzfQ.SuYEr9r3oAhUB9oPWFghPwIsnhizCaOPfnMaNf6iYdQ",
-    "refreshToken": "8aa55bc4fa9d589e9ea4d0de7c497b4c00c4aa2aa2f2bbb57848426538ac689ea8d9e3605b61366e"
-}

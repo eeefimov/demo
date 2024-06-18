@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "hannah.skinner@smith.biz",
-        "name": "Crimerachel91"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzM2OWVkMjgwMDAxYjQ0MDkzOCIsImlhdCI6MTcxODcyMDMxMCwiZXhwIjoxNzE4NzIxNTEwfQ.zeDyuzwACVIxWDCiQWKUBkg6yiM_XcfTcjtZPqotlxk",
-    "refreshToken": "eb6f2a113b991eeaf0594f87cfaea0b1b2bb2f9c7b8f6f1df93ec036a9dbde84d6576595dfa6e68b"
-}

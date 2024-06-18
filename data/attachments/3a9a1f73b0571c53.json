@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "robert.holland@olson.com",
-        "name": "Readyibryan"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU2OWVkMjgwMDAxYjQ0MDg5YiIsImlhdCI6MTcxODcyMDIzMCwiZXhwIjoxNzE4NzIxNDMwfQ.8-cb2sv9-O56c-wne3xYiDPx4DNMaa3hYJvv94USep0",
-    "refreshToken": "a2221975e5766935a3768861c7266be0956f01be632fb136f282dcfa9563cdb745c53ca83cca46c6"
-}

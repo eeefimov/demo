@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "travis.harris@jones.com",
+        "name": "Than jenniferolson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzg0OWVkMjgwMDAxYjQ0MTE0NSIsImlhdCI6MTcxODc0NjI0NCwiZXhwIjoxNzE4NzQ3NDQ0fQ.pPAAisGRe4ZCHYZYI7jR3gWnq9M5VHh36JSpgyg0rh8",
+    "refreshToken": "4f0f4097c1725fe80a0ea8b67e23cc1d0ef57881b885ba85e341a67d90d774ea82e9673e2248c354"
+}

@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzg1OWVkMjgwMDAxYjQ0MTE0OSIsImlhdCI6MTcxODc0NjI0NSwiZXhwIjoxNzE4NzQ3NDQ1fQ.E8vzoXqSe-8EqSwfayR8ssJf3DQucgyqKlFNBxJU2QA'}
+data_models = {'name': 'Race ysteele', 'email': 'Jacqueline.Garcia@beck.com', 'password': 'ALY5oZ'}

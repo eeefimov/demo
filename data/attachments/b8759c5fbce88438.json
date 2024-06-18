@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cestes@example.com",
+        "name": "price difference"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2Y3OWVkMjgwMDAxYjQ0MTFmMCIsImlhdCI6MTcxODc0NjM1OSwiZXhwIjoxNzE4NzQ3NTU5fQ.IE5zw9bqix8MN3Z1YcMuoa_3kP4Srp4yjT_A6tgqzGY",
+    "refreshToken": "9177b57ee5b51d08cc81ac2935bb955f43aac67850dd80fe0f5d1d7db77b7d128a910ce2db27e6f2"
+}

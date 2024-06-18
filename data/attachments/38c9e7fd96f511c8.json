@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "allison.roman@henry.biz",
-        "name": "Fire fedwards"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmYyOWVkMjgwMDAxYjQ0MDhjMyIsImlhdCI6MTcxODcyMDI0MiwiZXhwIjoxNzE4NzIxNDQyfQ.pJxWSpKifE6x2Hzpu6S6m-y0zvP8CR88adPrEostC30",
-    "refreshToken": "f5b9082ddf47442e49b1e3c89781680db91aa364343d79f8353e0214ef2c33bf34c9227889a953a1"
-}

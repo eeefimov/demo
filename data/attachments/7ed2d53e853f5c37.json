@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "krystal.wagner@grant-williamson.info",
+        "name": "Keep gonzalezaustin"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzliOWVkMjgwMDAxYjQ0MTE3NyIsImlhdCI6MTcxODc0NjI2NywiZXhwIjoxNzE4NzQ3NDY3fQ.Tm5ZUvM5URzB2ttXtM72tXbvhgPE2XePJI8_3sZRWxU",
+    "refreshToken": "f8b6fb7445ea80ef3ad737b098390e09cc2c304c1eb6c404bce4baf53f6bc1eda739f5d09fee465c"
+}

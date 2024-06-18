@@ -1,0 +1,4 @@
+method = patch
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
+header = None
+data_models = {'name': 'Thougsierrahicks', 'email': 'Benjamin.Ramirez@rice-hanson.com', 'password': 'B!qz*1'}

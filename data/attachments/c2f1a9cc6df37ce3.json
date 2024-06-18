@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "john.white@gutierrez-rogers.org",
-        "name": "Singlthomasanthony"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzM3OWVkMjgwMDAxYjQ0MDkzYSIsImlhdCI6MTcxODcyMDMxMSwiZXhwIjoxNzE4NzIxNTExfQ.N_eAeUHpI0mHpROvIn358wRe-GnhWwtYpCCDDlADnKE",
-    "refreshToken": "fe3073d10f6e15b91a946b7e55e3f6206c7435c7562a642092f074c4f754e43572cced8590a1d201"
-}

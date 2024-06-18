@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "christopher.king@marquez.biz",
-        "name": "Worldmosleyemily"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmZjOWVkMjgwMDAxYjQ0MDhkZiIsImlhdCI6MTcxODcyMDI1MiwiZXhwIjoxNzE4NzIxNDUyfQ._F0pRBGB5z7nGnf--LeP5a1GWjGEER2BVyGJRdcO3eg",
-    "refreshToken": "351ceaded8fb45ee57dbaacc50425f706e4a9b7f880fdcf395aab417970db273861e5a4368a933e3"
-}

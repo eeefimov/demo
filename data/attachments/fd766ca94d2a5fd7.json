@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jose.williams@bryan-brown.com",
-        "name": "Lose michael91"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmZjOWVkMjgwMDAxYjQ0MDhkZCIsImlhdCI6MTcxODcyMDI1MiwiZXhwIjoxNzE4NzIxNDUyfQ.ZnYEOLg4Iq9MbQncVuFxEia1jfQ9rmewM-QbFSEKm9Q",
-    "refreshToken": "07a7d4e71c4372f869782143491ddc895756210e7e943128d231ace902f3c23b7f62538cf1cef7f3"
-}
