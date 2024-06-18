@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "rebecca.williams@klein.org",
+        "name": "Neverhchambers"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzM4OWVkMjgwMDAxYjQ0MDkzZSIsImlhdCI6MTcxODcyMDMxMiwiZXhwIjoxNzE4NzIxNTEyfQ.uRfPllstqXUrOjTgOfenHVB1QmE-T9XzzZpjNApw0AY",
+    "refreshToken": "103b74b8e296abcc21418fc639eebfc105e8751fa2b668b9f243f3ac33d3575da6cf85b7e2d35c3c"
+}

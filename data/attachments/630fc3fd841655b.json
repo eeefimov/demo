@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "wendy.ramirez@buck.net",
+        "name": "Likelzjordan"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzU3OWVkMjgwMDAxYjQ0MDk3NiIsImlhdCI6MTcxODcyMDM0MywiZXhwIjoxNzE4NzIxNTQzfQ.vdmwZ84vdCL1BllqBoj7uq1jw_PVqF1peyb3YwiHrR4",
+    "refreshToken": "d4ac21c3e9e363c6009618c2dff8753d391ed5685ec2a511e9f58b1e1e4647d7f7abdcc527b551f2"
+}

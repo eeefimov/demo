@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "linda.ochoa@jones.com",
+        "name": "Classpwalker"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzA0OWVkMjgwMDAxYjQ0MDhlZiIsImlhdCI6MTcxODcyMDI2MCwiZXhwIjoxNzE4NzIxNDYwfQ.TSLSGe7lTw9GS4mVeZQjP1G_zLx6INP1Wtf2pyCuSSw",
+    "refreshToken": "f685b187791bf9775bf30d12f5f1033ef2a89ab07105b91dc6f85ba14c6ee4abc68c4801d8f159b0"
+}

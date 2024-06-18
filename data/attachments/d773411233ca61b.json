@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "mark-thompson@stout.info",
+        "name": "jennifer06"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQyOWVkMjgwMDAxYjQ0MDk0YyIsImlhdCI6MTcxODcyMDMyMiwiZXhwIjoxNzE4NzIxNTIyfQ.b-deWddThdFpxJKVOedEC0WrqsIT3FJe-h9o0Ht254E",
+    "refreshToken": "bba0053c9483230041bac7903b0ae0c2eafe561275ebb29cfebd168f0cc7cf7f13747a981866059e"
+}

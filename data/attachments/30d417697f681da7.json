@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "katherine_miller_ellis@henry-ortiz.com",
+        "name": "lopezalison"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQxOWVkMjgwMDAxYjQ0MDk0YSIsImlhdCI6MTcxODcyMDMyMSwiZXhwIjoxNzE4NzIxNTIxfQ.k_cAHr9sPVOrfLDcYUzaeYCtjyi_tgiWsyIALhOuo_c",
+    "refreshToken": "4d894f2e261794a1e3ba70563d9a2ae4f4d28bd8112e5c2837d0d82b62ee6303a86c1d9c071559f8"
+}

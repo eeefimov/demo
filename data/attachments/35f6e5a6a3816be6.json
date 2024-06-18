@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "ryan.nelson@larsen-shea.com",
+        "name": "Town omorse"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVjOWVkMjgwMDAxYjQ0MDhhZCIsImlhdCI6MTcxODcyMDIzNiwiZXhwIjoxNzE4NzIxNDM2fQ.xMMvr5IsG9GL6fTFnrhnBij-vgM-AB8gnDkUUNvEYR4",
+    "refreshToken": "78899386871bbd04722d14fc0c9a01e65f866aef988906a434768883fa4ab25a1d200094b848bef0"
+}

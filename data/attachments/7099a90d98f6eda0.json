@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "grace.patterson@martin-campbell.com",
+        "name": "Tax aepadilla"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU4OWVkMjgwMDAxYjQ0MDhhMyIsImlhdCI6MTcxODcyMDIzMiwiZXhwIjoxNzE4NzIxNDMyfQ.hvKy8VBZsVozE-6RwWmQjTKVIuSxkazV2lss2EfDMsU",
+    "refreshToken": "0cdd395aa63f194d086aca0f401269c0c16a44247814096238da5c4cadcc9716167fcb35e561ca73"
+}

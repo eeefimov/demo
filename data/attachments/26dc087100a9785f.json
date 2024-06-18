@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "whitney.jackson@hayes.com",
+        "name": "Everykylegarrett"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzUxOWVkMjgwMDAxYjQ0MDk3MSIsImlhdCI6MTcxODcyMDMzNywiZXhwIjoxNzE4NzIxNTM3fQ.ZpbmeoyEqX5ivLcRt3kUhfehfWtjq3LTmbQ8v3fBRHs",
+    "refreshToken": "1e7dbef2bc89c93656f890dfed9a364b07a45b1d153a9ed4b9958cbb59963a17a77d12b5203c1094"
+}

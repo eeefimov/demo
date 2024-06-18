@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "carl.greene@medina-olson.org",
+        "name": "Careejeanne51"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzE1OWVkMjgwMDAxYjQ0MDkwYSIsImlhdCI6MTcxODcyMDI3NywiZXhwIjoxNzE4NzIxNDc3fQ.HnIzjcqBfx_Qh52_v5hvEzK4kAg6GsyEf_bQuKy7ejA",
+    "refreshToken": "0e4cdadc3d730dd3bc05f8eb509da2c34a1be58196e1c95a2bdf47cba16a2e2845cad18bba96e906"
+}

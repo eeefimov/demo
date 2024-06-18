@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "aaron.hill@martinez-weeks.net",
+        "name": "Let wfreemantyler"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzBlOWVkMjgwMDAxYjQ0MDkwMiIsImlhdCI6MTcxODcyMDI3MCwiZXhwIjoxNzE4NzIxNDcwfQ.bLsa_uXQAhC5Fvj3_LZVCFv13voRodLleaOYNxS_adg",
+    "refreshToken": "46c1a1f54e90d9cc8851416813559202e555d044305c089a7c0ea9a1169e4e423abfd5ce4a9f4cb8"
+}

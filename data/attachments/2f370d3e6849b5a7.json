@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kendra.pope@hamilton.com",
+        "name": "So trashleybrooks"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5Nzg5OWVkMjgwMDAxYjQ0MDk5MiIsImlhdCI6MTcxODcyMDM5MywiZXhwIjoxNzE4NzIxNTkzfQ.tRjYeSNCuz0e5c7wA4C3gDaCoeqYvJXGHzDH-m8px7k",
+    "refreshToken": "10fb4d484711f635c0eda9101a9e6020eda8350013e330ceb19d65f8861eba99c9f0b04646177865"
+}

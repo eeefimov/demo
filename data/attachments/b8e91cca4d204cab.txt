@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY0OWVkMjgwMDAxYjQ0MDhjOSIsImlhdCI6MTcxODcyMDI0NCwiZXhwIjoxNzE4NzIxNDQ0fQ.iQ6vXsB1_7bEUejTEeTfvKdhID2goeWoGI3PDyZwspg'}
+data_models = {'name': 'Beyonmcintyrejessica', 'email': 'Shawn.Ortiz@rivera-ramirez.net', 'password': '*^00No'}

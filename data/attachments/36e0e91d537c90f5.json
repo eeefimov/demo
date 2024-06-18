@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "james.moore@wong.info",
+        "name": "Age sgrossphilip"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVhOWVkMjgwMDAxYjQ0MDhhOSIsImlhdCI6MTcxODcyMDIzNCwiZXhwIjoxNzE4NzIxNDM0fQ.1ds0zzJIMh6R0074jNRE17oPmnLiOMRIveQurk5ca68",
+    "refreshToken": "627be2c0aca22599673b918cfece7d91d2359b9a2e500d5a7bb77bc56575bdbaf0f3bbf72436ea5f"
+}

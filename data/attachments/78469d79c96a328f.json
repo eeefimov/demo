@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "nicole.thompson@burgess.com",
+        "name": "Send lopezcarol"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVkOWVkMjgwMDAxYjQ0MDhiMSIsImlhdCI6MTcxODcyMDIzNywiZXhwIjoxNzE4NzIxNDM3fQ.tGXTLbcsugXg8W28aymKNurOQtH7lKstBhS9Y63sA_c",
+    "refreshToken": "0abd06a879907ae0d34c5e46472861c475be99ddfca15597d2f5390fee23e3244bb546dfb742efa6"
+}

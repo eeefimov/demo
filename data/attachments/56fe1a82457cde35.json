@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "leonard.payne@maynard.com",
+        "name": "Six ddebra79"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmUzOWVkMjgwMDAxYjQ0MDg5MyIsImlhdCI6MTcxODcyMDIyNywiZXhwIjoxNzE4NzIxNDI3fQ.pVwplIRj9iRmvCW3igR0zpm3Ab5tDu6HgKA7V61AwW0",
+    "refreshToken": "09538ebfe3ff14d4d1f30fe1f5c0642dbc1d90bf9b55e2e74b6f601e24684eb260f8a05a4e56c4ba"
+}

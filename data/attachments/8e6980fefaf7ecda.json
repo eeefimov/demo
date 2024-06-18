@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "colleen.bruce@sherman.info",
+        "name": "Degregina79"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVjOWVkMjgwMDAxYjQ0MDhhZiIsImlhdCI6MTcxODcyMDIzNiwiZXhwIjoxNzE4NzIxNDM2fQ.92YT4ALPlAgnVmxDGQbFldIpC2SS7BOreN8jl710FlE",
+    "refreshToken": "7e54663fb264e3cbadf70142a75249bc108cc747cfbdbb912a28a4a6fc4f04893d0db96a07b2eb1e"
+}

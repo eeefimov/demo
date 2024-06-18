@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "michael.kelly@little-norris.com",
+        "name": "Descrkchen"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzA5OWVkMjgwMDAxYjQ0MDhmNyIsImlhdCI6MTcxODcyMDI2NSwiZXhwIjoxNzE4NzIxNDY1fQ.4MDMgkr4DoPGFdjudeoTk1Tj-5QUkuFQ6WyckdeK02Y",
+    "refreshToken": "41fc2cd6c35cd48ae09852d9c132144042f71746cd50bc4471516eb0bc06fefadf24e5f5fc08b6c5"
+}

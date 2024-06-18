@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "austin.contreras@hatfield.info",
+        "name": "Diffimary08"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY4OWVkMjgwMDAxYjQ0MDhkMyIsImlhdCI6MTcxODcyMDI0OCwiZXhwIjoxNzE4NzIxNDQ4fQ.BUnOCcOwTul0JXh--bZ_2y6FD1_bb5sZAy6SfFWk_ek",
+    "refreshToken": "2529e7f641cf739ac0b3aca99205806fbec9ef4d4febf88462d15ae3b773d80c103693579809de9b"
+}

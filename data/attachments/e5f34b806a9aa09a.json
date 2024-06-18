@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "alexandria.dominguez@martinez.com",
+        "name": "Rate danielosborne"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmViOWVkMjgwMDAxYjQ0MDhhYiIsImlhdCI6MTcxODcyMDIzNSwiZXhwIjoxNzE4NzIxNDM1fQ.2hoA6H8DU4q15zglTMaP6iZ-Q6oQ0MbQqenqkKflU6Y",
+    "refreshToken": "08d7bcc1998e097a36ea437d3fbfc4dfd52d94c95d40fc90e5d1800fadb76e80e0c53dd89a68787c"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "corey.small@miller-nichols.com",
+        "name": "Attormirandamichael"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU4OWVkMjgwMDAxYjQ0MDhhMSIsImlhdCI6MTcxODcyMDIzMiwiZXhwIjoxNzE4NzIxNDMyfQ.-N0GApDpgegX8M-TAV4e3zZ6rupnLbiSMUZyLaD3hTE",
+    "refreshToken": "f690238df0e002ff65c00b3b419f685dc16b0c1fcc75222b39002769388a9fa209bb7f1b6cba7a11"
+}

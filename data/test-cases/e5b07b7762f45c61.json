@@ -1,0 +1,317 @@
+{
+  "uid" : "e5b07b7762f45c61",
+  "name" : "test_login_redirection[Redirection to Forgot password page]",
+  "fullName" : "tests_ui.test_login_page#test_login_redirection",
+  "historyId" : "8e17b53894d3ffab356823b91a47cf6a",
+  "time" : {
+    "start" : 1718720660820,
+    "stop" : 1718720660878,
+    "duration" : 58
+  },
+  "description" : "Verify redirection to Register and Forgot-password pages.",
+  "descriptionHtml" : "<p>Verify redirection to Register and Forgot-password pages.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_page",
+    "time" : {
+      "start" : 1718720660374,
+      "stop" : 1718720660819,
+      "duration" : 445
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718720660374,
+        "stop" : 1718720660819,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718720659397,
+      "stop" : 1718720660374,
+      "duration" : 977
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718720659802,
+        "stop" : 1718720660374,
+        "duration" : 572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210375,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection to Register and Forgot-password pages.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on the link at the top of Login form",
+      "time" : {
+        "start" : 1718720660820,
+        "stop" : 1718720660872,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify redirection to //a[contains(text(), 'Восстановить пароль')] page",
+      "time" : {
+        "start" : 1718720660872,
+        "stop" : 1718720660878,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718720660879,
+      "stop" : 1718720661115,
+      "duration" : 236
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d9ccd53e51d7a40e",
+      "name" : "Screenshot_2024-06-18 14:24:21.063007",
+      "source" : "d9ccd53e51d7a40e.png",
+      "type" : "image/png",
+      "size" : 39906
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "host",
+    "value" : "932702603f7a"
+  }, {
+    "name" : "thread",
+    "value" : "9-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "link",
+    "value" : "'//a[contains(text(), 'Восстановить пароль')]'"
+  }, {
+    "name" : "title_txt",
+    "value" : "'//h2[contains(text(), 'Восстановление пароля')]'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "6d1fef5e5d4f1001",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718716801856,
+          "stop" : 1718716801912,
+          "duration" : 56
+        }
+      }, {
+        "uid" : "40070ca307addb6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459018383,
+          "stop" : 1718459018442,
+          "duration" : 59
+        }
+      }, {
+        "uid" : "98a15ff743b2ebde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457409850,
+          "stop" : 1718457409907,
+          "duration" : 57
+        }
+      }, {
+        "uid" : "294c007e3e4e07ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455261381,
+          "stop" : 1718455261441,
+          "duration" : 60
+        }
+      }, {
+        "uid" : "8723ad746034345a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718451958212,
+          "stop" : 1718451958254,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "c4554340d0563196",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718377839803,
+          "stop" : 1718377839845,
+          "duration" : 42
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e5b07b7762f45c61.json",
+  "parameterValues" : [ "'//a[contains(text(), 'Восстановить пароль')]'", "'//h2[contains(text(), 'Восстановление пароля')]'" ]
+}

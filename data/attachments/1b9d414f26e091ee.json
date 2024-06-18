@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jennifer.rose@rodriguez.com",
+        "name": "Stylecrawfordkimberly"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmYzOWVkMjgwMDAxYjQ0MDhjNSIsImlhdCI6MTcxODcyMDI0MywiZXhwIjoxNzE4NzIxNDQzfQ.QyaUWDc4z9YDiKTcCM2S7yYdH4rrGfP3YQmCgbOSIb0",
+    "refreshToken": "c1ce9faeb1742a2e82d604ecdf9e6cbfbf8487a31e93dc66962d427fda0fe12409351c375c9587b0"
+}

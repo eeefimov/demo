@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "amber.clark@hall.com",
+        "name": "Now mjustin01"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY4OWVkMjgwMDAxYjQ0MDhkMSIsImlhdCI6MTcxODcyMDI0OCwiZXhwIjoxNzE4NzIxNDQ4fQ.Q-KpomL1ly_8he6rBPdEXe-9MQ-6WIHCSjghOm97rbs",
+    "refreshToken": "f5d98803aec1427e0ee354126c1fb51f396f63646d7542e851f74698bab4ca1704b85ff35f5d8bc9"
+}

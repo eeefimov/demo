@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "name": "\u0411\u0438\u043e-\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u0431\u0435\u0441\u0441\u043c\u0435\u0440\u0442\u043d\u044b\u0439 \u043c\u0435\u0442\u0435\u043e\u0440\u0438\u0442\u043d\u044b\u0439 \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6d",
+                "name": "\u0424\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u0430\u044f \u0431\u0443\u043b\u043a\u0430 R2-D3",
+                "type": "bun",
+                "proteins": 44,
+                "fat": 26,
+                "carbohydrates": 85,
+                "calories": 643,
+                "price": 988,
+                "image": "https://code.s3.yandex.net/react/code/bun-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/bun-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/bun-01-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6f",
+                "name": "\u041c\u044f\u0441\u043e \u0431\u0435\u0441\u0441\u043c\u0435\u0440\u0442\u043d\u044b\u0445 \u043c\u043e\u043b\u043b\u044e\u0441\u043a\u043e\u0432 Protostomia",
+                "type": "main",
+                "proteins": 433,
+                "fat": 244,
+                "carbohydrates": 33,
+                "calories": 420,
+                "price": 1337,
+                "image": "https://code.s3.yandex.net/react/code/meat-02.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/meat-02-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/meat-02-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa70",
+                "name": "\u0413\u043e\u0432\u044f\u0436\u0438\u0439 \u043c\u0435\u0442\u0435\u043e\u0440\u0438\u0442 (\u043e\u0442\u0431\u0438\u0432\u043d\u0430\u044f)",
+                "type": "main",
+                "proteins": 800,
+                "fat": 800,
+                "carbohydrates": 300,
+                "calories": 2674,
+                "price": 3000,
+                "image": "https://code.s3.yandex.net/react/code/meat-04.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/meat-04-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/meat-04-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa71",
+                "name": "\u0411\u0438\u043e\u043a\u043e\u0442\u043b\u0435\u0442\u0430 \u0438\u0437 \u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0441\u043a\u043e\u0439 \u041c\u0430\u0433\u043d\u043e\u043b\u0438\u0438",
+                "type": "main",
+                "proteins": 420,
+                "fat": 142,
+                "carbohydrates": 242,
+                "calories": 4242,
+                "price": 424,
+                "image": "https://code.s3.yandex.net/react/code/meat-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/meat-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/meat-01-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "6671971e9ed280001b440914",
+        "owner": {
+            "name": "Careejeanne51",
+            "email": "carl.greene@medina-olson.org",
+            "createdAt": "2024-06-18T14:17:57.041Z",
+            "updatedAt": "2024-06-18T14:17:57.041Z"
+        },
+        "status": "done",
+        "name": "\u0411\u0438\u043e-\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u0431\u0435\u0441\u0441\u043c\u0435\u0440\u0442\u043d\u044b\u0439 \u043c\u0435\u0442\u0435\u043e\u0440\u0438\u0442\u043d\u044b\u0439 \u0444\u043b\u044e\u043e\u0440\u0435\u0441\u0446\u0435\u043d\u0442\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+        "createdAt": "2024-06-18T14:18:06.052Z",
+        "updatedAt": "2024-06-18T14:18:06.587Z",
+        "number": 80727,
+        "price": 5749
+    }
+}

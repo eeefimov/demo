@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmYwOWVkMjgwMDAxYjQ0MDhiOSIsImlhdCI6MTcxODcyMDI0MCwiZXhwIjoxNzE4NzIxNDQwfQ.1nBl4I-72He33NxOBmgpqTOre9MEhvqpH5KYE4N2SXg'}
+data_models = {'name': 'Area agrimes', 'email': 'Kenneth.Anderson@joyce.info', 'password': '8a8KQQ'}

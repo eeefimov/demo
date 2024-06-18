@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "john_nichols@bryan.com",
+        "name": "cruzmaria"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQxOWVkMjgwMDAxYjQ0MDk0OCIsImlhdCI6MTcxODcyMDMyMSwiZXhwIjoxNzE4NzIxNTIxfQ.Q9YoCfG-zhmxrQ6B8QAfEQcRsyiW1Q-LPEBSlifWXy4",
+    "refreshToken": "bc856f0d354845851abc88289215bc80bfa6ca3b02dbc700a1e43e21af8b0fdb02d3c8d972d40799"
+}

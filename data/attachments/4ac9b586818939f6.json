@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "justin.collier@chen.org",
+        "name": "Recenfoleyjohn"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU0OWVkMjgwMDAxYjQ0MDg5NSIsImlhdCI6MTcxODcyMDIyOCwiZXhwIjoxNzE4NzIxNDI4fQ.AGrbylKLQ7TqrKCrts1FBuK3gTGpl6Nj8tLoSuyMfVM",
+    "refreshToken": "103ba016b0589440353b240dca00208eb251381d2800cdde92c4f094e98639f02603c908ed937b9c"
+}

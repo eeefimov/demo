@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "rodney.oneill@riley-davis.info",
+        "name": "Safe gilberttaylor"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmZiOWVkMjgwMDAxYjQ0MDhkYiIsImlhdCI6MTcxODcyMDI1MSwiZXhwIjoxNzE4NzIxNDUxfQ.Jy-8z4wKZ5rCrFyTpAp0bCpp-VUZXtLvdMA_2-BRSJM",
+    "refreshToken": "8b634be9b349a5d3baa0219a893a970263455d470861be7549500fdfa2bd94c00962c8795a8ef1ed"
+}

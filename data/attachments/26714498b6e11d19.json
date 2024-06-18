@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "eric.brown.olivia@lucas.com",
+        "name": "christopher80"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQwOWVkMjgwMDAxYjQ0MDk0NiIsImlhdCI6MTcxODcyMDMyMCwiZXhwIjoxNzE4NzIxNTIwfQ.AW_7prrBNzt9-uzDyJfItcdutlUDAqrx_WU9YPZNC4w",
+    "refreshToken": "471a44a6acb89de54ab8cfe47634f7f38549011470727e540e67029f9afd08ea84bc7828f9439e07"
+}

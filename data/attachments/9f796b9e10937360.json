@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "andrea.king@mccall-ross.com",
+        "name": "Sensenathanieljones"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzRjOWVkMjgwMDAxYjQ0MDk2OCIsImlhdCI6MTcxODcyMDMzMiwiZXhwIjoxNzE4NzIxNTMyfQ.hOTPIsJinsso-jnWZfAtdqD6EKe_PejHwxAdhAnnu1w",
+    "refreshToken": "647f567f1f07355abd84025cbfccae750d431beceeee5cc7c9e65c1c79c787180fe41eec085d2243"
+}

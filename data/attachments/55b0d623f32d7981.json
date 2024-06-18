@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "joshua.davis@watkins.com",
+        "name": "Pick melissawiggins"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzMzOWVkMjgwMDAxYjQ0MDkzMSIsImlhdCI6MTcxODcyMDMwNywiZXhwIjoxNzE4NzIxNTA3fQ.22DjxWZyjpRPYauMglBVCJJ62UVhie7sdMWyJquKVt8",
+    "refreshToken": "f384a9fdb84e78b13e24b910d1f2e19ddb53bee8014ad12f5366eaf405efc9846b602ea63901a753"
+}

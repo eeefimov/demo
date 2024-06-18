@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': '55fFract*9'}
+data_models = {'name': 'Generlynchbryan', 'email': 'Christopher.Sanders@sparks.com', 'password': '$%v0Lt'}

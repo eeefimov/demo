@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "todd.harris@lewis.net",
+        "name": "Builddaniel95"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzRiOWVkMjgwMDAxYjQ0MDk2NiIsImlhdCI6MTcxODcyMDMzMSwiZXhwIjoxNzE4NzIxNTMxfQ.PVz2PZ_PQxuEWxFrEMbJHyCjdKJs5zdrTkndXVJCnN8",
+    "refreshToken": "bee44341b202a5490096d0d69d27bb191d19bd765881664c00dd25b7738db4744bf891c4e818c8ab"
+}

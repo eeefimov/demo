@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "edwin.brandt@hensley.info",
+        "name": "Admithatfieldguy"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmZkOWVkMjgwMDAxYjQ0MDhlMSIsImlhdCI6MTcxODcyMDI1MywiZXhwIjoxNzE4NzIxNDUzfQ.ZmdjrVfNRpi9yqyNMAFT7eGzSwnB41EVThu1oxH8dtg",
+    "refreshToken": "7e80dcb6673826f2e9199cfaa743de4d8db710d6935b6d700fc7bb87cc0ea73ddf3b68fae039f52d"
+}

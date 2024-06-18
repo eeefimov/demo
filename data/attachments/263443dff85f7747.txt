@@ -1,0 +1,4 @@
+method = post
+endpoint = https://stellarburgers.nomoreparties.site/api/orders/all
+header = {'Accept': 'application/json', 'Content-Type': 'application/json'}
+data_models = None

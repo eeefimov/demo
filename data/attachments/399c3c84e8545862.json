@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "carol.mcintyre@schmitt.org",
+        "name": "Rich jessicahernandez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY5OWVkMjgwMDAxYjQ0MDhkNSIsImlhdCI6MTcxODcyMDI0OSwiZXhwIjoxNzE4NzIxNDQ5fQ.CUsG64Eg1r5te8qP2H4OKMvcb91hDRQY4pjIGG-lQ8M",
+    "refreshToken": "ed1e71f5f2a3490991100924f6d78630ea64eaf1982512623433e81f873952fe45f7316e66c27379"
+}

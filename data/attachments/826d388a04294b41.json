@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "wileydavid@example.org",
+        "name": "thomasmichelle"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzlhOWVkMjgwMDAxYjQ0MDk5YiIsImlhdCI6MTcxODcyMDQxMCwiZXhwIjoxNzE4NzIxNjEwfQ.Y2wOTPPOoVwQ38f_0tBdZOE3UrLBhLiX4hMBr3zqjD0",
+    "refreshToken": "ada868d98554c517f7b12a73e11eeb83c5a801a3f46c4f4e3e16e6e6ff3af9ee35ccd2588a5b5abe"
+}

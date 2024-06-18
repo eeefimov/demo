@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "rachel.campbell@orozco.com",
+        "name": "Materlespinoza"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmZhOWVkMjgwMDAxYjQ0MDhkOSIsImlhdCI6MTcxODcyMDI1MCwiZXhwIjoxNzE4NzIxNDUwfQ.Wv7f0TNsaVFgvYAZwEx5On4CoWMxVUo_4JV61Mk727w",
+    "refreshToken": "fb8209a21e9417eb3266ea8954419770505684ef0d4d010b1fe23969149993347f72494350859080"
+}

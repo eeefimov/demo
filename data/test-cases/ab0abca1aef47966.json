@@ -1,0 +1,383 @@
+{
+  "uid" : "ab0abca1aef47966",
+  "name" : "test_invalid_methods[PUT]",
+  "fullName" : "tests_api.test_post_reset_password.TestReset#test_invalid_methods",
+  "historyId" : "909094c93df6e6525f0e71fb924ff8f9",
+  "time" : {
+    "start" : 1718720343971,
+    "stop" : 1718720344176,
+    "duration" : 205
+  },
+  "description" : "Verify response code with invalid type of method.",
+  "descriptionHtml" : "<p>Verify response code with invalid type of method.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset",
+    "time" : {
+      "start" : 1718720343717,
+      "stop" : 1718720343970,
+      "duration" : 253
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup reset request",
+      "time" : {
+        "start" : 1718720343717,
+        "stop" : 1718720343970,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718720343717,
+          "stop" : 1718720343969,
+          "duration" : 252
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b8f5c1a0d30d2f2f",
+          "name" : "Request Info",
+          "source" : "b8f5c1a0d30d2f2f.txt",
+          "type" : "text/plain",
+          "size" : 203
+        }, {
+          "uid" : "f242c6dda4a01b07",
+          "name" : "api Response",
+          "source" : "f242c6dda4a01b07.json",
+          "type" : "application/json",
+          "size" : 431
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "reset",
+        "value" : "<api.user.USER object at 0x7f64e65f0510>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718720343716,
+      "stop" : 1718720343717,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718720343716,
+        "stop" : 1718720343717,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718720343717,
+          "stop" : 1718720343717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Full brooksvanessa'"
+        }, {
+          "name" : "mail",
+          "value" : "'Brandy.Deleon@conley.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'hmPX3L'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210375,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with invalid type of method.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send put requests",
+      "time" : {
+        "start" : 1718720343971,
+        "stop" : 1718720344175,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8877d81727fb33fb",
+        "name" : "Request Info",
+        "source" : "8877d81727fb33fb.txt",
+        "type" : "text/plain",
+        "size" : 151
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fbcd8857d8d0bf0b",
+      "name" : "api Response",
+      "source" : "fbcd8857d8d0bf0b.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718720344177,
+      "stop" : 1718720344626,
+      "duration" : 449
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718720344177,
+        "stop" : 1718720344625,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718720344177,
+          "stop" : 1718720344177,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzU3OWVkMjgwMDAxYjQ0MDk3OCIsImlhdCI6MTcxODcyMDM0MywiZXhwIjoxNzE4NzIxNTQzfQ.BOxnuO1CYx9b-5_TWZOvAsEZyYNxmllnTNP-4sNyLAg'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c8b7cf8bc9670e36",
+        "name" : "Request Info",
+        "source" : "c8b7cf8bc9670e36.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzU3OWVkMjgwMDAxYjQ0MDk3OCIsImlhdCI6MTcxODcyMDM0MywiZXhwIjoxNzE4NzIxNTQzfQ.BOxnuO1CYx9b-5_TWZOvAsEZyYNxmllnTNP-4sNyLAg'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_reset_password"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReset"
+  }, {
+    "name" : "host",
+    "value" : "932702603f7a"
+  }, {
+    "name" : "thread",
+    "value" : "9-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_reset_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "404"
+  }, {
+    "name" : "method",
+    "value" : "'put'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3508a7145ac11f64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458699575,
+          "stop" : 1718458699814,
+          "duration" : 239
+        }
+      }, {
+        "uid" : "9ad17d5644277075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454958210,
+          "stop" : 1718454958380,
+          "duration" : 170
+        }
+      }, {
+        "uid" : "9da630f706f67b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453621226,
+          "stop" : 1718453621395,
+          "duration" : 169
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ab0abca1aef47966.json",
+  "parameterValues" : [ "404", "'put'" ]
+}

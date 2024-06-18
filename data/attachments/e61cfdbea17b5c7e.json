@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "melissa.leonard@owens.org",
+        "name": "Minutthomas54"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmU2OWVkMjgwMDAxYjQ0MDg5ZCIsImlhdCI6MTcxODcyMDIzMCwiZXhwIjoxNzE4NzIxNDMwfQ.EL4iMCTj95KTdvsCFhbVWxj-4kNVVeVYqq2LldVf47c",
+    "refreshToken": "48f0879c51fed062a2850372f484c2c868fb0f735efd8fa5cfda9ac210159271ad85b6d19a314bd1"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "stephanie.watkins@jenkins-gross.com",
+        "name": "Spenddavidcalhoun"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVlOWVkMjgwMDAxYjQ0MDhiNSIsImlhdCI6MTcxODcyMDIzOCwiZXhwIjoxNzE4NzIxNDM4fQ.aqjQ0n3QHT5UaiJF3FQNMW72JNHjyqfurZnTxSHC6-Y",
+    "refreshToken": "80c2db990c851ec3b2d9dcd90d171345dc2ec626866508884298d40a93aeabe8eaa6c5b7401596f9"
+}

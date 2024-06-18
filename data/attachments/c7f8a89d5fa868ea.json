@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jason.dixon@kaiser-wise.biz",
+        "name": "Have juliabaker"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmY2OWVkMjgwMDAxYjQ0MDhjZCIsImlhdCI6MTcxODcyMDI0NiwiZXhwIjoxNzE4NzIxNDQ2fQ.QMFv_BqO_VIJ7OKqE8POk0CfiVtxpF8AumNtVIALOmk",
+    "refreshToken": "d7f3d11d676f56f8bc3ad1a9321b2f5fb11f70b4ba98d355f3c86558c40ef64c05fab5844b39cd34"
+}

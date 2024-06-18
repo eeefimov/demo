@@ -1,0 +1,4 @@
+method = get
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
+header = None
+data_models = {'name': 'Head edwardsmichael', 'email': 'Tanya.Alexander@hines-shannon.com', 'password': 'w7DyQk'}

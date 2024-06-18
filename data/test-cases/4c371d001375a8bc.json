@@ -1,0 +1,388 @@
+{
+  "uid" : "4c371d001375a8bc",
+  "name" : "test_reset_code[Not registered email]",
+  "fullName" : "tests_api.test_post_reset_password.TestReset#test_reset_code",
+  "historyId" : "3c9c93fde404ac70c381081cf7fe6d61",
+  "time" : {
+    "start" : 1718720337209,
+    "stop" : 1718720338999,
+    "duration" : 1790
+  },
+  "description" : "Verify reset code in email box.",
+  "descriptionHtml" : "<p>Verify reset code in email box.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7f64e6865b20>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7f64e6865b20> = RESET.verify_confirmation_code",
+  "statusTrace" : "self = <tests.tests_api.test_post_reset_password.TestReset object at 0x7f64e681a250>\nreset = <api.user.USER object at 0x7f64e65f36d0>\nmail = 'freenancetester@gmail.com', pwd = 'uxidgrqiouboppzc'\n\n    @pytest.mark.parametrize('mail, pwd', email_send_code)\n    def test_reset_code(self, reset, mail, pwd):\n        \"\"\"Verify reset code in email box.\"\"\"\n        reset.data = {\"email\": f\"{mail}\"}\n        response = reset.send_requests('post', reset.endpoint,\n                                       None, reset.data)\n        _, code = UTILS.mail_check(mail, pwd)\n        assert code\n>       assert RESET.verify_confirmation_code(code)\nE       AssertionError: assert False\nE        +  where False = <function RESET.verify_confirmation_code at 0x7f64e6865b20>('reenancetester@gmail')\nE        +    where <function RESET.verify_confirmation_code at 0x7f64e6865b20> = RESET.verify_confirmation_code\n\ntests/tests_api/test_post_reset_password.py:60: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1718720336967,
+      "stop" : 1718720337209,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup reset request",
+      "time" : {
+        "start" : 1718720336967,
+        "stop" : 1718720337209,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718720336967,
+          "stop" : 1718720337208,
+          "duration" : 241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a3aab68beb981ab8",
+          "name" : "Request Info",
+          "source" : "a3aab68beb981ab8.txt",
+          "type" : "text/plain",
+          "size" : 202
+        }, {
+          "uid" : "26dc087100a9785f",
+          "name" : "api Response",
+          "source" : "26dc087100a9785f.json",
+          "type" : "application/json",
+          "size" : 430
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "reset",
+        "value" : "<api.user.USER object at 0x7f64e65f36d0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718720336965,
+      "stop" : 1718720336967,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718720336966,
+        "stop" : 1718720336967,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718720336967,
+          "stop" : 1718720336967,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Everykylegarrett'"
+        }, {
+          "name" : "mail",
+          "value" : "'Whitney.Jackson@hayes.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'9QB!i5'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210375,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify reset code in email box.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7f64e6865b20>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7f64e6865b20> = RESET.verify_confirmation_code",
+    "statusTrace" : "self = <tests.tests_api.test_post_reset_password.TestReset object at 0x7f64e681a250>\nreset = <api.user.USER object at 0x7f64e65f36d0>\nmail = 'freenancetester@gmail.com', pwd = 'uxidgrqiouboppzc'\n\n    @pytest.mark.parametrize('mail, pwd', email_send_code)\n    def test_reset_code(self, reset, mail, pwd):\n        \"\"\"Verify reset code in email box.\"\"\"\n        reset.data = {\"email\": f\"{mail}\"}\n        response = reset.send_requests('post', reset.endpoint,\n                                       None, reset.data)\n        _, code = UTILS.mail_check(mail, pwd)\n        assert code\n>       assert RESET.verify_confirmation_code(code)\nE       AssertionError: assert False\nE        +  where False = <function RESET.verify_confirmation_code at 0x7f64e6865b20>('reenancetester@gmail')\nE        +    where <function RESET.verify_confirmation_code at 0x7f64e6865b20> = RESET.verify_confirmation_code\n\ntests/tests_api/test_post_reset_password.py:60: AssertionError",
+    "steps" : [ {
+      "name" : "Send post requests",
+      "time" : {
+        "start" : 1718720337210,
+        "stop" : 1718720337387,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b16179ead90fb427",
+        "name" : "Request Info",
+        "source" : "b16179ead90fb427.txt",
+        "type" : "text/plain",
+        "size" : 153
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718720339002,
+      "stop" : 1718720339433,
+      "duration" : 431
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718720339002,
+        "stop" : 1718720339432,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718720339002,
+          "stop" : 1718720339002,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzUxOWVkMjgwMDAxYjQ0MDk3MSIsImlhdCI6MTcxODcyMDMzNywiZXhwIjoxNzE4NzIxNTM3fQ.ZpbmeoyEqX5ivLcRt3kUhfehfWtjq3LTmbQ8v3fBRHs'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9eb43ef2ef46e80d",
+        "name" : "Request Info",
+        "source" : "9eb43ef2ef46e80d.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzUxOWVkMjgwMDAxYjQ0MDk3MSIsImlhdCI6MTcxODcyMDMzNywiZXhwIjoxNzE4NzIxNTM3fQ.ZpbmeoyEqX5ivLcRt3kUhfehfWtjq3LTmbQ8v3fBRHs'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_reset_password"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReset"
+  }, {
+    "name" : "host",
+    "value" : "932702603f7a"
+  }, {
+    "name" : "thread",
+    "value" : "9-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_reset_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mail",
+    "value" : "'freenancetester@gmail.com'"
+  }, {
+    "name" : "pwd",
+    "value" : "'uxidgrqiouboppzc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a7931eac7ea5781e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7fb5bf2698a0>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7fb5bf2698a0> = RESET.verify_confirmation_code",
+        "time" : {
+          "start" : 1718458693194,
+          "stop" : 1718458695155,
+          "duration" : 1961
+        }
+      }, {
+        "uid" : "eaac911314b809ae",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7f25570998a0>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7f25570998a0> = RESET.verify_confirmation_code",
+        "time" : {
+          "start" : 1718454952668,
+          "stop" : 1718454953645,
+          "duration" : 977
+        }
+      }, {
+        "uid" : "736f2561f05134f6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7fa1165698a0>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7fa1165698a0> = RESET.verify_confirmation_code",
+        "time" : {
+          "start" : 1718453615115,
+          "stop" : 1718453616838,
+          "duration" : 1723
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c371d001375a8bc.json",
+  "parameterValues" : [ "'freenancetester@gmail.com'", "'uxidgrqiouboppzc'" ]
+}

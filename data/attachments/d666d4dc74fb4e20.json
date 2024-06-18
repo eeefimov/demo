@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jennifer-martinez.gould@garza.com",
+        "name": "terrence98"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzQzOWVkMjgwMDAxYjQ0MDk1MCIsImlhdCI6MTcxODcyMDMyMywiZXhwIjoxNzE4NzIxNTIzfQ.DzHmgnm2-3mFLdEkN8UwQZBXndulBCPAmpmHJm2nJkI",
+    "refreshToken": "4213fcb2d2ed2c3aab581c5bafd568033eaca6208170b1aaa2cd6da39b2332a39d5fb7736cc5d37e"
+}

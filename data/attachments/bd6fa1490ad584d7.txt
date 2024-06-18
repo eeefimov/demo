@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVhOWVkMjgwMDAxYjQ0MDhhOSIsImlhdCI6MTcxODcyMDIzNCwiZXhwIjoxNzE4NzIxNDM0fQ.1ds0zzJIMh6R0074jNRE17oPmnLiOMRIveQurk5ca68'}
+data_models = {'name': 'Age sgrossphilip', 'email': 'James.Moore@wong.info', 'password': ')49YJS'}

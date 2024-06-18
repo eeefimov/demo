@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NmVmOWVkMjgwMDAxYjQ0MDhiNyIsImlhdCI6MTcxODcyMDIzOSwiZXhwIjoxNzE4NzIxNDM5fQ.pT4SfEm5m7JdlPJ0qb0imKplCnYuqOCryWWYeIEJNxU'}
+data_models = {'name': 'Standpeggy01', 'email': 'Scott.Lin@frost.com', 'password': 'X20Qt%'}

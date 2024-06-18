@@ -1,0 +1,239 @@
+{
+  "uid" : "be8f333dc7edc7f3",
+  "name" : "test_response_payload",
+  "fullName" : "tests_api.test_get_ingedients.TestIngredients#test_response_payload",
+  "historyId" : "c6b34b61a100cb3d41d57f8c1a80aa1b",
+  "time" : {
+    "start" : 1718720210752,
+    "stop" : 1718720211083,
+    "duration" : 331
+  },
+  "description" : "Verify exist of payload in response.",
+  "descriptionHtml" : "<p>Verify exist of payload in response.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718720210375,
+      "stop" : 1718720210375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718720210353,
+      "stop" : 1718720210375,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ingredients",
+    "time" : {
+      "start" : 1718720210752,
+      "stop" : 1718720210752,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Ingredients",
+      "time" : {
+        "start" : 1718720210752,
+        "stop" : 1718720210752,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify exist of payload in response.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send GET request",
+      "time" : {
+        "start" : 1718720210753,
+        "stop" : 1718720211082,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a5f2eadaf0d5731",
+        "name" : "api Response",
+        "source" : "2a5f2eadaf0d5731.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "d21adfcd682cc9ad",
+        "name" : "api Response",
+        "source" : "d21adfcd682cc9ad.json",
+        "type" : "application/json",
+        "size" : 7747
+      } ],
+      "parameters" : [ {
+        "name" : "endpoint",
+        "value" : "'https://stellarburgers.nomoreparties.site/api/ingredients'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_ingedients"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIngredients"
+  }, {
+    "name" : "host",
+    "value" : "932702603f7a"
+  }, {
+    "name" : "thread",
+    "value" : "9-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_get_ingedients"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ae1e1d1e848560ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458551066,
+          "stop" : 1718458551292,
+          "duration" : 226
+        }
+      }, {
+        "uid" : "491fbc78bc8700ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454831658,
+          "stop" : 1718454831929,
+          "duration" : 271
+        }
+      }, {
+        "uid" : "4b9283ce89ae3438",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453496376,
+          "stop" : 1718453496649,
+          "duration" : 273
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be8f333dc7edc7f3.json",
+  "parameterValues" : [ ]
+}

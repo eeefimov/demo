@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "spencer.lewis@allen-sanchez.net",
+        "name": "Mind castanedaangela"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzE5NzMxOWVkMjgwMDAxYjQ0MDkyZSIsImlhdCI6MTcxODcyMDMwNSwiZXhwIjoxNzE4NzIxNTA1fQ.qsWvO1-UbnyMvukWJ-2YXJws0HBxcYkUJMcesqoY7tw",
+    "refreshToken": "203ed4d94054954a81e5e25d6c1664902b4fc6792f219ea85b28511a869582bc15b82abce6c104f1"
+}
