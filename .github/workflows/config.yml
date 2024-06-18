@@ -46,30 +46,30 @@ jobs:
 
       - name: Set test command
         run: |
-          if [ "${{ github.event.inputs.deployment_target }}" == "tests_api" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_api/ --alluredir=allure-results" >> .env
-          elif [ "${{ github.event.inputs.deployment_target }}" == "tests_ui" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env
-          
-          elif [ "${{ github.event.inputs.deployment_target }}" == "test_account_page" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page --alluredir=allure-results" >> .env
-          elif [ "${{ github.event.inputs.deployment_target }}" == "test_main_page" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_main_page --alluredir=allure-results" >> .env
-          elif [ "${{ github.event.inputs.deployment_target }}" == "test_login_page" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_login_page --alluredir=allure-results" >> .env
-          elif [ "${{ github.event.inputs.deployment_target }}" == "test_orders_page" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_orders_page --alluredir=allure-results" >> .env
-          elif [ "${{ github.event.inputs.deployment_target }}" == "test_registration_page" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_registration_page --alluredir=allure-results" >> .env
-          elif [ "${{ github.event.inputs.deployment_target }}" == "test_restore_pwd" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_restore_pwd --alluredir=allure-results" >> .env
-        
-          
-          elif [ "${{ github.event.inputs.deployment_target }}" == "tests_integration" ]; then
-            echo "TEST_COMMAND=pytest -sv tests/tests_integration/ --alluredir=allure-results" >> .env
-          else
-            echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> .env
-          fi
+          case "${{ github.event.inputs.deployment_target }}" in
+            tests_api)
+              echo "TEST_COMMAND=pytest -sv tests/tests_api/ --alluredir=allure-results" >> .env ;;
+            tests_ui)
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env ;;
+            test_account_page)
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page --alluredir=allure-results" >> .env ;;
+            test_main_page)
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_main_page --alluredir=allure-results" >> .env ;;
+            test_login_page)
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_login_page --alluredir=allure-results" >> .env ;;
+            test_orders_page)
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_orders_page --alluredir=allure-results" >> .env ;;
+            test_registration_page)
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_registration_page --alluredir=allure-results" >> .env ;;
+            test_restore_pwd)
+              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_restore_pwd --alluredir=allure-results" >> .env ;;
+            tests_integration)
+              echo "TEST_COMMAND=pytest -sv tests/tests_integration/ --alluredir=allure-results" >> .env ;;
+            all)
+              echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> .env ;;
+            *)
+              echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> .env ;;
+          esac
 
       - name: Run Tests using docker-compose
         run: |
