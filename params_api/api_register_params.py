@@ -14,22 +14,22 @@ empty_register_credentials = [
     pytest.param("",
                  fake.password(),
                  fake.user_name(),
-                 403,
+                 400,
                  id="No email"),
     pytest.param(fake.email(),
                  "",
                  fake.user_name(),
-                 403,
+                 400,
                  id="No password"),
     pytest.param(fake.email(),
                  fake.password(),
                  "",
-                 403,
+                 400,
                  id="No name"),
     pytest.param("",
                  "",
                  "",
-                 403,
+                 400,
                  id="All empty")
 ]
 
@@ -48,7 +48,7 @@ invalid_methods = [
 # Invalid data_models
 invalid_data = [
     pytest.param(None,
-                 403,
+                 400,
                  id='None data_models'),
     pytest.param(
         {
@@ -56,7 +56,7 @@ invalid_data = [
             fake.password(): fake.password(),
             fake.password(): fake.password(),
         },
-        403,
+        400,
         id="Invalid data_models")
 ]
 

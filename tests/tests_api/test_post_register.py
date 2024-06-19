@@ -9,17 +9,17 @@ This module contains tests for POST /auth/register endpoint.
     Verify response status code.
     Verify exist of payload in response.
     Verify values type in response.
-    Verify response code with empty credentials (No email: 403).
-    Verify response code with empty credentials (No password: 403).
-    Verify response code with empty credentials (No name: 403).
-    Verify response code with empty credentials (All empty: 403).
+    Verify response code with empty credentials (No email: 400).
+    Verify response code with empty credentials (No password: 400).
+    Verify response code with empty credentials (No name: 400).
+    Verify response code with empty credentials (All empty: 400).
     Verify response code with invalid types of method (GET: 404).
     Verify response code with invalid types of method (PUT: 404).
     Verify response code with invalid types of method (PATCH: 404).
     Verify response code with invalid type of body
-        (None data_models: 403).
+        (None data_models: 400).
     Verify response code with invalid type of body
-        (Invalid data_models: 403).
+        (Invalid data_models: 400).
     Verify response code with different email
         (Email without "@": 400).
     Verify response code with different email
@@ -49,19 +49,19 @@ This module contains tests for POST /auth/register endpoint.
     Verify response code with different name
         (User name with 1 char: 200).
     Verify response code with different name
-        (User name with 10 digits: 404).
+        (User name with 10 digits: 400).
     Verify response code with different name
-        (User name with special chars: 404).
+        (User name with special chars: 400).
     Verify response code with different name
-        (User name with 100 char: 404).
+        (User name with 100 char: 400).
     Verify response code with different name
-        (User name with 2 strings: 404).
+        (User name with 2 strings: 400).
     Verify response code with different name
-        (User name with 3 strings: 404).
+        (User name with 3 strings: 400).
     Verify response code with different name
-        (User name with front space string: 404).
+        (User name with front space string: 400).
     Verify response code with different name
-        (User name with back space string: 404).
+        (User name with back space string: 400).
     Verify response with exist user registration.
 """
 # pylint: disable=unused-argument
