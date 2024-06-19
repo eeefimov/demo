@@ -60,6 +60,7 @@ def test_main_ingredients_items(page):
 
 def test_main_top_title_color_changes(page):
     """Verify top titles color changes when scrolling."""
+    page.wait_for_load_state("networkidle")
     with allure.step("Verify elements have proper color"):
         expect(page.locator(MAIN.TOP_BUN)).to_have_css(
             'color', 'rgb(255, 255, 255)')
@@ -68,6 +69,7 @@ def test_main_top_title_color_changes(page):
 
     with allure.step("Scroll ingredients section to Topping"):
         MAIN.scroll(page, MAIN.INSIDE_TOPPING)
+        page.wait_for_load_state("networkidle")
         time.sleep(2)
 
     with allure.step("Verify top titles color changing"):
@@ -257,7 +259,7 @@ def test_main_order_empty(page):
 
 @pytest.mark.parametrize("bun, number", different_orders)
 def test_main_order_not_empty(page, bun, number):
-    """Verify order single ingredient."""
+    """Verify order with different number of ingredient."""
     MAIN.make_order(page, bun=bun, number=number)
 
     with allure.step("Verify order number is not 9999"):
