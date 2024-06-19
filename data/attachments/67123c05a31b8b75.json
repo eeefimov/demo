@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "latasha.kim@johnson.org",
-        "name": "Orderscottcunningham"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDNlOWVkMjgwMDAxYjQ0MTIxMSIsImlhdCI6MTcxODc0NjQzMCwiZXhwIjoxNzE4NzQ3NjMwfQ.Fw8t3W4cdBrRpQGwD2zjX2XjTphOI4rwDN8FA4j7xIk",
-    "refreshToken": "8cc6e8ea16e2f2b98cf184b44141059708f1e6822ae2455d7ee9fd584617863ac2194baf78669364"
-}

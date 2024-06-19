@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "susan.howell@huffman-myers.biz",
-        "name": "Adminstewartnatasha"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzkzOWVkMjgwMDAxYjQ0MTE2NyIsImlhdCI6MTcxODc0NjI1OSwiZXhwIjoxNzE4NzQ3NDU5fQ.cQPm50hrL7FMPY4hb1cPGLm38ePonchjYJqSjbqqi6k",
-    "refreshToken": "83395c0cd9b8eefd50e53e322e2b4477580bcb1815ed2cd08c2617763eddff6439ef3c94ad4325af"
-}

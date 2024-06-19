@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "name": "\u0424\u0430\u043b\u043b\u0435\u043d\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u0430\u043b\u044c\u0444\u0430-\u0441\u0430\u0445\u0430\u0440\u0438\u0434\u043d\u044b\u0439 \u0431\u0435\u0441\u0441\u043c\u0435\u0440\u0442\u043d\u044b\u0439 \u043a\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6c",
+                "name": "\u041a\u0440\u0430\u0442\u043e\u0440\u043d\u0430\u044f \u0431\u0443\u043b\u043a\u0430 N-200i",
+                "type": "bun",
+                "proteins": 80,
+                "fat": 24,
+                "carbohydrates": 53,
+                "calories": 420,
+                "price": 1255,
+                "image": "https://code.s3.yandex.net/react/code/bun-02.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/bun-02-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/bun-02-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa78",
+                "name": "\u041a\u0440\u0438\u0441\u0442\u0430\u043b\u043b\u044b \u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0441\u043a\u0438\u0445 \u0430\u043b\u044c\u0444\u0430-\u0441\u0430\u0445\u0430\u0440\u0438\u0434\u043e\u0432",
+                "type": "main",
+                "proteins": 234,
+                "fat": 432,
+                "carbohydrates": 111,
+                "calories": 189,
+                "price": 762,
+                "image": "https://code.s3.yandex.net/react/code/core.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/core-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/core-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6f",
+                "name": "\u041c\u044f\u0441\u043e \u0431\u0435\u0441\u0441\u043c\u0435\u0440\u0442\u043d\u044b\u0445 \u043c\u043e\u043b\u043b\u044e\u0441\u043a\u043e\u0432 Protostomia",
+                "type": "main",
+                "proteins": 433,
+                "fat": 244,
+                "carbohydrates": 33,
+                "calories": 420,
+                "price": 1337,
+                "image": "https://code.s3.yandex.net/react/code/meat-02.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/meat-02-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/meat-02-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa77",
+                "name": "\u041f\u043b\u043e\u0434\u044b \u0424\u0430\u043b\u043b\u0435\u043d\u0438\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u0434\u0435\u0440\u0435\u0432\u0430",
+                "type": "main",
+                "proteins": 20,
+                "fat": 5,
+                "carbohydrates": 55,
+                "calories": 77,
+                "price": 874,
+                "image": "https://code.s3.yandex.net/react/code/sp_1.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sp_1-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sp_1-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "6672bc9e9ed280001b441a6a",
+        "owner": {
+            "name": "Finanfreemangary",
+            "email": "shannon.mcclain@morgan.com",
+            "createdAt": "2024-06-19T11:10:21.016Z",
+            "updatedAt": "2024-06-19T11:10:21.016Z"
+        },
+        "status": "done",
+        "name": "\u0424\u0430\u043b\u043b\u0435\u043d\u0438\u0430\u043d\u0441\u043a\u0438\u0439 \u0430\u043b\u044c\u0444\u0430-\u0441\u0430\u0445\u0430\u0440\u0438\u0434\u043d\u044b\u0439 \u0431\u0435\u0441\u0441\u043c\u0435\u0440\u0442\u043d\u044b\u0439 \u043a\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0431\u0443\u0440\u0433\u0435\u0440",
+        "createdAt": "2024-06-19T11:10:22.557Z",
+        "updatedAt": "2024-06-19T11:10:23.082Z",
+        "number": 80958,
+        "price": 4228
+    }
+}

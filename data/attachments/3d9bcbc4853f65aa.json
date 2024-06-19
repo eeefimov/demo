@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "sharon.strickland@mills.com",
+        "name": "Hour vfitzpatrick"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I4OWVkMjgwMDAxYjQ0MWFhMSIsImlhdCI6MTcxODc5NTQ0OCwiZXhwIjoxNzE4Nzk2NjQ4fQ.Ov51HrWfQLmLDtpkocXppx_0-_RmXGaF1darAszY9iE",
+    "refreshToken": "ac6c827d39789dbc40764a6a243a5611efc29d1e578e35baf65e21a6f5f515fce1467eca312bdd65"
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "mark.griffin@berry.net",
+        "name": "Treatkingrobert"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVlOWVkMjgwMDAxYjQ0MTlmOCIsImlhdCI6MTcxODc5NTM1OCwiZXhwIjoxNzE4Nzk2NTU4fQ.YMMA9clAIL2oD4Otg93xB8m-hjgMRy1FolgQPlVIdjY",
+    "refreshToken": "1a58dd0e1d92b3651bacff7785e5b6eb21ba8072fe6250fcf7e4e1566343e3453835e048a997cdb5"
+}

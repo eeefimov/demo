@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "myersbrianna@example.net",
+        "name": "during professor law"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I1OWVkMjgwMDAxYjQ0MWE5OSIsImlhdCI6MTcxODc5NTQ0NSwiZXhwIjoxNzE4Nzk2NjQ1fQ.9CSR-Ft3YlYumcCN4ODA0Wg7rs0Q9FMQTVhY_gnGXDk",
+    "refreshToken": "b0b3b3751e764be09b605ce9d5de74dc147d80f863a31f4a71247c09a86529aa4f24fd4b115fa5b4"
+}

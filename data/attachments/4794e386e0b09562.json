@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "angela.brown@taylor.com",
-        "name": "Benefkyliecollins"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzk2OWVkMjgwMDAxYjQ0MTE2ZCIsImlhdCI6MTcxODc0NjI2MiwiZXhwIjoxNzE4NzQ3NDYyfQ.tvuq73NvpegWJVS7MZonnzKayVfllpQoNujDbruMrbA",
-    "refreshToken": "20adad3eab178ae97da353f8ecf74d82a53dfdcb4cb51a77cdefda726a71c3725a1ebbbcdf33c385"
-}

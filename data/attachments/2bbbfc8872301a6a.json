@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "bobby.anderson@anderson-jackson.com",
-        "name": "Wondejeffreydavis"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzgzOWVkMjgwMDAxYjQ0MTE0MyIsImlhdCI6MTcxODc0NjI0MywiZXhwIjoxNzE4NzQ3NDQzfQ.8HHGb1dXyYNsiil2hAaR22Zpoypkd5PRxCZfJZnY56Y",
-    "refreshToken": "ff73e2f5072e0a9028e30a7f6d89ac46c14457537e21074bd111edc497491587ee7d762a8d984f6f"
-}

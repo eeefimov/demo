@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "henry_robinson@ruiz.com",
+        "name": "pricelarry"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2FlOWVkMjgwMDAxYjQ0MWE4MyIsImlhdCI6MTcxODc5NTQzOCwiZXhwIjoxNzE4Nzk2NjM4fQ.e5EDJRZjQkMPSfR7ooL6ac17s1Ra8g9tUQgUJbkFY6c",
+    "refreshToken": "7dc31e81bd62eb4482e869a2202820d1004cf2e41b226c2bb2da688d767e1c8de3256cf71fc1ae4e"
+}

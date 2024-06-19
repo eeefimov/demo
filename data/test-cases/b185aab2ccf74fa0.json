@@ -1,0 +1,354 @@
+{
+  "uid" : "b185aab2ccf74fa0",
+  "name" : "test_payload_type_validation",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_payload_type_validation",
+  "historyId" : "ddf1d4c45a4dd4ad03de8e91176900ad",
+  "time" : {
+    "start" : 1718795431180,
+    "stop" : 1718795431395,
+    "duration" : 215
+  },
+  "description" : "Verify values type in response.",
+  "descriptionHtml" : "<p>Verify values type in response.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795431179,
+      "stop" : 1718795431180,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795431179,
+        "stop" : 1718795431180,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795431180,
+          "stop" : 1718795431180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Busindanielhuang'"
+        }, {
+          "name" : "mail",
+          "value" : "'Derrick.Wright@harrison.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'*n2Kun'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify values type in response.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718795431180,
+        "stop" : 1718795431394,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d0e264e17d22f43",
+        "name" : "Request Info",
+        "source" : "3d0e264e17d22f43.txt",
+        "type" : "text/plain",
+        "size" : 204
+      }, {
+        "uid" : "a031550d8955658b",
+        "name" : "api Response",
+        "source" : "a031550d8955658b.json",
+        "type" : "application/json",
+        "size" : 432
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup response model",
+      "time" : {
+        "start" : 1718795431394,
+        "stop" : 1718795431394,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "model",
+        "value" : "<class 'data_models.user_model.RegisterModel'>"
+      }, {
+        "name" : "input_data",
+        "value" : "{'success': True, 'user': {'email': 'derrick.wright@harrison.com', 'name': 'Busindanielhuang'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E3OWVkMjgwMDAxYjQ0MWE3OSIsImlhdCI6MTcxODc5NTQzMSwiZXhwIjoxNzE4Nzk2NjMxfQ.WXFHv7AXKgWI_aeVhR0mll5-jI6q7VXSeCPd-Uc-1zI', 'refreshToken': '90ed42a93a201027037b5b6234421c171ce1bd8ecdc98374b34293f0c0ec3b53dcdd26936e77220f'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795431395,
+      "stop" : 1718795431809,
+      "duration" : 414
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795431395,
+        "stop" : 1718795431808,
+        "duration" : 413
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795431396,
+          "stop" : 1718795431396,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E3OWVkMjgwMDAxYjQ0MWE3OSIsImlhdCI6MTcxODc5NTQzMSwiZXhwIjoxNzE4Nzk2NjMxfQ.WXFHv7AXKgWI_aeVhR0mll5-jI6q7VXSeCPd-Uc-1zI'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "48657070035fa824",
+        "name" : "Request Info",
+        "source" : "48657070035fa824.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E3OWVkMjgwMDAxYjQ0MWE3OSIsImlhdCI6MTcxODc5NTQzMSwiZXhwIjoxNzE4Nzk2NjMxfQ.WXFHv7AXKgWI_aeVhR0mll5-jI6q7VXSeCPd-Uc-1zI'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "fa3a2c370ae3d3a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746340112,
+          "stop" : 1718746340441,
+          "duration" : 329
+        }
+      }, {
+        "uid" : "23ea088d8f4b94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720312699,
+          "stop" : 1718720312946,
+          "duration" : 247
+        }
+      }, {
+        "uid" : "eedbf81c1bceb468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458664476,
+          "stop" : 1718458664755,
+          "duration" : 279
+        }
+      }, {
+        "uid" : "28840d7c66f8227b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454929111,
+          "stop" : 1718454929335,
+          "duration" : 224
+        }
+      }, {
+        "uid" : "cf7d3dea5af76379",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453591991,
+          "stop" : 1718453592218,
+          "duration" : 227
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b185aab2ccf74fa0.json",
+  "parameterValues" : [ ]
+}

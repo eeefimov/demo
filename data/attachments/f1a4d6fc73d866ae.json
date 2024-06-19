@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "ricardomartinez@example.net",
-        "name": "jcarr"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDQzOWVkMjgwMDAxYjQ0MTIxNCIsImlhdCI6MTcxODc0NjQzNSwiZXhwIjoxNzE4NzQ3NjM1fQ.c7ug2OfG75s9PEW47LtVUD3okk31LVS1Wv4jUBAtFv8",
-    "refreshToken": "1796af5a07274c6e24df3c85957814814447437c1444d7bed997bf3a50c31cc8cf1a24b46d681661"
-}

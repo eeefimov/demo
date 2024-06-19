@@ -1,0 +1,4 @@
+method = GET
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzU2OWVkMjgwMDAxYjQ0MTllMCIsImlhdCI6MTcxODc5NTM1MCwiZXhwIjoxNzE4Nzk2NTUwfQ.qAlGO37nBVpU3GUnWHf6qv54DgoU4dhUkvmVegz61-k'}
+data_models = None

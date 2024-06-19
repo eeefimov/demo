@@ -1,0 +1,439 @@
+{
+  "uid" : "72e7207d2958835d",
+  "name" : "test_exist_email_validation",
+  "fullName" : "tests_api.test_patch_user.TestPatchUser#test_exist_email_validation",
+  "historyId" : "525d593d7622b77ead239f2bc110b5e0",
+  "time" : {
+    "start" : 1718795366416,
+    "stop" : 1718795366569,
+    "duration" : 153
+  },
+  "description" : "Verify response code with exist email patch.",
+  "descriptionHtml" : "<p>Verify response code with exist email patch.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "self = <tests.tests_api.test_patch_user.TestPatchUser object at 0x7ff7b0134850>\nusr = <api.user.USER object at 0x7ff7af49d990>\n\n    def test_exist_email_validation(self, usr):\n        \"\"\"Verify response code with exist email patch.\"\"\"\n        mail = {'email': usr.data['email']}\n        response = usr.patch_user(mail)\n>       assert response.status_code == 403\nE       assert 200 == 403\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_patch_user.py:81: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795366204,
+      "stop" : 1718795366205,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795366204,
+        "stop" : 1718795366205,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795366205,
+          "stop" : 1718795366205,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Else samantha53'"
+        }, {
+          "name" : "mail",
+          "value" : "'Karen.Burke@moran.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'3PUP7@'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "usr",
+    "time" : {
+      "start" : 1718795366205,
+      "stop" : 1718795366416,
+      "duration" : 211
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup User data",
+      "time" : {
+        "start" : 1718795366205,
+        "stop" : 1718795366205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718795366206,
+        "stop" : 1718795366416,
+        "duration" : 210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa9a752c68f5782",
+        "name" : "Request Info",
+        "source" : "fa9a752c68f5782.txt",
+        "type" : "text/plain",
+        "size" : 197
+      }, {
+        "uid" : "d8f4b3864a28868e",
+        "name" : "api Response",
+        "source" : "d8f4b3864a28868e.json",
+        "type" : "application/json",
+        "size" : 425
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Setup Header with user token",
+      "time" : {
+        "start" : 1718795366416,
+        "stop" : 1718795366416,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY2OWVkMjgwMDAxYjQ0MWExMiIsImlhdCI6MTcxODc5NTM2NiwiZXhwIjoxNzE4Nzk2NTY2fQ.fNaZ2k_qXf4vj71ahAQn4oNIC6TGXRu7usO6WNULHCw'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with exist email patch.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+    "statusTrace" : "self = <tests.tests_api.test_patch_user.TestPatchUser object at 0x7ff7b0134850>\nusr = <api.user.USER object at 0x7ff7af49d990>\n\n    def test_exist_email_validation(self, usr):\n        \"\"\"Verify response code with exist email patch.\"\"\"\n        mail = {'email': usr.data['email']}\n        response = usr.patch_user(mail)\n>       assert response.status_code == 403\nE       assert 200 == 403\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_patch_user.py:81: AssertionError",
+    "steps" : [ {
+      "name" : "Send PATCH user request",
+      "time" : {
+        "start" : 1718795366416,
+        "stop" : 1718795366569,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fb53a8c0316c3fc",
+        "name" : "Request Info",
+        "source" : "8fb53a8c0316c3fc.txt",
+        "type" : "text/plain",
+        "size" : 389
+      }, {
+        "uid" : "7175253d89058273",
+        "name" : "api Response",
+        "source" : "7175253d89058273.json",
+        "type" : "application/json",
+        "size" : 120
+      } ],
+      "parameters" : [ {
+        "name" : "new_data",
+        "value" : "{'email': 'Karen.Burke@moran.com'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795366573,
+      "stop" : 1718795366745,
+      "duration" : 172
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795366573,
+        "stop" : 1718795366744,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795366573,
+          "stop" : 1718795366573,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "None"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "12d6b614798221dc",
+        "name" : "Request Info",
+        "source" : "12d6b614798221dc.txt",
+        "type" : "text/plain",
+        "size" : 137
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "None"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "usr::0",
+    "time" : {
+      "start" : 1718795366572,
+      "stop" : 1718795366573,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_patch_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPatchUser"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_patch_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "ecb18fa3d3ede896",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718746261172,
+          "stop" : 1718746261419,
+          "duration" : 247
+        }
+      }, {
+        "uid" : "8099f7545b220817",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718720244824,
+          "stop" : 1718720245026,
+          "duration" : 202
+        }
+      }, {
+        "uid" : "eed13d6868fc2112",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718458592203,
+          "stop" : 1718458592439,
+          "duration" : 236
+        }
+      }, {
+        "uid" : "6b5d21868e70269e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718454863552,
+          "stop" : 1718454863720,
+          "duration" : 168
+        }
+      }, {
+        "uid" : "b9665f866a4d68ef",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718453526354,
+          "stop" : 1718453526526,
+          "duration" : 172
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "72e7207d2958835d.json",
+  "parameterValues" : [ ]
+}

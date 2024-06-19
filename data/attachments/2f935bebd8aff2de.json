@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "deborah.roberts@wright-hernandez.com",
+        "name": "Insidchenkimberly"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2M4OWVkMjgwMDAxYjQ0MWFiMSIsImlhdCI6MTcxODc5NTQ2NCwiZXhwIjoxNzE4Nzk2NjY0fQ.fi0_R373ROsKiDKuf3XED6bfjtbsgI1YThPnsBuZHHE",
+    "refreshToken": "9a8982beaa4573047404291856f06fcac48f5c5c48950e79914062b949698cae230c78dcd8cc3619"
+}

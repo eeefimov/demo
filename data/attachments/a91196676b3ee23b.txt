@@ -1,4 +1,0 @@
-method = PATCH
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
-header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhlOWVkMjgwMDAxYjQ0MTE1ZCIsImlhdCI6MTcxODc0NjI1NCwiZXhwIjoxNzE4NzQ3NDU0fQ.xiiQRBZsMmKv6QnxO9YVf8lywwggQlj4t2M0E7xS30A'}
-data_models = {'name': 'Just tsmith', 'email': 'Peter.Erickson@larson-hunter.com', 'password': '!iSTvf'}

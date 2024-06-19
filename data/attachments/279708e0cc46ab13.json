@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "alec.johnson@villegas.info",
-        "name": "Rightpbrown"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhhOWVkMjgwMDAxYjQ0MTE1MyIsImlhdCI6MTcxODc0NjI1MCwiZXhwIjoxNzE4NzQ3NDUwfQ.OOhpFY_pPgpaBIf3Fv-ATBwfDNnLg0xYYzBBSnfoKX8",
-    "refreshToken": "31f3eec3d8cbea3c0a612972710ccb37ede27ef533b09148bbd427b2fbc4d8149906ae538a856cfe"
-}

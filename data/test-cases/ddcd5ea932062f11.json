@@ -1,0 +1,311 @@
+{
+  "uid" : "ddcd5ea932062f11",
+  "name" : "test_forgot_access",
+  "fullName" : "tests_ui.test_restore_password#test_forgot_access",
+  "historyId" : "beff99b384785d61eee7e3e94a852418",
+  "time" : {
+    "start" : 1718796569980,
+    "stop" : 1718796569986,
+    "duration" : 6
+  },
+  "description" : "Verify access to Forgot-password page.",
+  "descriptionHtml" : "<p>Verify access to Forgot-password page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "forgot_page",
+    "time" : {
+      "start" : 1718796569489,
+      "stop" : 1718796569980,
+      "duration" : 491
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718796569489,
+        "stop" : 1718796569927,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Restore password link",
+      "time" : {
+        "start" : 1718796569927,
+        "stop" : 1718796569980,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718796568575,
+      "stop" : 1718796569489,
+      "duration" : 914
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718796568962,
+        "stop" : 1718796569489,
+        "duration" : 527
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify access to Forgot-password page.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify redirection to Forgot-password page",
+      "time" : {
+        "start" : 1718796569980,
+        "stop" : 1718796569986,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796569987,
+      "stop" : 1718796570189,
+      "duration" : 202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "374e4cf6fa6c991d",
+      "name" : "Screenshot_2024-06-19 11:29:30.139360",
+      "source" : "374e4cf6fa6c991d.png",
+      "type" : "image/png",
+      "size" : 40436
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_restore_password"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_restore_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "fb1449630a26a6cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718747075428,
+          "stop" : 1718747075436,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "f8fb61bc1813e5a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718721088540,
+          "stop" : 1718721088547,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "994183a36c34bfa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718717640323,
+          "stop" : 1718717640329,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "6a255e3f6d14e2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459628377,
+          "stop" : 1718459628383,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "890e90b64b53cb50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457761371,
+          "stop" : 1718457761377,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "7dafff229c2e31fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718456083416,
+          "stop" : 1718456083422,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ddcd5ea932062f11.json",
+  "parameterValues" : [ ]
+}

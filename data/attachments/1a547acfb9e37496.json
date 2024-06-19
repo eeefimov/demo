@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "andrew.williams@lambert.com",
+        "name": "Less yvonne84"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzczOWVkMjgwMDAxYjQ0MWEzMSIsImlhdCI6MTcxODc5NTM3OSwiZXhwIjoxNzE4Nzk2NTc5fQ.4VFr1BrnbQ_62QTAyxFScG53W47YC9HP5q5jYvqRP5Q",
+    "refreshToken": "6ac88211b3b10bb86c8d23a92a75269f8a606280be4fe7d9f3a08e62d02a5b3906ed9a30a7246893"
+}

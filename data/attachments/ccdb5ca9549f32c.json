@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "julie-scott.george@payne.com",
+        "name": "johnhess"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2IwOWVkMjgwMDAxYjQ0MWE4YiIsImlhdCI6MTcxODc5NTQ0MCwiZXhwIjoxNzE4Nzk2NjQwfQ.O0BeOfO_36xSee1CO0z3EmRChkb-YIsqhxLC1jD7Tbc",
+    "refreshToken": "588d7b0bd44146396f35b3ea0e5605b71aefd2ffc16bada503f29aa3b289d977b2b633292db08551"
+}

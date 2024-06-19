@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYxOWVkMjgwMDAxYjQ0MWEwMCIsImlhdCI6MTcxODc5NTM2MSwiZXhwIjoxNzE4Nzk2NTYxfQ.DUayA-mIsGNUut_CTbjoIrQIJaFEAvnqlSjI-7nYf5M'}
+data_models = {'name': 'Reporsamanthabuckley', 'email': 'Robert.Hoffman@chandler-short.com', 'password': 'Lm9fBQ'}

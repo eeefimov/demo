@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "diane.williams@hansen-thompson.org",
+        "name": "Indeemarquezyvonne"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzc1OWVkMjgwMDAxYjQ0MWEzNCIsImlhdCI6MTcxODc5NTM4MSwiZXhwIjoxNzE4Nzk2NTgxfQ.GUYPjyVEGlXC6IUZhjZPBucroq9Jy301KQWzurBEMA8",
+    "refreshToken": "d9d4ef516d7f2be49551281a2a3660515f46a70ca6e67c32668253f3227172129731b7e0ab489141"
+}

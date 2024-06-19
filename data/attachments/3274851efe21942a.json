@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cynthia.alvarez@hamilton.com",
+        "name": "Noticsmithlisa"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzdiOWVkMjgwMDAxYjQ0MWEzZiIsImlhdCI6MTcxODc5NTM4NywiZXhwIjoxNzE4Nzk2NTg3fQ._YSLV-YzKe-gh4GGoT9erznyMjVDIlE_XOGqh9FqEcQ",
+    "refreshToken": "eeee123d1d99cc2a2ae162730d59e34c465c5ff801cf10bee1b4fafd4db8337261c45ef1512711e4"
+}

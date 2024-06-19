@@ -1,0 +1,331 @@
+{
+  "uid" : "d903a33133ca3f02",
+  "name" : "test_register_login_new_registered_user[Valid user credentials]",
+  "fullName" : "tests_ui.test_registration_page#test_register_login_new_registered_user",
+  "historyId" : "887b592dd600c8a90cbb47916a43aa9e",
+  "time" : {
+    "start" : 1718796558247,
+    "stop" : 1718796560376,
+    "duration" : 2129
+  },
+  "description" : "Verify LogIn of new registered user.",
+  "descriptionHtml" : "<p>Verify LogIn of new registered user.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "playwright._impl._errors.Error: Error: strict mode violation: locator(\"input[name=\\\"name\\\"]\") resolved to 2 elements:\n    1) <input type=\"text\" name=\"name\" value=\"Robert\" class=\"te…/> aka locator(\"fieldset\").filter(has_text=\"Имя\").get_by_role(\"textbox\")\n    2) <input type=\"text\" name=\"name\" value=\"kristen40@example…/> aka locator(\"fieldset\").filter(has_text=\"Email\").get_by_role(\"textbox\")",
+  "statusTrace" : "register_page = <Page url='https://stellarburgers.nomoreparties.site/register'>\nname = 'Robert', mail = 'kristen40@example.org', pwd = 'i*8z2qBt(N'\n\n    @pytest.mark.parametrize(\"name, mail, pwd\", valid_user_credentials)\n    def test_register_login_new_registered_user(register_page, name, mail, pwd):\n        \"\"\"Verify LogIn of new registered user.\"\"\"\n        REGISTER.set_register_fields(register_page, name, mail, pwd)\n>       LOGIN.set_login_fields(register_page, mail, pwd)\n\ntests/tests_ui/test_registration_page.py:191: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page_class.py:28: in set_login_fields\n    page.locator(LOGIN.EMAIL_FIELD).fill(mail)\n../local/lib/python3.11/site-packages/playwright/sync_api/_generated.py:16234: in fill\n    self._sync(\n../local/lib/python3.11/site-packages/playwright/_impl/_locator.py:210: in fill\n    return await self._frame.fill(self._selector, strict=True, **params)\n../local/lib/python3.11/site-packages/playwright/_impl/_frame.py:533: in fill\n    await self._channel.send(\"fill\", locals_to_params(locals()))\n../local/lib/python3.11/site-packages/playwright/_impl/_connection.py:63: in send\n    return await self._connection.wrap_api_call(\n../local/lib/python3.11/site-packages/playwright/_impl/_connection.py:495: in wrap_api_call\n    return await cb()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <playwright._impl._connection.Channel object at 0x7ff7aeeb9e90>\nmethod = 'fill'\nparams = {'selector': 'input[name=\"name\"]', 'strict': True, 'value': 'kristen40@example.org'}\nreturn_as_dict = False\n\n    async def inner_send(\n        self, method: str, params: Optional[Dict], return_as_dict: bool\n    ) -> Any:\n        if params is None:\n            params = {}\n        callback = self._connection._send_message_to_server(\n            self._object, method, _filter_none(params)\n        )\n        if self._connection._error:\n            error = self._connection._error\n            self._connection._error = None\n            raise error\n        done, _ = await asyncio.wait(\n            {\n                self._connection._transport.on_error_future,\n                callback.future,\n            },\n            return_when=asyncio.FIRST_COMPLETED,\n        )\n        if not callback.future.done():\n            callback.future.cancel()\n>       result = next(iter(done)).result()\nE       playwright._impl._errors.Error: Error: strict mode violation: locator(\"input[name=\\\"name\\\"]\") resolved to 2 elements:\nE           1) <input type=\"text\" name=\"name\" value=\"Robert\" class=\"te…/> aka locator(\"fieldset\").filter(has_text=\"Имя\").get_by_role(\"textbox\")\nE           2) <input type=\"text\" name=\"name\" value=\"kristen40@example…/> aka locator(\"fieldset\").filter(has_text=\"Email\").get_by_role(\"textbox\")\n\n../local/lib/python3.11/site-packages/playwright/_impl/_connection.py:101: Error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "register_page",
+    "time" : {
+      "start" : 1718796558119,
+      "stop" : 1718796558247,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718796558119,
+        "stop" : 1718796558194,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Registration link",
+      "time" : {
+        "start" : 1718796558194,
+        "stop" : 1718796558247,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718796556030,
+      "stop" : 1718796558119,
+      "duration" : 2089
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718796556425,
+        "stop" : 1718796558119,
+        "duration" : 1694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify LogIn of new registered user.",
+    "status" : "broken",
+    "statusMessage" : "playwright._impl._errors.Error: Error: strict mode violation: locator(\"input[name=\\\"name\\\"]\") resolved to 2 elements:\n    1) <input type=\"text\" name=\"name\" value=\"Robert\" class=\"te…/> aka locator(\"fieldset\").filter(has_text=\"Имя\").get_by_role(\"textbox\")\n    2) <input type=\"text\" name=\"name\" value=\"kristen40@example…/> aka locator(\"fieldset\").filter(has_text=\"Email\").get_by_role(\"textbox\")",
+    "statusTrace" : "register_page = <Page url='https://stellarburgers.nomoreparties.site/register'>\nname = 'Robert', mail = 'kristen40@example.org', pwd = 'i*8z2qBt(N'\n\n    @pytest.mark.parametrize(\"name, mail, pwd\", valid_user_credentials)\n    def test_register_login_new_registered_user(register_page, name, mail, pwd):\n        \"\"\"Verify LogIn of new registered user.\"\"\"\n        REGISTER.set_register_fields(register_page, name, mail, pwd)\n>       LOGIN.set_login_fields(register_page, mail, pwd)\n\ntests/tests_ui/test_registration_page.py:191: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page_class.py:28: in set_login_fields\n    page.locator(LOGIN.EMAIL_FIELD).fill(mail)\n../local/lib/python3.11/site-packages/playwright/sync_api/_generated.py:16234: in fill\n    self._sync(\n../local/lib/python3.11/site-packages/playwright/_impl/_locator.py:210: in fill\n    return await self._frame.fill(self._selector, strict=True, **params)\n../local/lib/python3.11/site-packages/playwright/_impl/_frame.py:533: in fill\n    await self._channel.send(\"fill\", locals_to_params(locals()))\n../local/lib/python3.11/site-packages/playwright/_impl/_connection.py:63: in send\n    return await self._connection.wrap_api_call(\n../local/lib/python3.11/site-packages/playwright/_impl/_connection.py:495: in wrap_api_call\n    return await cb()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <playwright._impl._connection.Channel object at 0x7ff7aeeb9e90>\nmethod = 'fill'\nparams = {'selector': 'input[name=\"name\"]', 'strict': True, 'value': 'kristen40@example.org'}\nreturn_as_dict = False\n\n    async def inner_send(\n        self, method: str, params: Optional[Dict], return_as_dict: bool\n    ) -> Any:\n        if params is None:\n            params = {}\n        callback = self._connection._send_message_to_server(\n            self._object, method, _filter_none(params)\n        )\n        if self._connection._error:\n            error = self._connection._error\n            self._connection._error = None\n            raise error\n        done, _ = await asyncio.wait(\n            {\n                self._connection._transport.on_error_future,\n                callback.future,\n            },\n            return_when=asyncio.FIRST_COMPLETED,\n        )\n        if not callback.future.done():\n            callback.future.cancel()\n>       result = next(iter(done)).result()\nE       playwright._impl._errors.Error: Error: strict mode violation: locator(\"input[name=\\\"name\\\"]\") resolved to 2 elements:\nE           1) <input type=\"text\" name=\"name\" value=\"Robert\" class=\"te…/> aka locator(\"fieldset\").filter(has_text=\"Имя\").get_by_role(\"textbox\")\nE           2) <input type=\"text\" name=\"name\" value=\"kristen40@example…/> aka locator(\"fieldset\").filter(has_text=\"Email\").get_by_role(\"textbox\")\n\n../local/lib/python3.11/site-packages/playwright/_impl/_connection.py:101: Error",
+    "steps" : [ {
+      "name" : "Fill in Login field",
+      "time" : {
+        "start" : 1718796558248,
+        "stop" : 1718796558266,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in Email field",
+      "time" : {
+        "start" : 1718796558266,
+        "stop" : 1718796558280,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in Password field",
+      "time" : {
+        "start" : 1718796558280,
+        "stop" : 1718796558294,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Registration button",
+      "time" : {
+        "start" : 1718796558294,
+        "stop" : 1718796559347,
+        "duration" : 1053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill Email field",
+      "time" : {
+        "start" : 1718796560347,
+        "stop" : 1718796560376,
+        "duration" : 29
+      },
+      "status" : "broken",
+      "statusMessage" : "playwright._impl._errors.Error: Error: strict mode violation: locator(\"input[name=\\\"name\\\"]\") resolved to 2 elements:\n    1) <input type=\"text\" name=\"name\" value=\"Robert\" class=\"te…/> aka locator(\"fieldset\").filter(has_text=\"Имя\").get_by_role(\"textbox\")\n    2) <input type=\"text\" name=\"name\" value=\"kristen40@example…/> aka locator(\"fieldset\").filter(has_text=\"Email\").get_by_role(\"textbox\")\n\n",
+      "statusTrace" : "  File \"/usr/workspace/pages/login_page_class.py\", line 28, in set_login_fields\n    page.locator(LOGIN.EMAIL_FIELD).fill(mail)\n  File \"/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py\", line 16234, in fill\n    self._sync(\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_locator.py\", line 210, in fill\n    return await self._frame.fill(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_frame.py\", line 533, in fill\n    await self._channel.send(\"fill\", locals_to_params(locals()))\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py\", line 63, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py\", line 495, in wrap_api_call\n    return await cb()\n           ^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py\", line 101, in inner_send\n    result = next(iter(done)).result()\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796560523,
+      "stop" : 1718796560668,
+      "duration" : 145
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d55ed3839989e4e",
+      "name" : "Screenshot_2024-06-19 11:29:20.627209",
+      "source" : "9d55ed3839989e4e.png",
+      "type" : "image/png",
+      "size" : 72354
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_registration_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mail",
+    "value" : "'kristen40@example.org'"
+  }, {
+    "name" : "name",
+    "value" : "'Robert'"
+  }, {
+    "name" : "pwd",
+    "value" : "'i*8z2qBt(N'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d903a33133ca3f02.json",
+  "parameterValues" : [ "'kristen40@example.org'", "'Robert'", "'i*8z2qBt(N'" ]
+}

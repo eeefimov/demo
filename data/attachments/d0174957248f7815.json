@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "gwendolyn.williams@jones-payne.org",
+        "name": "Someomary46"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2YzOWVkMjgwMDAxYjQ0MWFiYiIsImlhdCI6MTcxODc5NTUwNywiZXhwIjoxNzE4Nzk2NzA3fQ.NoMgTI3K6XNAQ0ztHbGqCr6pjL283lN63iPomNeTdWM",
+    "refreshToken": "612b98c69c7e1ae9ce265a6413a932336f283cb8d1c4e6e78448a687d1e573a4716839dd256617a2"
+}

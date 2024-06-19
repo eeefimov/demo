@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "joy-erickson@huang-parker.com",
-        "name": "jcollins"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2YwOWVkMjgwMDAxYjQ0MTFlMCIsImlhdCI6MTcxODc0NjM1MiwiZXhwIjoxNzE4NzQ3NTUyfQ.p0ZkpvKgPkzuznKXuO00LaYzoICBtrlYY4MIK2f7rbg",
-    "refreshToken": "571e68fda272fa858706f783774767683c15ddbe8e86fd986de2df3b92b3949dd8fe51836ade2fef"
-}

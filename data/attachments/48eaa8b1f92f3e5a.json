@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "riley.bond@kennedy-rodriguez.com",
+        "name": "Painthillcorey"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2JiOWVkMjgwMDAxYjQ0MWFhNyIsImlhdCI6MTcxODc5NTQ1MSwiZXhwIjoxNzE4Nzk2NjUxfQ.6xm5yTwaJshh7GUXUP2rU3zh5EJp9I9sYOSh0Lii7CU",
+    "refreshToken": "041e06848967bd61c6069eb1f028eaffd418a96b5dc27b4e56ed8601902c4e0eba4bd91aea08e3ee"
+}

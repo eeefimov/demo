@@ -1,0 +1,317 @@
+{
+  "uid" : "9e04ba70ab1b46f6",
+  "name" : "test_register_header_btns[Redirection to List of orders page]",
+  "fullName" : "tests_ui.test_registration_page#test_register_header_btns",
+  "historyId" : "4b0dbe95174bb58f61f0ea49f7cb3e34",
+  "time" : {
+    "start" : 1718796564344,
+    "stop" : 1718796565243,
+    "duration" : 899
+  },
+  "description" : "Verify redirection to pages using Header buttons.",
+  "descriptionHtml" : "<p>Verify redirection to pages using Header buttons.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718796562987,
+      "stop" : 1718796563889,
+      "duration" : 902
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718796563381,
+        "stop" : 1718796563889,
+        "duration" : 508
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_page",
+    "time" : {
+      "start" : 1718796563889,
+      "stop" : 1718796564343,
+      "duration" : 454
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718796563889,
+        "stop" : 1718796564343,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection to pages using Header buttons.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on button at Header",
+      "time" : {
+        "start" : 1718796564344,
+        "stop" : 1718796564380,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify redirection to page",
+      "time" : {
+        "start" : 1718796564380,
+        "stop" : 1718796565243,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796565244,
+      "stop" : 1718796565414,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b0d63dd4f4a5c597",
+      "name" : "Screenshot_2024-06-19 11:29:25.360317",
+      "source" : "b0d63dd4f4a5c597.png",
+      "type" : "image/png",
+      "size" : 211452
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_registration_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "btn",
+    "value" : "'//p[contains(text(), 'Лента Заказов')]'"
+  }, {
+    "name" : "exp",
+    "value" : "'//h1[contains(text(), 'Лента заказов')]'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "1648f25105620ccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718747067262,
+          "stop" : 1718747068177,
+          "duration" : 915
+        }
+      }, {
+        "uid" : "58d061975289066",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718721082457,
+          "stop" : 1718721083370,
+          "duration" : 913
+        }
+      }, {
+        "uid" : "eacca682e100f5bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718717633722,
+          "stop" : 1718717634634,
+          "duration" : 912
+        }
+      }, {
+        "uid" : "63393ed7fbb958b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459621924,
+          "stop" : 1718459622838,
+          "duration" : 914
+        }
+      }, {
+        "uid" : "6853890f6094c06b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457755319,
+          "stop" : 1718457756234,
+          "duration" : 915
+        }
+      }, {
+        "uid" : "f154fc1a71a289fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718456077265,
+          "stop" : 1718456078177,
+          "duration" : 912
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9e04ba70ab1b46f6.json",
+  "parameterValues" : [ "'//p[contains(text(), 'Лента Заказов')]'", "'//h1[contains(text(), 'Лента заказов')]'" ]
+}

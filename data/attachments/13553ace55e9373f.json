@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "aaron.green@hill-mcconnell.net",
+        "name": "Card dalecarter"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzZiOWVkMjgwMDAxYjQ0MWExZSIsImlhdCI6MTcxODc5NTM3MSwiZXhwIjoxNzE4Nzk2NTcxfQ.gXRfGvIH5UTm8vecr-8rWBvm10o4pr8ckDTMCVuofQs",
+    "refreshToken": "a3f4258edb8c16ba8041eb0b197465e276748c08baff1a808d008a183b87972860ab37ed31d3744c"
+}

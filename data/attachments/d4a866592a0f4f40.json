@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "david-stark.cole@velazquez.com",
-        "name": "rachelscott"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2YyOWVkMjgwMDAxYjQ0MTFlNCIsImlhdCI6MTcxODc0NjM1NCwiZXhwIjoxNzE4NzQ3NTU0fQ.9g1M3EsQycerJDKgLSt2dlouhZ2is4fNga2xAeLsMnM",
-    "refreshToken": "bab9876442e8f23bdc3310d1c7d7ee67f29ab7d14808d68784d0f44c0893c648c8a38507053ee06e"
-}

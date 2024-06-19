@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "anthony.spencer@taylor.info",
+        "name": "Abilisummersjane"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYyOWVkMjgwMDAxYjQ0MWEwNiIsImlhdCI6MTcxODc5NTM2MiwiZXhwIjoxNzE4Nzk2NTYyfQ.-3tKvZfdGY5F6rx5ngOq6lvrnKWVGfBR41Gpu6HKrmQ",
+    "refreshToken": "845db6446b82bf4f0eddd14778877631c9a9f18b902900368cac01a25ceaca696b63458c016505cd"
+}

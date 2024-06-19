@@ -1,0 +1,362 @@
+{
+  "uid" : "bb18701d28feebbe",
+  "name" : "test_reset_header_btns[Redirection to List of orders page]",
+  "fullName" : "tests_ui.test_restore_password#test_reset_header_btns",
+  "historyId" : "53a06120f06f9448f1c6882e8901338d",
+  "time" : {
+    "start" : 1718796721288,
+    "stop" : 1718796724251,
+    "duration" : 2963
+  },
+  "description" : "Verify redirection to pages using Header buttons.",
+  "descriptionHtml" : "<p>Verify redirection to pages using Header buttons.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718796719953,
+      "stop" : 1718796720848,
+      "duration" : 895
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718796720344,
+        "stop" : 1718796720848,
+        "duration" : 504
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "login_page",
+    "time" : {
+      "start" : 1718796720848,
+      "stop" : 1718796721287,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718796720848,
+        "stop" : 1718796721287,
+        "duration" : 439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection to pages using Header buttons.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fill email field",
+      "time" : {
+        "start" : 1718796721288,
+        "stop" : 1718796721306,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Restore button",
+      "time" : {
+        "start" : 1718796721306,
+        "stop" : 1718796723360,
+        "duration" : 2054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify redirection to Reset page",
+      "time" : {
+        "start" : 1718796723360,
+        "stop" : 1718796723367,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on button at Header",
+      "time" : {
+        "start" : 1718796723367,
+        "stop" : 1718796723390,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify redirection to page",
+      "time" : {
+        "start" : 1718796723390,
+        "stop" : 1718796724251,
+        "duration" : 861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796724253,
+      "stop" : 1718796724429,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fac8451e83146793",
+      "name" : "Screenshot_2024-06-19 11:32:04.369184",
+      "source" : "fac8451e83146793.png",
+      "type" : "image/png",
+      "size" : 187935
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_restore_password"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_restore_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "btn",
+    "value" : "'//p[contains(text(), 'Лента Заказов')]'"
+  }, {
+    "name" : "exp",
+    "value" : "'//h1[contains(text(), 'Лента заказов')]'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "868ef94778bf99ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718747234869,
+          "stop" : 1718747237830,
+          "duration" : 2961
+        }
+      }, {
+        "uid" : "739f9f6f75049077",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718721238184,
+          "stop" : 1718721241143,
+          "duration" : 2959
+        }
+      }, {
+        "uid" : "54bb4bb1b4f8f2a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718717782284,
+          "stop" : 1718717785242,
+          "duration" : 2958
+        }
+      }, {
+        "uid" : "49e35a8483b648da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459777583,
+          "stop" : 1718459780527,
+          "duration" : 2944
+        }
+      }, {
+        "uid" : "a41cd97972defeac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457912380,
+          "stop" : 1718457915341,
+          "duration" : 2961
+        }
+      }, {
+        "uid" : "6bfc3e3fcc949883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718456224693,
+          "stop" : 1718456227654,
+          "duration" : 2961
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bb18701d28feebbe.json",
+  "parameterValues" : [ "'//p[contains(text(), 'Лента Заказов')]'", "'//h1[contains(text(), 'Лента заказов')]'" ]
+}

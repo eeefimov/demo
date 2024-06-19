@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "julian.lawrence@smith-bowman.com",
+        "name": "Execugherrera"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzc3OWVkMjgwMDAxYjQ0MWEzNyIsImlhdCI6MTcxODc5NTM4MywiZXhwIjoxNzE4Nzk2NTgzfQ.CYSpl2dkwAXn8Y1NR9jRDb_K2_cqv3jQAHxjZoJXgU0",
+    "refreshToken": "1907bf136c295f02b9236e4e250ab6b8c3feb5414db1707efa4d45f9a92f1a0528b5ebbfb0b1cf2f"
+}

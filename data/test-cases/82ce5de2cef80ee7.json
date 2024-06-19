@@ -1,0 +1,298 @@
+{
+  "uid" : "82ce5de2cef80ee7",
+  "name" : "test_forgot_email_validation[Not registered email]",
+  "fullName" : "tests_ui.test_restore_password#test_forgot_email_validation",
+  "historyId" : "55bcd5a3b17e356c031b00a913a615a0",
+  "time" : {
+    "start" : 1718796581613,
+    "stop" : 1718796588686,
+    "duration" : 7073
+  },
+  "description" : "Verify sending restore password link with invalid email.",
+  "descriptionHtml" : "<p>Verify sending restore password link with invalid email.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Page URL expected to be 'https://stellarburgers.nomoreparties.site/forgot-password'\nActual value: https://stellarburgers.nomoreparties.site/reset-password \nCall log:\nPageAssertions.to_have_url with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"",
+  "statusTrace" : "forgot_page = <Page url='https://stellarburgers.nomoreparties.site/reset-password'>\nemail = 'hbowen@example.com'\nlink = 'https://stellarburgers.nomoreparties.site/forgot-password'\n\n    @pytest.mark.parametrize(\"email, link\", email_validation)\n    def test_forgot_email_validation(forgot_page, email, link):\n        \"\"\"Verify sending restore password link with invalid email.\"\"\"\n        FORGOT.fill_forgot_field(forgot_page, email)\n    \n        with allure.step(\"Verify user stays on the page\"):\n>           expect(forgot_page).to_have_url(link)\nE           AssertionError: Page URL expected to be 'https://stellarburgers.nomoreparties.site/forgot-password'\nE           Actual value: https://stellarburgers.nomoreparties.site/reset-password \nE           Call log:\nE           PageAssertions.to_have_url with timeout 5000ms\nE             - waiting for locator(\":root\")\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n\ntests/tests_ui/test_restore_password.py:103: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718796580201,
+      "stop" : 1718796581246,
+      "duration" : 1045
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718796580591,
+        "stop" : 1718796581246,
+        "duration" : 655
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "forgot_page",
+    "time" : {
+      "start" : 1718796581247,
+      "stop" : 1718796581613,
+      "duration" : 366
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718796581247,
+        "stop" : 1718796581560,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Restore password link",
+      "time" : {
+        "start" : 1718796581560,
+        "stop" : 1718796581613,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify sending restore password link with invalid email.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Page URL expected to be 'https://stellarburgers.nomoreparties.site/forgot-password'\nActual value: https://stellarburgers.nomoreparties.site/reset-password \nCall log:\nPageAssertions.to_have_url with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"",
+    "statusTrace" : "forgot_page = <Page url='https://stellarburgers.nomoreparties.site/reset-password'>\nemail = 'hbowen@example.com'\nlink = 'https://stellarburgers.nomoreparties.site/forgot-password'\n\n    @pytest.mark.parametrize(\"email, link\", email_validation)\n    def test_forgot_email_validation(forgot_page, email, link):\n        \"\"\"Verify sending restore password link with invalid email.\"\"\"\n        FORGOT.fill_forgot_field(forgot_page, email)\n    \n        with allure.step(\"Verify user stays on the page\"):\n>           expect(forgot_page).to_have_url(link)\nE           AssertionError: Page URL expected to be 'https://stellarburgers.nomoreparties.site/forgot-password'\nE           Actual value: https://stellarburgers.nomoreparties.site/reset-password \nE           Call log:\nE           PageAssertions.to_have_url with timeout 5000ms\nE             - waiting for locator(\":root\")\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\nE             -   locator resolved to <html lang=\"en\">…</html>\nE             -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n\ntests/tests_ui/test_restore_password.py:103: AssertionError",
+    "steps" : [ {
+      "name" : "Fill email field",
+      "time" : {
+        "start" : 1718796581614,
+        "stop" : 1718796581630,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Restore button",
+      "time" : {
+        "start" : 1718796581630,
+        "stop" : 1718796583681,
+        "duration" : 2051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify user stays on the page",
+      "time" : {
+        "start" : 1718796583681,
+        "stop" : 1718796588685,
+        "duration" : 5004
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Page URL expected to be 'https://stellarburgers.nomoreparties.site/forgot-password'\nActual value: https://stellarburgers.nomoreparties.site/reset-password \nCall log:\nPageAssertions.to_have_url with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/tests_ui/test_restore_password.py\", line 103, in test_forgot_email_validation\n    expect(forgot_page).to_have_url(link)\n  File \"/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py\", line 19495, in to_have_url\n    self._sync(\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 120, in to_have_url\n    await self._expect_impl(\n  File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_assertions.py\", line 70, in _expect_impl\n    raise AssertionError(\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796588691,
+      "stop" : 1718796588832,
+      "duration" : 141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "44f4a21eb1d7bb2d",
+      "name" : "Screenshot_2024-06-19 11:29:48.785678",
+      "source" : "44f4a21eb1d7bb2d.png",
+      "type" : "image/png",
+      "size" : 44082
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_restore_password"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_restore_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'hbowen@example.com'"
+  }, {
+    "name" : "link",
+    "value" : "'https://stellarburgers.nomoreparties.site/forgot-password'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "82ce5de2cef80ee7.json",
+  "parameterValues" : [ "'hbowen@example.com'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
+}

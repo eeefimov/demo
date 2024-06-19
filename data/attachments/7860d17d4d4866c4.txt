@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVkOWVkMjgwMDAxYjQ0MTlmNCIsImlhdCI6MTcxODc5NTM1NywiZXhwIjoxNzE4Nzk2NTU3fQ.qJ61pO4p9qlm7oLvwI6gWcjlRL-HPqPKPQyuK-qgKGM'}
+data_models = {'name': 'Show gonzalezjeanne', 'email': 'Travis.Phelps@daugherty.com', 'password': 'wzPM7&'}

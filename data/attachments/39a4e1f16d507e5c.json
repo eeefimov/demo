@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "richard.bowers@howell.com",
+        "name": "Suppokimberly85"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzZkOWVkMjgwMDAxYjQ0MWEyNCIsImlhdCI6MTcxODc5NTM3MywiZXhwIjoxNzE4Nzk2NTczfQ.7flxNHYxdbqQRWAcHjtZaUW8Dx4Pz4IxFmzU1rbtR44",
+    "refreshToken": "35249172ef8497092eb47c80e963e4ff6b97bf85501b3fbc0745294f585df1afdfdc6a95887e76f7"
+}

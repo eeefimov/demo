@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "frederick.smith@lane.com",
-        "name": "Easy andreagarcia"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2FhOWVkMjgwMDAxYjQ0MTE5MCIsImlhdCI6MTcxODc0NjI4MiwiZXhwIjoxNzE4NzQ3NDgyfQ.9Mh-BusfQdSoCSrryoaoUnl9F8k6VEpstBGHNYn7KaY",
-    "refreshToken": "9cda2cf2fdbffd458a16e1bf89086d9385edd0264fb5a01628265a63181198373cc825950b6c7ba1"
-}

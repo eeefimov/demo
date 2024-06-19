@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "david.parker@weaver-lee.info",
-        "name": "Soldikatherinephillips"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDBjOWVkMjgwMDAxYjQ0MTIwYyIsImlhdCI6MTcxODc0NjM4MCwiZXhwIjoxNzE4NzQ3NTgwfQ.tdDtFjUrRfLHpZFCRsELlRhY4IdEjdQQCp6ndlMbmRM",
-    "refreshToken": "c6ca1f32edeab13145c599ac2f6ac609c9cbad2baae7b054927c05cc8477ea01771868f97fbafaa6"
-}

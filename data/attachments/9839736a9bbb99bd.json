@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "michael-crawford@jackson.info",
+        "name": "william46"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2FmOWVkMjgwMDAxYjQ0MWE4NyIsImlhdCI6MTcxODc5NTQzOSwiZXhwIjoxNzE4Nzk2NjM5fQ.kZL6t9rStFwN0ZeL5ab1byeXEdlKfMsD97qP-FSTPy4",
+    "refreshToken": "b614ec4b48360965d7ab1b8006763ac4898f36fb596f417b5f5a5a088d340617a3e4e3b226166ccf"
+}

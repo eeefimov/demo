@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "stephanie.ochoa@bennett.net",
+        "name": "Rathekcarter"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I3OWVkMjgwMDAxYjQ0MWE5ZiIsImlhdCI6MTcxODc5NTQ0NywiZXhwIjoxNzE4Nzk2NjQ3fQ.uylMty5z2oxsZbLFidBx6EOZmyv_stPeg25CRHKDAKw",
+    "refreshToken": "1f98ab751ef9eeb598320fc3248c1fcca85147c5e01dcd27f8e1b4a745cc2e4e6cffd8f02d2737aa"
+}

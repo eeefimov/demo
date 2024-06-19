@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "frances.smith@dean.biz",
+        "name": "Pull traceymaldonado"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2JhOWVkMjgwMDAxYjQ0MWFhNCIsImlhdCI6MTcxODc5NTQ1MCwiZXhwIjoxNzE4Nzk2NjUwfQ.ZX1Bx7dM2od5xDc9saUfzygRasFgD65rPcAmNrN5eN0",
+    "refreshToken": "7c61f5c6a5936e7d8f062a2253cf89471b19519bbef6d54a2ed5424a9daf0af38649dd9e365922ba"
+}

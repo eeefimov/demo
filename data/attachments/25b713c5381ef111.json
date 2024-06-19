@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "samuel.thompson@king-simpson.com",
-        "name": "Bed pygordon"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmZDA2OWVkMjgwMDAxYjQ0MTIwNSIsImlhdCI6MTcxODc0NjM3NCwiZXhwIjoxNzE4NzQ3NTc0fQ.jmktD2uHB3pxb2Bnb9MgD69dz6HAI7v2KktQ3bu7o1A",
-    "refreshToken": "a463497ace5713b1cea9c0baa711129dcd1e9a10a46f556044ebc2d9a05e509542f8e9a7be0cc0e0"
-}

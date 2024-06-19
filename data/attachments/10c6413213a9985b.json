@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "linda.woods@pierce.info",
+        "name": "Factorickyward"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYwOWVkMjgwMDAxYjQ0MTlmZSIsImlhdCI6MTcxODc5NTM2MCwiZXhwIjoxNzE4Nzk2NTYwfQ.TOIYGNwCU9401tizCoxtVp2OrFL186pjp1aZIgT-1sA",
+    "refreshToken": "848b0070831d33b39fc1db571e811fed6646817c453815e52b65451f2a177a67161c763570d3d928"
+}

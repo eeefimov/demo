@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jessica.holt@price-walker.net",
+        "name": "Prepazchavez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzljOWVkMjgwMDAxYjQ0MWE2NSIsImlhdCI6MTcxODc5NTQyMCwiZXhwIjoxNzE4Nzk2NjIwfQ.32iZFavZw_3u4sYRob8CJaAn9LSCfeuCbs4xPiLcds0",
+    "refreshToken": "25485e9a18a8f0c56581d118da0e923e59d3d150a7d2b885ae8be18616110130498409d876ea9a23"
+}

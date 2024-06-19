@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "todd.daniels@palmer.com",
+        "name": "Make annaclark"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzgwOWVkMjgwMDAxYjQ0MWE0OCIsImlhdCI6MTcxODc5NTM5MiwiZXhwIjoxNzE4Nzk2NTkyfQ.HI1IZHLwuCdZEWL0jRUQW7jLSGDpvUprKlQm7SQbJMI",
+    "refreshToken": "979d3ca6643a4c60ac37904a007b7c248db8bed2402e7bbfbefc82153c7e91288b3a855f29af0638"
+}

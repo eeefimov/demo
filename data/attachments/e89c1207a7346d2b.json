@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "anita.cole@hill-cook.com",
+        "name": "Husbagarzaamanda"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzU5OWVkMjgwMDAxYjQ0MTllNiIsImlhdCI6MTcxODc5NTM1MywiZXhwIjoxNzE4Nzk2NTUzfQ.HtleIBdq4Kx09OUWtm03OJWgV_EYB-nvTZDsd2raODA",
+    "refreshToken": "d188bbf3f789dda2f657740b13e13eaa1674888dd3e328cf5d54ffb0dfd9f4e7d642f5cd3b632a3f"
+}

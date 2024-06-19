@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "rhonda.miller@simmons.net",
-        "name": "Emplojustin91"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzkxOWVkMjgwMDAxYjQ0MTE2MyIsImlhdCI6MTcxODc0NjI1NywiZXhwIjoxNzE4NzQ3NDU3fQ.zdY3KCrQDYqgvvtkgLtGGCZ66aFElPL7lbRBWbKnSPE",
-    "refreshToken": "42d953374af3faa7739db9a050f4b6196f8b5733b3fb4354c6a02a39e75c6eb3c3e0d176a4a77f2f"
-}

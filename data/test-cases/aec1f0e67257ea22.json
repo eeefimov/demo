@@ -1,0 +1,258 @@
+{
+  "uid" : "aec1f0e67257ea22",
+  "name" : "test_invalid_methods[PUT]",
+  "fullName" : "tests_api.test_get_orders.TestGetOrdersAll#test_invalid_methods",
+  "historyId" : "8553ad49c6733372923eabc11ecc8e76",
+  "time" : {
+    "start" : 1718795343775,
+    "stop" : 1718795343936,
+    "duration" : 161
+  },
+  "description" : "Verify response code with invalid methods.",
+  "descriptionHtml" : "<p>Verify response code with invalid methods.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "orders",
+    "time" : {
+      "start" : 1718795343775,
+      "stop" : 1718795343775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Orders",
+      "time" : {
+        "start" : 1718795343775,
+        "stop" : 1718795343775,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with invalid methods.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send put requests",
+      "time" : {
+        "start" : 1718795343775,
+        "stop" : 1718795343935,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "169b9da71ae03da5",
+        "name" : "Request Info",
+        "source" : "169b9da71ae03da5.txt",
+        "type" : "text/plain",
+        "size" : 176
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6f9964617aefb39e",
+      "name" : "api Response",
+      "source" : "6f9964617aefb39e.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_orders"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetOrdersAll"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_get_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "404"
+  }, {
+    "name" : "method",
+    "value" : "'put'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "701ee435a5da750e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746228775,
+          "stop" : 1718746229025,
+          "duration" : 250
+        }
+      }, {
+        "uid" : "bf6107670429981c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720220373,
+          "stop" : 1718720220550,
+          "duration" : 177
+        }
+      }, {
+        "uid" : "2d4ca65f031386b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458562501,
+          "stop" : 1718458562721,
+          "duration" : 220
+        }
+      }, {
+        "uid" : "2630f0419609b181",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454840666,
+          "stop" : 1718454840827,
+          "duration" : 161
+        }
+      }, {
+        "uid" : "fa854c993714d468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453504982,
+          "stop" : 1718453505145,
+          "duration" : 163
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aec1f0e67257ea22.json",
+  "parameterValues" : [ "404", "'put'" ]
+}

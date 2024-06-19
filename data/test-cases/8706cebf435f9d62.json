@@ -1,0 +1,429 @@
+{
+  "uid" : "8706cebf435f9d62",
+  "name" : "test_invalid_methods[PUT]",
+  "fullName" : "tests_api.test_post_logout.TestPostLogout#test_invalid_methods",
+  "historyId" : "9e42c634749c8919ec7dcfbc8dc98205",
+  "time" : {
+    "start" : 1718795373418,
+    "stop" : 1718795373567,
+    "duration" : 149
+  },
+  "description" : "Verify response code with invalid methods.",
+  "descriptionHtml" : "<p>Verify response code with invalid methods.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logout",
+    "time" : {
+      "start" : 1718795373203,
+      "stop" : 1718795373418,
+      "duration" : 215
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup logout data",
+      "time" : {
+        "start" : 1718795373203,
+        "stop" : 1718795373203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718795373203,
+        "stop" : 1718795373418,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d011f018fbf9f9d6",
+        "name" : "Request Info",
+        "source" : "d011f018fbf9f9d6.txt",
+        "type" : "text/plain",
+        "size" : 201
+      }, {
+        "uid" : "39a4e1f16d507e5c",
+        "name" : "api Response",
+        "source" : "39a4e1f16d507e5c.json",
+        "type" : "application/json",
+        "size" : 429
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795373202,
+      "stop" : 1718795373203,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795373202,
+        "stop" : 1718795373203,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795373203,
+          "stop" : 1718795373203,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Suppokimberly85'"
+        }, {
+          "name" : "mail",
+          "value" : "'Richard.Bowers@howell.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'u9%072'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with invalid methods.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup logout data",
+      "time" : {
+        "start" : 1718795373418,
+        "stop" : 1718795373418,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "'35249172ef8497092eb47c80e963e4ff6b97bf85501b3fbc0745294f585df1afdfdc6a95887e76f7'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send put requests",
+      "time" : {
+        "start" : 1718795373418,
+        "stop" : 1718795373566,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f853d7a486ad509",
+        "name" : "Request Info",
+        "source" : "9f853d7a486ad509.txt",
+        "type" : "text/plain",
+        "size" : 204
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c50f9a7ec3bf53f2",
+      "name" : "api Response",
+      "source" : "c50f9a7ec3bf53f2.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "logout::0",
+    "time" : {
+      "start" : 1718795373568,
+      "stop" : 1718795373569,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795373570,
+      "stop" : 1718795373736,
+      "duration" : 166
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795373570,
+        "stop" : 1718795373735,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795373570,
+          "stop" : 1718795373570,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "None"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "4cb527ce86d2448",
+        "name" : "Request Info",
+        "source" : "4cb527ce86d2448.txt",
+        "type" : "text/plain",
+        "size" : 137
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "None"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_logout"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostLogout"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "404"
+  }, {
+    "name" : "method",
+    "value" : "'put'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d48b0442909d3724",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746271100,
+          "stop" : 1718746271357,
+          "duration" : 257
+        }
+      }, {
+        "uid" : "74397176d8a28eb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720252326,
+          "stop" : 1718720252502,
+          "duration" : 176
+        }
+      }, {
+        "uid" : "94aed2624928b767",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458600760,
+          "stop" : 1718458600979,
+          "duration" : 219
+        }
+      }, {
+        "uid" : "ebc745c735fe040",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454870651,
+          "stop" : 1718454870835,
+          "duration" : 184
+        }
+      }, {
+        "uid" : "5a3d02d2bd861919",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453533633,
+          "stop" : 1718453533806,
+          "duration" : 173
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8706cebf435f9d62.json",
+  "parameterValues" : [ "404", "'put'" ]
+}

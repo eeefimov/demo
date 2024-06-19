@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "stephanie.simpson@howe.com",
+        "name": "Inclusteven24"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzcxOWVkMjgwMDAxYjQ0MWEyZSIsImlhdCI6MTcxODc5NTM3NywiZXhwIjoxNzE4Nzk2NTc3fQ.Jh7VOdsrI6ckQbr9LCyl3s7n2ZnO2qkRpAvjmXeixu4",
+    "refreshToken": "022eeb1f0d1aa0a80e6fef4ed51a28e8b8345278bb93db68e220a690ed32be49fbeade0edfc1641f"
+}

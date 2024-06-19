@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "donald.hansen@hunter.com",
-        "name": "What eric05"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2FkOWVkMjgwMDAxYjQ0MTE5NSIsImlhdCI6MTcxODc0NjI4NSwiZXhwIjoxNzE4NzQ3NDg1fQ.RiMoisAL7Sqa8uQPP_QA4VYy-TkWnqAI7pWI0m_2P7U",
-    "refreshToken": "db153c4c5e9169ee66939ed0b69b841ce98ceb768daa0ae63500c7a180c3a570fa80161751259685"
-}

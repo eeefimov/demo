@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "travis.phelps@daugherty.com",
+        "name": "Show gonzalezjeanne"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVkOWVkMjgwMDAxYjQ0MTlmNCIsImlhdCI6MTcxODc5NTM1NywiZXhwIjoxNzE4Nzk2NTU3fQ.qJ61pO4p9qlm7oLvwI6gWcjlRL-HPqPKPQyuK-qgKGM",
+    "refreshToken": "a43c6eb6e92093c30e1f997af0ee2a07c1314c34e4f2314d2fee54e219e015b257e7c7e6a22c502e"
+}

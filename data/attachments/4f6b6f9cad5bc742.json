@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "bernard.henderson@bennett.net",
+        "name": "Lettemartinezcaleb"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY0OWVkMjgwMDAxYjQ0MWEwYSIsImlhdCI6MTcxODc5NTM2NCwiZXhwIjoxNzE4Nzk2NTY0fQ.dfKC9KdwN_Kyk3iahZ_1Ge_P0_ToeH2BTogMwAjnisU",
+    "refreshToken": "625d1ccef80789c8f9f20620177cd78de90877aa5e78ec2fd53d1e1d711080591289cfd395c679dc"
+}

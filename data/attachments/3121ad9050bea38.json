@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jessica.reyes@nguyen-campbell.com",
-        "name": "In chrobin86"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2E0OWVkMjgwMDAxYjQ0MTE4NyIsImlhdCI6MTcxODc0NjI3NiwiZXhwIjoxNzE4NzQ3NDc2fQ.n7IzD7GWbIhwGlgL5p2xfQ9Y-S5Ml6nnBSKkwxLBSSU",
-    "refreshToken": "3161f72a8fdb36c36fe395e8eb85cc5fb5a63d162be3fc718d8c0c77ea32196ba1afde576d982518"
-}

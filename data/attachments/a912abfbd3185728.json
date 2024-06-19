@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "robert.mcneil@mitchell-moore.org",
-        "name": "Movemmccartyarthur"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2E2OWVkMjgwMDAxYjQ0MTE4YSIsImlhdCI6MTcxODc0NjI3OCwiZXhwIjoxNzE4NzQ3NDc4fQ.mfXp8FIfpSmFAMyCZ-cCrpm0vGYtT06CaV_6mAA0hXk",
-    "refreshToken": "5c2ade2668612555855ddf7adc8c9786fde636737c687aae44dbb57af01687e15ccb8ff661b50394"
-}

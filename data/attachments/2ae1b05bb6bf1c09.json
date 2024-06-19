@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lisa.baker.jason@simon-harris.com",
+        "name": "wkelly"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2FkOWVkMjgwMDAxYjQ0MWE4MSIsImlhdCI6MTcxODc5NTQzNywiZXhwIjoxNzE4Nzk2NjM3fQ.IairpQvBBM1_6M1Gc4jnJxVzLmoZcTotIIV_D61eToY",
+    "refreshToken": "e197d8bad633203f80e67df2ea924e51e2e9358544c192d7819cf7178d3d99a9a9d475b7e3d544d0"
+}

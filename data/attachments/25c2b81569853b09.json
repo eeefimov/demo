@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "amy.acevedo@anderson.com",
-        "name": "Gardenicholevaughn"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhkOWVkMjgwMDAxYjQ0MTE1YiIsImlhdCI6MTcxODc0NjI1MywiZXhwIjoxNzE4NzQ3NDUzfQ.aMwjqyy1z7BYt5jHCclzzQm4n04kNnITTMVdq2M1QG4",
-    "refreshToken": "93b69b61f0dbbb6a1a34a34bfa922b3ac397d34a4975fe8bb7bcef06603a09076f0b092fc0f30493"
-}

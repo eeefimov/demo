@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "douglas.gross@johnston.com",
+        "name": "Wheretheresa51"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2EyOWVkMjgwMDAxYjQ0MWE2ZSIsImlhdCI6MTcxODc5NTQyNiwiZXhwIjoxNzE4Nzk2NjI2fQ.8qOu1C1CWcV0t0nbGfqJowzGNhUwt-NNyi-exxPlP_I",
+    "refreshToken": "c86675b2e1f4f862c6fe0af6a60d2244e66fff9ab5e337259df38e5337f5f6ee8812bc0420a127ed"
+}

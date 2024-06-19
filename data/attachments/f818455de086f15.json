@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "sandra.marquez@owens-hull.org",
+        "name": "idouglas"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2FkOWVkMjgwMDAxYjQ0MWE3ZiIsImlhdCI6MTcxODc5NTQzNywiZXhwIjoxNzE4Nzk2NjM3fQ.FvbRiFNC6AOkSIpzHy18WjokN-EcZjhqkRdkonmCsnk",
+    "refreshToken": "c006aeb182beaa88e7eb5d9b4ae6a4133acaacf4a03fe696e1a5e01e951c8c90dc6a47229704ff38"
+}

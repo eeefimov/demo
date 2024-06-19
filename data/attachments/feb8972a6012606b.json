@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jason.baker@phillips.com",
+        "name": "Develericacastro"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2VjOWVkMjgwMDAxYjQ0MWFiNiIsImlhdCI6MTcxODc5NTUwMCwiZXhwIjoxNzE4Nzk2NzAwfQ.q3CZqe7Fwue-lVcIsi-fyH1-p0takCMQCVTSRkVj2xA",
+    "refreshToken": "07d97a24789ca6e3d71e94a98398256575b54945dc61abf8c5be48aaf099b781ef2f3eb38763af7d"
+}

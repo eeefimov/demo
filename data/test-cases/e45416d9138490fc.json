@@ -1,0 +1,326 @@
+{
+  "uid" : "e45416d9138490fc",
+  "name" : "test_name_validation[User name with 100 char]",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_name_validation",
+  "historyId" : "625cd50f75d8a7a64c949265ef4baf67",
+  "time" : {
+    "start" : 1718795444271,
+    "stop" : 1718795444486,
+    "duration" : 215
+  },
+  "description" : "Verify response code with different name.",
+  "descriptionHtml" : "<p>Verify response code with different name.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 400\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "self = <tests.tests_api.test_post_register.TestRegister object at 0x7ff7af777950>\nregister = <api.user.USER object at 0x7ff7af552090>\nname = 'Community hope else reflect. Occur although bed box your be career. Become race drug fight common.'\nmail = 'ustewart@example.com', pwd = 'K_V3*H', exp = 400\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", name_validation)\n    def test_name_validation(self, register, name, mail, pwd, exp):\n        \"\"\"Verify response code with different name.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        response = register.post_register()\n>       assert response.status_code == exp\nE       assert 200 == 400\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_register.py:154: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795444270,
+      "stop" : 1718795444271,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795444270,
+        "stop" : 1718795444271,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795444271,
+          "stop" : 1718795444271,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Estabadamstina'"
+        }, {
+          "name" : "mail",
+          "value" : "'Brooke.Gross@richmond-mckenzie.net'"
+        }, {
+          "name" : "pwd",
+          "value" : "'$6UOiL'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with different name.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 400\n +  where 200 = <Response [200]>.status_code",
+    "statusTrace" : "self = <tests.tests_api.test_post_register.TestRegister object at 0x7ff7af777950>\nregister = <api.user.USER object at 0x7ff7af552090>\nname = 'Community hope else reflect. Occur although bed box your be career. Become race drug fight common.'\nmail = 'ustewart@example.com', pwd = 'K_V3*H', exp = 400\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", name_validation)\n    def test_name_validation(self, register, name, mail, pwd, exp):\n        \"\"\"Verify response code with different name.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        response = register.post_register()\n>       assert response.status_code == exp\nE       assert 200 == 400\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_register.py:154: AssertionError",
+    "steps" : [ {
+      "name" : "Set user registration data_models",
+      "time" : {
+        "start" : 1718795444272,
+        "stop" : 1718795444272,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'Community hope else reflect. Occur although bed box your be career. Become race drug fight common.'"
+      }, {
+        "name" : "mail",
+        "value" : "'ustewart@example.com'"
+      }, {
+        "name" : "pwd",
+        "value" : "'K_V3*H'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718795444272,
+        "stop" : 1718795444486,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "560e3548df5463fe",
+        "name" : "Request Info",
+        "source" : "560e3548df5463fe.txt",
+        "type" : "text/plain",
+        "size" : 279
+      }, {
+        "uid" : "c761fc6c8ce5e0de",
+        "name" : "api Response",
+        "source" : "c761fc6c8ce5e0de.json",
+        "type" : "application/json",
+        "size" : 507
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795444489,
+      "stop" : 1718795444918,
+      "duration" : 429
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795444489,
+        "stop" : 1718795444917,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795444489,
+          "stop" : 1718795444489,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I0OWVkMjgwMDAxYjQ0MWE5NSIsImlhdCI6MTcxODc5NTQ0NCwiZXhwIjoxNzE4Nzk2NjQ0fQ.vD0SkAmxIScWMTKl61P0RRmw9nkSwlrd8vhMTjwWnbg'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b965082c01baed71",
+        "name" : "Request Info",
+        "source" : "b965082c01baed71.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I0OWVkMjgwMDAxYjQ0MWE5NSIsImlhdCI6MTcxODc5NTQ0NCwiZXhwIjoxNzE4Nzk2NjQ0fQ.vD0SkAmxIScWMTKl61P0RRmw9nkSwlrd8vhMTjwWnbg'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "400"
+  }, {
+    "name" : "mail",
+    "value" : "'ustewart@example.com'"
+  }, {
+    "name" : "name",
+    "value" : "'Community hope else reflect. Occur although bed box your be career. Become race drug fight common.'"
+  }, {
+    "name" : "pwd",
+    "value" : "'K_V3*H'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e45416d9138490fc.json",
+  "parameterValues" : [ "400", "'ustewart@example.com'", "'Community hope else reflect. Occur although bed box your be career. Become race drug fight common.'", "'K_V3*H'" ]
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "derrick.wright@harrison.com",
+        "name": "Busindanielhuang"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E3OWVkMjgwMDAxYjQ0MWE3OSIsImlhdCI6MTcxODc5NTQzMSwiZXhwIjoxNzE4Nzk2NjMxfQ.WXFHv7AXKgWI_aeVhR0mll5-jI6q7VXSeCPd-Uc-1zI",
+    "refreshToken": "90ed42a93a201027037b5b6234421c171ce1bd8ecdc98374b34293f0c0ec3b53dcdd26936e77220f"
+}

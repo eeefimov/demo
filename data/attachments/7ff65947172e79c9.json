@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "steven.hardin@walker.org",
+        "name": "Hit mhnorris"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzc3OWVkMjgwMDAxYjQ0MWEzOSIsImlhdCI6MTcxODc5NTM4MywiZXhwIjoxNzE4Nzk2NTgzfQ.Etho7T-w63vDthrCA0P7-QPXtXqs9-JZwHO3WDZiZMc",
+    "refreshToken": "ebca4d3476c0f36c401536cadf3198e635c6a79723537239d40e03c10e384def549d7bee8c87ebc5"
+}

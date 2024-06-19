@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "joshua.welch@gonzalez-robinson.info",
+        "name": "Relatsteven23"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY5OWVkMjgwMDAxYjQ0MWExYSIsImlhdCI6MTcxODc5NTM2OSwiZXhwIjoxNzE4Nzk2NTY5fQ.8_7EpN3rzFyLU2KsqCaO-hg_QNRkI_nhLfNsAKi7fJM",
+    "refreshToken": "dbb8133aaff9753690720140edf6f644626ed2141e8378d88f299b6914b06395f1f0a07be429ff40"
+}

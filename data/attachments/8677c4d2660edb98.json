@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "holly.moore@fritz.com",
-        "name": "Free robertmccoy"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzk4OWVkMjgwMDAxYjQ0MTE3MSIsImlhdCI6MTcxODc0NjI2NCwiZXhwIjoxNzE4NzQ3NDY0fQ.9c22SjHYe0MH2qMzRP6FDXd00uFixSCN4ecftANzmis",
-    "refreshToken": "4d92d328b03e0aa851fb8fc754ce54036514bd9f9ee4937f3e3f744adf1316669d16a2a6d5fb68fe"
-}

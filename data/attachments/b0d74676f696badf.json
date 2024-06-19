@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "robert.grant@gallagher.com",
+        "name": "Film oturner"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2M3OWVkMjgwMDAxYjQ0MWFhZiIsImlhdCI6MTcxODc5NTQ2MywiZXhwIjoxNzE4Nzk2NjYzfQ.sCPLK20U0v9W5i7OwPxKVu90suetmtop67lViK51Qfo",
+    "refreshToken": "327017e8adc98097ce08d63372b5877e7c114a3bcee1bdc711db3f1b9a6b885878dfc86b3eb005a5"
+}

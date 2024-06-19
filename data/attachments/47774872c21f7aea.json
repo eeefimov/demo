@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "ann.bailey@mclean.net",
+        "name": "Form kaylafreeman"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2M5OWVkMjgwMDAxYjQ0MWFiMyIsImlhdCI6MTcxODc5NTQ2NSwiZXhwIjoxNzE4Nzk2NjY1fQ.JRzHuW2tvLmKxaXTQ6y7lq1fz5Gq3cxwdQOpu-pSmZ0",
+    "refreshToken": "8fa8eba3b417b256e15dc422fe66ff230b4c266cb96aeedd525a7c935004bf95f7d5f7a29074599b"
+}

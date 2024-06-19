@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "alexander.morales@parrish.com",
+        "name": "Histonatalie27"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzdkOWVkMjgwMDAxYjQ0MWE0MiIsImlhdCI6MTcxODc5NTM4OSwiZXhwIjoxNzE4Nzk2NTg5fQ.kK1fck3PMPp-4_6nWjmLDjC5Ifh8yIOk5YLGT9UhMW8",
+    "refreshToken": "6b4b7f592efd1a21be9f6f6a85a12a538bfad087a524293238907cbf01826439cf6014d814a32a0e"
+}

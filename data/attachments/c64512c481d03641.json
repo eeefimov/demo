@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "robert.miller@williams.com",
-        "name": "Argueggarcia"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2RmOWVkMjgwMDAxYjQ0MTFjYyIsImlhdCI6MTcxODc0NjMzNSwiZXhwIjoxNzE4NzQ3NTM1fQ.8OkRcl9m3OsiTR_RXzjWKBftThmBIHGgAXY64uLwmFs",
-    "refreshToken": "645c14234c1f5812d659eadf14217418d51b7681c0747e73880f59240d0ef357372d24558768e72d"
-}

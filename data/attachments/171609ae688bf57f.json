@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "brittanybrewer@example.com",
+        "name": "customer paper"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I1OWVkMjgwMDAxYjQ0MWE5NyIsImlhdCI6MTcxODc5NTQ0NSwiZXhwIjoxNzE4Nzk2NjQ1fQ.0mahp1Lkluuw_2l9_UmpMLgd4eEP24j_dbt6xnrOJ4s",
+    "refreshToken": "62374fc85ffecea81cf39e298a883f9e1ea71cd53dbf7798affd5133b22b9cfde386e47ac817cbbb"
+}

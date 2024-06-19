@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "brandon.page@ibarra-taylor.com",
+        "name": "Thousleahhickman"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzc5OWVkMjgwMDAxYjQ0MWEzYyIsImlhdCI6MTcxODc5NTM4NSwiZXhwIjoxNzE4Nzk2NTg1fQ.mBENp2SAC5b7RSqSe-vMuWYd64JaPRsTZ4OAqcRiDxY",
+    "refreshToken": "5f5a87ffc7f45eace69f14a01c3a5fa8dd147e79ff1ab8bcea2fb898a2e702bc980f138dc47f18e7"
+}

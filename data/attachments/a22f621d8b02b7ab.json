@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "mary-rodriguez-jenkins@powell-hernandez.info",
+        "name": "susandaniels"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2IwOWVkMjgwMDAxYjQ0MWE4OSIsImlhdCI6MTcxODc5NTQ0MCwiZXhwIjoxNzE4Nzk2NjQwfQ.iIJTaJOZ6py1ObkbKP4JrqEjQEkhcvXY-2BwcQaOycU",
+    "refreshToken": "c02e7a0bee70f20e5249dcb9dbb4e759494cc377323b6ea09e2e7c1a73859199390937b55f7658d7"
+}

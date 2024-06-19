@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "jacob.mitchell@hensley-underwood.com",
-        "name": "Availshannon76"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzk5OWVkMjgwMDAxYjQ0MTE3MyIsImlhdCI6MTcxODc0NjI2NSwiZXhwIjoxNzE4NzQ3NDY1fQ.VYxFlX02qI8HTBEfyxq3PajUmUkyOn9jU0jlTQjVQXA",
-    "refreshToken": "60384042a5dd5f47b5da8055060f56c50e8fbe8cb0ccbd90ca6696af7f9db7090c46ec55dfa7c4f5"
-}

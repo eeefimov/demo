@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "ustewart@example.com",
+        "name": "Community hope else reflect. Occur although bed box your be career. Become race drug fight common."
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I0OWVkMjgwMDAxYjQ0MWE5NSIsImlhdCI6MTcxODc5NTQ0NCwiZXhwIjoxNzE4Nzk2NjQ0fQ.vD0SkAmxIScWMTKl61P0RRmw9nkSwlrd8vhMTjwWnbg",
+    "refreshToken": "938a8d29203ba99fc638071234740f314a2c34c33a04b06e15d70f3d69f457da521e4c8ada69e5e9"
+}

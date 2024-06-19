@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "brian.carr@peters-cook.info",
+        "name": "Situahardinbill"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY2OWVkMjgwMDAxYjQ0MWExNCIsImlhdCI6MTcxODc5NTM2NiwiZXhwIjoxNzE4Nzk2NTY2fQ.fYk1r1jYTFiuLfXtoBPJtVC5fAwK1raNT7KJU526iW8",
+    "refreshToken": "e219e805ecd97fe4f21aa8d35f01a5ea4823593c59ba47df37d673f16d5072ea6c758b1eea7a6cdd"
+}

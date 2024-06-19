@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "chad.fowler@clarke.com",
-        "name": "Find kjohnston"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2FiOWVkMjgwMDAxYjQ0MTE5MiIsImlhdCI6MTcxODc0NjI4MywiZXhwIjoxNzE4NzQ3NDgzfQ.oSfue-62rJNvIh5mGf1hkDKA4uzBKLgpHxvSerslVlc",
-    "refreshToken": "5506a3d0761bbebb6808a45bc51ccddc629e098d146f66ffa5d6696508020e40d5cf310a0594d316"
-}

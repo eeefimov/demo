@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "tracy.ramirez@davis-johnson.com",
+        "name": "Politwilsonheidi"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzg0OWVkMjgwMDAxYjQ0MWE0ZCIsImlhdCI6MTcxODc5NTM5NiwiZXhwIjoxNzE4Nzk2NTk2fQ.oVPc8Eb4s5pPls0ylbm7f_0YPo8vze6AtqYdHfHA24g",
+    "refreshToken": "c9afa35e6a85d9168752bb7e5a8fe415ae6b18f6117191ba27a0f7cfef2eec42dbea87a040b260b4"
+}

@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "dianawilliams@example.com",
-        "name": "commercial "
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2ZhOWVkMjgwMDAxYjQ0MTFmNiIsImlhdCI6MTcxODc0NjM2MiwiZXhwIjoxNzE4NzQ3NTYyfQ.VX88eGtq95FCRLo-TWhPLwJ-yj0IR3SG1x1AN_BXO_0",
-    "refreshToken": "c383d1a9bfa7b691a846ec3d1d6c5bbde2f6c44e7d4c951bc38494443a51e709f38aab367deb1afe"
-}

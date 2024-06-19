@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "sean.acosta@barnett.com",
-        "name": "Lettewalter24"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzg1OWVkMjgwMDAxYjQ0MTE0NyIsImlhdCI6MTcxODc0NjI0NSwiZXhwIjoxNzE4NzQ3NDQ1fQ.knTkfuZvxqvtDfzKTuKWNPDLJYslkNLykJzI3qDS5pM",
-    "refreshToken": "3e7c8d43b63cfef412ac117e543a9b5ac325e35b16102acf31af0574df6e68b934a346c8a92d4e09"
-}

@@ -1,0 +1,442 @@
+{
+  "uid" : "888bd3baad9414f8",
+  "name" : "test_main_buns_counter_change",
+  "fullName" : "tests_ui.test_main_page#test_main_buns_counter_change",
+  "historyId" : "a733c4a7468a00bb0bbb131eaca8512e",
+  "time" : {
+    "start" : 1718796256168,
+    "stop" : 1718796261171,
+    "duration" : 5003
+  },
+  "description" : "Verify bun's counter changes\n    after dragging to Constructor.",
+  "descriptionHtml" : "<p>Verify bun's counter changes\nafter dragging to Constructor.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718796253856,
+      "stop" : 1718796256167,
+      "duration" : 2311
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718796254249,
+        "stop" : 1718796256167,
+        "duration" : 1918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1718796256167,
+      "stop" : 1718796256167,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify bun's counter changes\n    after dragging to Constructor.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get start bun counter",
+      "time" : {
+        "start" : 1718796256192,
+        "stop" : 1718796258318,
+        "duration" : 2126
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718796256197,
+          "stop" : 1718796258318,
+          "duration" : 2121
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag bun to Constructor",
+          "time" : {
+            "start" : 1718796256197,
+            "stop" : 1718796256318,
+            "duration" : 121
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Флюоресцентная булка R2-D3'"
+        }, {
+          "name" : "condition",
+          "value" : "'empty'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796258318,
+        "stop" : 1718796258323,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify bun counter changed",
+      "time" : {
+        "start" : 1718796258323,
+        "stop" : 1718796258323,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start bun counter",
+      "time" : {
+        "start" : 1718796258671,
+        "stop" : 1718796261011,
+        "duration" : 2340
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718796258675,
+          "stop" : 1718796261011,
+          "duration" : 2336
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag bun to Constructor",
+          "time" : {
+            "start" : 1718796258675,
+            "stop" : 1718796259011,
+            "duration" : 336
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Краторная булка N-200i'"
+        }, {
+          "name" : "condition",
+          "value" : "'empty'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796261011,
+        "stop" : 1718796261016,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify bun counter changed",
+      "time" : {
+        "start" : 1718796261016,
+        "stop" : 1718796261016,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796261172,
+      "stop" : 1718796261320,
+      "duration" : 148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b9bc804fe26a72fe",
+      "name" : "Screenshot_2024-06-19 11:24:21.271283",
+      "source" : "b9bc804fe26a72fe.png",
+      "type" : "image/png",
+      "size" : 66080
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "210ee56fc565f899",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746740778,
+          "stop" : 1718746746510,
+          "duration" : 5732
+        }
+      }, {
+        "uid" : "1d9a8433f3348599",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720691160,
+          "stop" : 1718720696536,
+          "duration" : 5376
+        }
+      }, {
+        "uid" : "e854f050f65e3e0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718719683491,
+          "stop" : 1718719689176,
+          "duration" : 5685
+        }
+      }, {
+        "uid" : "16c3906a30a98117",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718717288596,
+          "stop" : 1718717293601,
+          "duration" : 5005
+        }
+      }, {
+        "uid" : "b0a0ae20797e759c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459327946,
+          "stop" : 1718459333102,
+          "duration" : 5156
+        }
+      }, {
+        "uid" : "b7bf522859e08911",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457438255,
+          "stop" : 1718457443698,
+          "duration" : 5443
+        }
+      }, {
+        "uid" : "54f92b449f57b0e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455747825,
+          "stop" : 1718455752828,
+          "duration" : 5003
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "888bd3baad9414f8.json",
+  "parameterValues" : [ ]
+}

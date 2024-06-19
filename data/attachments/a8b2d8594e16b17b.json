@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "william.cooper@white.biz",
-        "name": "East austin02"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzk3OWVkMjgwMDAxYjQ0MTE2ZiIsImlhdCI6MTcxODc0NjI2MywiZXhwIjoxNzE4NzQ3NDYzfQ.r8x1x9i3oSqABpycj2oNURDo0VLFVD5HpQC0t4ufFUI",
-    "refreshToken": "36c48ba2d7f76276b6b2b31b068935661b52c0062a7334646a40c1477cd4e880dcd3b1991ce3e167"
-}

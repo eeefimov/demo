@@ -1,0 +1,406 @@
+{
+  "uid" : "75ea5b5f8537b84b",
+  "name" : "test_invalid_methods[GET]",
+  "fullName" : "tests_api.test_post_reset_password.TestReset#test_invalid_methods",
+  "historyId" : "9a2c0e5f648df66cf090e838afd8cabb",
+  "time" : {
+    "start" : 1718795463976,
+    "stop" : 1718795464130,
+    "duration" : 154
+  },
+  "description" : "Verify response code with invalid type of method.",
+  "descriptionHtml" : "<p>Verify response code with invalid type of method.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "self = <tests.tests_api.test_post_reset_password.TestReset object at 0x7ff7af759390>\nreset = <api.user.USER object at 0x7ff7af4e6790>, method = 'get', exp = 404\n\n    @pytest.mark.parametrize('method, exp', invalid_methods)\n    def test_invalid_methods(self, reset, method, exp):\n        \"\"\"Verify response code with invalid type of method.\"\"\"\n        response = reset.send_requests(method, reset.endpoint,\n                                       None, reset.data)\n>       assert response.status_code == exp\nE       assert 200 == 404\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_reset_password.py:68: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset",
+    "time" : {
+      "start" : 1718795463751,
+      "stop" : 1718795463975,
+      "duration" : 224
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup reset request",
+      "time" : {
+        "start" : 1718795463752,
+        "stop" : 1718795463975,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718795463752,
+          "stop" : 1718795463974,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1b6067c1439837f1",
+          "name" : "Request Info",
+          "source" : "1b6067c1439837f1.txt",
+          "type" : "text/plain",
+          "size" : 199
+        }, {
+          "uid" : "b0d74676f696badf",
+          "name" : "api Response",
+          "source" : "b0d74676f696badf.json",
+          "type" : "application/json",
+          "size" : 427
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "reset",
+        "value" : "<api.user.USER object at 0x7ff7af4e6790>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795463750,
+      "stop" : 1718795463751,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795463750,
+        "stop" : 1718795463751,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795463751,
+          "stop" : 1718795463751,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Film oturner'"
+        }, {
+          "name" : "mail",
+          "value" : "'Robert.Grant@gallagher.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'$yV8JO'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with invalid type of method.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+    "statusTrace" : "self = <tests.tests_api.test_post_reset_password.TestReset object at 0x7ff7af759390>\nreset = <api.user.USER object at 0x7ff7af4e6790>, method = 'get', exp = 404\n\n    @pytest.mark.parametrize('method, exp', invalid_methods)\n    def test_invalid_methods(self, reset, method, exp):\n        \"\"\"Verify response code with invalid type of method.\"\"\"\n        response = reset.send_requests(method, reset.endpoint,\n                                       None, reset.data)\n>       assert response.status_code == exp\nE       assert 200 == 404\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_reset_password.py:68: AssertionError",
+    "steps" : [ {
+      "name" : "Send get requests",
+      "time" : {
+        "start" : 1718795463976,
+        "stop" : 1718795464130,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "657e995a9b8b6478",
+        "name" : "Request Info",
+        "source" : "657e995a9b8b6478.txt",
+        "type" : "text/plain",
+        "size" : 153
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795464133,
+      "stop" : 1718795464541,
+      "duration" : 408
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795464133,
+        "stop" : 1718795464540,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795464133,
+          "stop" : 1718795464133,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2M3OWVkMjgwMDAxYjQ0MWFhZiIsImlhdCI6MTcxODc5NTQ2MywiZXhwIjoxNzE4Nzk2NjYzfQ.sCPLK20U0v9W5i7OwPxKVu90suetmtop67lViK51Qfo'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c3d8bad57ecd32c2",
+        "name" : "Request Info",
+        "source" : "c3d8bad57ecd32c2.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2M3OWVkMjgwMDAxYjQ0MWFhZiIsImlhdCI6MTcxODc5NTQ2MywiZXhwIjoxNzE4Nzk2NjYzfQ.sCPLK20U0v9W5i7OwPxKVu90suetmtop67lViK51Qfo'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_reset_password"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReset"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_reset_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "404"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6d9bb03737b6042c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718746378120,
+          "stop" : 1718746378378,
+          "duration" : 258
+        }
+      }, {
+        "uid" : "6e864d7706496aa3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718720343087,
+          "stop" : 1718720343265,
+          "duration" : 178
+        }
+      }, {
+        "uid" : "c21c5961e838ad3b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718458698589,
+          "stop" : 1718458698808,
+          "duration" : 219
+        }
+      }, {
+        "uid" : "36f551c1f8eb5469",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718454957384,
+          "stop" : 1718454957543,
+          "duration" : 159
+        }
+      }, {
+        "uid" : "60d69d63c702456a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
+        "time" : {
+          "start" : 1718453620415,
+          "stop" : 1718453620576,
+          "duration" : 161
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "75ea5b5f8537b84b.json",
+  "parameterValues" : [ "404", "'get'" ]
+}

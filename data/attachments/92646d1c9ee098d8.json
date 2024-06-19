@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "lawrence.cooke@poole.net",
+        "name": "Usualjohnhernandez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY0OWVkMjgwMDAxYjQ0MWEwYyIsImlhdCI6MTcxODc5NTM2NCwiZXhwIjoxNzE4Nzk2NTY0fQ.rzKCcmQ4mma0mDt3z10SiLokDVsRPTxrslFMStClRkE",
+    "refreshToken": "1896b5ac72da012acd5ab397a42283ab905e4b979547ca60c2a0de13034c1f23b308d4c455c06b53"
+}

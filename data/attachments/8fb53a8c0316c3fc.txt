@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY2OWVkMjgwMDAxYjQ0MWExMiIsImlhdCI6MTcxODc5NTM2NiwiZXhwIjoxNzE4Nzk2NTY2fQ.fNaZ2k_qXf4vj71ahAQn4oNIC6TGXRu7usO6WNULHCw'}
+data_models = {'name': 'Else samantha53', 'email': 'Karen.Burke@moran.com', 'password': '3PUP7@'}

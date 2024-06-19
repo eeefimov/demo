@@ -1,0 +1,726 @@
+{
+  "uid" : "6a297a96761a2ff8",
+  "name" : "test_account_history_ingredients_icons[No bun, random ingredient number]",
+  "fullName" : "tests_ui.test_account_page#test_account_history_ingredients_icons",
+  "historyId" : "18c7a56a5045099a1a03ecee0c97f44f",
+  "time" : {
+    "start" : 1718795694934,
+    "stop" : 1718795721009,
+    "duration" : 26075
+  },
+  "description" : "Verify presence new order icons in Order History page.",
+  "descriptionHtml" : "<p>Verify presence new order icons in Order History page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1718795694932,
+      "stop" : 1718795694932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718795693914,
+      "stop" : 1718795694932,
+      "duration" : 1018
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718795694309,
+        "stop" : 1718795694931,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify presence new order icons in Order History page.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User SignIn",
+      "time" : {
+        "start" : 1718795694934,
+        "stop" : 1718795698367,
+        "duration" : 3433
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Account button on Header",
+        "time" : {
+          "start" : 1718795694934,
+          "stop" : 1718795695245,
+          "duration" : 311
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Email field",
+        "time" : {
+          "start" : 1718795696246,
+          "stop" : 1718795696264,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill PASSWORD field",
+        "time" : {
+          "start" : 1718795696264,
+          "stop" : 1718795696280,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Entry button",
+        "time" : {
+          "start" : 1718795696280,
+          "stop" : 1718795696367,
+          "duration" : 87
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Make an order with random ingredients",
+      "time" : {
+        "start" : 1718795698367,
+        "stop" : 1718795715183,
+        "duration" : 16816
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag bun to Construction",
+        "time" : {
+          "start" : 1718795698367,
+          "stop" : 1718795700485,
+          "duration" : 2118
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredients to Constructor",
+          "time" : {
+            "start" : 1718795698374,
+            "stop" : 1718795700485,
+            "duration" : 2111
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Drag bun to Constructor",
+            "time" : {
+              "start" : 1718795698374,
+              "stop" : 1718795698485,
+              "duration" : 111
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "page",
+            "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+          }, {
+            "name" : "title",
+            "value" : "'Флюоресцентная булка R2-D3'"
+          }, {
+            "name" : "condition",
+            "value" : "'empty'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/login'>"
+        }, {
+          "name" : "bun_number",
+          "value" : "1"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718795700494,
+          "stop" : 1718795702587,
+          "duration" : 2093
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredient to Constructor",
+          "time" : {
+            "start" : 1718795700494,
+            "stop" : 1718795700586,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Мини-салат Экзо-Плантаго'"
+        }, {
+          "name" : "condition",
+          "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718795702593,
+          "stop" : 1718795704685,
+          "duration" : 2092
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredient to Constructor",
+          "time" : {
+            "start" : 1718795702593,
+            "stop" : 1718795702685,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Кристаллы марсианских альфа-сахаридов'"
+        }, {
+          "name" : "condition",
+          "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718795704691,
+          "stop" : 1718795706784,
+          "duration" : 2093
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredient to Constructor",
+          "time" : {
+            "start" : 1718795704691,
+            "stop" : 1718795704784,
+            "duration" : 93
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Плоды Фалленианского дерева'"
+        }, {
+          "name" : "condition",
+          "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718795706789,
+          "stop" : 1718795708885,
+          "duration" : 2096
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredient to Constructor",
+          "time" : {
+            "start" : 1718795706789,
+            "stop" : 1718795706885,
+            "duration" : 96
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Сыр с астероидной плесенью'"
+        }, {
+          "name" : "condition",
+          "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718795708890,
+          "stop" : 1718795710986,
+          "duration" : 2096
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredient to Constructor",
+          "time" : {
+            "start" : 1718795708891,
+            "stop" : 1718795708986,
+            "duration" : 95
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Соус традиционный галактический'"
+        }, {
+          "name" : "condition",
+          "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718795710991,
+          "stop" : 1718795713083,
+          "duration" : 2092
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredient to Constructor",
+          "time" : {
+            "start" : 1718795710991,
+            "stop" : 1718795711083,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Соус традиционный галактический'"
+        }, {
+          "name" : "condition",
+          "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Drag ingredients to Constructor",
+        "time" : {
+          "start" : 1718795713089,
+          "stop" : 1718795715183,
+          "duration" : 2094
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag ingredient to Constructor",
+          "time" : {
+            "start" : 1718795713089,
+            "stop" : 1718795713182,
+            "duration" : 93
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        }, {
+          "name" : "title",
+          "value" : "'Плоды Фалленианского дерева'"
+        }, {
+          "name" : "condition",
+          "value" : "'Флюоресцентная булка R2-D3 (верх)'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/login'>"
+      }, {
+        "name" : "bun",
+        "value" : "True"
+      }, {
+        "name" : "ingredients_num",
+        "value" : "7"
+      } ],
+      "stepsCount" : 17,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Order button",
+      "time" : {
+        "start" : 1718795715183,
+        "stop" : 1718795715213,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click 'x' in Nutrition window",
+      "time" : {
+        "start" : 1718795715213,
+        "stop" : 1718795716712,
+        "duration" : 1499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Account button",
+      "time" : {
+        "start" : 1718795716712,
+        "stop" : 1718795716965,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Order History link",
+      "time" : {
+        "start" : 1718795718965,
+        "stop" : 1718795721003,
+        "duration" : 2038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "args",
+        "value" : "(<Page url='https://stellarburgers.nomoreparties.site/account'>,)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of ingredient icons according to add ingredients",
+      "time" : {
+        "start" : 1718795721008,
+        "stop" : 1718795721008,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718795721010,
+      "stop" : 1718795721175,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "77161032887bd669",
+      "name" : "Screenshot_2024-06-19 11:15:21.120457",
+      "source" : "77161032887bd669.png",
+      "type" : "image/png",
+      "size" : 126664
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_account_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "bun",
+    "value" : "False"
+  }, {
+    "name" : "number",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a297a96761a2ff8.json",
+  "parameterValues" : [ "False", "9" ]
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "christine.peterson@martinez-oconnell.com",
+        "name": "Causepmartinez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzU2OWVkMjgwMDAxYjQ0MTlkZSIsImlhdCI6MTcxODc5NTM1MCwiZXhwIjoxNzE4Nzk2NTUwfQ.gkZx6ihGlzOseGwVjq5JlDsesFky1NPQ8NInIJDKqww",
+    "refreshToken": "95f17fd95416b824c8697cb8db36d240ea76318480af5baecd4a769919e6131bceea623ac091be52"
+}

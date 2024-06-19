@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "christopher.campbell@carter.com",
+        "name": "Face jessica84"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzcwOWVkMjgwMDAxYjQ0MWEyYiIsImlhdCI6MTcxODc5NTM3NiwiZXhwIjoxNzE4Nzk2NTc2fQ.SueUIvWhXygbLgvLA9rBfx7WKZRZfrIx1tZHWxWlOJw",
+    "refreshToken": "2ee08b4788e92fea646d4360e948e8b955ffbb80b8d238a3562a56c4aaee2487a4c6e6a36293ec46"
+}

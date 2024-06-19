@@ -1,0 +1,399 @@
+{
+  "uid" : "d64f59c1d0c6ca3d",
+  "name" : "test_main_order_empty",
+  "fullName" : "tests_ui.test_main_page#test_main_order_empty",
+  "historyId" : "eb2b936ab111786cbac76b542100389f",
+  "time" : {
+    "start" : 1718796271184,
+    "stop" : 1718796275782,
+    "duration" : 4598
+  },
+  "description" : "Verify order empty.",
+  "descriptionHtml" : "<p>Verify order empty.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+  "statusTrace" : "page = <Page url='https://stellarburgers.nomoreparties.site/'>\n\n    def test_main_order_empty(page):\n        \"\"\"Verify order empty.\"\"\"\n        LOGIN.user_sign_in(page)\n    \n        with allure.step(\"Click Order button\"):\n            page.locator(MAIN.BOTTOM_BTN).click()\n            time.sleep(1)\n    \n        with allure.step(\"Verify empty Order not ordered\"):\n            txt = page.locator(MAIN.IN_PROGRESS_TITLE).inner_text()\n>           assert txt != \"Ваш заказ начали готовить\"\nE           AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'\n\ntests/tests_ui/test_main_page.py:255: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1718796271183,
+      "stop" : 1718796271183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718796270279,
+      "stop" : 1718796271183,
+      "duration" : 904
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718796270674,
+        "stop" : 1718796271183,
+        "duration" : 509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify order empty.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+    "statusTrace" : "page = <Page url='https://stellarburgers.nomoreparties.site/'>\n\n    def test_main_order_empty(page):\n        \"\"\"Verify order empty.\"\"\"\n        LOGIN.user_sign_in(page)\n    \n        with allure.step(\"Click Order button\"):\n            page.locator(MAIN.BOTTOM_BTN).click()\n            time.sleep(1)\n    \n        with allure.step(\"Verify empty Order not ordered\"):\n            txt = page.locator(MAIN.IN_PROGRESS_TITLE).inner_text()\n>           assert txt != \"Ваш заказ начали готовить\"\nE           AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'\n\ntests/tests_ui/test_main_page.py:255: AssertionError",
+    "steps" : [ {
+      "name" : "User SignIn",
+      "time" : {
+        "start" : 1718796271184,
+        "stop" : 1718796274727,
+        "duration" : 3543
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Account button on Header",
+        "time" : {
+          "start" : 1718796271184,
+          "stop" : 1718796271641,
+          "duration" : 457
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill Email field",
+        "time" : {
+          "start" : 1718796272641,
+          "stop" : 1718796272660,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill PASSWORD field",
+        "time" : {
+          "start" : 1718796272660,
+          "stop" : 1718796272674,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click Entry button",
+        "time" : {
+          "start" : 1718796272674,
+          "stop" : 1718796272726,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Order button",
+      "time" : {
+        "start" : 1718796274727,
+        "stop" : 1718796275776,
+        "duration" : 1049
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify empty Order not ordered",
+      "time" : {
+        "start" : 1718796275776,
+        "stop" : 1718796275782,
+        "duration" : 6
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/tests_ui/test_main_page.py\", line 255, in test_main_order_empty\n    assert txt != \"Ваш заказ начали готовить\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796275789,
+      "stop" : 1718796275964,
+      "duration" : 175
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b69f39fdafa0615",
+      "name" : "Screenshot_2024-06-19 11:24:35.921384",
+      "source" : "6b69f39fdafa0615.png",
+      "type" : "image/png",
+      "size" : 133030
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "a97c1c700da3e233",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+        "time" : {
+          "start" : 1718746756813,
+          "stop" : 1718746761914,
+          "duration" : 5101
+        }
+      }, {
+        "uid" : "faab59cb2311329a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+        "time" : {
+          "start" : 1718720786080,
+          "stop" : 1718720790309,
+          "duration" : 4229
+        }
+      }, {
+        "uid" : "bb22ff9803895407",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+        "time" : {
+          "start" : 1718719699053,
+          "stop" : 1718719703620,
+          "duration" : 4567
+        }
+      }, {
+        "uid" : "63a154126bccea67",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+        "time" : {
+          "start" : 1718717343797,
+          "stop" : 1718717348242,
+          "duration" : 4445
+        }
+      }, {
+        "uid" : "874093cabc71f1c1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+        "time" : {
+          "start" : 1718459343400,
+          "stop" : 1718459347977,
+          "duration" : 4577
+        }
+      }, {
+        "uid" : "d7bba5b16f84af57",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+        "time" : {
+          "start" : 1718457454036,
+          "stop" : 1718457458607,
+          "duration" : 4571
+        }
+      }, {
+        "uid" : "a8a46ce05871823d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
+        "time" : {
+          "start" : 1718455805399,
+          "stop" : 1718455809617,
+          "duration" : 4218
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d64f59c1d0c6ca3d.json",
+  "parameterValues" : [ ]
+}

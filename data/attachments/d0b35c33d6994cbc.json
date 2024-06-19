@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "courtney.warren@webb.net",
-        "name": "Try ehoopershawn"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2RlOWVkMjgwMDAxYjQ0MTFjYSIsImlhdCI6MTcxODc0NjMzNCwiZXhwIjoxNzE4NzQ3NTM0fQ.a_R5ZOMc-bcT9T-lcRqJwzmvpIDsUP2QIDloDaiqCHQ",
-    "refreshToken": "a1baf2ed94d545753083746f046497eb2cfcf1a38e5530e5df3cfbc28b04131535cded3a41ce2786"
-}

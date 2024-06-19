@@ -1,0 +1,585 @@
+{
+  "uid" : "2ec4b9569cfba73e",
+  "name" : "test_account_history_order_price[Bun + not single ingredient]",
+  "fullName" : "tests_ui.test_account_page#test_account_history_order_price",
+  "historyId" : "20fe48808b565a6188c0e8addb549752",
+  "time" : {
+    "start" : 1718795628456,
+    "stop" : 1718795645579,
+    "duration" : 17123
+  },
+  "description" : "Verify presence new order price in Order History page.",
+  "descriptionHtml" : "<p>Verify presence new order price in Order History page.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '2510' == '1979'\n  \n  - 1979\n  + 2510",
+  "statusTrace" : "page = <Page url='https://stellarburgers.nomoreparties.site/account/order-history'>\nbun = True, number = 3\n\n    @pytest.mark.parametrize(\"bun, number\", different_orders[:-1])\n    def test_account_history_order_price(page, bun, number):\n        \"\"\"Verify presence new order price in Order History page.\"\"\"\n        MAIN.make_order(page)\n        order_price = page.locator(MAIN.TOTAL_PRICE).inner_text()\n        MAIN.close_modal_and_redirects(page, MAIN.ACCOUNT_BTN)\n        ACCOUNT.go_to_account_history(page)\n    \n        with allure.step(\"Verify correct new order price\"):\n>           assert order_price == ACCOUNT.get_order_price(page, ACCOUNT.counter)\nE           AssertionError: assert '2510' == '1979'\nE             \nE             - 1979\nE             + 2510\n\ntests/tests_ui/test_account_page.py:137: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1718795628455,
+      "stop" : 1718795628455,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718795627498,
+      "stop" : 1718795628455,
+      "duration" : 957
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718795627891,
+        "stop" : 1718795628455,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify presence new order price in Order History page.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '2510' == '1979'\n  \n  - 1979\n  + 2510",
+    "statusTrace" : "page = <Page url='https://stellarburgers.nomoreparties.site/account/order-history'>\nbun = True, number = 3\n\n    @pytest.mark.parametrize(\"bun, number\", different_orders[:-1])\n    def test_account_history_order_price(page, bun, number):\n        \"\"\"Verify presence new order price in Order History page.\"\"\"\n        MAIN.make_order(page)\n        order_price = page.locator(MAIN.TOTAL_PRICE).inner_text()\n        MAIN.close_modal_and_redirects(page, MAIN.ACCOUNT_BTN)\n        ACCOUNT.go_to_account_history(page)\n    \n        with allure.step(\"Verify correct new order price\"):\n>           assert order_price == ACCOUNT.get_order_price(page, ACCOUNT.counter)\nE           AssertionError: assert '2510' == '1979'\nE             \nE             - 1979\nE             + 2510\n\ntests/tests_ui/test_account_page.py:137: AssertionError",
+    "steps" : [ {
+      "name" : "Make an Order",
+      "time" : {
+        "start" : 1718795628456,
+        "stop" : 1718795641217,
+        "duration" : 12761
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User SignIn",
+        "time" : {
+          "start" : 1718795628456,
+          "stop" : 1718795631851,
+          "duration" : 3395
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click Account button on Header",
+          "time" : {
+            "start" : 1718795628456,
+            "stop" : 1718795628781,
+            "duration" : 325
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Fill Email field",
+          "time" : {
+            "start" : 1718795629781,
+            "stop" : 1718795629801,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Fill PASSWORD field",
+          "time" : {
+            "start" : 1718795629801,
+            "stop" : 1718795629815,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Click Entry button",
+          "time" : {
+            "start" : 1718795629815,
+            "stop" : 1718795629851,
+            "duration" : 36
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+        } ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Make an order with random ingredients",
+        "time" : {
+          "start" : 1718795631852,
+          "stop" : 1718795638187,
+          "duration" : 6335
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Drag bun to Construction",
+          "time" : {
+            "start" : 1718795631852,
+            "stop" : 1718795633971,
+            "duration" : 2119
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Drag ingredients to Constructor",
+            "time" : {
+              "start" : 1718795631858,
+              "stop" : 1718795633971,
+              "duration" : 2113
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Drag bun to Constructor",
+              "time" : {
+                "start" : 1718795631858,
+                "stop" : 1718795631971,
+                "duration" : 113
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "page",
+              "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+            }, {
+              "name" : "title",
+              "value" : "'Краторная булка N-200i'"
+            }, {
+              "name" : "condition",
+              "value" : "'empty'"
+            } ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "page",
+            "value" : "<Page url='https://stellarburgers.nomoreparties.site/login'>"
+          }, {
+            "name" : "bun_number",
+            "value" : "2"
+          } ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Drag ingredients to Constructor",
+          "time" : {
+            "start" : 1718795633982,
+            "stop" : 1718795636087,
+            "duration" : 2105
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Drag ingredient to Constructor",
+            "time" : {
+              "start" : 1718795633982,
+              "stop" : 1718795634087,
+              "duration" : 105
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "page",
+            "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+          }, {
+            "name" : "title",
+            "value" : "'Хрустящие минеральные кольца'"
+          }, {
+            "name" : "condition",
+            "value" : "'Краторная булка N-200i (верх)'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Drag ingredients to Constructor",
+          "time" : {
+            "start" : 1718795636093,
+            "stop" : 1718795638187,
+            "duration" : 2094
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Drag ingredient to Constructor",
+            "time" : {
+              "start" : 1718795636093,
+              "stop" : 1718795636187,
+              "duration" : 94
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "page",
+            "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+          }, {
+            "name" : "title",
+            "value" : "'Биокотлета из марсианской Магнолии'"
+          }, {
+            "name" : "condition",
+            "value" : "'Краторная булка N-200i (верх)'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "<Page url='https://stellarburgers.nomoreparties.site/login'>"
+        }, {
+          "name" : "bun",
+          "value" : "True"
+        }, {
+          "name" : "ingredients_num",
+          "value" : "2"
+        } ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click Order button",
+        "time" : {
+          "start" : 1718795638187,
+          "stop" : 1718795641217,
+          "duration" : 3030
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "bun",
+        "value" : "True"
+      }, {
+        "name" : "number",
+        "value" : "2"
+      } ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click 'x' in Nutrition window",
+      "time" : {
+        "start" : 1718795641222,
+        "stop" : 1718795641264,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Account button",
+      "time" : {
+        "start" : 1718795641264,
+        "stop" : 1718795641534,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Order History link",
+      "time" : {
+        "start" : 1718795643535,
+        "stop" : 1718795645573,
+        "duration" : 2038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "args",
+        "value" : "(<Page url='https://stellarburgers.nomoreparties.site/account'>,)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify correct new order price",
+      "time" : {
+        "start" : 1718795645573,
+        "stop" : 1718795645579,
+        "duration" : 6
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '2510' == '1979'\n  \n  - 1979\n  + 2510\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/tests_ui/test_account_page.py\", line 137, in test_account_history_order_price\n    assert order_price == ACCOUNT.get_order_price(page, ACCOUNT.counter)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718795645583,
+      "stop" : 1718795645752,
+      "duration" : 169
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "993345c041050145",
+      "name" : "Screenshot_2024-06-19 11:14:05.697774",
+      "source" : "993345c041050145.png",
+      "type" : "image/png",
+      "size" : 126664
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_account_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "bun",
+    "value" : "True"
+  }, {
+    "name" : "number",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1d5343c654ff1ab8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '2510' == '6734'\n  \n  - 6734\n  + 2510",
+        "time" : {
+          "start" : 1718746560921,
+          "stop" : 1718746578194,
+          "duration" : 17273
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2ec4b9569cfba73e.json",
+  "parameterValues" : [ "True", "3" ]
+}

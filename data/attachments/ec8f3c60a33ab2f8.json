@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jack.colon@delgado-thomas.com",
+        "name": "Clearkathryndavis"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY1OWVkMjgwMDAxYjQ0MWExMCIsImlhdCI6MTcxODc5NTM2NSwiZXhwIjoxNzE4Nzk2NTY1fQ.2oOs2ao5SMrgBi-18EIY5Yk7phIRATMmnN34vFs_jfg",
+    "refreshToken": "a18a5760045583b002a7f52f08680be998829d30e57b44a8bbb32502107f017c7487060e389a35c0"
+}

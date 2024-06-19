@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "rachel.snow@williamson.com",
+        "name": "Articdanielsjames"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYzOWVkMjgwMDAxYjQ0MWEwOCIsImlhdCI6MTcxODc5NTM2MywiZXhwIjoxNzE4Nzk2NTYzfQ.KxP-0cxqfmPHdMapLyr_OSuZPCEmkXBkRYY92WRoVbs",
+    "refreshToken": "7cfa82550ba44fe94403e911c7026d1ea88108174adadbaa01904cfb18e884ba27fed7ee0ef021ee"
+}

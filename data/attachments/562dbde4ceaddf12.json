@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "benjamin.robertson@mullen.com",
+        "name": "Animaderricksimon"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVmOWVkMjgwMDAxYjQ0MTlmYyIsImlhdCI6MTcxODc5NTM1OSwiZXhwIjoxNzE4Nzk2NTU5fQ.9uXdG1KV3mSqvGMFnMXrjqSotgKbfjJEl_denCdg0AM",
+    "refreshToken": "ec554c58d577a562624c0fbaf9f2a750453af85900d86348f0e44a6e11ffb4c2bdfeb36fa69fb8d7"
+}

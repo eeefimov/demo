@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "anna.anderson@shea.org",
+        "name": "Alongwestjames"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzZhOWVkMjgwMDAxYjQ0MWExYyIsImlhdCI6MTcxODc5NTM3MCwiZXhwIjoxNzE4Nzk2NTcwfQ.cQVwvtVCDc8z9YgP7g-izMPYAdOej5rKKFlGWGfMrq0",
+    "refreshToken": "7fccc74fd6c049faacdcbeb19f40b31c3301dde37c1dc0ab761e7af1d1790e734aeae0181bb5bb9a"
+}

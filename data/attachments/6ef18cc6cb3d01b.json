@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kelsey.oliver@lowe.com",
+        "name": "Strucwdavis"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVjOWVkMjgwMDAxYjQ0MTlmMiIsImlhdCI6MTcxODc5NTM1NiwiZXhwIjoxNzE4Nzk2NTU2fQ.NqZSsz9Sp-HLiKn-7LWb-Gk1Q1qnB2rcfEmj6KFMFtE",
+    "refreshToken": "e9433db9ef26088a350d5e467fda012fa88d27585bf5587c39df3954e78490da97441f347a1b90cc"
+}

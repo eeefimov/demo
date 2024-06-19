@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "calvin.carpenter@calhoun-harris.com",
-        "name": "Servecorey55"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2QzOWVkMjgwMDAxYjQ0MTFiYyIsImlhdCI6MTcxODc0NjMyMywiZXhwIjoxNzE4NzQ3NTIzfQ.vWR5Kyq_4XqOJQmqr13yfgKYHhKxIlZyiR_aZqTMIAM",
-    "refreshToken": "b17c8a4d442ff04e427f76d96449e6043b58616aa8644ba5cbd544ee6831435fe60b2502d0d4869f"
-}

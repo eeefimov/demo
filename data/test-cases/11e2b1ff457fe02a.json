@@ -1,0 +1,5932 @@
+{
+  "uid" : "11e2b1ff457fe02a",
+  "name" : "test_main_ingredients_counter_change[Verify 10 ingredients counter]",
+  "fullName" : "tests_ui.test_main_page#test_main_ingredients_counter_change",
+  "historyId" : "8dbb007130dc2f44c8e01e7a974a7049",
+  "time" : {
+    "start" : 1718795976964,
+    "stop" : 1718796253668,
+    "duration" : 276704
+  },
+  "description" : "Verify ingredients counter changes\n    after dragging to Constructor.",
+  "descriptionHtml" : "<p>Verify ingredients counter changes\nafter dragging to Constructor.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1718795976963,
+      "stop" : 1718795976963,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718795975728,
+      "stop" : 1718795976963,
+      "duration" : 1235
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718795976128,
+        "stop" : 1718795976963,
+        "duration" : 835
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify ingredients counter changes\n    after dragging to Constructor.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718795977021,
+        "stop" : 1718795977027,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795977027,
+        "stop" : 1718795979380,
+        "duration" : 2353
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795977027,
+          "stop" : 1718795977379,
+          "duration" : 352
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795979380,
+        "stop" : 1718795981491,
+        "duration" : 2111
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795979380,
+          "stop" : 1718795979491,
+          "duration" : 111
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795981491,
+        "stop" : 1718795983605,
+        "duration" : 2114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795981491,
+          "stop" : 1718795981605,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795983605,
+        "stop" : 1718795985722,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795983606,
+          "stop" : 1718795983722,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795985722,
+        "stop" : 1718795987839,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795985722,
+          "stop" : 1718795985839,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795987840,
+        "stop" : 1718795989955,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795987840,
+          "stop" : 1718795987955,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795989955,
+        "stop" : 1718795992074,
+        "duration" : 2119
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795989955,
+          "stop" : 1718795990074,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795992074,
+        "stop" : 1718795994189,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795992074,
+          "stop" : 1718795992188,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795994189,
+        "stop" : 1718795996307,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795994189,
+          "stop" : 1718795994307,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795996307,
+        "stop" : 1718795998424,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795996307,
+          "stop" : 1718795996424,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус Spicy-X'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718795998424,
+        "stop" : 1718795998431,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718795998431,
+        "stop" : 1718795998431,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718795998434,
+        "stop" : 1718795998438,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718795998438,
+        "stop" : 1718796000558,
+        "duration" : 2120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718795998438,
+          "stop" : 1718795998557,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796000558,
+        "stop" : 1718796002707,
+        "duration" : 2149
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796000558,
+          "stop" : 1718796000707,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796002707,
+        "stop" : 1718796004821,
+        "duration" : 2114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796002707,
+          "stop" : 1718796002821,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796004822,
+        "stop" : 1718796006944,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796004822,
+          "stop" : 1718796004944,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796006944,
+        "stop" : 1718796009054,
+        "duration" : 2110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796006944,
+          "stop" : 1718796007054,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796009054,
+        "stop" : 1718796011172,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796009054,
+          "stop" : 1718796009172,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796011173,
+        "stop" : 1718796013290,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796011173,
+          "stop" : 1718796011290,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796013290,
+        "stop" : 1718796015411,
+        "duration" : 2121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796013290,
+          "stop" : 1718796013411,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796015411,
+        "stop" : 1718796017529,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796015411,
+          "stop" : 1718796015529,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796017529,
+        "stop" : 1718796019638,
+        "duration" : 2109
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796017529,
+          "stop" : 1718796017638,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус фирменный Space Sauce'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796019638,
+        "stop" : 1718796019643,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796019643,
+        "stop" : 1718796019643,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796019648,
+        "stop" : 1718796019652,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796019652,
+        "stop" : 1718796021778,
+        "duration" : 2126
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796019652,
+          "stop" : 1718796019778,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796021778,
+        "stop" : 1718796023888,
+        "duration" : 2110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796021778,
+          "stop" : 1718796021888,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796023889,
+        "stop" : 1718796026006,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796023889,
+          "stop" : 1718796024005,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796026006,
+        "stop" : 1718796028122,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796026006,
+          "stop" : 1718796026122,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796028122,
+        "stop" : 1718796030238,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796028122,
+          "stop" : 1718796028238,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796030238,
+        "stop" : 1718796032361,
+        "duration" : 2123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796030238,
+          "stop" : 1718796030360,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796032361,
+        "stop" : 1718796034471,
+        "duration" : 2110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796032361,
+          "stop" : 1718796032471,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796034471,
+        "stop" : 1718796036601,
+        "duration" : 2130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796034471,
+          "stop" : 1718796034601,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796036601,
+        "stop" : 1718796038727,
+        "duration" : 2126
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796036601,
+          "stop" : 1718796036727,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796038727,
+        "stop" : 1718796040845,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796038727,
+          "stop" : 1718796038845,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус традиционный галактический'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796040845,
+        "stop" : 1718796040850,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796040850,
+        "stop" : 1718796040850,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796040854,
+        "stop" : 1718796040858,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796040858,
+        "stop" : 1718796042978,
+        "duration" : 2120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796040858,
+          "stop" : 1718796040978,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796042978,
+        "stop" : 1718796045101,
+        "duration" : 2123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796042978,
+          "stop" : 1718796043101,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796045102,
+        "stop" : 1718796047228,
+        "duration" : 2126
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796045102,
+          "stop" : 1718796045228,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796047228,
+        "stop" : 1718796049345,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796047228,
+          "stop" : 1718796047345,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796049346,
+        "stop" : 1718796051461,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796049346,
+          "stop" : 1718796049461,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796051461,
+        "stop" : 1718796053581,
+        "duration" : 2120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796051461,
+          "stop" : 1718796051581,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796053581,
+        "stop" : 1718796055712,
+        "duration" : 2131
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796053581,
+          "stop" : 1718796053712,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796055712,
+        "stop" : 1718796057827,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796055712,
+          "stop" : 1718796055827,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796057828,
+        "stop" : 1718796059945,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796057828,
+          "stop" : 1718796057945,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796059945,
+        "stop" : 1718796062061,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796059945,
+          "stop" : 1718796060061,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Соус с шипами Антарианского плоскоходца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796062061,
+        "stop" : 1718796062066,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796062066,
+        "stop" : 1718796062066,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796062070,
+        "stop" : 1718796062075,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796062075,
+        "stop" : 1718796064197,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796062075,
+          "stop" : 1718796062197,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796064197,
+        "stop" : 1718796066329,
+        "duration" : 2132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796064197,
+          "stop" : 1718796064329,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796066329,
+        "stop" : 1718796068446,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796066330,
+          "stop" : 1718796066445,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796068446,
+        "stop" : 1718796070562,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796068446,
+          "stop" : 1718796068562,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796070562,
+        "stop" : 1718796072681,
+        "duration" : 2119
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796070562,
+          "stop" : 1718796070681,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796072681,
+        "stop" : 1718796074811,
+        "duration" : 2130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796072681,
+          "stop" : 1718796072811,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796074811,
+        "stop" : 1718796076933,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796074811,
+          "stop" : 1718796074933,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796076933,
+        "stop" : 1718796079060,
+        "duration" : 2127
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796076933,
+          "stop" : 1718796077060,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796079061,
+        "stop" : 1718796081177,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796079061,
+          "stop" : 1718796079177,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796081177,
+        "stop" : 1718796083291,
+        "duration" : 2114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796081177,
+          "stop" : 1718796081291,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мясо бессмертных моллюсков Protostomia'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796083291,
+        "stop" : 1718796083297,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796083297,
+        "stop" : 1718796083297,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796083300,
+        "stop" : 1718796083304,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796083304,
+        "stop" : 1718796085427,
+        "duration" : 2123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796083304,
+          "stop" : 1718796083427,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796085427,
+        "stop" : 1718796087548,
+        "duration" : 2121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796085427,
+          "stop" : 1718796085548,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796087548,
+        "stop" : 1718796089676,
+        "duration" : 2128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796087548,
+          "stop" : 1718796087676,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796089676,
+        "stop" : 1718796091811,
+        "duration" : 2135
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796089676,
+          "stop" : 1718796089810,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796091811,
+        "stop" : 1718796093927,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796091811,
+          "stop" : 1718796091927,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796093927,
+        "stop" : 1718796096045,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796093927,
+          "stop" : 1718796094045,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796096045,
+        "stop" : 1718796098157,
+        "duration" : 2112
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796096045,
+          "stop" : 1718796096157,
+          "duration" : 112
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796098157,
+        "stop" : 1718796100274,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796098157,
+          "stop" : 1718796098274,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796100275,
+        "stop" : 1718796102393,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796100275,
+          "stop" : 1718796100393,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796102393,
+        "stop" : 1718796104515,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796102393,
+          "stop" : 1718796102515,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Говяжий метеорит (отбивная)'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796104515,
+        "stop" : 1718796104520,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796104520,
+        "stop" : 1718796104520,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796104524,
+        "stop" : 1718796104528,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796104528,
+        "stop" : 1718796106664,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796104528,
+          "stop" : 1718796104663,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796106664,
+        "stop" : 1718796108792,
+        "duration" : 2128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796106664,
+          "stop" : 1718796106792,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796108793,
+        "stop" : 1718796110908,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796108793,
+          "stop" : 1718796108908,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796110908,
+        "stop" : 1718796113029,
+        "duration" : 2121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796110908,
+          "stop" : 1718796111029,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796113029,
+        "stop" : 1718796115142,
+        "duration" : 2113
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796113029,
+          "stop" : 1718796113142,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796115143,
+        "stop" : 1718796117259,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796115143,
+          "stop" : 1718796115259,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796117259,
+        "stop" : 1718796119373,
+        "duration" : 2114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796117259,
+          "stop" : 1718796117373,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796119373,
+        "stop" : 1718796121495,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796119373,
+          "stop" : 1718796119495,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796121495,
+        "stop" : 1718796123610,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796121495,
+          "stop" : 1718796121610,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796123610,
+        "stop" : 1718796125732,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796123610,
+          "stop" : 1718796123732,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Биокотлета из марсианской Магнолии'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796125732,
+        "stop" : 1718796125738,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796125738,
+        "stop" : 1718796125738,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796125742,
+        "stop" : 1718796125746,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796125746,
+        "stop" : 1718796127860,
+        "duration" : 2114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796125746,
+          "stop" : 1718796125860,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796127860,
+        "stop" : 1718796129974,
+        "duration" : 2114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796127860,
+          "stop" : 1718796127974,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796129974,
+        "stop" : 1718796132096,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796129974,
+          "stop" : 1718796130096,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796132096,
+        "stop" : 1718796134225,
+        "duration" : 2129
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796132096,
+          "stop" : 1718796132225,
+          "duration" : 129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796134226,
+        "stop" : 1718796136343,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796134226,
+          "stop" : 1718796134343,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796136343,
+        "stop" : 1718796138458,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796136343,
+          "stop" : 1718796136458,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796138458,
+        "stop" : 1718796140579,
+        "duration" : 2121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796138458,
+          "stop" : 1718796138579,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796140579,
+        "stop" : 1718796142712,
+        "duration" : 2133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796140579,
+          "stop" : 1718796140712,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796142712,
+        "stop" : 1718796144845,
+        "duration" : 2133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796142712,
+          "stop" : 1718796142844,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796144845,
+        "stop" : 1718796146975,
+        "duration" : 2130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796144845,
+          "stop" : 1718796144975,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Филе Люминесцентного тетраодонтимформа'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796146975,
+        "stop" : 1718796146980,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796146980,
+        "stop" : 1718796146980,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796146984,
+        "stop" : 1718796146988,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796146988,
+        "stop" : 1718796149111,
+        "duration" : 2123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796146988,
+          "stop" : 1718796147111,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796149111,
+        "stop" : 1718796151243,
+        "duration" : 2132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796149111,
+          "stop" : 1718796149243,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796151244,
+        "stop" : 1718796153361,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796151244,
+          "stop" : 1718796151361,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796153361,
+        "stop" : 1718796155496,
+        "duration" : 2135
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796153361,
+          "stop" : 1718796153496,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796155496,
+        "stop" : 1718796157628,
+        "duration" : 2132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796155496,
+          "stop" : 1718796155628,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796157628,
+        "stop" : 1718796159760,
+        "duration" : 2132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796157628,
+          "stop" : 1718796157759,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796159760,
+        "stop" : 1718796161878,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796159760,
+          "stop" : 1718796159877,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796161878,
+        "stop" : 1718796164009,
+        "duration" : 2131
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796161878,
+          "stop" : 1718796162009,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796164009,
+        "stop" : 1718796166126,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796164010,
+          "stop" : 1718796164126,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796166126,
+        "stop" : 1718796168241,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796166126,
+          "stop" : 1718796166240,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Хрустящие минеральные кольца'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796168241,
+        "stop" : 1718796168245,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796168245,
+        "stop" : 1718796168245,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796168249,
+        "stop" : 1718796168252,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796168252,
+        "stop" : 1718796170377,
+        "duration" : 2125
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796168252,
+          "stop" : 1718796168377,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796170378,
+        "stop" : 1718796172507,
+        "duration" : 2129
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796170378,
+          "stop" : 1718796170507,
+          "duration" : 129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796172508,
+        "stop" : 1718796174629,
+        "duration" : 2121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796172508,
+          "stop" : 1718796172629,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796174630,
+        "stop" : 1718796176761,
+        "duration" : 2131
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796174630,
+          "stop" : 1718796174761,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796176762,
+        "stop" : 1718796178896,
+        "duration" : 2134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796176762,
+          "stop" : 1718796176896,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796178896,
+        "stop" : 1718796181046,
+        "duration" : 2150
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796178896,
+          "stop" : 1718796179046,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796181046,
+        "stop" : 1718796183176,
+        "duration" : 2130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796181046,
+          "stop" : 1718796181176,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796183176,
+        "stop" : 1718796185311,
+        "duration" : 2135
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796183176,
+          "stop" : 1718796183310,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796185311,
+        "stop" : 1718796187445,
+        "duration" : 2134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796185311,
+          "stop" : 1718796185445,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796187445,
+        "stop" : 1718796189591,
+        "duration" : 2146
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796187445,
+          "stop" : 1718796187590,
+          "duration" : 145
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Плоды Фалленианского дерева'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796189591,
+        "stop" : 1718796189595,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796189595,
+        "stop" : 1718796189595,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796189599,
+        "stop" : 1718796189603,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796189604,
+        "stop" : 1718796191728,
+        "duration" : 2124
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796189604,
+          "stop" : 1718796189728,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796191729,
+        "stop" : 1718796193864,
+        "duration" : 2135
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796191729,
+          "stop" : 1718796191864,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796193864,
+        "stop" : 1718796195995,
+        "duration" : 2131
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796193864,
+          "stop" : 1718796193995,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796195995,
+        "stop" : 1718796198136,
+        "duration" : 2141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796195995,
+          "stop" : 1718796196136,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796198136,
+        "stop" : 1718796200261,
+        "duration" : 2125
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796198136,
+          "stop" : 1718796198261,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796200261,
+        "stop" : 1718796202398,
+        "duration" : 2137
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796200261,
+          "stop" : 1718796200397,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796202398,
+        "stop" : 1718796204530,
+        "duration" : 2132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796202398,
+          "stop" : 1718796202530,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796204530,
+        "stop" : 1718796206675,
+        "duration" : 2145
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796204530,
+          "stop" : 1718796204675,
+          "duration" : 145
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796206675,
+        "stop" : 1718796208795,
+        "duration" : 2120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796206675,
+          "stop" : 1718796206795,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796208795,
+        "stop" : 1718796210928,
+        "duration" : 2133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796208795,
+          "stop" : 1718796208928,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Кристаллы марсианских альфа-сахаридов'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796210928,
+        "stop" : 1718796210934,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796210934,
+        "stop" : 1718796210934,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796210938,
+        "stop" : 1718796210942,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796210942,
+        "stop" : 1718796213062,
+        "duration" : 2120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796210942,
+          "stop" : 1718796211062,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796213062,
+        "stop" : 1718796215209,
+        "duration" : 2147
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796213062,
+          "stop" : 1718796213209,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796215209,
+        "stop" : 1718796217345,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796215209,
+          "stop" : 1718796215344,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796217345,
+        "stop" : 1718796219481,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796217345,
+          "stop" : 1718796217481,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796219481,
+        "stop" : 1718796221610,
+        "duration" : 2129
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796219481,
+          "stop" : 1718796219609,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796221610,
+        "stop" : 1718796223746,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796221610,
+          "stop" : 1718796221746,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796223746,
+        "stop" : 1718796225874,
+        "duration" : 2128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796223746,
+          "stop" : 1718796223874,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796225875,
+        "stop" : 1718796228010,
+        "duration" : 2135
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796225875,
+          "stop" : 1718796226010,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796228010,
+        "stop" : 1718796230146,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796228010,
+          "stop" : 1718796228146,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796230146,
+        "stop" : 1718796232289,
+        "duration" : 2143
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796230146,
+          "stop" : 1718796230289,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Мини-салат Экзо-Плантаго'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796232289,
+        "stop" : 1718796232294,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796232294,
+        "stop" : 1718796232294,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get start ingredient counter",
+      "time" : {
+        "start" : 1718796232298,
+        "stop" : 1718796232302,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796232302,
+        "stop" : 1718796234430,
+        "duration" : 2128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796232302,
+          "stop" : 1718796232430,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796234430,
+        "stop" : 1718796236565,
+        "duration" : 2135
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796234430,
+          "stop" : 1718796234564,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796236565,
+        "stop" : 1718796238701,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796236565,
+          "stop" : 1718796236701,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796238701,
+        "stop" : 1718796240842,
+        "duration" : 2141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796238701,
+          "stop" : 1718796238842,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796240842,
+        "stop" : 1718796242978,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796240842,
+          "stop" : 1718796240978,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796242978,
+        "stop" : 1718796245110,
+        "duration" : 2132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796242978,
+          "stop" : 1718796243109,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796245110,
+        "stop" : 1718796247242,
+        "duration" : 2132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796245110,
+          "stop" : 1718796245242,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796247243,
+        "stop" : 1718796249393,
+        "duration" : 2150
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796247243,
+          "stop" : 1718796247393,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796249393,
+        "stop" : 1718796251526,
+        "duration" : 2133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796249393,
+          "stop" : 1718796249526,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Drag ingredients to Constructor",
+      "time" : {
+        "start" : 1718796251526,
+        "stop" : 1718796253662,
+        "duration" : 2136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Drag ingredient to Constructor",
+        "time" : {
+          "start" : 1718796251527,
+          "stop" : 1718796251662,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "<Page url='https://stellarburgers.nomoreparties.site/'>"
+      }, {
+        "name" : "title",
+        "value" : "'Сыр с астероидной плесенью'"
+      }, {
+        "name" : "condition",
+        "value" : "'empty'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get finish ingredient counter",
+      "time" : {
+        "start" : 1718796253662,
+        "stop" : 1718796253667,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify ingredient counter changed",
+      "time" : {
+        "start" : 1718796253667,
+        "stop" : 1718796253667,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 299,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718796253668,
+      "stop" : 1718796253848,
+      "duration" : 180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b89a569e8bd1ee5f",
+      "name" : "Screenshot_2024-06-19 11:24:13.796235",
+      "source" : "b89a569e8bd1ee5f.png",
+      "type" : "image/png",
+      "size" : 210407
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "number",
+    "value" : "10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "9a9e4d7efa013856",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746739247,
+          "stop" : 1718746739269,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "d53e3c275476681c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720689974,
+          "stop" : 1718720689999,
+          "duration" : 25
+        }
+      }, {
+        "uid" : "5546b9dbd43afe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718719682171,
+          "stop" : 1718719682194,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "e7a9b795586f934d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718717009829,
+          "stop" : 1718717285943,
+          "duration" : 276114
+        }
+      }, {
+        "uid" : "9a2dc0086280dde6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718459046915,
+          "stop" : 1718459323603,
+          "duration" : 276688
+        }
+      }, {
+        "uid" : "1080ad8dc046acd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457436986,
+          "stop" : 1718457437008,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "68deecb97148dc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455469110,
+          "stop" : 1718455745171,
+          "duration" : 276061
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "11e2b1ff457fe02a.json",
+  "parameterValues" : [ "10" ]
+}

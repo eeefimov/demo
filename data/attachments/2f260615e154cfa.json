@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "pbates@example.org",
+        "name": "stevencook"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2IxOWVkMjgwMDAxYjQ0MWE4ZCIsImlhdCI6MTcxODc5NTQ0MSwiZXhwIjoxNzE4Nzk2NjQxfQ.u4LdiwB4fmGiYbChdpGy62ds1l0R7DsSyUpK8uPWIuE",
+    "refreshToken": "667ef80145a8a59af1187b981194a2ae3c7acbcf16eac22a4d8f71d8f369979bffd76d76ff9600a1"
+}

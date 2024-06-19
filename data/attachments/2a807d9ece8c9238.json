@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "ashley.washington@lin.com",
-        "name": "Dark brookeweiss"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzllOWVkMjgwMDAxYjQ0MTE3YiIsImlhdCI6MTcxODc0NjI3MCwiZXhwIjoxNzE4NzQ3NDcwfQ.pW1S6j1KPUUaog-ovkHSBLdRLj7VKAtnuH8kKRlOY4Y",
-    "refreshToken": "c5d5d2f050b73dc8446618d53508b3c40bda138f82fecf61594d34445b9e0d8ae705039fd62398b2"
-}

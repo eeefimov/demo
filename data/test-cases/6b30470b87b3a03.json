@@ -1,0 +1,312 @@
+{
+  "uid" : "6b30470b87b3a03",
+  "name" : "test_login_access",
+  "fullName" : "tests_ui.test_login_page#test_login_access",
+  "historyId" : "cfb8e7024b58fb71083f864a957aef2b",
+  "time" : {
+    "start" : 1718795729795,
+    "stop" : 1718795729803,
+    "duration" : 8
+  },
+  "description" : "Verify access to Login page.",
+  "descriptionHtml" : "<p>Verify access to Login page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page_browser",
+    "time" : {
+      "start" : 1718795728470,
+      "stop" : 1718795729347,
+      "duration" : 877
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1718795728867,
+        "stop" : 1718795729347,
+        "duration" : 480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_page",
+    "time" : {
+      "start" : 1718795729347,
+      "stop" : 1718795729795,
+      "duration" : 448
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Account button on Header",
+      "time" : {
+        "start" : 1718795729347,
+        "stop" : 1718795729795,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify access to Login page.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify redirection to Login page",
+      "time" : {
+        "start" : 1718795729795,
+        "stop" : 1718795729803,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page_browser::0",
+    "time" : {
+      "start" : 1718795729804,
+      "stop" : 1718795730088,
+      "duration" : 284
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ac40cb046ec90847",
+      "name" : "Screenshot_2024-06-19 11:15:30.039190",
+      "source" : "ac40cb046ec90847.png",
+      "type" : "image/png",
+      "size" : 47862
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_ui.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "d2f93a7f85c0a457",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746666177,
+          "stop" : 1718746666183,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "b95156a301774c36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720617357,
+          "stop" : 1718720617363,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "8e8ca91998ba279c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718716763156,
+          "stop" : 1718716763162,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "b4ba3f90a37abbf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458977184,
+          "stop" : 1718458977191,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "65a43f4679211f1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718457367587,
+          "stop" : 1718457367593,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "46257e33d6f11d3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718455219199,
+          "stop" : 1718455219206,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "fb12e7b568ee8c18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718451913048,
+          "stop" : 1718451913054,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "7369f7d726ac537",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718377793825,
+          "stop" : 1718377793832,
+          "duration" : 7
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6b30470b87b3a03.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "tim.scott@scott.com",
+        "name": "Go blksanchez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzdlOWVkMjgwMDAxYjQ0MWE0NSIsImlhdCI6MTcxODc5NTM5MCwiZXhwIjoxNzE4Nzk2NTkwfQ.LV1bMETCTyc4iQmZOXL_dPPGv7Rj0dujsUfB0ZVN2kA",
+    "refreshToken": "14c37c10fff631dc9fc242afc82bc864403cccb92b59f806e352d683fe8cbdc5ca7a9345b2871672"
+}

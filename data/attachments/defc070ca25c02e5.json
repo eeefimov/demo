@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jerry.fischer@jones-barnes.net",
+        "name": "Diffeedward90"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY3OWVkMjgwMDAxYjQ0MWExNiIsImlhdCI6MTcxODc5NTM2NywiZXhwIjoxNzE4Nzk2NTY3fQ.MgPq6SlrLnYzQl2wVBiqVtrbtTumvWpPbc9IZicUVSM",
+    "refreshToken": "4e3f3163e0cc5c7797ce5679bdf2cbfeadf1817680ce8baaba635cb9d740d35061b27570b614721d"
+}

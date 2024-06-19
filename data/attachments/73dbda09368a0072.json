@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "shannon.mcclain@morgan.com",
+        "name": "Finanfreemangary"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzlkOWVkMjgwMDAxYjQ0MWE2NyIsImlhdCI6MTcxODc5NTQyMSwiZXhwIjoxNzE4Nzk2NjIxfQ.cXnOikYm4px21kFa-eCUMRu7E8e6gyatVA_G1z8cUkY",
+    "refreshToken": "08c91474f861552b2b58cd2128663eedc27e0f24c4ceaff14103a0cf142395e560e8b3565dd8fa91"
+}

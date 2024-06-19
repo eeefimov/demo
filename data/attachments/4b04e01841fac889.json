@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "chad.bishop@johnson.com",
+        "name": "Probaronald56"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzViOWVkMjgwMDAxYjQ0MTllZSIsImlhdCI6MTcxODc5NTM1NSwiZXhwIjoxNzE4Nzk2NTU1fQ.A_lT4lbYnS4pt0xWfifOKpwpfypUXDw-Cd2ojA4sKT8",
+    "refreshToken": "1642fe3eaebbb8c37fe1e43a693accb3e16124f56d0e69349e4158537c09f89aba18b6d6504ed35d"
+}

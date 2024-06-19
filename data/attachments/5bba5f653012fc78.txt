@@ -1,0 +1,4 @@
+method = post
+endpoint = https://stellarburgers.nomoreparties.site/api/password-reset
+header = None
+data_models = {'email': 'Sharon.Strickland@mills.com'}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "russell.parker@taylor.com",
+        "name": "Law pmillerjody"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzU3OWVkMjgwMDAxYjQ0MTllMiIsImlhdCI6MTcxODc5NTM1MSwiZXhwIjoxNzE4Nzk2NTUxfQ.VPYRyjqO1cpmBHpaQoUCqxx8ztj-mU5c_1dnMoJPDnA",
+    "refreshToken": "80bb27581157a7ce7718039bb583bae5bd2087a4e3c1d36047693a57fcebe276f69f26ed3cc0f0da"
+}

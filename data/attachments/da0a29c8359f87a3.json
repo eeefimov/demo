@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "shawn.stewart@lee.com",
-        "name": "Paintmarciacooper"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzgxOWVkMjgwMDAxYjQ0MTEzZiIsImlhdCI6MTcxODc0NjI0MSwiZXhwIjoxNzE4NzQ3NDQxfQ.RFHVhvEtvkFa0NrSD8DkQhSV-ev_3he5U1wA1Mh04w8",
-    "refreshToken": "5da0c05b373529f66938744e5ecb0fe3a2acda4642be09dd89e94ac18a3204000ecee286cf3709ed"
-}

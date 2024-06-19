@@ -1,0 +1,333 @@
+{
+  "uid" : "564a664901c988ce",
+  "name" : "test_status_code",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_status_code",
+  "historyId" : "d9acbed7fb21a329e3736a71536b4151",
+  "time" : {
+    "start" : 1718795429913,
+    "stop" : 1718795430129,
+    "duration" : 216
+  },
+  "description" : "Verify response status code.",
+  "descriptionHtml" : "<p>Verify response status code.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795429912,
+      "stop" : 1718795429913,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795429912,
+        "stop" : 1718795429913,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795429913,
+          "stop" : 1718795429913,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Age cwillie03'"
+        }, {
+          "name" : "mail",
+          "value" : "'Douglas.Santana@aguilar-mccall.net'"
+        }, {
+          "name" : "pwd",
+          "value" : "'^5VRFl'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify response status code.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718795429913,
+        "stop" : 1718795430129,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63b9c3c4fa0fe944",
+        "name" : "Request Info",
+        "source" : "63b9c3c4fa0fe944.txt",
+        "type" : "text/plain",
+        "size" : 208
+      }, {
+        "uid" : "b9fca68b08eabf4d",
+        "name" : "api Response",
+        "source" : "b9fca68b08eabf4d.json",
+        "type" : "application/json",
+        "size" : 436
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795430130,
+      "stop" : 1718795430536,
+      "duration" : 406
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795430130,
+        "stop" : 1718795430535,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795430130,
+          "stop" : 1718795430130,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E2OWVkMjgwMDAxYjQ0MWE3NSIsImlhdCI6MTcxODc5NTQzMCwiZXhwIjoxNzE4Nzk2NjMwfQ.16a5JHDG6lH2RFPNjFx3zh1ipttlWb-lIt0c9zExan8'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9bf5ddf870ec8ac6",
+        "name" : "Request Info",
+        "source" : "9bf5ddf870ec8ac6.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E2OWVkMjgwMDAxYjQ0MWE3NSIsImlhdCI6MTcxODc5NTQzMCwiZXhwIjoxNzE4Nzk2NjMwfQ.16a5JHDG6lH2RFPNjFx3zh1ipttlWb-lIt0c9zExan8'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "2f9c91c057dd7689",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746338473,
+          "stop" : 1718746338794,
+          "duration" : 321
+        }
+      }, {
+        "uid" : "2a2dea3abdddd223",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720311276,
+          "stop" : 1718720311523,
+          "duration" : 247
+        }
+      }, {
+        "uid" : "f227d295845e2ebd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458662938,
+          "stop" : 1718458663237,
+          "duration" : 299
+        }
+      }, {
+        "uid" : "668a2657969fd54d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454927818,
+          "stop" : 1718454928040,
+          "duration" : 222
+        }
+      }, {
+        "uid" : "a053e33a68f9f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453590702,
+          "stop" : 1718453590925,
+          "duration" : 223
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "564a664901c988ce.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jessica.johnson@howard.com",
+        "name": "Actionchandler"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYxOWVkMjgwMDAxYjQ0MWEwMiIsImlhdCI6MTcxODc5NTM2MSwiZXhwIjoxNzE4Nzk2NTYxfQ.pHukPlrzz6H_cZlVLB5m0fwkRu_SqXOCRpwblZzn2Ws",
+    "refreshToken": "822d41bb647edf14ab6c5a8ebd72e9ac7c4b44d96901dc3e40d372c8ca90771cca5adeadf4172407"
+}

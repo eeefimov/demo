@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "amber.chandler@gill-aguirre.com",
-        "name": "Benefjohnny76"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzgyOWVkMjgwMDAxYjQ0MTE0MSIsImlhdCI6MTcxODc0NjI0MiwiZXhwIjoxNzE4NzQ3NDQyfQ.qbhbXGzKjqqN0yhp6ih5KTW0PLHvSQe9uHdPMbawBRU",
-    "refreshToken": "e473b55f8ea5b6888e107e64b38c4c962cbcf955f9bd8fe8d6872194ff6ea2b78a087bad2a50431b"
-}

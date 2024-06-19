@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "james.frazier@blackwell.com",
-        "name": "Acrosamandaalexander"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzkwOWVkMjgwMDAxYjQ0MTE2MSIsImlhdCI6MTcxODc0NjI1NiwiZXhwIjoxNzE4NzQ3NDU2fQ.OmCWXgASa2lK9xEY2q4mE9pBOVnWiRwJRVJshvPkGWc",
-    "refreshToken": "b333b6b7245223a9280c586b689be775f79d7d55e84da9e5337ce5769040bcbaecf1923169f46ada"
-}

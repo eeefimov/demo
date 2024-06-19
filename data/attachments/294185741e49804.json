@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "danielle.hardy@henderson-pierce.com",
-        "name": "Persoraygibson"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzg5OWVkMjgwMDAxYjQ0MTE1MSIsImlhdCI6MTcxODc0NjI0OSwiZXhwIjoxNzE4NzQ3NDQ5fQ.dIwLeu46-LHez6PDquVkJkW_6A0B0Fe0ntUCrNfVxpU",
-    "refreshToken": "233c55157cbf01d59dda7fabd084ae1d897d34d8037c9e2222562cc35298de8d179bdfe724adc1eb"
-}

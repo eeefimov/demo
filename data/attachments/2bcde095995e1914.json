@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "luke.phillips@knox.biz",
+        "name": "Back mckenzieguerrero"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2JkOWVkMjgwMDAxYjQ0MWFhYSIsImlhdCI6MTcxODc5NTQ1MywiZXhwIjoxNzE4Nzk2NjUzfQ.ppTIFI0eWa3yvUFxzKL9CSmkUOa3Zapfp5xnmphblss",
+    "refreshToken": "2cc9ff30c3425fa0b4f9e706540c23cd7670d7adb0bede6eb0a85d4513e4ead8ec5687f8eec08193"
+}

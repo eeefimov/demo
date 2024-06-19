@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "julian-orozco-sharp@mendez-macias.com",
-        "name": "williambradshaw"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2YxOWVkMjgwMDAxYjQ0MTFlMiIsImlhdCI6MTcxODc0NjM1MywiZXhwIjoxNzE4NzQ3NTUzfQ.LVWsBg9s8F3yRCw-X4gdal0-A6S6NNkqKO8Yl6myXwE",
-    "refreshToken": "b3899cba3beac4e84a70aa03caf95e4a6a5c7d6fb9ec01de7ed4e3c00037f576a403588325feeccc"
-}

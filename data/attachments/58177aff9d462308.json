@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cory.jones@williams.net",
+        "name": "Kitchdaymarcia"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzViOWVkMjgwMDAxYjQ0MTllYyIsImlhdCI6MTcxODc5NTM1NSwiZXhwIjoxNzE4Nzk2NTU1fQ.NsGq9YOHECqi5zn5V4YecwSNqVRLjwT3KZFbGCk3fo4",
+    "refreshToken": "817c47ac7c871c012e0d013adac1e4061fbe9cb5ff8e9e430240aa0c379396af47b057a115e2d838"
+}

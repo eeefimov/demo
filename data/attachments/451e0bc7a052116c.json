@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "mary.gonzalez@austin.com",
+        "name": "Energhoffmanstephen"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2JmOWVkMjgwMDAxYjQ0MWFhYyIsImlhdCI6MTcxODc5NTQ1NSwiZXhwIjoxNzE4Nzk2NjU1fQ.9oHPz_7eheX_l2Z2cxi_OUwkgioEwdS9UmPUz8EnE4Y",
+    "refreshToken": "32138399beed6cbc0b9af158fd8b88e7fdf47f73f8652ed75540dec1a4ded430f4895472da92e79c"
+}

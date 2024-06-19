@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "williamstracy@example.com",
-        "name": " question"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2Y5OWVkMjgwMDAxYjQ0MTFmNCIsImlhdCI6MTcxODc0NjM2MSwiZXhwIjoxNzE4NzQ3NTYxfQ.sq1iFCpTOAheqjArewtO9bzjYpVwfvfoNmt59rj-2lc",
-    "refreshToken": "ef94a5e946d6f52b1ed0f71e6a42d698d3e9e4099d135bc42379259324c796b0ead5d0056143ab97"
-}

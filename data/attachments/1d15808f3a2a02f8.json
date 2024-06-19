@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "justin.martin@mendoza.com",
-        "name": "Everybyrdfaith"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhmOWVkMjgwMDAxYjQ0MTE1ZiIsImlhdCI6MTcxODc0NjI1NSwiZXhwIjoxNzE4NzQ3NDU1fQ.Trr2vVmBqLPY8Gs0P1XUn1-ZWNp6ZA5cb112kBuji1I",
-    "refreshToken": "794a9cb970f92ac26048d6ea129c38e88d8daf0612b8058648a9a13bed420405d60c7e03dd4015f8"
-}

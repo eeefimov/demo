@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "tanya.davis@pierce-jackson.org",
-        "name": "Energhalldorothy"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2U0OWVkMjgwMDAxYjQ0MTFkMiIsImlhdCI6MTcxODc0NjM0MCwiZXhwIjoxNzE4NzQ3NTQwfQ.yJbFjEX1FL_mymrp_Cso3ewim6_Xyfs-6bM9xvZe1BQ",
-    "refreshToken": "5aba7c74f02235093d4544dc10ff57c62cbb3f3ae615adb5a9596ce129e498c1581c183bdf93bea8"
-}

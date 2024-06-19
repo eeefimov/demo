@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "michele.nelson@jacobs-thomas.com",
-        "name": "Gas pchristinaking"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2Q0OWVkMjgwMDAxYjQ0MTFiZSIsImlhdCI6MTcxODc0NjMyNCwiZXhwIjoxNzE4NzQ3NTI0fQ.Afobq4zKO_KRi-Jcb1_vyWGyjAUveGnfKxb6tAZP7AQ",
-    "refreshToken": "0b9ef166f8e5c3a4eb4fdaaab326ebfab169474a1e58a4d322e84b59d3f1a4d7a4de3af41ee9cf2a"
-}

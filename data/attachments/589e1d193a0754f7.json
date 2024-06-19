@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "david.bullock@luna.com",
-        "name": "Put mrwilliams"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2ZjOWVkMjgwMDAxYjQ0MTFmYSIsImlhdCI6MTcxODc0NjM2NCwiZXhwIjoxNzE4NzQ3NTY0fQ.Wm6jO1AqpTvq-gNNJKhNVI230S9rE5U6jGkDfzQymx4",
-    "refreshToken": "8aa32b2de735202795ba2c1e483dec3402687974fe73546b24a9abc3c250b36369a81a37203ca60c"
-}

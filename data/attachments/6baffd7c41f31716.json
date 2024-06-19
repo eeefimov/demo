@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "marissa.white@brooks.net",
+        "name": "Execubrittanygonzalez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVlOWVkMjgwMDAxYjQ0MTlmNiIsImlhdCI6MTcxODc5NTM1OCwiZXhwIjoxNzE4Nzk2NTU4fQ.hFr_QHaBntEdpzTFg255BTTaQ2KbPrglqKJ9YW3Hd7M",
+    "refreshToken": "b84580e1453135a2f0f35230407c75cfb75c99e37b63fc687968b1d4e6afcec8222fbf0136755a16"
+}

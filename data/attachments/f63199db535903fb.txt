@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': '(q4DWUwO6Q'}
+data_models = {'name': 'Adminjoannsanchez', 'email': 'Cathy.King@mcdowell.org', 'password': 'y*349F'}

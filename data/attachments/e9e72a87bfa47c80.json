@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "sarah.pena@fuller-fischer.info",
+        "name": "Lot wcmays"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzZkOWVkMjgwMDAxYjQ0MWEyNiIsImlhdCI6MTcxODc5NTM3MywiZXhwIjoxNzE4Nzk2NTczfQ.LnONo7OQ4zkP_0G7YFaDAQK-7Kp-hsb8m7Uy_SHse8w",
+    "refreshToken": "d6625d97f57499eee1ca7b922e17fb6362d58892ef21e3b6a2950babe51565015715ae9505a69d87"
+}

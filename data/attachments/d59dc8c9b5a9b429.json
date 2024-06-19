@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "yolanda.smith@sawyer-pollard.com",
+        "name": "No sechristinemcpherson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzZjOWVkMjgwMDAxYjQ0MWEyMiIsImlhdCI6MTcxODc5NTM3MiwiZXhwIjoxNzE4Nzk2NTcyfQ.YGL9qG93jv6WkjIEb6CBnY_CG41XiPZR1EsEAlXe9OE",
+    "refreshToken": "c4ee5713eb8d320f0a6dc1d0d2b28e791c617ef3427c9bca31f0d0e9cca5d57f1a3a9a86d724809e"
+}

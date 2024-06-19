@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "robert.hoffman@chandler-short.com",
+        "name": "Reporsamanthabuckley"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYxOWVkMjgwMDAxYjQ0MWEwMCIsImlhdCI6MTcxODc5NTM2MSwiZXhwIjoxNzE4Nzk2NTYxfQ.DUayA-mIsGNUut_CTbjoIrQIJaFEAvnqlSjI-7nYf5M",
+    "refreshToken": "6af54c284359d2d5706859f24dd9d24a5325b5a81db2b22241abd6376c6c876abaec39a5affa47e3"
+}

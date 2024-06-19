@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "amy.shaffer@wiggins-hill.net",
+        "name": "Concejerrythompson"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzU5OWVkMjgwMDAxYjQ0MTllOCIsImlhdCI6MTcxODc5NTM1MywiZXhwIjoxNzE4Nzk2NTUzfQ.eT8zpnS8LPUaJbraf3FxvEDH07Aqd0BkfTBD4IeEwqg",
+    "refreshToken": "7d4745233e2f5f44b3e53f95b8d751066678ee5e5236eac379247f61d90b2743354ed40d551b5710"
+}

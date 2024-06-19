@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "douglas.santana@aguilar-mccall.net",
+        "name": "Age cwillie03"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E2OWVkMjgwMDAxYjQ0MWE3NSIsImlhdCI6MTcxODc5NTQzMCwiZXhwIjoxNzE4Nzk2NjMwfQ.16a5JHDG6lH2RFPNjFx3zh1ipttlWb-lIt0c9zExan8",
+    "refreshToken": "e8117e5f420edd251bf0dbcf3475af675599d822fbd2d3f5f9eda64d513549d36b508cb655be7f2f"
+}

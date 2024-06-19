@@ -1,0 +1,399 @@
+{
+  "uid" : "8d8490ba2906d8cc",
+  "name" : "test_invalid_methods[PATCH]",
+  "fullName" : "tests_api.test_post_reset_password.TestReset#test_invalid_methods",
+  "historyId" : "6192441330f9783d35100a9ef95e1b75",
+  "time" : {
+    "start" : 1718795465556,
+    "stop" : 1718795465741,
+    "duration" : 185
+  },
+  "description" : "Verify response code with invalid type of method.",
+  "descriptionHtml" : "<p>Verify response code with invalid type of method.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset",
+    "time" : {
+      "start" : 1718795465336,
+      "stop" : 1718795465556,
+      "duration" : 220
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup reset request",
+      "time" : {
+        "start" : 1718795465336,
+        "stop" : 1718795465556,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send POST register request",
+        "time" : {
+          "start" : 1718795465336,
+          "stop" : 1718795465555,
+          "duration" : 219
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cd4612fe2e6e7b46",
+          "name" : "Request Info",
+          "source" : "cd4612fe2e6e7b46.txt",
+          "type" : "text/plain",
+          "size" : 199
+        }, {
+          "uid" : "47774872c21f7aea",
+          "name" : "api Response",
+          "source" : "47774872c21f7aea.json",
+          "type" : "application/json",
+          "size" : 427
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "reset",
+        "value" : "<api.user.USER object at 0x7ff7af557810>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795465335,
+      "stop" : 1718795465336,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795465335,
+        "stop" : 1718795465336,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795465336,
+          "stop" : 1718795465336,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Form kaylafreeman'"
+        }, {
+          "name" : "mail",
+          "value" : "'Ann.Bailey@mclean.net'"
+        }, {
+          "name" : "pwd",
+          "value" : "'0vqkKX'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with invalid type of method.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send patch requests",
+      "time" : {
+        "start" : 1718795465556,
+        "stop" : 1718795465740,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bec3744b2654bce6",
+        "name" : "Request Info",
+        "source" : "bec3744b2654bce6.txt",
+        "type" : "text/plain",
+        "size" : 150
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c4c93ee03453b709",
+      "name" : "api Response",
+      "source" : "c4c93ee03453b709.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795465742,
+      "stop" : 1718795466165,
+      "duration" : 423
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795465742,
+        "stop" : 1718795466164,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795465742,
+          "stop" : 1718795465742,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2M5OWVkMjgwMDAxYjQ0MWFiMyIsImlhdCI6MTcxODc5NTQ2NSwiZXhwIjoxNzE4Nzk2NjY1fQ.JRzHuW2tvLmKxaXTQ6y7lq1fz5Gq3cxwdQOpu-pSmZ0'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e1eacb419b9b4f4e",
+        "name" : "Request Info",
+        "source" : "e1eacb419b9b4f4e.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2M5OWVkMjgwMDAxYjQ0MWFiMyIsImlhdCI6MTcxODc5NTQ2NSwiZXhwIjoxNzE4Nzk2NjY1fQ.JRzHuW2tvLmKxaXTQ6y7lq1fz5Gq3cxwdQOpu-pSmZ0'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_reset_password"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReset"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_reset_password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "404"
+  }, {
+    "name" : "method",
+    "value" : "'patch'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "ad9376e36fd2af5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718746380279,
+          "stop" : 1718746380531,
+          "duration" : 252
+        }
+      }, {
+        "uid" : "41cbd22b9894e1be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718720344880,
+          "stop" : 1718720345094,
+          "duration" : 214
+        }
+      }, {
+        "uid" : "580aa83417653ba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718458700600,
+          "stop" : 1718458700818,
+          "duration" : 218
+        }
+      }, {
+        "uid" : "f84092156e25b724",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718454959032,
+          "stop" : 1718454959195,
+          "duration" : 163
+        }
+      }, {
+        "uid" : "165aaaa8a18be15f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718453622054,
+          "stop" : 1718453622257,
+          "duration" : 203
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8d8490ba2906d8cc.json",
+  "parameterValues" : [ "404", "'patch'" ]
+}

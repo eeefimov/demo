@@ -1,0 +1,4 @@
+method = POST
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
+header = None
+data_models = {'name': 'Community hope else reflect. Occur although bed box your be career. Become race drug fight common.', 'email': 'ustewart@example.com', 'password': 'K_V3*H'}

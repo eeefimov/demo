@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "phillip.martinez@dickerson.org",
+        "name": "Such jessicacampbell"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2EwOWVkMjgwMDAxYjQ0MWE2YiIsImlhdCI6MTcxODc5NTQyNCwiZXhwIjoxNzE4Nzk2NjI0fQ.hSz8wARhhGYixs-FftoD3b6ZGd6NGsf0tpKW_lpsVYw",
+    "refreshToken": "2bd46e9dcdf013ea0f4f61d0003f96261c869b911a8b1f12ab67041540e3ec409cc835dbc287d18e"
+}

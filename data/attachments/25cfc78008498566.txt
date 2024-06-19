@@ -1,0 +1,4 @@
+method = get
+endpoint = https://stellarburgers.nomoreparties.site/api/orders
+header = {'Authorization': '90c8a951209d3c7b0a08958c1c5667be4cf40f78'}
+data_models = None

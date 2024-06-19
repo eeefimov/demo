@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jessica.odom@freeman.com",
+        "name": "Centesummersjamie"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY4OWVkMjgwMDAxYjQ0MWExOCIsImlhdCI6MTcxODc5NTM2OCwiZXhwIjoxNzE4Nzk2NTY4fQ.44y5MAxZs577XxCnYhdQ-9V4QzpzdOFheUjAHANhgbE",
+    "refreshToken": "08d81d0e235d972d79562538039847fe96a646bc9f2b6d866b0c4f124cf039d83760f1b06a06ff6c"
+}

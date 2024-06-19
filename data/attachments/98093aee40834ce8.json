@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "charles.white@richard-davis.com",
+        "name": "Few mflucas"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzU2OWVkMjgwMDAxYjQ0MTllMCIsImlhdCI6MTcxODc5NTM1MCwiZXhwIjoxNzE4Nzk2NTUwfQ.qAlGO37nBVpU3GUnWHf6qv54DgoU4dhUkvmVegz61-k",
+    "refreshToken": "a8ea825de35880322804cd5e512598af1457ef61c4e899481fe982e10564bb0aac0ca13a47778e53"
+}

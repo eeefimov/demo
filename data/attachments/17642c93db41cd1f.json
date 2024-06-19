@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "cathy.king@mcdowell.org",
+        "name": "Adminjoannsanchez"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzY1OWVkMjgwMDAxYjQ0MWEwZSIsImlhdCI6MTcxODc5NTM2NSwiZXhwIjoxNzE4Nzk2NTY1fQ.wbWNj6srdDzHpn0-D5b3S4CP1CGXu2b9ddSbtBzUvOE",
+    "refreshToken": "51575485ce80b9b74c354ed42b0eb1c58a06328aff50bddb44698d74db61d32fbcaa39cd86dced81"
+}

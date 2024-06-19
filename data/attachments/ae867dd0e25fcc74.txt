@@ -1,4 +1,0 @@
-method = PATCH
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
-header = {'Authorization': ''}
-data_models = {'name': 'Everybyrdfaith', 'email': 'Justin.Martin@mendoza.com', 'password': 'u5Hzoy'}

@@ -3,67 +3,67 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert {'email': 'Debra.Smith@white.com', 'name': 'Your simpsonraymond', 'password': '6Y0^Lv'} != {'email': 'Debra.Smith@white.com', 'name': 'Your simpsonraymond', 'password': '6Y0^Lv'}\n +  where {'email': 'Debra.Smith@white.com', 'name': 'Your simpsonraymond', 'password': '6Y0^Lv'} = <api.user.USER object at 0x7fcfc569b6d0>.data",
+      "name" : "AssertionError: assert {'email': 'Robert.Hoffman@chandler-short.com', 'name': 'Reporsamanthabuckley', 'password': 'Lm9fBQ'} != {'email': 'Robert.Hoffman@chandler-short.com', 'name': 'Reporsamanthabuckley', 'password': 'Lm9fBQ'}\n +  where {'email': 'Robert.Hoffman@chandler-short.com', 'name': 'Reporsamanthabuckley', 'password': 'Lm9fBQ'} = <api.user.USER object at 0x7ff7af5ab3d0>.data",
       "children" : [ {
         "name" : "test_update_credentials_validation[PATCH email]",
-        "uid" : "d48dae5e2f08b426",
-        "parentUid" : "0aa4ff045d8bdf9511566bf6b326ac6d",
+        "uid" : "9362203c752fe786",
+        "parentUid" : "e3d4dd295c68e1f5bdcfb6c02aafc7e9",
         "status" : "failed",
         "time" : {
-          "start" : 1718746253209,
-          "stop" : 1718746253470,
-          "duration" : 261
+          "start" : 1718795361102,
+          "stop" : 1718795361259,
+          "duration" : 157
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "200", "'email'" ]
       } ],
-      "uid" : "0aa4ff045d8bdf9511566bf6b326ac6d"
+      "uid" : "e3d4dd295c68e1f5bdcfb6c02aafc7e9"
     }, {
-      "name" : "AssertionError: assert {'email': 'Amy.Acevedo@anderson.com', 'name': 'Gardenicholevaughn', 'password': 'PVP+2%'} != {'email': 'Amy.Acevedo@anderson.com', 'name': 'Gardenicholevaughn', 'password': 'PVP+2%'}\n +  where {'email': 'Amy.Acevedo@anderson.com', 'name': 'Gardenicholevaughn', 'password': 'PVP+2%'} = <api.user.USER object at 0x7fcfc4436950>.data",
+      "name" : "AssertionError: assert {'email': 'Jessica.Johnson@howard.com', 'name': 'Actionchandler', 'password': '$n8+Lt'} != {'email': 'Jessica.Johnson@howard.com', 'name': 'Actionchandler', 'password': '$n8+Lt'}\n +  where {'email': 'Jessica.Johnson@howard.com', 'name': 'Actionchandler', 'password': '$n8+Lt'} = <api.user.USER object at 0x7ff7af59a950>.data",
       "children" : [ {
         "name" : "test_update_credentials_validation[PATCH name]",
-        "uid" : "fdf5229cfdf40e20",
-        "parentUid" : "510763a5c2f46efe51ff114e5a158054",
+        "uid" : "f5026ad00fb1c7a2",
+        "parentUid" : "ac95bd4c65d4f6bbad37622d775a5fb7",
         "status" : "failed",
         "time" : {
-          "start" : 1718746254072,
-          "stop" : 1718746254335,
-          "duration" : 263
+          "start" : 1718795361677,
+          "stop" : 1718795361832,
+          "duration" : 155
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "200", "'name'" ]
       } ],
-      "uid" : "510763a5c2f46efe51ff114e5a158054"
+      "uid" : "ac95bd4c65d4f6bbad37622d775a5fb7"
     }, {
-      "name" : "AssertionError: assert {'email': 'Peter.Erickson@larson-hunter.com', 'name': 'Just tsmith', 'password': '!iSTvf'} != {'email': 'Peter.Erickson@larson-hunter.com', 'name': 'Just tsmith', 'password': '!iSTvf'}\n +  where {'email': 'Peter.Erickson@larson-hunter.com', 'name': 'Just tsmith', 'password': '!iSTvf'} = <api.user.USER object at 0x7fcfc56cd790>.data",
+      "name" : "AssertionError: assert {'email': 'Monica.Thompson@frye.com', 'name': 'Act wkayladuncan', 'password': '&8l2Bf'} != {'email': 'Monica.Thompson@frye.com', 'name': 'Act wkayladuncan', 'password': '&8l2Bf'}\n +  where {'email': 'Monica.Thompson@frye.com', 'name': 'Act wkayladuncan', 'password': '&8l2Bf'} = <api.user.USER object at 0x7ff7af594550>.data",
       "children" : [ {
         "name" : "test_update_credentials_validation[PATCH password]",
-        "uid" : "895529d240cf02b6",
-        "parentUid" : "c777adeb680830301e19cdcd6d869164",
+        "uid" : "74f76c28253a6511",
+        "parentUid" : "4cc34206af58d94c2cc65c2f7a78528f",
         "status" : "failed",
         "time" : {
-          "start" : 1718746254905,
-          "stop" : 1718746255230,
-          "duration" : 325
+          "start" : 1718795362307,
+          "stop" : 1718795362521,
+          "duration" : 214
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "200", "'pwd'" ]
       } ],
-      "uid" : "c777adeb680830301e19cdcd6d869164"
+      "uid" : "4cc34206af58d94c2cc65c2f7a78528f"
     }, {
       "name" : "AssertionError: assert 200 == 403\n +  where 200 = <Response [200]>.status_code",
       "children" : [ {
         "name" : "test_exist_email_validation",
-        "uid" : "ecb18fa3d3ede896",
+        "uid" : "72e7207d2958835d",
         "parentUid" : "27971f797795dc1b9fa88da4f076b4d0",
         "status" : "failed",
         "time" : {
-          "start" : 1718746261172,
-          "stop" : 1718746261419,
-          "duration" : 247
+          "start" : 1718795366416,
+          "stop" : 1718795366569,
+          "duration" : 153
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,39 +74,39 @@
       "name" : "AssertionError: assert 200 == 404\n +  where 200 = <Response [200]>.status_code",
       "children" : [ {
         "name" : "test_invalid_methods[GET]",
-        "uid" : "532f969dc7e62cdd",
+        "uid" : "8b1f355fad2820c1",
         "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
         "status" : "failed",
         "time" : {
-          "start" : 1718746270277,
-          "stop" : 1718746270522,
-          "duration" : 245
+          "start" : 1718795372834,
+          "stop" : 1718795372997,
+          "duration" : 163
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "404", "'get'" ]
       }, {
         "name" : "test_invalid_methods[GET]",
-        "uid" : "8030a35f1ce72a87",
+        "uid" : "b90fd83e9d6db59d",
         "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
         "status" : "failed",
         "time" : {
-          "start" : 1718746343377,
-          "stop" : 1718746343634,
-          "duration" : 257
+          "start" : 1718795433409,
+          "stop" : 1718795433566,
+          "duration" : 157
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "404", "'get'" ]
       }, {
         "name" : "test_invalid_methods[GET]",
-        "uid" : "6d9bb03737b6042c",
+        "uid" : "75ea5b5f8537b84b",
         "parentUid" : "a70fd19cfa48b8c509b5d37467b901a3",
         "status" : "failed",
         "time" : {
-          "start" : 1718746378120,
-          "stop" : 1718746378378,
-          "duration" : 258
+          "start" : 1718795463976,
+          "stop" : 1718795464130,
+          "duration" : 154
         },
         "flaky" : false,
         "newFailed" : false,
@@ -114,333 +114,342 @@
       } ],
       "uid" : "a70fd19cfa48b8c509b5d37467b901a3"
     }, {
-      "name" : "AssertionError: assert 4689 == 3434",
+      "name" : "AssertionError: assert 6393 == 5405",
       "children" : [ {
         "name" : "test_orders_price",
-        "uid" : "7cfe4c6b69d8a44",
-        "parentUid" : "d24d271fba35cfe36e7207d22c282f97",
+        "uid" : "43ac14ffac0a11ed",
+        "parentUid" : "3b601fbc900a87467cd6015072b37b8b",
         "status" : "failed",
         "time" : {
-          "start" : 1718746333008,
-          "stop" : 1718746334169,
-          "duration" : 1161
+          "start" : 1718795426778,
+          "stop" : 1718795427905,
+          "duration" : 1127
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d24d271fba35cfe36e7207d22c282f97"
+      "uid" : "3b601fbc900a87467cd6015072b37b8b"
     }, {
       "name" : "AssertionError: assert 200 == 401\n +  where 200 = <Response [200]>.status_code",
       "children" : [ {
         "name" : "test_authorization_validation[Empty token]",
-        "uid" : "ba3576527054a476",
+        "uid" : "746fa71e0a669db0",
         "parentUid" : "8d9a19d5cfdc0b2936c94a8a5708fe8a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746335009,
-          "stop" : 1718746335259,
-          "duration" : 250
+          "start" : 1718795428539,
+          "stop" : 1718795428696,
+          "duration" : 157
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "401", "''" ]
       }, {
         "name" : "test_authorization_validation[Invalid token]",
-        "uid" : "162f4a20e21d6dae",
+        "uid" : "1c40d1ca5f49a28",
         "parentUid" : "8d9a19d5cfdc0b2936c94a8a5708fe8a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746336072,
-          "stop" : 1718746336336,
-          "duration" : 264
+          "start" : 1718795429338,
+          "stop" : 1718795429494,
+          "duration" : 156
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "401", "'076997d59ea71a13ee1e748dea933c786a5f5b09'" ]
+        "parameters" : [ "401", "'90c8a951209d3c7b0a08958c1c5667be4cf40f78'" ]
       } ],
       "uid" : "8d9a19d5cfdc0b2936c94a8a5708fe8a"
+    }, {
+      "name" : "AssertionError: assert 403 == 400\n +  where 403 = <Response [403]>.status_code",
+      "children" : [ {
+        "name" : "test_invalid_data[None data_models]",
+        "uid" : "7468361e412d2841",
+        "parentUid" : "2716238e60db06e3b28dee2459e2a777",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718795434574,
+          "stop" : 1718795434717,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "400" ]
+      }, {
+        "name" : "test_invalid_data[Invalid data_models]",
+        "uid" : "59b0640d52759e62",
+        "parentUid" : "2716238e60db06e3b28dee2459e2a777",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718795434897,
+          "stop" : 1718795435041,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'_P42AdN7vt': '_xX%ynwq84', 'U$dR$2EgI#': 'hq6JSHg)(W', '^P60uPeHdz': 'rL+dBGHC@3'}", "400" ]
+      }, {
+        "name" : "test_name_validation[User name with 10 digits]",
+        "uid" : "fe497d747abde560",
+        "parentUid" : "2716238e60db06e3b28dee2459e2a777",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718795443294,
+          "stop" : 1718795443456,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "400", "'james68@example.org'", "'1502603508'", "'@EK9fb'" ]
+      } ],
+      "uid" : "2716238e60db06e3b28dee2459e2a777"
     }, {
       "name" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code",
       "children" : [ {
         "name" : "test_email_validation[Email without \"@\"]",
-        "uid" : "d590cd74eb649240",
+        "uid" : "c19b2cbaf75bb50",
         "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
         "status" : "failed",
         "time" : {
-          "start" : 1718746346128,
-          "stop" : 1718746346428,
-          "duration" : 300
+          "start" : 1718795435258,
+          "stop" : 1718795435492,
+          "duration" : 234
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'lmorganaexample.org'", "'ramirezwalter'", "'ez$1Fx'" ]
+        "parameters" : [ "400", "'ssmithaexample.org'", "'danielpineda'", "'Rs37)E'" ]
       }, {
         "name" : "test_email_validation[Email without domain part]",
-        "uid" : "becc5fb4efdf36a0",
+        "uid" : "1960417a5b49bcd8",
         "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
         "status" : "failed",
         "time" : {
-          "start" : 1718746346700,
-          "stop" : 1718746347210,
-          "duration" : 510
+          "start" : 1718795435665,
+          "stop" : 1718795435879,
+          "duration" : 214
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'josephsmith@'", "'zachary74'", "'e^3dK5'" ]
+        "parameters" : [ "400", "'smithaimee@'", "'perezmelinda'", "')H6BMn'" ]
       }, {
         "name" : "test_email_validation[Email without username part]",
-        "uid" : "17c0baf64d115588",
+        "uid" : "5eaa20bb658bb7e8",
         "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
         "status" : "failed",
         "time" : {
-          "start" : 1718746347732,
-          "stop" : 1718746348048,
-          "duration" : 316
+          "start" : 1718795436048,
+          "stop" : 1718795436261,
+          "duration" : 213
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'@example.net'", "'millereugene'", "'Ya_qDH'" ]
+        "parameters" : [ "400", "'@example.net'", "'ortizashlee'", "'1_&pQ*'" ]
       }, {
         "name" : "test_email_validation[Integer in email]",
-        "uid" : "74fd403f307c2ba2",
+        "uid" : "c85dbd82a75d745d",
         "parentUid" : "625defe877c6f5bcd6971d4811a85a26",
         "status" : "failed",
         "time" : {
-          "start" : 1718746348304,
-          "stop" : 1718746348605,
-          "duration" : 301
+          "start" : 1718795436426,
+          "stop" : 1718795436657,
+          "duration" : 231
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "8782665", "'theresa83'", "'&41ODw'" ]
+        "parameters" : [ "400", "4305588", "'markjames'", "'b+N4B5'" ]
       } ],
       "uid" : "625defe877c6f5bcd6971d4811a85a26"
     }, {
       "name" : "AssertionError: assert 200 == 400\n +  where 200 = <Response [200]>.status_code",
       "children" : [ {
         "name" : "test_password_validation[Password < 6]",
-        "uid" : "2836fe0f5110856f",
+        "uid" : "a3c6f24a22a83c51",
         "parentUid" : "5db93c3a6941b61964bd4a0ed7236a4a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746355079,
-          "stop" : 1718746355404,
-          "duration" : 325
+          "start" : 1718795441384,
+          "stop" : 1718795441598,
+          "duration" : 214
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'ricardomartinez@example.net'", "'jcarr'", "'!r7fF'" ]
+        "parameters" : [ "400", "'pbates@example.org'", "'stevencook'", "'7oHTP'" ]
       }, {
         "name" : "test_name_validation[User name with special chars]",
-        "uid" : "ce19bae1366d3bfd",
+        "uid" : "71cdaf6d8e72c6f9",
         "parentUid" : "5db93c3a6941b61964bd4a0ed7236a4a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746358034,
-          "stop" : 1718746358346,
-          "duration" : 312
+          "start" : 1718795443608,
+          "stop" : 1718795443858,
+          "duration" : 250
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'lutzdaniel@example.org'", "'&&&&&&&&&&'", "'5+u^5B'" ]
+        "parameters" : [ "400", "'mitchellmary@example.net'", "'!!!!!!!!!!'", "')1!4&Q'" ]
       }, {
         "name" : "test_name_validation[User name with 100 char]",
-        "uid" : "c7f043e30b784ba2",
+        "uid" : "e45416d9138490fc",
         "parentUid" : "5db93c3a6941b61964bd4a0ed7236a4a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746358866,
-          "stop" : 1718746359178,
-          "duration" : 312
+          "start" : 1718795444271,
+          "stop" : 1718795444486,
+          "duration" : 215
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'tyler30@example.net'", "'Face house leader total difference course reflect. Cover he federal sort use anything protect.'", "'#pO6ZC'" ]
+        "parameters" : [ "400", "'ustewart@example.com'", "'Community hope else reflect. Occur although bed box your be career. Become race drug fight common.'", "'K_V3*H'" ]
       }, {
         "name" : "test_name_validation[User name with 2 strings]",
-        "uid" : "6129cec800f846ec",
+        "uid" : "bd0dd51ea8dbcd73",
         "parentUid" : "5db93c3a6941b61964bd4a0ed7236a4a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746359698,
-          "stop" : 1718746360022,
-          "duration" : 324
+          "start" : 1718795444921,
+          "stop" : 1718795445137,
+          "duration" : 216
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'cestes@example.com'", "'price difference'", "'2^A3g7'" ]
+        "parameters" : [ "400", "'brittanybrewer@example.com'", "'customer paper'", "'iB10Nc'" ]
       }, {
         "name" : "test_name_validation[User name with 3 strings]",
-        "uid" : "2efac79789cd46f1",
+        "uid" : "dccf1f3cf7efeff7",
         "parentUid" : "5db93c3a6941b61964bd4a0ed7236a4a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746360544,
-          "stop" : 1718746360852,
-          "duration" : 308
+          "start" : 1718795445565,
+          "stop" : 1718795445802,
+          "duration" : 237
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'ufreeman@example.org'", "'move region day'", "'V!Q4IC'" ]
+        "parameters" : [ "400", "'myersbrianna@example.net'", "'during professor law'", "'E0PuWc'" ]
       }, {
         "name" : "test_name_validation[User name with front space string]",
-        "uid" : "79ef880f7210cd6e",
+        "uid" : "9d9290f5a76f6c6f",
         "parentUid" : "5db93c3a6941b61964bd4a0ed7236a4a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746361399,
-          "stop" : 1718746361726,
-          "duration" : 327
+          "start" : 1718795446225,
+          "stop" : 1718795446448,
+          "duration" : 223
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'williamstracy@example.com'", "' question'", "'r+72wW'" ]
+        "parameters" : [ "400", "'robert04@example.com'", "' section'", "'O#f$#Y'" ]
       }, {
         "name" : "test_name_validation[User name with back space string]",
-        "uid" : "75ea1e2c28ab6af4",
+        "uid" : "f0dbaab829f8b9e6",
         "parentUid" : "5db93c3a6941b61964bd4a0ed7236a4a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746362250,
-          "stop" : 1718746362556,
-          "duration" : 306
+          "start" : 1718795446863,
+          "stop" : 1718795447084,
+          "duration" : 221
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'dianawilliams@example.com'", "'commercial '", "'O4mtDI'" ]
+        "parameters" : [ "400", "'kimberly13@example.net'", "'build '", "'#xEgWj'" ]
       } ],
       "uid" : "5db93c3a6941b61964bd4a0ed7236a4a"
     }, {
-      "name" : "AssertionError: assert 403 == 400\n +  where 403 = <Response [403]>.status_code",
-      "children" : [ {
-        "name" : "test_name_validation[User name with 10 digits]",
-        "uid" : "32e6a46bd6d4fea3",
-        "parentUid" : "2716238e60db06e3b28dee2459e2a777",
-        "status" : "failed",
-        "time" : {
-          "start" : 1718746357524,
-          "stop" : 1718746357781,
-          "duration" : 257
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "400", "'denisebrown@example.net'", "'5261138917'", "'U!6Zmd'" ]
-      } ],
-      "uid" : "2716238e60db06e3b28dee2459e2a777"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7fcfc5fe98a0>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7fcfc5fe98a0> = RESET.verify_confirmation_code",
+      "name" : "AssertionError: assert False\n +  where False = <function RESET.verify_confirmation_code at 0x7ff7af789bc0>('reenancetester@gmail')\n +    where <function RESET.verify_confirmation_code at 0x7ff7af789bc0> = RESET.verify_confirmation_code",
       "children" : [ {
         "name" : "test_reset_code[Not registered email]",
-        "uid" : "959458193d8b3d24",
-        "parentUid" : "d880082dbdf556972929f4295135ddb4",
+        "uid" : "60087a357e9c07e0",
+        "parentUid" : "70e465bd214d4a7607d89dc7ef3f5ed7",
         "status" : "failed",
         "time" : {
-          "start" : 1718746371580,
-          "stop" : 1718746373597,
-          "duration" : 2017
+          "start" : 1718795453478,
+          "stop" : 1718795454542,
+          "duration" : 1064
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'freenancetester@gmail.com'", "'uxidgrqiouboppzc'" ]
       } ],
-      "uid" : "d880082dbdf556972929f4295135ddb4"
-    }, {
-      "name" : "AssertionError: assert 30 == (0 * 2)",
-      "children" : [ {
-        "name" : "test_ingredients_double_data",
-        "uid" : "c40f1d60ede38837",
-        "parentUid" : "9c88369b04f4b7001101b76ff47615da",
-        "status" : "failed",
-        "time" : {
-          "start" : 1718746413823,
-          "stop" : 1718746423029,
-          "duration" : 9206
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9c88369b04f4b7001101b76ff47615da"
+      "uid" : "70e465bd214d4a7607d89dc7ef3f5ed7"
     }, {
       "name" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h1[contains(text(),'Соберите бургер')]\")\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>\n  -   unexpected value \"visible\"",
       "children" : [ {
         "name" : "test_password_validation[Password < 6]",
-        "uid" : "b617e9e912b8d107",
+        "uid" : "a12ba3f22bd8fe6e",
         "parentUid" : "27862b981d7cedb01c7b876816fea65a",
         "status" : "failed",
         "time" : {
-          "start" : 1718746435402,
-          "stop" : 1718746444823,
-          "duration" : 9421
+          "start" : 1718795512572,
+          "stop" : 1718795521910,
+          "duration" : 9338
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "400", "'ricardomartinez@example.net'", "'jcarr'", "'!r7fF'" ]
+        "parameters" : [ "400", "'pbates@example.org'", "'stevencook'", "'7oHTP'" ]
       } ],
       "uid" : "27862b981d7cedb01c7b876816fea65a"
     }, {
-      "name" : "AssertionError: assert '2510' == '1643'\n  \n  - 1643\n  + 2510",
+      "name" : "AssertionError: assert '1976' == '4076'\n  \n  - 4076\n  + 1976",
       "children" : [ {
         "name" : "test_account_history_order_price[Single bun]",
-        "uid" : "fcb946d1b0636c9b",
-        "parentUid" : "6230da8e4fdf0e6ca936d355156e07ea",
+        "uid" : "4fedfd239af137e9",
+        "parentUid" : "1690cd0e141e3c28de44fd372473b124",
         "status" : "failed",
         "time" : {
-          "start" : 1718746523050,
-          "stop" : 1718746540295,
-          "duration" : 17245
+          "start" : 1718795592006,
+          "stop" : 1718795609097,
+          "duration" : 17091
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "True", "0" ]
       } ],
-      "uid" : "6230da8e4fdf0e6ca936d355156e07ea"
+      "uid" : "1690cd0e141e3c28de44fd372473b124"
     }, {
-      "name" : "AssertionError: assert '1976' == '5468'\n  \n  - 5468\n  + 1976",
+      "name" : "AssertionError: assert '2510' == '5412'\n  \n  - 5412\n  + 2510",
       "children" : [ {
         "name" : "test_account_history_order_price[Bun + single ingredient]",
-        "uid" : "e5d5b7eece8bdac3",
-        "parentUid" : "0f4d705a46b911198c2e39e786467663",
+        "uid" : "a32e4b859222ba62",
+        "parentUid" : "4c3a8e5a7c5c22a40014aa058249b3c9",
         "status" : "failed",
         "time" : {
-          "start" : 1718746541636,
-          "stop" : 1718746559395,
-          "duration" : 17759
+          "start" : 1718795610271,
+          "stop" : 1718795627363,
+          "duration" : 17092
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "True", "1" ]
       } ],
-      "uid" : "0f4d705a46b911198c2e39e786467663"
+      "uid" : "4c3a8e5a7c5c22a40014aa058249b3c9"
     }, {
-      "name" : "AssertionError: assert '2510' == '6734'\n  \n  - 6734\n  + 2510",
+      "name" : "AssertionError: assert '2510' == '1979'\n  \n  - 1979\n  + 2510",
       "children" : [ {
         "name" : "test_account_history_order_price[Bun + not single ingredient]",
-        "uid" : "1d5343c654ff1ab8",
-        "parentUid" : "3bdf484fd9ed5de06383e594c835b9a2",
+        "uid" : "2ec4b9569cfba73e",
+        "parentUid" : "e36bd59e3a6a25590a8a01a63c795302",
         "status" : "failed",
         "time" : {
-          "start" : 1718746560921,
-          "stop" : 1718746578194,
-          "duration" : 17273
+          "start" : 1718795628456,
+          "stop" : 1718795645579,
+          "duration" : 17123
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "True", "3" ]
       } ],
-      "uid" : "3bdf484fd9ed5de06383e594c835b9a2"
+      "uid" : "e36bd59e3a6a25590a8a01a63c795302"
     }, {
       "name" : "AssertionError: assert 4 == (4 + 1)",
       "children" : [ {
         "name" : "test_account_history_ingredients_icons[Bun + not single ingredient]",
-        "uid" : "c045f228403ce2cd",
+        "uid" : "bde0455dfe0990cf",
         "parentUid" : "547dbe821f230df278e3ce84ae82aff5",
         "status" : "failed",
         "time" : {
-          "start" : 1718746607896,
-          "stop" : 1718746627792,
-          "duration" : 19896
+          "start" : 1718795674018,
+          "stop" : 1718795693764,
+          "duration" : 19746
         },
         "flaky" : false,
         "newFailed" : false,
@@ -451,13 +460,13 @@
       "name" : "AssertionError: Locator expected to have CSS 'rgb(133, 133, 173)'\nActual value: rgb(255, 255, 255) \nCall log:\nLocatorAssertions.to_have_css with timeout 5000ms\n  - waiting for locator(\"//span[contains(text(), 'Булки')]\")\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"\n  -   locator resolved to <span class=\"text text_type_main-default\">Булки</span>\n  -   unexpected value \"rgb(255, 255, 255)\"",
       "children" : [ {
         "name" : "test_main_top_title_color_changes",
-        "uid" : "96285b38807479a7",
+        "uid" : "804dfc97690c2e8a",
         "parentUid" : "7c5233bdd8986c402548f1f5b27ee134",
         "status" : "failed",
         "time" : {
-          "start" : 1718746720991,
-          "stop" : 1718746728073,
-          "duration" : 7082
+          "start" : 1718795779513,
+          "stop" : 1718795786615,
+          "duration" : 7102
         },
         "flaky" : false,
         "newFailed" : false,
@@ -468,13 +477,13 @@
       "name" : "AssertionError: assert 'Ваш заказ начали готовить' != 'Ваш заказ начали готовить'",
       "children" : [ {
         "name" : "test_main_order_empty",
-        "uid" : "a97c1c700da3e233",
+        "uid" : "d64f59c1d0c6ca3d",
         "parentUid" : "8875b04dedc5a28df8018208ec0a5b0f",
         "status" : "failed",
         "time" : {
-          "start" : 1718746756813,
-          "stop" : 1718746761914,
-          "duration" : 5101
+          "start" : 1718796271184,
+          "stop" : 1718796275782,
+          "duration" : 4598
         },
         "flaky" : false,
         "newFailed" : false,
@@ -482,244 +491,244 @@
       } ],
       "uid" : "8875b04dedc5a28df8018208ec0a5b0f"
     }, {
-      "name" : "AssertionError: assert 9999 != 9999\n +  where 9999 = int('9999')\n +    where '9999' = <function MAIN.get_order_number at 0x7fcfc5fea5c0>(<Page url='https://stellarburgers.nomoreparties.site/'>)\n +      where <function MAIN.get_order_number at 0x7fcfc5fea5c0> = MAIN.get_order_number",
+      "name" : "AssertionError: assert 9999 != 9999\n +  where 9999 = int('9999')\n +    where '9999' = <function MAIN.get_order_number at 0x7ff7af78a8e0>(<Page url='https://stellarburgers.nomoreparties.site/'>)\n +      where <function MAIN.get_order_number at 0x7ff7af78a8e0> = MAIN.get_order_number",
       "children" : [ {
         "name" : "test_main_order_not_empty[No bun, random ingredient number]",
-        "uid" : "6d4080dc0c2d4996",
-        "parentUid" : "a2eb2e364edcca88d56b24a0939aa07a",
+        "uid" : "94da1c9388b52032",
+        "parentUid" : "3861a31f25063166973938b8d472184e",
         "status" : "failed",
         "time" : {
-          "start" : 1718746803425,
-          "stop" : 1718746824895,
-          "duration" : 21470
+          "start" : 1718796314535,
+          "stop" : 1718796340063,
+          "duration" : 25528
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "False", "7" ]
+        "parameters" : [ "False", "9" ]
       } ],
-      "uid" : "a2eb2e364edcca88d56b24a0939aa07a"
+      "uid" : "3861a31f25063166973938b8d472184e"
     }, {
-      "name" : "AssertionError: assert '14476' == '13221'\n  \n  - 13221\n  + 14476",
+      "name" : "AssertionError: assert '5039' == '4051'\n  \n  - 4051\n  + 5039",
       "children" : [ {
         "name" : "test_orders_price",
-        "uid" : "2782e200b8746e9e",
-        "parentUid" : "2aa371b7158b7d9f0e3ec09a2b038b3f",
+        "uid" : "65ada057a442d492",
+        "parentUid" : "afb7d198719132bf1d2efe95f3dbdc0f",
         "status" : "failed",
         "time" : {
-          "start" : 1718746880581,
-          "stop" : 1718746898092,
-          "duration" : 17511
+          "start" : 1718796391107,
+          "stop" : 1718796411076,
+          "duration" : 19969
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2aa371b7158b7d9f0e3ec09a2b038b3f"
+      "uid" : "afb7d198719132bf1d2efe95f3dbdc0f"
     }, {
       "name" : "AssertionError: Locator expected not to be visible\nActual value: True \nCall log:\nLocatorAssertions.not_to_be_visible with timeout 5000ms\n  - waiting for locator(\"//h2[contains(text(), 'Вход')]\")\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"\n  -   locator resolved to <h2>Вход</h2>\n  -   unexpected value \"visible\"",
       "children" : [ {
         "name" : "test_register_name_validation[User post_login with 1 char]",
-        "uid" : "2f64b9fc6ab490d4",
+        "uid" : "62b1e8b9be1176aa",
         "parentUid" : "86ced6c11647cb6f1820662536964c27",
         "status" : "failed",
         "time" : {
-          "start" : 1718746947648,
-          "stop" : 1718746953787,
-          "duration" : 6139
+          "start" : 1718796454702,
+          "stop" : 1718796460805,
+          "duration" : 6103
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'michaelrobinson@example.com'", "'B'", "'0!4Bb('" ]
+        "parameters" : [ "'rroman@example.com'", "'D'", "'j8^Cuq'" ]
       }, {
         "name" : "test_register_name_validation[User post_login with 10 digits]",
-        "uid" : "612515ec830cb198",
+        "uid" : "9dcc77d51c1547e3",
         "parentUid" : "86ced6c11647cb6f1820662536964c27",
         "status" : "failed",
         "time" : {
-          "start" : 1718746955633,
-          "stop" : 1718746961737,
+          "start" : 1718796462335,
+          "stop" : 1718796468439,
           "duration" : 6104
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'sparksmelissa@example.net'", "'330176854'", "'IewW80'" ]
+        "parameters" : [ "'camposronald@example.com'", "'9249393210'", "'Q6VKBO'" ]
       }, {
         "name" : "test_register_name_validation[User post_login with special chars]",
-        "uid" : "236bd959de65f108",
+        "uid" : "874025d6f43bfe09",
         "parentUid" : "86ced6c11647cb6f1820662536964c27",
         "status" : "failed",
         "time" : {
-          "start" : 1718746963566,
-          "stop" : 1718746969672,
+          "start" : 1718796470018,
+          "stop" : 1718796476124,
           "duration" : 6106
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'sandraolsen@example.net'", "'$$$$$$$$$$'", "'$7ABF5'" ]
+        "parameters" : [ "'tammy83@example.com'", "'!!!!!!!!!!'", "'(%^pOz'" ]
       }, {
         "name" : "test_register_name_validation[User post_login with 100 char]",
-        "uid" : "f7979ee6f80a918e",
+        "uid" : "59d8970ce9ca9e95",
         "parentUid" : "86ced6c11647cb6f1820662536964c27",
         "status" : "failed",
         "time" : {
-          "start" : 1718746972000,
-          "stop" : 1718746978103,
-          "duration" : 6103
+          "start" : 1718796477651,
+          "stop" : 1718796483738,
+          "duration" : 6087
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'maria68@example.com'", "'Compare age save tell trouble senior. Interesting speak one finally for.'", "'2dNFS&'" ]
+        "parameters" : [ "'schmidttravis@example.org'", "'Color range church memory section sea. Challenge throw eye card behavior. Another federal share.'", "'@3MpTH'" ]
       }, {
         "name" : "test_register_name_validation[User post_login with 2 strings]",
-        "uid" : "c2294da3358010db",
+        "uid" : "c1001dd7f5bce6d8",
         "parentUid" : "86ced6c11647cb6f1820662536964c27",
         "status" : "failed",
         "time" : {
-          "start" : 1718746979916,
-          "stop" : 1718746986020,
+          "start" : 1718796485284,
+          "stop" : 1718796491371,
+          "duration" : 6087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'osmith@example.com'", "'scene call'", "'$!f4HZ'" ]
+      }, {
+        "name" : "test_register_name_validation[User post_login with 3 strings]",
+        "uid" : "b50e6297bdfb6847",
+        "parentUid" : "86ced6c11647cb6f1820662536964c27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718796493601,
+          "stop" : 1718796499694,
+          "duration" : 6093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'james93@example.net'", "'red air game'", "'Nwu90N'" ]
+      }, {
+        "name" : "test_register_name_validation[User post_login with front space string]",
+        "uid" : "61b75d3ab68b7680",
+        "parentUid" : "86ced6c11647cb6f1820662536964c27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718796501151,
+          "stop" : 1718796507270,
+          "duration" : 6119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'aaronmorris@example.org'", "' main'", "'rX7sDG'" ]
+      }, {
+        "name" : "test_register_name_validation[User post_login with back space string]",
+        "uid" : "4c8ff258eaa81ffa",
+        "parentUid" : "86ced6c11647cb6f1820662536964c27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718796508817,
+          "stop" : 1718796514921,
           "duration" : 6104
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'angela14@example.net'", "'notice mean'", "'UebKBH'" ]
-      }, {
-        "name" : "test_register_name_validation[User post_login with 3 strings]",
-        "uid" : "97387db0060660c3",
-        "parentUid" : "86ced6c11647cb6f1820662536964c27",
-        "status" : "failed",
-        "time" : {
-          "start" : 1718746987816,
-          "stop" : 1718746993919,
-          "duration" : 6103
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'daniel33@example.net'", "'away event final'", "'0a78B$'" ]
-      }, {
-        "name" : "test_register_name_validation[User post_login with front space string]",
-        "uid" : "7c069714e226754a",
-        "parentUid" : "86ced6c11647cb6f1820662536964c27",
-        "status" : "failed",
-        "time" : {
-          "start" : 1718746996283,
-          "stop" : 1718747002385,
-          "duration" : 6102
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'dprice@example.org'", "' space'", "'ySf#5B'" ]
-      }, {
-        "name" : "test_register_name_validation[User post_login with back space string]",
-        "uid" : "425f0ee8a99ea69f",
-        "parentUid" : "86ced6c11647cb6f1820662536964c27",
-        "status" : "failed",
-        "time" : {
-          "start" : 1718747005432,
-          "stop" : 1718747011538,
-          "duration" : 6106
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'dunncynthia@example.net'", "'take '", "'M(3oEy'" ]
+        "parameters" : [ "'unelson@example.com'", "'she '", "'dk68BO'" ]
       } ],
       "uid" : "86ced6c11647cb6f1820662536964c27"
     }, {
       "name" : "AssertionError: Locator expected to contain text 'Некорректный email'\nActual value: Такой пользователь уже существует \nCall log:\nLocatorAssertions.to_contain_text with timeout 5000ms\n  - waiting for locator(\"//p[contains(text(), 'Такой пользователь уже существует')]\")\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"\n  -   locator resolved to <p class=\"input__error text_type_main-default\">Такой пользователь уже существует</p>\n  -   unexpected value \"Такой пользователь уже существует\"",
       "children" : [ {
         "name" : "test_register_email_error_txt[Email without \"@\"]",
-        "uid" : "4ef86473d8a60f1c",
+        "uid" : "3714ae75388bb07b",
         "parentUid" : "1ffc90270e7338d772e9b6ed64f484d9",
         "status" : "failed",
         "time" : {
-          "start" : 1718747045064,
-          "stop" : 1718747051174,
-          "duration" : 6110
+          "start" : 1718796542832,
+          "stop" : 1718796548958,
+          "duration" : 6126
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'lisaknightaexample.net'", "'msmith'", "'!f05sB'" ]
+        "parameters" : [ "'jensentammyaexample.org'", "'chudson'", "'&2KM#J'" ]
       } ],
       "uid" : "1ffc90270e7338d772e9b6ed64f484d9"
     }, {
       "name" : "AssertionError: Page URL expected to be 'https://stellarburgers.nomoreparties.site/forgot-password'\nActual value: https://stellarburgers.nomoreparties.site/reset-password \nCall log:\nPageAssertions.to_have_url with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"https://stellarburgers.nomoreparties.site/reset-password\"",
       "children" : [ {
         "name" : "test_forgot_email_validation[Empty email]",
-        "uid" : "d8f771fdb750c167",
+        "uid" : "9ba09a58211b2ecd",
         "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
         "status" : "failed",
         "time" : {
-          "start" : 1718747079479,
-          "stop" : 1718747086550,
-          "duration" : 7071
+          "start" : 1718796572980,
+          "stop" : 1718796580052,
+          "duration" : 7072
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "''", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
       }, {
         "name" : "test_forgot_email_validation[Not registered email]",
-        "uid" : "75b208377ffa3642",
+        "uid" : "82ce5de2cef80ee7",
         "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
         "status" : "failed",
         "time" : {
-          "start" : 1718747088361,
-          "stop" : 1718747095435,
-          "duration" : 7074
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'kfigueroa@example.org'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
-      }, {
-        "name" : "test_forgot_email_validation[Email without domain part]",
-        "uid" : "7eb9d70ee151a8d4",
-        "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1718747098495,
-          "stop" : 1718747105567,
-          "duration" : 7072
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'joycemoody@'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
-      }, {
-        "name" : "test_forgot_email_validation[Email without username part]",
-        "uid" : "87c5d67c4ac645d8",
-        "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1718747107910,
-          "stop" : 1718747114983,
+          "start" : 1718796581613,
+          "stop" : 1718796588686,
           "duration" : 7073
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'@example.net'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
+        "parameters" : [ "'hbowen@example.com'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
+      }, {
+        "name" : "test_forgot_email_validation[Email without domain part]",
+        "uid" : "d68b820fbbe004ad",
+        "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718796590129,
+          "stop" : 1718796597202,
+          "duration" : 7073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'qmartin@'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
+      }, {
+        "name" : "test_forgot_email_validation[Email without username part]",
+        "uid" : "a442c41742308c28",
+        "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718796598696,
+          "stop" : 1718796605768,
+          "duration" : 7072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'@example.org'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
       }, {
         "name" : "test_forgot_email_validation[Random string]",
-        "uid" : "181d7da8d2473193",
+        "uid" : "fe533c53ad9029c1",
         "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
         "status" : "failed",
         "time" : {
-          "start" : 1718747117360,
-          "stop" : 1718747124431,
-          "duration" : 7071
+          "start" : 1718796607295,
+          "stop" : 1718796614368,
+          "duration" : 7073
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'Natural rise build church run reveal left voice. Show her within heart check. Top language main term water still lawyer.'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
+        "parameters" : [ "'Capital involve start watch beyond challenge. Hard speak soldier interest cell pick.\nCut a outside teacher show challenge perhaps really. Tell environmental Mrs onto defense big however.'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
       }, {
         "name" : "test_forgot_email_validation[Random number]",
-        "uid" : "223bad88dbf3ca23",
+        "uid" : "2e1b4833ee26e2e0",
         "parentUid" : "c58f0a0665d84ff436a8b910f5afac3d",
         "status" : "failed",
         "time" : {
-          "start" : 1718747126225,
-          "stop" : 1718747133300,
-          "duration" : 7075
+          "start" : 1718796615895,
+          "stop" : 1718796622969,
+          "duration" : 7074
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'8331072825'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
+        "parameters" : [ "'1516183324'", "'https://stellarburgers.nomoreparties.site/forgot-password'" ]
       } ],
       "uid" : "c58f0a0665d84ff436a8b910f5afac3d"
     } ],
@@ -727,22 +736,22 @@
   }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "playwright._impl._errors.Error: Error: strict mode violation: locator(\"input[name=\\\"name\\\"]\") resolved to 2 elements:\n    1) <input type=\"text\" name=\"name\" value=\"Victoria\" class=\"…/> aka locator(\"fieldset\").filter(has_text=\"Имя\").get_by_role(\"textbox\")\n    2) <input type=\"text\" name=\"name\" value=\"wellsluke@example…/> aka locator(\"fieldset\").filter(has_text=\"Email\").get_by_role(\"textbox\")",
+      "name" : "playwright._impl._errors.Error: Error: strict mode violation: locator(\"input[name=\\\"name\\\"]\") resolved to 2 elements:\n    1) <input type=\"text\" name=\"name\" value=\"Robert\" class=\"te…/> aka locator(\"fieldset\").filter(has_text=\"Имя\").get_by_role(\"textbox\")\n    2) <input type=\"text\" name=\"name\" value=\"kristen40@example…/> aka locator(\"fieldset\").filter(has_text=\"Email\").get_by_role(\"textbox\")",
       "children" : [ {
         "name" : "test_register_login_new_registered_user[Valid user credentials]",
-        "uid" : "94065b7954cbd42f",
-        "parentUid" : "e95f87eff413774300d636732ae97fb1",
+        "uid" : "d903a33133ca3f02",
+        "parentUid" : "f684a1fb1fcb77c46b197f79654f74b5",
         "status" : "broken",
         "time" : {
-          "start" : 1718747060497,
-          "stop" : 1718747062629,
-          "duration" : 2132
+          "start" : 1718796558247,
+          "stop" : 1718796560376,
+          "duration" : 2129
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'wellsluke@example.net'", "'Victoria'", "'uVX%D9Ri@f'" ]
+        "parameters" : [ "'kristen40@example.org'", "'Robert'", "'i*8z2qBt(N'" ]
       } ],
-      "uid" : "e95f87eff413774300d636732ae97fb1"
+      "uid" : "f684a1fb1fcb77c46b197f79654f74b5"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

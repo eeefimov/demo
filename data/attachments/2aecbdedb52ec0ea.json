@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "jessica_diaz_guzman@jackson-williams.com",
+        "name": "dustinhampton"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2FmOWVkMjgwMDAxYjQ0MWE4NSIsImlhdCI6MTcxODc5NTQzOSwiZXhwIjoxNzE4Nzk2NjM5fQ.69AHtiZHzBmopQ3CRbUMnyH32hqTuF-lQwq0M5QO9p0",
+    "refreshToken": "a00b6ac6513588a9bc4e0ea9f737ee1010d639a56762146496b208341ccb83fe3601e6637205ca9c"
+}

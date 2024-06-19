@@ -1,4 +1,0 @@
-method = POST
-endpoint = https://stellarburgers.nomoreparties.site/api/auth/register
-header = None
-data_models = {'name': 'Some maldonadodavid', 'email': 'Brian.Collins@bender-rodriguez.biz', 'password': '*VJ0qP'}

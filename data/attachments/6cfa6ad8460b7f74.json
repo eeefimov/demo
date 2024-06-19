@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "gregory.allen@gonzales-oliver.com",
+        "name": "Supporeesechelsea"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzZlOWVkMjgwMDAxYjQ0MWEyOCIsImlhdCI6MTcxODc5NTM3NCwiZXhwIjoxNzE4Nzk2NTc0fQ.PW-1T4Yh-GbQUrppOSgkX3x85qjKd10rkdT-rwK9Tu4",
+    "refreshToken": "b24bf2b5968f3b03c8de4291e95179d6a9652f772076da970181fcc4720fbcf45b785dd8cbe072f9"
+}

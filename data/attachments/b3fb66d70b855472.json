@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "peter.erickson@larson-hunter.com",
-        "name": "Just tsmith"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzhlOWVkMjgwMDAxYjQ0MTE1ZCIsImlhdCI6MTcxODc0NjI1NCwiZXhwIjoxNzE4NzQ3NDU0fQ.xiiQRBZsMmKv6QnxO9YVf8lywwggQlj4t2M0E7xS30A",
-    "refreshToken": "f35486b0f04b965ff97fdde6e615eb8ed1d9dc531bff8d230cc6e9dc5eaacf60a4c8b2b56435c7d0"
-}

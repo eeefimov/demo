@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "monica.thompson@frye.com",
+        "name": "Act wkayladuncan"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYyOWVkMjgwMDAxYjQ0MWEwNCIsImlhdCI6MTcxODc5NTM2MiwiZXhwIjoxNzE4Nzk2NTYyfQ.h0tXGWWcd9DfaCRIkbIO08GWTLvl2i21uf6yK2PK7Qo",
+    "refreshToken": "2e8f124812168f34377ea92b7de2647a3f26539fbbc807f6a901ce54df116b644f32cb5b528e75f0"
+}

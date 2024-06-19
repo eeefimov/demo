@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "elizabeth.clark@martin.org",
+        "name": "Take johnsonkristy"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzU3OWVkMjgwMDAxYjQ0MTllNCIsImlhdCI6MTcxODc5NTM1MSwiZXhwIjoxNzE4Nzk2NTUxfQ.Vx11CKyhNpwupuAgWwVGw0U740SFWxD8JQcRtI5wbW0",
+    "refreshToken": "687ba1206edc4e869b7e9290050ddcf4b99c02a66bce9e18e457d1068c46ec7a79313e1ffae72d6f"
+}

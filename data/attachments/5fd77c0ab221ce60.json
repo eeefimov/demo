@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "ian.carter@costa.com",
-        "name": "Treatricardomartin"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmYzg4OWVkMjgwMDAxYjQ0MTE0ZiIsImlhdCI6MTcxODc0NjI0OCwiZXhwIjoxNzE4NzQ3NDQ4fQ.BHveyCfqhEqiwyZ_8sUbZd-UlhXksnpLG4xD-vVNeas",
-    "refreshToken": "1d659ac82281876a4c8e2f4ab55b2718a75f3be4a846c8f5720e670ea795fd91fe12b1ee97a5894a"
-}

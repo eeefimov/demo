@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "erica.mcdowell@scott.com",
+        "name": "Hear taylorlisa"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzliOWVkMjgwMDAxYjQ0MWE2MyIsImlhdCI6MTcxODc5NTQxOSwiZXhwIjoxNzE4Nzk2NjE5fQ.eidE1f1oBhYpu-wZPa9_Ol-n_lemIPIgUzKwLQb-gs0",
+    "refreshToken": "b5eae5bd5914f9d5b286a1f6b2e9ea9d7838da85cd3a22eefcc19e41a70499d0df717b435f80b25f"
+}

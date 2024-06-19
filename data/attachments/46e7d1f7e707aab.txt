@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzYyOWVkMjgwMDAxYjQ0MWEwNCIsImlhdCI6MTcxODc5NTM2MiwiZXhwIjoxNzE4Nzk2NTYyfQ.h0tXGWWcd9DfaCRIkbIO08GWTLvl2i21uf6yK2PK7Qo'}
+data_models = {'name': 'Act wkayladuncan', 'email': 'Monica.Thompson@frye.com', 'password': '&8l2Bf'}

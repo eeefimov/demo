@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "tara.yang@maxwell.org",
+        "name": "In haashley52"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E0OWVkMjgwMDAxYjQ0MWE3MSIsImlhdCI6MTcxODc5NTQyOCwiZXhwIjoxNzE4Nzk2NjI4fQ.Ll5jW5iR61EvwCjBoBg1NAFQ3UGhSKMfVpUmIT7-syo",
+    "refreshToken": "e5f82266d8d62f6494b412b9a5391760d4a972fc15a58654ae46d943797b161975e3601e1d49ceed"
+}

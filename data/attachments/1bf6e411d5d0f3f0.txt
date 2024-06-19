@@ -1,0 +1,4 @@
+method = PATCH
+endpoint = https://stellarburgers.nomoreparties.site/api/auth/user
+header = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVjOWVkMjgwMDAxYjQ0MTlmMCIsImlhdCI6MTcxODc5NTM1NiwiZXhwIjoxNzE4Nzk2NTU2fQ.3hN3Jn2rpNPKeSdUDjvxBnGkEWVQtjCes_gSdn3WOxk'}
+data_models = {'name': 'Aboutjesus53', 'email': 'Paula.Vaughn@kennedy.org', 'password': 'u+4%Yn'}

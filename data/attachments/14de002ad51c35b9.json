@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "julia.james@silva-johnson.net",
+        "name": "Only stewartbryan"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2E2OWVkMjgwMDAxYjQ0MWE3NyIsImlhdCI6MTcxODc5NTQzMCwiZXhwIjoxNzE4Nzk2NjMwfQ.Oi0BnNEg6YugFWdroQVai924U7ciFe_Pm80nZRy99fk",
+    "refreshToken": "74ad67043beb04549f288e3b78e08368ea994e7cc61566f79fb473a0096fbd79a95d10c47dd40cb2"
+}

@@ -1,0 +1,326 @@
+{
+  "uid" : "bd0dd51ea8dbcd73",
+  "name" : "test_name_validation[User name with 2 strings]",
+  "fullName" : "tests_api.test_post_register.TestRegister#test_name_validation",
+  "historyId" : "85fc54dce499bb6c403cc24cfaa9cf0d",
+  "time" : {
+    "start" : 1718795444921,
+    "stop" : 1718795445137,
+    "duration" : 216
+  },
+  "description" : "Verify response code with different name.",
+  "descriptionHtml" : "<p>Verify response code with different name.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 400\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "self = <tests.tests_api.test_post_register.TestRegister object at 0x7ff7af776950>\nregister = <api.user.USER object at 0x7ff7af553d50>, name = 'customer paper'\nmail = 'brittanybrewer@example.com', pwd = 'iB10Nc', exp = 400\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", name_validation)\n    def test_name_validation(self, register, name, mail, pwd, exp):\n        \"\"\"Verify response code with different name.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        response = register.post_register()\n>       assert response.status_code == exp\nE       assert 200 == 400\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_register.py:154: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335224,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1718795335201,
+      "stop" : 1718795335202,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718795335202,
+      "stop" : 1718795335202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "register",
+    "time" : {
+      "start" : 1718795444919,
+      "stop" : 1718795444920,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setup Register data",
+      "time" : {
+        "start" : 1718795444920,
+        "stop" : 1718795444920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set user registration data_models",
+        "time" : {
+          "start" : 1718795444920,
+          "stop" : 1718795444920,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Educamoorecindy'"
+        }, {
+          "name" : "mail",
+          "value" : "'Kenneth.Smith@harris.com'"
+        }, {
+          "name" : "pwd",
+          "value" : "'YR!0Zl'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1718795335224,
+      "stop" : 1718795335224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify response code with different name.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 400\n +  where 200 = <Response [200]>.status_code",
+    "statusTrace" : "self = <tests.tests_api.test_post_register.TestRegister object at 0x7ff7af776950>\nregister = <api.user.USER object at 0x7ff7af553d50>, name = 'customer paper'\nmail = 'brittanybrewer@example.com', pwd = 'iB10Nc', exp = 400\n\n    @pytest.mark.parametrize(\"name, mail, pwd, exp\", name_validation)\n    def test_name_validation(self, register, name, mail, pwd, exp):\n        \"\"\"Verify response code with different name.\"\"\"\n        register.data = register.setup_register_data(name, mail, pwd)\n        response = register.post_register()\n>       assert response.status_code == exp\nE       assert 200 == 400\nE        +  where 200 = <Response [200]>.status_code\n\ntests/tests_api/test_post_register.py:154: AssertionError",
+    "steps" : [ {
+      "name" : "Set user registration data_models",
+      "time" : {
+        "start" : 1718795444921,
+        "stop" : 1718795444921,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'customer paper'"
+      }, {
+        "name" : "mail",
+        "value" : "'brittanybrewer@example.com'"
+      }, {
+        "name" : "pwd",
+        "value" : "'iB10Nc'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send POST register request",
+      "time" : {
+        "start" : 1718795444921,
+        "stop" : 1718795445137,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6de1213c53b484de",
+        "name" : "Request Info",
+        "source" : "6de1213c53b484de.txt",
+        "type" : "text/plain",
+        "size" : 201
+      }, {
+        "uid" : "171609ae688bf57f",
+        "name" : "api Response",
+        "source" : "171609ae688bf57f.json",
+        "type" : "application/json",
+        "size" : 429
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "register::0",
+    "time" : {
+      "start" : 1718795445140,
+      "stop" : 1718795445562,
+      "duration" : 422
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1718795445140,
+        "stop" : 1718795445561,
+        "duration" : 421
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Setup Header with user token",
+        "time" : {
+          "start" : 1718795445140,
+          "stop" : 1718795445140,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I1OWVkMjgwMDAxYjQ0MWE5NyIsImlhdCI6MTcxODc5NTQ0NSwiZXhwIjoxNzE4Nzk2NjQ1fQ.0mahp1Lkluuw_2l9_UmpMLgd4eEP24j_dbt6xnrOJ4s'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ee330626a3cbba9c",
+        "name" : "Request Info",
+        "source" : "ee330626a3cbba9c.txt",
+        "type" : "text/plain",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "access_token",
+        "value" : "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiY2I1OWVkMjgwMDAxYjQ0MWE5NyIsImlhdCI6MTcxODc5NTQ0NSwiZXhwIjoxNzE4Nzk2NjQ1fQ.0mahp1Lkluuw_2l9_UmpMLgd4eEP24j_dbt6xnrOJ4s'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "26ea9f59ac25"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_api.test_post_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "400"
+  }, {
+    "name" : "mail",
+    "value" : "'brittanybrewer@example.com'"
+  }, {
+    "name" : "name",
+    "value" : "'customer paper'"
+  }, {
+    "name" : "pwd",
+    "value" : "'iB10Nc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bd0dd51ea8dbcd73.json",
+  "parameterValues" : [ "400", "'brittanybrewer@example.com'", "'customer paper'", "'iB10Nc'" ]
+}

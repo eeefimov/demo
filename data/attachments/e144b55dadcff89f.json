@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "randy.jones@heath.com",
+        "name": "Thirdqstephens"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzZiOWVkMjgwMDAxYjQ0MWEyMCIsImlhdCI6MTcxODc5NTM3MSwiZXhwIjoxNzE4Nzk2NTcxfQ.oNKVPtoZ09p-gpmBEQtz16xtMs679PdWMtgMCIgfIw4",
+    "refreshToken": "a35f6742dae04610419f66afb3dee360bb42ed669c46dd969d08f472a11b622af9c2af068070fde0"
+}

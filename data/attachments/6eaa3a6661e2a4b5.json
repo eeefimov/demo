@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "mary.kline@carrillo.com",
+        "name": "Propektran"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVmOWVkMjgwMDAxYjQ0MTlmYSIsImlhdCI6MTcxODc5NTM1OSwiZXhwIjoxNzE4Nzk2NTU5fQ.N9VcmTLTXDPlNWxH0XFb-5Oif7vRnoA-V0HObZFRuMg",
+    "refreshToken": "114c71b5643caa93c782a18f47c726966679a2d9520936393bf3af710aee7b928c88ee245500a971"
+}

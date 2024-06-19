@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "mary.robinson@clark.biz",
+        "name": "Desigmorrisongabriela"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzJiYzVhOWVkMjgwMDAxYjQ0MTllYSIsImlhdCI6MTcxODc5NTM1NCwiZXhwIjoxNzE4Nzk2NTU0fQ.CzZ8YA9nVl-6fLKn8MN5c38btU8lWdwuFOE1QG_mRXg",
+    "refreshToken": "2d627fdee7fdebebf5a1e82d0dd82c3d3013e18f7ada25dca7f121f6d38584e677f5c66679cf04a2"
+}

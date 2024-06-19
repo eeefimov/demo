@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "user": {
-        "email": "tim.campos@berry-davis.com",
-        "name": "Develhmcdonald"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzFmY2FmOWVkMjgwMDAxYjQ0MTE5OCIsImlhdCI6MTcxODc0NjI4NywiZXhwIjoxNzE4NzQ3NDg3fQ.EKnaLEUSmlkODUZrkzNh0sxcpZOXNvH-yd4WpD3T75M",
-    "refreshToken": "416dbbd72038cea509815fd18f2ddbee04b0d0cd93048647f6312a6fbffb972c53b750f0d91eef03"
-}
