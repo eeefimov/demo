@@ -48,7 +48,7 @@ invalid_methods = [
 # Invalid data_models
 invalid_data = [
     pytest.param(None,
-                 400,
+                 403,
                  id='None data_models'),
     pytest.param(
         {
@@ -56,7 +56,7 @@ invalid_data = [
             fake.password(): fake.password(),
             fake.password(): fake.password(),
         },
-        400,
+        403,
         id="Invalid data_models")
 ]
 

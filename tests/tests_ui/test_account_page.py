@@ -155,7 +155,7 @@ def test_account_history_ingredients_icons(page, bun, number):
         ACCOUNT.get_order_icons_locator(ACCOUNT.counter)).count()
 
     with allure.step("Verify number of ingredient icons "
-                     "according to add ingredients"):
+                     "according to added ingredients"):
         if number >= 5:
             assert icons == 5
         else:
