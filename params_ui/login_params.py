@@ -3,11 +3,11 @@ import pytest
 from faker import Faker
 
 from tests.settings import user_email
-from pages.login_page_class import LOGIN
-from pages.registration_page_class import REGISTER
-from pages.forgot_page_class import FORGOT
-from pages.orders_page_class import ORDERS
-from pages.main_page_class import MAIN
+from pages.login_page_class import Login
+from pages.registration_page_class import Register
+from pages.forgot_page_class import Forgot
+from pages.orders_page_class import Orders
+from pages.main_page_class import Main
 
 fake = Faker()
 
@@ -35,22 +35,22 @@ login_validation = [
 
 # Redirection to Register and Forgot pages.
 login_redirections = [
-    pytest.param(LOGIN.REGISTRATION_LINK,
-                 REGISTER.TOP_TITLE,
+    pytest.param(Login.REGISTRATION_LINK,
+                 Register.TOP_TITLE,
                  id='Redirection to Register page'),
-    pytest.param(LOGIN.RESTORE_PDW_LINK,
-                 FORGOT.TOP_TITLE,
+    pytest.param(Login.RESTORE_PDW_LINK,
+                 Forgot.TOP_TITLE,
                  id='Redirection to Forgot password page')
 ]
 
 # Validation Header buttons.
 header_redirection = [
-    pytest.param(LOGIN.LIST_OF_ORDERS_BTN,
-                 ORDERS.TOP_TITLE,
+    pytest.param(Login.LIST_OF_ORDERS_BTN,
+                 Orders.TOP_TITLE,
                  id='Redirection to List of orders page'
                  ),
-    pytest.param(LOGIN.CONSTRUCTOR_BTN,
-                 MAIN.TOP_TITLE,
+    pytest.param(Login.CONSTRUCTOR_BTN,
+                 Main.TOP_TITLE,
                  id='Redirection to Main page'
                  )
 ]

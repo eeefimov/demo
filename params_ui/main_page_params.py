@@ -1,9 +1,9 @@
 """Params for Main Page."""
 from random import randint
 import pytest
-from pages.main_page_class import MAIN
-from pages.login_page_class import LOGIN
-from pages.orders_page_class import ORDERS
+from pages.main_page_class import Main
+from pages.login_page_class import Login
+from pages.orders_page_class import Orders
 
 # Counter limits for ingredients.
 counter_changes = [
@@ -25,12 +25,12 @@ different_orders = [
 
 # Validation Header buttons.
 header_redirection = [
-    pytest.param(MAIN.LIST_OF_ORDERS_BTN,
-                 ORDERS.TOP_TITLE,
+    pytest.param(Main.LIST_OF_ORDERS_BTN,
+                 Orders.TOP_TITLE,
                  id='Redirection to List of orders page'
                  ),
-    pytest.param(MAIN.ACCOUNT_BTN,
-                 LOGIN.TOP_TITLE,
+    pytest.param(Main.ACCOUNT_BTN,
+                 Login.TOP_TITLE,
                  id='Redirection to Account page'
                  )
 ]

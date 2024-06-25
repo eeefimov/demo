@@ -1,5 +1,5 @@
 """
-Class for handling ORDERS api requests.
+Class for handling Orders api requests.
 [FEATURES]:
     Set up a user order with specified ingredients.
     Perform the user order based on specified conditions.

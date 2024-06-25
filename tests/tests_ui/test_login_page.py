@@ -29,8 +29,8 @@ import pytest
 import allure
 from playwright.sync_api import expect
 
-from pages.login_page_class import LOGIN
-from pages.main_page_class import MAIN
+from pages.login_page_class import Login
+from pages.main_page_class import Main
 
 from params_ui.login_params import login_validation, \
     login_redirections, header_redirection
@@ -39,42 +39,42 @@ from params_ui.login_params import login_validation, \
 def test_login_access(login_page):
     """Verify access to Login page."""
     with allure.step('Verify redirection to Login page'):
-        expect(login_page.locator(LOGIN.TOP_TITLE)).to_be_visible()
+        expect(login_page.locator(Login.TOP_TITLE)).to_be_visible()
 
 
 def test_login_direct_access(page_browser):
     """Verify direct access to Login page."""
     with allure.step("Set the address to the browser"):
-        page_browser.goto(LOGIN.LOGIN_LINK)
+        page_browser.goto(Login.LOGIN_LINK)
 
     with allure.step('Verify redirection to Login page'):
-        expect(page_browser.locator(LOGIN.TOP_TITLE)).to_be_visible()
+        expect(page_browser.locator(Login.TOP_TITLE)).to_be_visible()
 
 
 @pytest.mark.parametrize("email_val, pwd_val", login_validation)
 def test_login_validation(login_page, email_val, pwd_val):
     """Verify sign in with different credentials."""
-    LOGIN.set_login_fields(login_page, email_val, pwd_val)
+    Login.set_login_fields(login_page, email_val, pwd_val)
     time.sleep(1)
 
     with allure.step('Click on Entry button'):
-        login_page.locator(LOGIN.ENTRY_BTN).click()
+        login_page.locator(Login.ENTRY_BTN).click()
 
     if 1 < len(pwd_val) < 6:
         with allure.step("Verify password error shows up"):
-            expect(login_page.locator(LOGIN.PWD_ERROR)).to_be_visible()
+            expect(login_page.locator(Login.PWD_ERROR)).to_be_visible()
 
-    if email_val != LOGIN.mail and pwd_val != LOGIN.pwd:
+    if email_val != Login.mail and pwd_val != Login.pwd:
         with allure.step("Verify the user stays at Login page"):
-            expect(login_page.locator(LOGIN.TOP_TITLE)).to_be_visible()
+            expect(login_page.locator(Login.TOP_TITLE)).to_be_visible()
 
 
 def test_login_valid(login_page):
     """Verify sign in with valid user credentials."""
-    LOGIN.user_sign_in(login_page)
+    Login.user_sign_in(login_page)
 
     with allure.step("Verify redirection to Main page"):
-        expect(login_page.locator(MAIN.TOP_TITLE)).to_be_visible()
+        expect(login_page.locator(Main.TOP_TITLE)).to_be_visible()
 
 
 @pytest.mark.parametrize('link, title_txt', login_redirections)

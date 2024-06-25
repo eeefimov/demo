@@ -1,14 +1,14 @@
 """
-Description of the functions using at LOGIN Class:
+Description of the functions using at Login Class:
     Fill in email and password fields at Login page.
     Registered user SignIn.
 """
 import time
 import allure
-from pages.base_class import BASEClASS
+from pages.base_class import BaseClass
 
 
-class LOGIN(BASEClASS):
+class Login(BaseClass):
     """Class with functions for Login page features."""
     LOGIN_LINK = "https://stellarburgers.nomoreparties.site/login"
 
@@ -25,13 +25,13 @@ class LOGIN(BASEClASS):
         """Fill in email and password fields at Login page."""
         time.sleep(1)
         with allure.step("Fill Email field"):
-            page.locator(LOGIN.EMAIL_FIELD).fill(mail)
+            page.locator(Login.EMAIL_FIELD).fill(mail)
 
         with allure.step("Fill PASSWORD field"):
-            page.locator(LOGIN.PWD_FIELD).fill(pwd)
+            page.locator(Login.PWD_FIELD).fill(pwd)
 
         with allure.step("Click Entry button"):
-            page.locator(LOGIN.ENTRY_BTN).click()
+            page.locator(Login.ENTRY_BTN).click()
         time.sleep(1)
 
     @staticmethod
@@ -39,7 +39,7 @@ class LOGIN(BASEClASS):
     def user_sign_in(page: object) -> None:
         """Registered user SignIn."""
         with allure.step("Click Account button on Header"):
-            page.locator(LOGIN.ACCOUNT_BTN).click()
+            page.locator(Login.ACCOUNT_BTN).click()
 
-        LOGIN.set_login_fields(page, LOGIN.mail, LOGIN.pwd)
+        Login.set_login_fields(page, Login.mail, Login.pwd)
         time.sleep(1)

@@ -1,12 +1,12 @@
 """
-Description of the functions using at the ORDERS Class:
+Description of the functions using at the Orders Class:
     Get last order number from Orders page.
 """
 import allure
-from pages.base_class import BASEClASS
+from pages.base_class import BaseClass
 
 
-class ORDERS(BASEClASS):
+class Orders(BaseClass):
     """
     Class with functions for Orders page feature.
     """
@@ -26,5 +26,5 @@ class ORDERS(BASEClASS):
     @allure.step("Get last order number from Orders page")
     def get_last_order_number(page: object) -> int:
         """Get last order number from Orders page"""
-        old_number = page.locator(f"{ORDERS.ORDERS_NUMBER}[1]").inner_text()
+        old_number = page.locator(f"{Orders.ORDERS_NUMBER}[1]").inner_text()
         return int(old_number[2:])

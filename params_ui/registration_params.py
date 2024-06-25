@@ -2,10 +2,10 @@
 import pytest
 from faker import Faker
 
-from pages.registration_page_class import REGISTER
-from pages.main_page_class import MAIN
-from pages.orders_page_class import ORDERS
-from pages.login_page_class import LOGIN
+from pages.registration_page_class import Register
+from pages.main_page_class import Main
+from pages.orders_page_class import Orders
+from pages.login_page_class import Login
 
 fake = Faker()
 special = fake.random_element(elements=(
@@ -157,16 +157,16 @@ valid_user_credentials = [
 
 # Validation Header buttons.
 header_redirection = [
-    pytest.param(REGISTER.LIST_OF_ORDERS_BTN,
-                 ORDERS.TOP_TITLE,
+    pytest.param(Register.LIST_OF_ORDERS_BTN,
+                 Orders.TOP_TITLE,
                  id='Redirection to List of orders page'
                  ),
-    pytest.param(REGISTER.CONSTRUCTOR_BTN,
-                 MAIN.TOP_TITLE,
+    pytest.param(Register.CONSTRUCTOR_BTN,
+                 Main.TOP_TITLE,
                  id='Redirection to Main page'
                  ),
-    pytest.param(REGISTER.ACCOUNT_BTN,
-                 LOGIN.TOP_TITLE,
+    pytest.param(Register.ACCOUNT_BTN,
+                 Login.TOP_TITLE,
                  id='Redirection to Login page'
                  )
 ]

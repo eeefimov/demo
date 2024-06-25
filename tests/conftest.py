@@ -9,8 +9,8 @@ from api.user import USER
 from api.orders import ORDERS
 from api.ingredients import INGREDIENTS
 from tests.utils import UTILS
-from pages.base_class import BASEClASS
-from pages.login_page_class import LOGIN
+from pages.base_class import BaseClass
+from pages.login_page_class import Login
 fake = Faker()
 
 
@@ -26,7 +26,7 @@ def page_browser():
         page.set_viewport_size(viewport_size)
 
         with allure.step("Go to site"):
-            page.goto(BASEClASS.BASE_LINK)
+            page.goto(BaseClass.BASE_LINK)
 
         yield page
 
@@ -44,10 +44,10 @@ def page(page_browser):
 def register_page(page_browser):
     """Registration page fixture"""
     with allure.step("Click Account button on Header"):
-        page_browser.locator(BASEClASS.ACCOUNT_BTN).click()
+        page_browser.locator(BaseClass.ACCOUNT_BTN).click()
 
     with allure.step("Click Registration link"):
-        page_browser.locator(LOGIN.REGISTRATION_LINK).click()
+        page_browser.locator(Login.REGISTRATION_LINK).click()
 
     return page_browser
 
@@ -56,7 +56,7 @@ def register_page(page_browser):
 def login_page(page_browser):
     """Login page fixture"""
     with allure.step("Click Account button on Header"):
-        page_browser.locator(BASEClASS.ACCOUNT_BTN).click()
+        page_browser.locator(BaseClass.ACCOUNT_BTN).click()
 
     return page_browser
 
@@ -64,10 +64,10 @@ def login_page(page_browser):
 @pytest.fixture(scope="function")
 def account_page(page_browser):
     """Account page fixture"""
-    LOGIN.user_sign_in(page_browser)
+    Login.user_sign_in(page_browser)
 
     with allure.step("Click Account button on Header"):
-        page_browser.locator(LOGIN.ACCOUNT_BTN).click()
+        page_browser.locator(Login.ACCOUNT_BTN).click()
 
     return page_browser
 
@@ -76,10 +76,10 @@ def account_page(page_browser):
 def forgot_page(page_browser):
     """Reset password fixture"""
     with allure.step("Click Account button on Header"):
-        page_browser.locator(BASEClASS.ACCOUNT_BTN).click()
+        page_browser.locator(BaseClass.ACCOUNT_BTN).click()
 
     with allure.step("Click Restore password link"):
-        page_browser.locator(LOGIN.RESTORE_PDW_LINK).click()
+        page_browser.locator(Login.RESTORE_PDW_LINK).click()
 
     return page_browser
 
@@ -88,7 +88,7 @@ def forgot_page(page_browser):
 def orders_page(page_browser):
     """Orders page fixture"""
     with allure.step("Click List of Orders button on Header"):
-        page_browser.locator(BASEClASS.LIST_OF_ORDERS_BTN).click()
+        page_browser.locator(BaseClass.LIST_OF_ORDERS_BTN).click()
     return page_browser
 
 

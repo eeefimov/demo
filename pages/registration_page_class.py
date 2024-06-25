@@ -4,10 +4,10 @@ Description of the functions using at the USER Class:
 """
 import time
 import allure
-from pages.base_class import BASEClASS
+from pages.base_class import BaseClass
 
 
-class REGISTER(BASEClASS):
+class Register(BaseClass):
     """
     Class with functions for Registration page features.
     """
@@ -36,5 +36,5 @@ class REGISTER(BASEClASS):
                 has_text="Пароль").get_by_role("textbox").fill(password)
 
         with allure.step("Click Registration button"):
-            page.locator(REGISTER.REGISTRATION_BTN).click()
+            page.locator(Register.REGISTRATION_BTN).click()
             time.sleep(1)

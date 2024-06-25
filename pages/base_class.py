@@ -1,11 +1,11 @@
 # pylint: disable=too-few-public-methods
-"""Description BASEClASS Class functions:
+"""Description BaseClass Class functions:
     Get locator order item element.
 """
 from tests.settings import user_email, user_pass, user_login
 
 
-class BASEClASS:
+class BaseClass:
     """Base class for UI test."""
     BASE_LINK = "https://stellarburgers.nomoreparties.site/"
     HEADER_SECTION = "//header"

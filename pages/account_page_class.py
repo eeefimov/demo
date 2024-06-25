@@ -1,5 +1,5 @@
 """
-Description ACCOUNT Class functions:
+Description Account Class functions:
     Decorator for getting orders counter
     after user go to the Orders History page.
     Click Order History link at Account page."
@@ -10,11 +10,11 @@ Description ACCOUNT Class functions:
 """
 import time
 import allure
-from pages.base_class import BASEClASS
-from pages.login_page_class import LOGIN
+from pages.base_class import BaseClass
+from pages.login_page_class import Login
 
 
-class ACCOUNT(BASEClASS):
+class Account(BaseClass):
     """Class with functions for Account page feature."""
     link = 'https://stellarburgers.nomoreparties.site/account/order-history'
 
@@ -42,8 +42,8 @@ class ACCOUNT(BASEClASS):
         def wrapper(*args, **kwargs):
             func(*args, **kwargs)
             time.sleep(2)
-            ACCOUNT.counter = args[0].locator(
-                ACCOUNT.ORDER_ITEMS_NUMBER).count()
+            Account.counter = args[0].locator(
+                Account.ORDER_ITEMS_NUMBER).count()
         return wrapper
 
     @staticmethod
@@ -51,32 +51,32 @@ class ACCOUNT(BASEClASS):
     @get_counter
     def go_to_account_history(page: object) -> None:
         """Click Order History link at Account page."""
-        page.locator(ACCOUNT.ORDER_HISTORY_LINK).click()
+        page.locator(Account.ORDER_HISTORY_LINK).click()
 
     @staticmethod
     @allure.step("Click Account on Header")
     def go_to_account(page: object) -> None:
         """Redirects to Account page."""
-        LOGIN.user_sign_in(page)
-        page.locator(LOGIN.ACCOUNT_BTN).click()
+        Login.user_sign_in(page)
+        page.locator(Login.ACCOUNT_BTN).click()
 
     @staticmethod
     def get_order_number(page: object, number: int) -> str:
         """Return text of new order number."""
-        locator = f"({ACCOUNT.ORDER_ITEMS_NUMBER})[{number}]"
+        locator = f"({Account.ORDER_ITEMS_NUMBER})[{number}]"
         return page.locator(locator).inner_text()[2:]
 
     @staticmethod
     def get_order_price(page: object, number: int) -> str:
         """Return text of new order price."""
-        locator = f"({ACCOUNT.ORDER_ITEMS_PRICE})[{number}]"
+        locator = f"({Account.ORDER_ITEMS_PRICE})[{number}]"
         return page.locator(locator).inner_text()
 
     @staticmethod
     def get_order_icons_locator(number: int) -> str:
         """Return icons locator in order item."""
-        locator = f"(({ACCOUNT.ORDER_ICONS_BOX})" \
-                  f"[{number}]{ACCOUNT.ORDER_ICONS})"
+        locator = f"(({Account.ORDER_ICONS_BOX})" \
+                  f"[{number}]{Account.ORDER_ICONS})"
         return locator
 
     @staticmethod

@@ -11,7 +11,7 @@ import pytest
 import requests
 from faker import Faker
 from tests.utils import UTILS
-from pages.main_page_class import MAIN
+from pages.main_page_class import Main
 from data_models.ingredients_models import IngredientsModel, get_data
 
 fake = Faker()
@@ -19,7 +19,7 @@ fake = Faker()
 
 def test_ingredients_json(page, ingredients):
     """Verify JSON ingredients api data_models = UI data_models."""
-    target_url = UTILS.setup_routs(page, ingredients.endpoint, MAIN.link)
+    target_url = UTILS.setup_routs(page, ingredients.endpoint, Main.link)
     with allure.step('Verify correct url in frontend requests'):
         assert target_url[0]
 
@@ -53,39 +53,39 @@ def test_ingredients_different_titles(page, ingredients, new_value):
     """Verify ingredient titles with view different values."""
     response = ingredients.get_request(ingredients.endpoint).json()
     modified_response = UTILS.modify_ingredients(response, new_value)
-    UTILS.setup_routs(page, ingredients.endpoint, MAIN.link)
+    UTILS.setup_routs(page, ingredients.endpoint, Main.link)
 
     with allure.step('Change ingredients titles'):
         page.route(ingredients.endpoint, lambda route, request: route.fulfill(
             json=modified_response))
 
     with allure.step('Go to page again'):
-        page.goto(MAIN.link)
+        page.goto(Main.link)
         page.wait_for_load_state("networkidle")
 
     with allure.step('Verify visibility of new titles values'):
-        for cntr in range(page.locator(MAIN.INGREDIENTS_ITEMS).count()):
+        for cntr in range(page.locator(Main.INGREDIENTS_ITEMS).count()):
             cntr += 1
-            title_ui = MAIN.get_ingredients_title(page, cntr)
+            title_ui = Main.get_ingredients_title(page, cntr)
             title_api = modified_response['data'][cntr - 1]["name"]
             assert str(title_ui.strip()) == str(title_api.strip())
 
 
 def test_ingredients_double_data(page, ingredients):
     """Verify normal view with twice more ingredients on the page."""
-    counter_start = page.locator(MAIN.INGREDIENTS_ITEMS).count()
+    counter_start = page.locator(Main.INGREDIENTS_ITEMS).count()
     response = ingredients.get_request(ingredients.endpoint).json()
     modified_response = UTILS.double_data(response)
-    UTILS.setup_routs(page, ingredients.endpoint, MAIN.link)
+    UTILS.setup_routs(page, ingredients.endpoint, Main.link)
 
     with allure.step('Change ingredients item numbers'):
         page.route(ingredients.endpoint, lambda route, request: route.fulfill(
             json=modified_response))
 
     with allure.step('Go to page again'):
-        page.goto(MAIN.link)
+        page.goto(Main.link)
         page.wait_for_load_state("networkidle")
 
     with allure.step('Verify presence of all ingredients'):
-        counter_new = page.locator(MAIN.INGREDIENTS_ITEMS).count()
+        counter_new = page.locator(Main.INGREDIENTS_ITEMS).count()
         assert counter_new == counter_start * 2

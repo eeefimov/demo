@@ -1,5 +1,5 @@
 """
-Description of the functions using at MAIN Class:
+Description of the functions using at Main Class:
     Scroll Ingredient section.
     Get text of ingredient title.
     Return locator of ingredient dragged to Constructor.
@@ -15,11 +15,11 @@ Description of the functions using at MAIN Class:
 import time
 from random import randint
 import allure
-from pages.base_class import BASEClASS
-from pages.login_page_class import LOGIN
+from pages.base_class import BaseClass
+from pages.login_page_class import Login
 
 
-class MAIN(BASEClASS):
+class Main(BaseClass):
     """Class with functions for Main page features."""
     link = "https://stellarburgers.nomoreparties.site/"
     BOTTOM_BTN = "(//div/button)[1]"
@@ -90,16 +90,16 @@ class MAIN(BASEClASS):
     @allure.step("Drag bun to Construction")
     def drag_bun(page: object, bun_number: int) -> None:
         """Drag bun to Construction."""
-        title = MAIN.get_ingredients_title(page, bun_number)
-        MAIN.drag_item(page, title, 'empty')
+        title = Main.get_ingredients_title(page, bun_number)
+        Main.drag_item(page, title, 'empty')
 
     @staticmethod
     def drag_ingredient_to_bun(page: object, title: str) -> None:
         """Drag ingredient to bun in Construction."""
-        top, _ = MAIN.bun_txt(title)
+        top, _ = Main.bun_txt(title)
         cntr = randint(3, 15)
-        title = MAIN.get_ingredients_title(page, cntr)
-        MAIN.drag_item(page, title, top)
+        title = Main.get_ingredients_title(page, cntr)
+        Main.drag_item(page, title, top)
 
     @staticmethod
     def bun_txt(title) -> [str, str]:
@@ -111,7 +111,7 @@ class MAIN(BASEClASS):
     @staticmethod
     def get_order_number(page: object) -> str:
         """Get order number."""
-        locator = f"{MAIN.ORDER_NUMBER}"
+        locator = f"{Main.ORDER_NUMBER}"
         return page.locator(locator).inner_text()
 
     @staticmethod
@@ -120,40 +120,40 @@ class MAIN(BASEClASS):
         """Add random ingredients to order."""
         # single bun
         if bun and ingredients_num == 0:
-            MAIN.drag_bun(page, randint(1, 2))
+            Main.drag_bun(page, randint(1, 2))
 
         # single bun + 1 ingredient
         elif bun and ingredients_num == 1:
             bun = randint(1, 2)
-            MAIN.drag_bun(page, bun)
-            bun_title = MAIN.get_ingredients_title(page, bun)
-            MAIN.drag_ingredient_to_bun(page, bun_title)
+            Main.drag_bun(page, bun)
+            bun_title = Main.get_ingredients_title(page, bun)
+            Main.drag_ingredient_to_bun(page, bun_title)
 
         # single bun + not single ingredient
         elif bun and ingredients_num > 1:
             bun = randint(1, 2)
-            MAIN.drag_bun(page, bun)
-            bun_title = MAIN.get_ingredients_title(page, bun)
+            Main.drag_bun(page, bun)
+            bun_title = Main.get_ingredients_title(page, bun)
 
             for _ in range(ingredients_num):
-                MAIN.drag_ingredient_to_bun(page, bun_title)
+                Main.drag_ingredient_to_bun(page, bun_title)
 
         # no bun
         if not bun and ingredients_num > 0:
             for _ in range(ingredients_num):
                 ingr = randint(3, 15)
-                title = MAIN.get_ingredients_title(page, ingr)
-                MAIN.drag_item(page, title, 'empty')
+                title = Main.get_ingredients_title(page, ingr)
+                Main.drag_item(page, title, 'empty')
 
     @staticmethod
     @allure.step("Make an Order")
     def make_order(page: object, bun=True, number=randint(1, 5)) -> None:
         """Sign in, add ingredients and make an order."""
-        LOGIN.user_sign_in(page)
-        MAIN.add_ingredients(page, bun, number)
+        Login.user_sign_in(page)
+        Main.add_ingredients(page, bun, number)
 
         with allure.step("Click Order button"):
-            page.locator(MAIN.BOTTOM_BTN).click()
+            page.locator(Main.BOTTOM_BTN).click()
             time.sleep(3)
 
     @staticmethod
@@ -161,11 +161,11 @@ class MAIN(BASEClASS):
         """Close order modal window and redirects to page."""
         text = None
         with allure.step("Click 'x' in Nutrition window"):
-            page.locator(MAIN.NUTRITION_X_BTN).click()
+            page.locator(Main.NUTRITION_X_BTN).click()
 
-        if locator == MAIN.ACCOUNT_BTN:
+        if locator == Main.ACCOUNT_BTN:
             text = "Account"
-        if locator == MAIN.LIST_OF_ORDERS_BTN:
+        if locator == Main.LIST_OF_ORDERS_BTN:
             text = "List of Orders"
 
         with allure.step(f"Click {text} button"):

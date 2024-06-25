@@ -19,7 +19,7 @@ This module contains tests for POST /password-reset endpoint.
 import pytest
 from data_models.user_model import MsgModel
 from tests.utils import UTILS
-from pages.reset_page_class import RESET
+from pages.reset_page_class import Reset
 from params_api.api_reset_params import email_send_code
 from params_api.api_register_params import invalid_methods
 
@@ -57,7 +57,7 @@ class TestReset:
                                        None, reset.data)
         _, code = UTILS.mail_check(mail, pwd)
         assert code
-        assert RESET.verify_confirmation_code(code)
+        assert Reset.verify_confirmation_code(code)
         reset.attach_response(response)
 
     @pytest.mark.parametrize('method, exp', invalid_methods)
