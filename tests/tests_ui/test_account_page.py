@@ -35,8 +35,11 @@ This module contains tests for Account page.
     Verify shows up Modal window clicking order item in
     Order History page.
 """
+import time
+
 import pytest
 import allure
+import random
 from playwright.sync_api import expect
 
 from pages.account_page_class import Account
@@ -113,23 +116,26 @@ def test_account_header_btns(account_page, btn, exp):
 
 
 def test_account_history_new_order_item(page):
-    """Verify presence new order in Order History page."""
+    """Verify presence of new order in Order History page."""
     Main.make_order(page)
     order_number = Main.get_order_number(page)
     Main.close_modal_and_redirects(page, Main.ACCOUNT_BTN)
     Account.go_to_account_history(page)
 
-    with allure.step("Verify new order presence"):
+    with allure.step("Verify presence of new order"):
         assert order_number == Account.get_order_number(page, Account.counter)
 
-# pylint: disable=unused-argument
 
-
-@pytest.mark.parametrize("bun, number", different_orders[:-1])
-def test_account_history_order_price(page, bun, number):
-    """Verify presence new order price in Order History page."""
-    Main.make_order(page)
+@allure.issue("Invalid calculation price for orders with Buns")
+def test_account_history_order_price(page):
+    """Verify price of the new order in Order History page."""
+    Login.user_sign_in(page)
+    Main.add_ingredients(page, True, 3)
     order_price = page.locator(Main.TOTAL_PRICE).inner_text()
+
+    with allure.step("Click Order button"):
+        page.locator(Main.BOTTOM_BTN).click()
+
     Main.close_modal_and_redirects(page, Main.ACCOUNT_BTN)
     Account.go_to_account_history(page)
 

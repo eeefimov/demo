@@ -146,6 +146,7 @@ class TestRegister:
         response = register.post_register()
         assert response.status_code == exp
 
+    @allure.issue("No name validation when register a new user")
     @pytest.mark.parametrize("name, mail, pwd, exp", name_validation)
     def test_name_validation(self, register, name, mail, pwd, exp):
         """Verify response code with different name."""

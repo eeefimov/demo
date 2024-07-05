@@ -156,8 +156,7 @@ def test_reset_validation(forgot_page, pwd, conf_code):
             expect(forgot_page.locator(Reset.PWD_ERROR_MSG)).to_be_visible()
 
 
-@pytest.mark.parametrize('mail, pwd, exp, status',
-                         email_send_code)
+@pytest.mark.parametrize('mail, pwd, exp, status', email_send_code)
 def test_reset_send_email(forgot_page, mail, pwd, exp, status):
     """Verify user receive an email."""
     Forgot.fill_forgot_field(forgot_page, mail)
@@ -172,8 +171,7 @@ def test_reset_send_email(forgot_page, mail, pwd, exp, status):
             assert address != exp
 
 
-@pytest.mark.parametrize('mail, pwd, exp, status',
-                         [email_send_code[1]])
+@pytest.mark.parametrize('mail, pwd, exp, status', [email_send_code[1]])
 def test_reset_code_structure(forgot_page, mail, pwd, exp, status):
     """Verify reset code structure in email."""
     Forgot.fill_forgot_field(forgot_page, mail)
@@ -189,8 +187,7 @@ def test_reset_code_structure(forgot_page, mail, pwd, exp, status):
             assert address != exp
 
 
-@pytest.mark.parametrize('mail, pwd, exp, status',
-                         [email_send_code[1]])
+@pytest.mark.parametrize('mail, pwd, exp, status', [email_send_code[1]])
 def test_reset_setup_new_pass(forgot_page, mail, pwd, exp, status):
     """Verify user setup new password."""
     Forgot.fill_forgot_field(forgot_page, mail)
@@ -201,8 +198,7 @@ def test_reset_setup_new_pass(forgot_page, mail, pwd, exp, status):
         expect(forgot_page.locator(Login.TOP_TITLE)).to_be_visible()
 
 
-@pytest.mark.parametrize('mail, pwd, exp, status',
-                         [email_send_code[1]])
+@pytest.mark.parametrize('mail, pwd, exp, status', [email_send_code[1]])
 def test_reset_login_with_new_pwd(forgot_page, mail, pwd, exp, status):
     """Verify user login using new password."""
     reset_and_login(forgot_page, mail, pwd)
@@ -211,8 +207,7 @@ def test_reset_login_with_new_pwd(forgot_page, mail, pwd, exp, status):
         expect(forgot_page.locator(Main.TOP_TITLE)).to_be_visible()
 
 
-@pytest.mark.parametrize('mail, pwd, exp, status',
-                         [email_send_code[1]])
+@pytest.mark.parametrize('mail, pwd, exp, status', [email_send_code[1]])
 def test_reset_exist_password(forgot_page, mail, pwd, exp, status):
     """Verify reset password with exist password."""
     reset_and_login(forgot_page, mail, pwd)

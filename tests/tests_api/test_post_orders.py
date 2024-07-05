@@ -37,6 +37,7 @@ This module contains tests for POST /orders endpoint.
     Verify response code with invalid token (Empty token: 401).
     Verify response code with invalid token (Invalid token: 401).
 """
+import allure
 import pytest
 from data_models.orders_model import OrderResponse, OrdersModel
 from data_models.user_model import MsgModel
@@ -145,6 +146,7 @@ class TestUserOrder:
         assert total_start == total_finish - 1
         assert total_today_start == total_today_finish - 1
 
+    @allure.issue("Invalid calculation price for orders with Buns")
     def test_orders_price(self, user_order):
         """Verify price of order with bun."""
         response = user_order.do_order(user_order)
@@ -157,6 +159,7 @@ class TestUserOrder:
                 price += ingredient['price']
         assert price == order_price
 
+    @allure.issue("No token validation in post order request")
     @pytest.mark.parametrize('token, exp', invalid_token)
     def test_authorization_validation(self, user_order, token, exp):
         """Verify response code with invalid token."""

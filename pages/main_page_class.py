@@ -84,7 +84,7 @@ class Main(BaseClass):
                 cnstrctr = condition
                 page.locator(f"//p[contains(text(), '{title}')]").drag_to(
                     page.get_by_text(f"{cnstrctr}"))
-        time.sleep(2)
+        time.sleep(1)
 
     @staticmethod
     @allure.step("Drag bun to Construction")
@@ -157,10 +157,10 @@ class Main(BaseClass):
             time.sleep(3)
 
     @staticmethod
-    def close_modal_and_redirects(page: object, locator) -> None:
+    def close_modal_and_redirects(page: object, locator: str) -> None:
         """Close order modal window and redirects to page."""
         text = None
-        with allure.step("Click 'x' in Nutrition window"):
+        with allure.step("Click 'x' on Modal window"):
             page.locator(Main.NUTRITION_X_BTN).click()
 
         if locator == Main.ACCOUNT_BTN:
