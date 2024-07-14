@@ -35,11 +35,9 @@ This module contains tests for Account page.
     Verify shows up Modal window clicking order item in
     Order History page.
 """
-import time
-
 import pytest
-import allure
 import random
+import allure
 from playwright.sync_api import expect
 
 from pages.account_page_class import Account
@@ -143,6 +141,7 @@ def test_account_history_order_price(page):
         assert order_price == Account.get_order_price(page, Account.counter)
 
 
+@allure.issue("The number of icons does not equal the number of ingredients in the order item.")
 @pytest.mark.parametrize("bun, number", different_orders)
 def test_account_history_ingredients_icons(page, bun, number):
     """Verify presence new order icons in Order History page."""

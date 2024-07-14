@@ -21,7 +21,7 @@ class Register(BaseClass):
     ENTRY_LINK = "//a[contains(text(), 'Войти')]"
 
     @staticmethod
-    def set_register_fields(page: object, login, email, password) -> None:
+    def fill_register_fields_and_click(page: object, login, email, password) -> None:
         """Fill in a post_login, an email, and password fields."""
         with allure.step("Fill in Login field"):
             page.locator("fieldset").filter(

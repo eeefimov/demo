@@ -31,12 +31,16 @@ password_validation = [
                  id='Password < 6'),
     pytest.param(fake.user_name(),
                  fake.email(),
-                 fake.password(length=100),
-                 id='Password 100'),
+                 fake.password(length=19),
+                 id='Password 19'),
     pytest.param(fake.user_name(),
                  fake.email(),
-                 fake.password(length=10),
-                 id='Password 10')
+                 fake.password(length=21),
+                 id='Password 21'),
+    pytest.param(fake.user_name(),
+                 fake.email(),
+                 fake.password(length=100),
+                 id='Password 100')
 ]
 
 # Login validation.

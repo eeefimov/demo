@@ -85,9 +85,9 @@ def test_orders_ready(page):
         assert number == ready[1:]
 
 
+@allure.issue("Invalid calculation price for orders with Buns")
 def test_orders_price(page):
-    """Verify presence of the order total price
-    in order item."""
+    """Verify order total price in order item."""
     Login.user_sign_in(page)
     Main.add_ingredients(page, True, randint(1, 5))
     order_price = page.locator(Main.TOTAL_PRICE).inner_text()

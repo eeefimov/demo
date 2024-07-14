@@ -18,8 +18,8 @@ fake = Faker()
 def page_browser():
     """Fixture to set up the browser page for testing."""
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        # browser = p.chromium.launch()
+        # browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch()
         context = browser.new_context()
         page = context.new_page()
         viewport_size = {"width": 1280, "height": 1024}

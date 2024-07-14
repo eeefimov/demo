@@ -53,6 +53,8 @@ This module contains tests for Registration page.
     Verify redirection to pages using Header buttons (Main page).
     Verify redirection to pages using Header buttons (Login page).
 """
+import time
+
 import pytest
 import allure
 from playwright.sync_api import expect
@@ -84,7 +86,7 @@ def test_register_direct_access(page):
 @pytest.mark.parametrize("name, mail, pwd", empty_validation)
 def test_register_validation_empty(register_page, name, mail, pwd):
     """Verify registration with empty credentials."""
-    Register.set_register_fields(register_page, name, mail, pwd)
+    Register.fill_register_fields_and_click(register_page, name, mail, pwd)
 
     with allure.step("User stays at Registration page."):
         expect(register_page.locator(Login.TOP_TITLE)).not_to_be_visible()
@@ -93,16 +95,18 @@ def test_register_validation_empty(register_page, name, mail, pwd):
 @pytest.mark.parametrize("name, mail, pwd", [password_validation[0]])
 def test_register_password_error_msg(register_page, name, mail, pwd):
     """Verify presence of error message if password less than 6 chars."""
-    Register.set_register_fields(register_page, name, mail, pwd)
+    Register.fill_register_fields_and_click(register_page, name, mail, pwd)
 
     with allure.step("Verify that Password Error message shows up"):
         expect(register_page.locator(Register.PWD_ERROR)).to_be_visible()
 
 
+@allure.issue("There is no password max length validation when register new user")
 @pytest.mark.parametrize("name, mail, pwd", password_validation)
 def test_register_password_validation(register_page, name, mail, pwd):
     """Verify registration with a different password length."""
-    Register.set_register_fields(register_page, name, mail, pwd)
+    Register.fill_register_fields_and_click(register_page, name, mail, pwd)
+    time.sleep(1)
 
     if len(pwd) < 6:
         with allure.step("Click Registration button (Double check)"):
@@ -114,11 +118,16 @@ def test_register_password_validation(register_page, name, mail, pwd):
         with allure.step("User redirects to Login page."):
             expect(register_page.locator(Login.TOP_TITLE)).to_be_visible()
 
+        if len(pwd) > 19:
+            with allure.step("User not redirects to Login page."):
+                expect(register_page.locator(Login.TOP_TITLE)).not_to_be_visible()
 
+
+@allure.issue("There is no name validation when register new user")
 @pytest.mark.parametrize("name, mail, pwd", name_validation)
 def test_register_name_validation(register_page, name, mail, pwd):
     """Verify registration with a different invalid name values."""
-    Register.set_register_fields(register_page, name, mail, pwd)
+    Register.fill_register_fields_and_click(register_page, name, mail, pwd)
 
     with allure.step("User stays at Registration page."):
         expect(register_page.locator(Login.TOP_TITLE)).not_to_be_visible()
@@ -129,7 +138,7 @@ def test_register_email_invalid_format_validation(register_page, name,
                                                   mail, pwd):
     """Verify registration with a different invalid email format."""
     with allure.step("Set all Registration fields"):
-        Register.set_register_fields(register_page, name, mail, pwd)
+        Register.fill_register_fields_and_click(register_page, name, mail, pwd)
 
     with allure.step("User redirects to Login page."):
         expect(register_page.locator(Login.TOP_TITLE)).not_to_be_visible()
@@ -139,7 +148,7 @@ def test_register_email_invalid_format_validation(register_page, name,
 def test_register_email_validation(register_page, name, mail, pwd):
     """Verify registration with a different email format."""
     with allure.step("Set all Registration fields"):
-        Register.set_register_fields(register_page, name, mail, pwd)
+        Register.fill_register_fields_and_click(register_page, name, mail, pwd)
 
     with allure.step("User redirects to Login page."):
         expect(register_page.locator(Login.TOP_TITLE)).to_be_visible()
@@ -148,7 +157,7 @@ def test_register_email_validation(register_page, name, mail, pwd):
 @pytest.mark.parametrize("name, mail, pwd", [email_format_validation[0]])
 def test_register_email_error_txt(register_page, name, mail, pwd):
     """Verify presence of the error message if invalid email format."""
-    Register.set_register_fields(register_page, name, mail, pwd)
+    Register.fill_register_fields_and_click(register_page, name, mail, pwd)
 
     with allure.step("Verify that Email Error message shows up"):
         expect(
@@ -162,7 +171,7 @@ def test_register_email_error_txt(register_page, name, mail, pwd):
 @pytest.mark.parametrize("name, mail, pwd", valid_user_credentials)
 def test_register_valid_user(register_page, name, mail, pwd):
     """Verify registration with valid user credentials."""
-    Register.set_register_fields(register_page, name, mail, pwd)
+    Register.fill_register_fields_and_click(register_page, name, mail, pwd)
 
     with allure.step("User redirects to Login page."):
         expect(register_page.locator(Login.TOP_TITLE)).to_be_visible()
@@ -171,10 +180,10 @@ def test_register_valid_user(register_page, name, mail, pwd):
 def test_register_exist_user(register_page):
     """Verify presence of the error message
     if using exist user credentials."""
-    Register.set_register_fields(register_page,
-                                 Register.name,
-                                 Register.mail,
-                                 Register.pwd)
+    Register.fill_register_fields_and_click(register_page,
+                                            Register.name,
+                                            Register.mail,
+                                            Register.pwd)
 
     with allure.step("Verify that User Error message shows up"):
         expect(register_page.locator(Register.USER_ERROR)).to_be_visible()
@@ -187,7 +196,7 @@ def test_register_exist_user(register_page):
 @pytest.mark.parametrize("name, mail, pwd", valid_user_credentials)
 def test_register_login_new_registered_user(register_page, name, mail, pwd):
     """Verify LogIn of new registered user."""
-    Register.set_register_fields(register_page, name, mail, pwd)
+    Register.fill_register_fields_and_click(register_page, name, mail, pwd)
     Login.set_login_fields(register_page, mail, pwd)
 
     with allure.step("Verify redirection to Main Page"):
